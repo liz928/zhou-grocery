@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🛒 Weekly Shopping - Zhou</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf7f1; --card: #ffffff; --text: #2a2a2a; --muted: #7a6c5d;
+    --border: #e8e4dc; --green: #2d5a3d; --green-bg: #e8f3ed;
+    --yellow: #b8860b; --yellow-bg: #fffbea; --red: #c8102e; --red-bg: #fff0f0;
+    --blue: #2b6cb0; --blue-bg: #eef4fb;
+    --mon-color: #2b6cb0; --wed-color: #b8860b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.45; padding: 16px; padding-bottom: 150px; }
+  .container { max-width: 820px; margin: 0 auto; }
+  header { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 2px solid var(--border); }
+  h1 { font-family: 'Nunito', sans-serif; font-size: 1.7em; margin-bottom: 4px; }
+  .sub { color: var(--muted); font-size: 0.9em; }
+  .toolbar { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+  button, .btn { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 10px 14px; border-radius: 8px; font-weight: 600; cursor: pointer; font-family: inherit; font-size: 0.88em; }
+  button:hover, .btn:hover { background: var(--bg); }
+  button.primary, .btn.primary { background: var(--green); color: white; border-color: var(--green); }
+  button.primary:hover { background: #254d33; }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .meal-summary { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; }
+  .meal-summary h3 { font-family: 'Nunito', sans-serif; font-size: 0.95em; margin-bottom: 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+  .day-line { padding: 4px 0; font-size: 0.92em; border-bottom: 1px dashed var(--border); }
+  .day-line:last-child { border-bottom: none; }
+  .day-name { font-weight: 700; color: var(--green); display: inline-block; min-width: 100px; }
+  .day-time { color: var(--muted); font-size: 0.85em; font-weight: 600; margin-left: 4px; }
+
+  .trip-filter { display: flex; gap: 6px; margin-bottom: 14px; }
+  .trip-btn { flex: 1; padding: 10px 12px; border-radius: 8px; border: 2px solid var(--border); background: var(--card); cursor: pointer; font-weight: 700; font-size: 0.88em; text-align: center; color: var(--text); }
+  .trip-btn.active.mon { border-color: var(--mon-color); background: var(--blue-bg); color: var(--mon-color); }
+  .trip-btn.active.wed { border-color: var(--wed-color); background: var(--yellow-bg); color: var(--wed-color); }
+  .trip-btn.active.all { border-color: var(--green); background: var(--green-bg); color: var(--green); }
+  .trip-label { font-size: 0.7em; font-weight: 500; opacity: 0.7; display: block; }
+
+  .store-section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 16px; overflow: hidden; }
+  .store-header { padding: 12px 16px; background: var(--green-bg); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  .store-header h2 { font-family: 'Nunito', sans-serif; font-size: 1.1em; color: var(--green); }
+  .store-header .counts { font-size: 0.82em; color: var(--muted); font-weight: 600; }
+  .store-section.multi .store-header { background: #fef3f2; }
+  .store-section.multi .store-header h2 { color: var(--red); }
+  .store-section.unmatched .store-header { background: var(--yellow-bg); }
+  .store-section.unmatched .store-header h2 { color: var(--yellow); }
+  .store-section.staples .store-header { background: var(--blue-bg); }
+  .store-section.staples .store-header h2 { color: var(--blue); }
+
+  .item-list { list-style: none; min-height: 4px; }
+  .item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--border); position: relative; }
+  .item:last-child { border-bottom: none; }
+  .item.have-it { opacity: 0.45; background: #f5f3ed; }
+  .item.have-it .name { text-decoration: line-through; }
+  .item input[type="checkbox"] { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--green); cursor: pointer; flex-shrink: 0; }
+  .item-content { flex: 1; min-width: 0; }
+  .item-row1 { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
+  .item-icon { font-size: 1.05em; flex-shrink: 0; }
+  .name { font-weight: 600; font-size: 0.95em; word-break: break-word; }
+  .qty { color: var(--muted); font-size: 0.85em; margin-right: 4px; }
+  .dish-ref { font-size: 0.78em; color: var(--muted); margin-top: 3px; font-style: italic; }
+  .badges { display: inline-flex; gap: 4px; margin-left: 4px; flex-wrap: wrap; }
+  .badge { font-size: 0.72em; padding: 1px 7px; border-radius: 8px; font-weight: 700; white-space: nowrap; }
+  .badge-mon { background: var(--blue-bg); color: var(--mon-color); }
+  .badge-wed { background: var(--yellow-bg); color: var(--wed-color); }
+  .badge-math { background: #eef; color: var(--blue); }
+  .badge-meat-pick { background: #fef3f2; color: var(--red); cursor: pointer; user-select: none; }
+  .badge-meat-pick.freezer { background: #f0f0f0; color: var(--muted); }
+  .badge-warn { background: var(--red-bg); color: var(--red); }
+
+  .item-meta { display: flex; gap: 6px; align-items: center; margin-top: 4px; flex-wrap: wrap; }
+  .store-select { font-size: 0.78em; padding: 3px 6px; border: 1px solid var(--border); border-radius: 4px; background: white; cursor: pointer; font-family: inherit; }
+
+  .add-extra-box { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; }
+  .add-extra-box h3 { font-family: 'Nunito', sans-serif; font-size: 0.95em; margin-bottom: 8px; color: var(--blue); text-transform: uppercase; letter-spacing: 1px; }
+  .add-extra-row { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .add-extra-row input, .add-extra-row select { padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9em; font-family: inherit; }
+  .add-extra-row input[type="text"] { flex: 1 1 180px; min-width: 140px; }
+  .add-extra-row select { flex: 1 1 130px; }
+  .add-extra-row button { flex: 0 0 auto; }
+  .suggest-list { margin-top: 6px; display: flex; gap: 4px; flex-wrap: wrap; }
+  .suggest-chip { font-size: 0.78em; background: var(--blue-bg); color: var(--blue); padding: 3px 10px; border-radius: 10px; cursor: pointer; border: 1px solid var(--blue); }
+  .suggest-chip:hover { background: var(--blue); color: white; }
+  .extras-list { list-style: none; margin-top: 10px; }
+  .extras-list li { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 0.9em; }
+  .extras-list li:last-child { border-bottom: none; }
+  .extra-remove { background: var(--red-bg); color: var(--red); border-color: #f5c2c2; padding: 2px 10px; font-size: 0.78em; }
+
+  .sticky-footer { position: fixed; bottom: 0; left: 0; right: 0; background: white; border-top: 2px solid var(--border); padding: 12px 16px; box-shadow: 0 -4px 12px rgba(0,0,0,0.06); z-index: 10; }
+  .footer-content { max-width: 820px; margin: 0 auto; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .footer-stats { flex: 1; font-size: 0.88em; color: var(--muted); min-width: 150px; }
+  .loading { text-align: center; padding: 40px 20px; color: var(--muted); }
+  .empty-note { background: var(--card); border: 1px dashed var(--border); border-radius: 12px; padding: 24px 16px; text-align: center; color: var(--muted); margin-bottom: 16px; }
+
+  .toast { position: fixed; bottom: 92px; left: 50%; transform: translateX(-50%); background: var(--text); color: white; padding: 12px 18px; border-radius: 24px; font-size: 0.9em; box-shadow: 0 6px 20px rgba(0,0,0,0.25); z-index: 100; max-width: 90vw; text-align: center; }
+
+  body.hide-have-it .item.have-it { display: none; }
+  body.trip-mon .item[data-intrip="0"] { display: none; }
+  body.trip-wed .item[data-intrip="0"] { display: none; }
+
+  @media (max-width: 600px) {
+    body { padding: 12px; padding-bottom: 190px; }
+    h1 { font-size: 1.4em; }
+    .item { padding: 10px 12px; }
+    .footer-content { gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>🛒 Weekly Shopping — Zhou</h1>
+    <div class="sub" id="timestamp">Loading...</div>
+    <div class="toolbar">
+      <button onclick="toggleHideHaveIt()" id="hide-btn">Hide "have it"</button>
+      <button onclick="resetAll()">Reset checkmarks</button>
+    </div>
+    <div style="margin-top:10px;font-size:0.8em;color:var(--muted);background:var(--green-bg);padding:8px 12px;border-radius:6px;border-left:3px solid var(--green);">
+      ✅ Check items you already have. Tap <strong>Copy list for Kit</strong> at the bottom to send the remaining items to your Skylight frame (Kit pushes it - your checkmarks are respected).
+    </div>
+  </header>
+
+  <div class="meal-summary" id="meal-summary">
+    <h3>📅 This Week's Meal Plan</h3>
+    <div id="days-list"></div>
+  </div>
+
+  <div class="trip-filter">
+    <button class="trip-btn all active" onclick="setTripFilter('all')" id="trip-all">
+      All Items<span class="trip-label">both trips</span>
+    </button>
+    <button class="trip-btn mon" onclick="setTripFilter('mon')" id="trip-mon">
+      🗓️ Monday<span class="trip-label">Mon/Tue/Wed + shelf</span>
+    </button>
+    <button class="trip-btn wed" onclick="setTripFilter('wed')" id="trip-wed">
+      🗓️ Wednesday<span class="trip-label">Thu/Fri/Weekend fresh</span>
+    </button>
+  </div>
+
+  <div class="add-extra-box">
+    <h3>➕ Add Extra Item (out of a staple or one-off)</h3>
+    <div class="add-extra-row">
+      <input type="text" id="extra-name" placeholder="Name (e.g., soy sauce)" oninput="suggestExtra(this.value)" autocomplete="off">
+      <select id="extra-store">
+        <option value="">-- store --</option>
+      </select>
+      <input type="text" id="extra-qty" placeholder="qty (opt)" style="flex:0 0 90px;" autocomplete="off">
+      <select id="extra-trip">
+        <option value="Mon">Mon trip</option>
+        <option value="Wed">Wed trip</option>
+      </select>
+      <button class="primary" onclick="addExtra()">Add</button>
+    </div>
+    <div class="suggest-list" id="suggest-list"></div>
+    <ul class="extras-list" id="extras-list"></ul>
+  </div>
+
+  <div id="store-sections"></div>
+  <div id="loading" class="loading">Loading your shopping list...</div>
+</div>
+
+<div class="sticky-footer">
+  <div class="footer-content">
+    <div class="footer-stats" id="footer-stats">0 items</div>
+    <button onclick="copyTextForKit()" id="copy-text-btn">📋 Copy as text</button>
+    <button onclick="copyForKit()" class="primary" id="copy-btn">📱 Copy list for Kit</button>
+  </div>
+</div>
+
+<script>
+'use strict';
+const STORAGE_KEY = 'zhou-weekly-shopping-v2';
+const DATA_URL = './data/shopping.json';
+const MEALS_URL = './data/meals.json';
+
+const ALL_STORES = ['Whole Foods', 'Costco', "Sam\u2019s Club", 'Walmart', '888 Market / Pan Asia', 'Hy-vee', "Trader Joe\u2019s", 'Amazon', 'Natural Grocer', 'Fairway'];
+
+let shoppingData = null;
+let mealsData = null;
+let tripFilter = 'all';
+
+// ---------- state (localStorage) ----------
+function loadState() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; } }
+function saveState(s) { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); } catch (e) {} }
+function getExtras() { const s = loadState(); return Array.isArray(s._extras) ? s._extras : []; }
+function setExtras(list) { const s = loadState(); s._extras = list; saveState(s); }
+
+function escapeHtml(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+
+// ---------- load ----------
+async function loadData() {
+  try {
+    const bust = '?t=' + Date.now();
+    const [sRes, mRes] = await Promise.all([
+      fetch(DATA_URL + bust, { cache: 'no-store' }),
+      fetch(MEALS_URL + bust, { cache: 'no-store' }),
+    ]);
+    if (!sRes.ok) throw new Error('shopping.json ' + sRes.status);
+    shoppingData = await sRes.json();
+    mealsData = mRes.ok ? await mRes.json() : { days: {} };
+    render();
+  } catch (e) {
+    const el = document.getElementById('loading');
+    if (el) { el.textContent = 'Error loading data: ' + e.message; el.style.display = 'block'; }
+    console.error('load error', e);
+  }
+}
+
+// ---------- helpers over data ----------
+function allBuyableItems() {
+  if (!shoppingData) return [];
+  return [
+    ...Object.values(shoppingData.by_store || {}).flat(),
+    ...(shoppingData.multi_store || []),
+    ...(shoppingData.no_store_match || []),
+  ];
+}
+
+// Is this item part of the currently-filtered trip?
+function itemInTrip(item) {
+  if (tripFilter === 'all') return true;
+  const trip = item.trip || '';
+  if (tripFilter === 'mon') return trip.includes('Mon');
+  if (tripFilter === 'wed') return trip.includes('Wed');
+  return true;
+}
+
+// Trip-aware state key so a both-trips item can be checked independently per trip.
+function stateKeyFor(item) {
+  const trip = item.trip || '';
+  const spansBoth = trip.includes('Mon') && trip.includes('Wed');
+  if (spansBoth && tripFilter === 'mon') return item.canonical_name + '::Mon';
+  if (spansBoth && tripFilter === 'wed') return item.canonical_name + '::Wed';
+  return item.canonical_name;
+}
+
+// ---------- render ----------
+function render() {
+  renderMeals();
+  renderTimestamp();
+  renderStores();
+  renderExtras();
+  populateStoreDropdown();
+  applyTripFilter();
+  updateFooter();
+  const loadEl = document.getElementById('loading');
+  if (loadEl) loadEl.style.display = 'none';
+}
+
+function renderMeals() {
+  const daysOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend'];
+  const daysEl = document.getElementById('days-list');
+  daysEl.innerHTML = '';
+  const days = (mealsData && mealsData.days) || {};
+  let any = false;
+  for (const day of daysOrder) {
+    const info = days[day];
+    if (!info || !info.dishes || !info.dishes.length) continue;
+    any = true;
+    const div = document.createElement('div');
+    div.className = 'day-line';
+    const dishNames = info.dishes.map(d => escapeHtml(d.name)).join(', ');
+    const timeTag = info.time ? `<span class="day-time">${escapeHtml(info.time)}</span>` : '';
+    const isMonTrip = ['Monday', 'Tuesday', 'Wednesday'].includes(day);
+    const tripTag = isMonTrip ? '<span class="badge badge-mon" style="margin-left:6px;">Mon trip</span>' : '<span class="badge badge-wed" style="margin-left:6px;">Wed trip</span>';
+    div.innerHTML = `<span class="day-name">${day}</span>${timeTag} ${dishNames} ${tripTag}`;
+    daysEl.appendChild(div);
+  }
+  if (!any) {
+    daysEl.innerHTML = '<div class="day-line" style="color:var(--muted);font-style:italic;">No meals planned for this week yet.</div>';
+  }
+}
+
+function renderTimestamp() {
+  const ts = shoppingData.generated_at;
+  const total = (shoppingData.stats && shoppingData.stats.unique_after_dedup) || allBuyableItems().length;
+  const staples = (shoppingData.stats && shoppingData.stats.skipped_staples) || 0;
+  const storeCount = Object.keys(shoppingData.by_store || {}).length;
+  let when = '';
+  try {
+    when = new Date(ts).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  } catch (e) { when = ts || 'unknown'; }
+  document.getElementById('timestamp').textContent =
+    `Generated ${when} · ${total} items in ${storeCount} stores · ${staples} pantry staples auto-skipped`;
+}
+
+function renderStores() {
+  const container = document.getElementById('store-sections');
+  container.innerHTML = '';
+  const state = loadState();
+
+  const storeEntries = Object.entries(shoppingData.by_store || {})
+    .filter(([, items]) => items && items.length)
+    .sort((a, b) => b[1].length - a[1].length);
+
+  for (const [store, items] of storeEntries) {
+    const section = document.createElement('div');
+    section.className = 'store-section';
+    section.dataset.store = store;
+    section.innerHTML = `<div class="store-header"><h2>🏪 ${escapeHtml(store)}</h2><div class="counts"><span class="store-count">${items.length}</span> items</div></div><ul class="item-list"></ul>`;
+    const list = section.querySelector('.item-list');
+    items.forEach(item => renderItem(item, list, state, false));
+    container.appendChild(section);
+  }
+
+  if ((shoppingData.multi_store || []).length) {
+    const section = document.createElement('div');
+    section.className = 'store-section multi';
+    section.dataset.kind = 'multi';
+    section.innerHTML = `<div class="store-header"><h2>🔀 Pick Store (multiple options)</h2><div class="counts">${shoppingData.multi_store.length} items</div></div><ul class="item-list"></ul>`;
+    const list = section.querySelector('.item-list');
+    shoppingData.multi_store.forEach(item => renderItem(item, list, state, true));
+    container.appendChild(section);
+  }
+
+  if ((shoppingData.no_store_match || []).length) {
+    const section = document.createElement('div');
+    section.className = 'store-section unmatched';
+    section.dataset.kind = 'unmatched';
+    section.innerHTML = `<div class="store-header"><h2>❓ Not Yet Routed</h2><div class="counts">${shoppingData.no_store_match.length} need a store</div></div><ul class="item-list"></ul>`;
+    const list = section.querySelector('.item-list');
+    shoppingData.no_store_match.forEach(item => renderItem(item, list, state, true));
+    container.appendChild(section);
+  }
+
+  const staples = shoppingData.skipped_staples || [];
+  if (staples.length) {
+    const section = document.createElement('div');
+    section.className = 'store-section staples';
+    const uniqueStaples = [...new Set(staples.map(s => s.name))].sort();
+    section.innerHTML = `<div class="store-header"><h2>🧂 Pantry Staples (assumed in stock)</h2><div class="counts">${uniqueStaples.length} hidden</div></div><div style="padding:10px 16px;font-size:.85em;color:var(--muted);line-height:1.6;">${uniqueStaples.map(s => escapeHtml(s)).join(', ')}</div>`;
+    container.appendChild(section);
+  }
+
+  if (!storeEntries.length && !(shoppingData.multi_store || []).length && !(shoppingData.no_store_match || []).length) {
+    const note = document.createElement('div');
+    note.className = 'empty-note';
+    note.id = 'empty-note';
+    note.textContent = 'Nothing to buy this week. Add an extra item above, or check back after the next meal plan sync.';
+    container.appendChild(note);
+  }
+}
+
+function qtyAndDishesFor(item) {
+  let qty = item.total_qty_display || '';
+  let dishes = (item.dishes_with_days || item.dishes || []);
+  if (tripFilter === 'mon' && item.per_trip && item.per_trip.Mon) {
+    qty = item.per_trip.Mon.qty_display || '';
+  } else if (tripFilter === 'wed' && item.per_trip && item.per_trip.Wed) {
+    qty = item.per_trip.Wed.qty_display || '';
+  }
+  let dishStr;
+  if (tripFilter === 'mon' || tripFilter === 'wed') {
+    const bucket = (tripFilter === 'mon' ? item.per_trip && item.per_trip.Mon : item.per_trip && item.per_trip.Wed) || {};
+    const tripDishNames = new Set(bucket.dishes || []);
+    dishStr = (item.dishes_with_days || item.dishes || [])
+      .filter(d => {
+        const nm = String(d).replace(/\s*\([^)]*\)\s*$/, '').trim();
+        return tripDishNames.has(nm);
+      }).join(', ');
+    if (!dishStr) dishStr = (bucket.dishes || []).join(', ');
+  } else {
+    dishStr = dishes.join(', ');
+  }
+  return { qty, dishStr };
+}
+
+function renderItem(item, listEl, state, showStoreSelector) {
+  const li = document.createElement('li');
+  li.className = 'item';
+  li.dataset.name = item.canonical_name;
+  li.dataset.trip = item.trip || '';
+  li.dataset.type = item.type || 'unknown';
+  li.dataset.intrip = itemInTrip(item) ? '1' : '0';
+
+  const stateKey = stateKeyFor(item);
+  const itemState = state[stateKey] || {};
+  const nameState = state[item.canonical_name] || {};
+  if (itemState.haveIt) li.classList.add('have-it');
+
+  const { qty, dishStr } = qtyAndDishesFor(item);
+  const useCount = item.use_count || 0;
+  const mathBadge = item.math_mode === 'multiplied' ? `×${useCount}` : (item.math_mode === 'summed' ? `Σ${useCount}` : '');
+  const mathBadgeHtml = mathBadge ? `<span class="badge badge-math" title="used in ${useCount} dishes this week">${mathBadge}</span>` : '';
+
+  const trip = item.trip || '';
+  const tripBadge = trip === 'Mon' ? `<span class="badge badge-mon">Mon</span>`
+    : trip === 'Wed' ? `<span class="badge badge-wed">Wed</span>`
+    : (trip.includes('Mon') && trip.includes('Wed')) ? `<span class="badge badge-mon">Mon</span><span class="badge badge-wed">Wed</span>` : '';
+
+  const meatPickHtml = item.type === 'meat' ? renderMeatPick(item, nameState) : '';
+
+  li.innerHTML = `
+    <input type="checkbox" ${itemState.haveIt ? 'checked' : ''} aria-label="have ${escapeHtml(item.canonical_name)}">
+    <div class="item-content">
+      <div class="item-row1">
+        <span class="item-icon">${escapeHtml(item.icon || '')}</span>
+        ${qty ? `<span class="qty">${escapeHtml(qty)}</span>` : ''}
+        <span class="name">${escapeHtml(item.canonical_name)}</span>
+        <span class="badges">${tripBadge}${mathBadgeHtml}${meatPickHtml}</span>
+      </div>
+      ${dishStr ? `<div class="dish-ref">for: ${escapeHtml(dishStr)}</div>` : ''}
+      ${showStoreSelector ? renderStoreSelector(item, nameState) : ''}
+    </div>
+  `;
+
+  const cb = li.querySelector('input[type="checkbox"]');
+  cb.addEventListener('change', () => {
+    const s = loadState();
+    const k = stateKeyFor(item);
+    s[k] = Object.assign({}, s[k], { haveIt: cb.checked });
+    saveState(s);
+    li.classList.toggle('have-it', cb.checked);
+    updateFooter();
+  });
+
+  const meatBadge = li.querySelector('.badge-meat-pick');
+  if (meatBadge) {
+    meatBadge.addEventListener('click', () => toggleMeatChoice(item.canonical_name, meatBadge));
+  }
+
+  const sel = li.querySelector('.store-select');
+  if (sel) {
+    sel.addEventListener('change', () => routeItem(item.canonical_name, sel.value, sel));
+  }
+
+  listEl.appendChild(li);
+}
+
+function renderMeatPick(item, nameState) {
+  const choice = nameState.meatChoice || 'fresh';
+  const freezerCls = choice === 'freezer' ? 'freezer' : '';
+  const label = choice === 'freezer' ? '❄️ Freezer' : '🆕 Fresh';
+  return `<span class="badge badge-meat-pick ${freezerCls}" title="Click to toggle fresh vs freezer">${label}</span>`;
+}
+
+function toggleMeatChoice(name, el) {
+  const s = loadState();
+  const cur = (s[name] && s[name].meatChoice) || 'fresh';
+  const next = cur === 'fresh' ? 'freezer' : 'fresh';
+  s[name] = Object.assign({}, s[name], { meatChoice: next });
+  saveState(s);
+  el.textContent = next === 'freezer' ? '❄️ Freezer' : '🆕 Fresh';
+  el.classList.toggle('freezer', next === 'freezer');
+  updateFooter();
+}
+
+function renderStoreSelector(item, nameState) {
+  const saved = nameState.routeTo || '';
+  const options = (item.stores && item.stores.length) ? item.stores : ALL_STORES;
+  const sel = s => saved === s ? 'selected' : '';
+  return `<div class="item-meta">
+    <span style="font-size:.8em;color:var(--muted)">Route to:</span>
+    <select class="store-select">
+      <option value="" ${saved ? '' : 'selected'}>-- pick --</option>
+      ${options.map(s => `<option value="${escapeHtml(s)}" ${sel(s)}>${escapeHtml(s)}</option>`).join('')}
+    </select>
+  </div>`;
+}
+
+function routeItem(name, store, selEl) {
+  const s = loadState();
+  s[name] = Object.assign({}, s[name], { routeTo: store });
+  saveState(s);
+  if (selEl) {
+    selEl.style.borderColor = 'var(--green)';
+    selEl.style.background = 'var(--green-bg)';
+    setTimeout(() => { selEl.style.borderColor = ''; selEl.style.background = ''; }, 400);
+  }
+  updateFooter();
+}
+
+// ---------- extras (localStorage only) ----------
+function renderExtras() {
+  const list = document.getElementById('extras-list');
+  if (!list) return;
+  const extras = getExtras();
+  list.innerHTML = '';
+  if (!extras.length) {
+    list.innerHTML = '<li style="color:var(--muted);font-style:italic;">No extras yet. Add staples that need restocking or one-off items above.</li>';
+    return;
+  }
+  for (const e of extras) {
+    const li = document.createElement('li');
+    const tripBadge = e.trip === 'Wed' ? '<span class="badge badge-wed">Wed</span>' : '<span class="badge badge-mon">Mon</span>';
+    li.innerHTML = `<span style="flex:1;"><strong>${escapeHtml(e.quantity || '')} ${escapeHtml(e.name)}</strong> → ${escapeHtml(e.store)} ${tripBadge}</span>`;
+    const btn = document.createElement('button');
+    btn.className = 'extra-remove';
+    btn.textContent = 'Remove';
+    btn.addEventListener('click', () => removeExtra(e.id));
+    li.appendChild(btn);
+    list.appendChild(li);
+  }
+}
+
+function populateStoreDropdown() {
+  const sel = document.getElementById('extra-store');
+  if (!sel) return;
+  const stores = new Set(ALL_STORES);
+  Object.keys((shoppingData && shoppingData.by_store) || {}).forEach(s => stores.add(s));
+  const current = sel.value;
+  sel.innerHTML = '<option value="">-- store --</option>' +
+    [...stores].map(s => `<option>${escapeHtml(s)}</option>`).join('');
+  if (current) sel.value = current;
+}
+
+const STORE_SUGGEST = {
+  'soy sauce': ['888 Market / Pan Asia', 'Whole Foods'], 'rice': ['888 Market / Pan Asia'],
+  'fish sauce': ['888 Market / Pan Asia'], 'sesame oil': ['888 Market / Pan Asia'],
+  'olive oil': ['Costco', 'Whole Foods'], 'eggs': ['Whole Foods', 'Costco'],
+  'milk': ['Whole Foods', 'Costco'], 'butter': ['Costco', 'Whole Foods'],
+  'chicken': ['Costco'], 'beef': ['Costco'], 'cheese': ['Costco'],
+  'paper towels': ['Costco', "Sam\u2019s Club"], 'toilet paper': ['Costco', "Sam\u2019s Club"],
+  'bananas': ['Whole Foods'], 'avocado': ['Whole Foods'], 'tortilla': ['Walmart', 'Whole Foods'],
+  'coffee': ['Costco', 'Whole Foods'], 'snacks': ["Sam\u2019s Club", 'Costco'],
+};
+
+let suggestTimeout = null;
+function suggestExtra(q) {
+  clearTimeout(suggestTimeout);
+  const listEl = document.getElementById('suggest-list');
+  if (!listEl) return;
+  if (!q || q.trim().length < 2) { listEl.innerHTML = ''; return; }
+  suggestTimeout = setTimeout(() => {
+    const ql = q.toLowerCase().trim();
+    const matches = [];
+    for (const [key, stores] of Object.entries(STORE_SUGGEST)) {
+      if (key.includes(ql) || ql.includes(key)) matches.push({ name: key, stores });
+    }
+    listEl.innerHTML = '';
+    for (const m of matches.slice(0, 6)) {
+      const chip = document.createElement('span');
+      chip.className = 'suggest-chip';
+      chip.textContent = m.name + ' (' + m.stores.join('/') + ')';
+      chip.title = 'Click to use';
+      chip.addEventListener('click', () => {
+        document.getElementById('extra-name').value = m.name;
+        document.getElementById('extra-store').value = m.stores[0];
+        listEl.innerHTML = '';
+      });
+      listEl.appendChild(chip);
+    }
+  }, 200);
+}
+
+function addExtra() {
+  const nameEl = document.getElementById('extra-name');
+  const storeEl = document.getElementById('extra-store');
+  const qtyEl = document.getElementById('extra-qty');
+  const tripEl = document.getElementById('extra-trip');
+  const name = nameEl.value.trim();
+  const store = storeEl.value;
+  const quantity = qtyEl.value.trim();
+  const trip = tripEl.value;
+  if (!name || !store) { showToast('Name and store are both required.'); return; }
+  const extras = getExtras();
+  extras.push({ id: 'x' + Date.now() + Math.random().toString(36).slice(2, 6), name, store, quantity, trip });
+  setExtras(extras);
+  nameEl.value = ''; qtyEl.value = '';
+  document.getElementById('suggest-list').innerHTML = '';
+  renderExtras();
+  updateFooter();
+  showToast('Added "' + name + '".');
+}
+
+function removeExtra(id) {
+  setExtras(getExtras().filter(e => e.id !== id));
+  renderExtras();
+  updateFooter();
+}
+
+// ---------- trip filter ----------
+function setTripFilter(which) {
+  tripFilter = which;
+  document.querySelectorAll('.trip-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.getElementById('trip-' + which);
+  if (btn) btn.classList.add('active');
+  if (shoppingData) render();
+}
+
+function applyTripFilter() {
+  document.body.classList.remove('trip-mon', 'trip-wed');
+  if (tripFilter === 'mon') document.body.classList.add('trip-mon');
+  if (tripFilter === 'wed') document.body.classList.add('trip-wed');
+}
+
+// ---------- footer / counts ----------
+function computeRemaining() {
+  const state = loadState();
+  const visible = allBuyableItems().filter(itemInTrip);
+  let toBuy = 0, have = 0, freezer = 0;
+  for (const item of visible) {
+    const haveIt = (state[stateKeyFor(item)] || {}).haveIt;
+    if (haveIt) { have++; continue; }
+    if (item.type === 'meat' && (state[item.canonical_name] || {}).meatChoice === 'freezer') { freezer++; continue; }
+    toBuy++;
+  }
+  let extras = getExtras();
+  if (tripFilter === 'mon') extras = extras.filter(e => e.trip === 'Mon');
+  if (tripFilter === 'wed') extras = extras.filter(e => e.trip === 'Wed');
+  return { toBuy: toBuy + extras.length, have, freezer, extras: extras.length };
+}
+
+function updateFooter() {
+  if (!shoppingData) return;
+  const { toBuy, have, freezer, extras } = computeRemaining();
+  const tripLabel = tripFilter === 'all' ? 'all trips' : tripFilter === 'mon' ? 'Mon trip' : 'Wed trip';
+  const extrasNote = extras ? ` · +${extras} extras` : '';
+  document.getElementById('footer-stats').textContent =
+    `${toBuy} to buy · ${have} have · ${freezer} freezer${extrasNote} (${tripLabel})`;
+  const btn = document.getElementById('copy-btn');
+  btn.textContent = `📱 Copy list for Kit (${toBuy})`;
+  btn.disabled = toBuy === 0;
+  const tbtn = document.getElementById('copy-text-btn');
+  if (tbtn) tbtn.disabled = toBuy === 0;
+}
+
+// ---------- build payload (respects checkmarks, filter, freezer) ----------
+function buildPayload() {
+  const state = loadState();
+  const items = [];
+  const needStore = [];
+
+  const pick = (item, store) => {
+    const haveIt = (state[stateKeyFor(item)] || {}).haveIt;
+    if (haveIt) return;
+    if (!itemInTrip(item)) return;
+    if (item.type === 'meat' && (state[item.canonical_name] || {}).meatChoice === 'freezer') return;
+    let qty = item.total_qty_display || '';
+    let tripTag = item.trip || 'Mon';
+    if (tripFilter === 'mon' && item.per_trip && item.per_trip.Mon) { qty = item.per_trip.Mon.qty_display || qty; tripTag = 'Mon'; }
+    else if (tripFilter === 'wed' && item.per_trip && item.per_trip.Wed) { qty = item.per_trip.Wed.qty_display || qty; tripTag = 'Wed'; }
+    else if ((item.trip || '').includes('Mon') && !(item.trip || '').includes('Wed')) tripTag = 'Mon';
+    else if ((item.trip || '').includes('Wed') && !(item.trip || '').includes('Mon')) tripTag = 'Wed';
+    items.push({ name: item.canonical_name, store, quantity: qty, trip: tripTag });
+  };
+
+  for (const [store, list] of Object.entries((shoppingData && shoppingData.by_store) || {})) {
+    for (const it of list) pick(it, store);
+  }
+  for (const it of (shoppingData && shoppingData.multi_store) || []) {
+    const st = state[it.canonical_name] || {};
+    if (st.haveIt) continue;
+    if (!itemInTrip(it)) continue;
+    if (!st.routeTo) { if (!(it.type === 'meat' && st.meatChoice === 'freezer')) needStore.push(it.canonical_name); continue; }
+    pick(it, st.routeTo);
+  }
+  for (const it of (shoppingData && shoppingData.no_store_match) || []) {
+    const st = state[it.canonical_name] || {};
+    if (st.haveIt) continue;
+    if (!itemInTrip(it)) continue;
+    if (!st.routeTo) { needStore.push(it.canonical_name); continue; }
+    pick(it, st.routeTo);
+  }
+
+  // extras
+  let extras = getExtras();
+  if (tripFilter === 'mon') extras = extras.filter(e => e.trip === 'Mon');
+  if (tripFilter === 'wed') extras = extras.filter(e => e.trip === 'Wed');
+  for (const e of extras) {
+    items.push({ name: e.name, store: e.store, quantity: e.quantity || '', trip: e.trip || 'Mon' });
+  }
+
+  return { items, needStore };
+}
+
+function payloadToText(payload) {
+  const byStore = {};
+  for (const it of payload.items) { (byStore[it.store] = byStore[it.store] || []).push(it); }
+  const lines = [];
+  const tripLabel = tripFilter === 'all' ? 'all trips' : tripFilter === 'mon' ? 'Monday trip' : 'Wednesday trip';
+  lines.push(`Shopping list (${tripLabel}) - ${payload.items.length} items`);
+  for (const store of Object.keys(byStore).sort()) {
+    lines.push('');
+    lines.push(store + ':');
+    for (const it of byStore[store]) {
+      lines.push(`  - ${it.quantity ? it.quantity + ' ' : ''}${it.name}${it.trip ? ' [' + it.trip + ']' : ''}`);
+    }
+  }
+  return lines.join('\n');
+}
+
+async function copyToClipboard(text) {
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch (e) { /* fall through */ }
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch (e) { return false; }
+}
+
+function warnIfUnrouted(payload) {
+  if (payload.needStore.length) {
+    showToast('⚠️ ' + payload.needStore.length + ' item(s) still need a store (not included): ' + payload.needStore.slice(0, 3).join(', '));
+    return true;
+  }
+  return false;
+}
+
+async function copyForKit() {
+  const payload = buildPayload();
+  warnIfUnrouted(payload);
+  if (!payload.items.length) { showToast('Nothing to copy - list is empty.'); return; }
+  const tripLabel = tripFilter === 'all' ? 'all' : tripFilter;
+  const out = {
+    kind: 'zhou-grocery-skylight-push',
+    generated_at: new Date().toISOString(),
+    trip_filter: tripLabel,
+    count: payload.items.length,
+    items: payload.items,
+  };
+  const ok = await copyToClipboard(JSON.stringify(out, null, 2));
+  // expose last payload for QA / debugging
+  window.__lastPayload = out;
+  showToast(ok ? `📋 Copied ${payload.items.length} items. Paste to Kit to push to Skylight.` : 'Copy failed - long-press to copy manually.');
+}
+
+async function copyTextForKit() {
+  const payload = buildPayload();
+  warnIfUnrouted(payload);
+  if (!payload.items.length) { showToast('Nothing to copy - list is empty.'); return; }
+  const text = payloadToText(payload);
+  window.__lastText = text;
+  const ok = await copyToClipboard(text);
+  showToast(ok ? `📋 Copied ${payload.items.length} items as text.` : 'Copy failed - long-press to copy manually.');
+}
+
+// ---------- misc ----------
+function toggleHideHaveIt() {
+  document.body.classList.toggle('hide-have-it');
+  const show = document.body.classList.contains('hide-have-it');
+  document.getElementById('hide-btn').textContent = show ? 'Show "have it"' : 'Hide "have it"';
+}
+
+function resetAll() {
+  if (!confirm('Clear all checkmarks, store choices, freezer picks, and extras?')) return;
+  localStorage.removeItem(STORAGE_KEY);
+  location.reload();
+}
+
+let toastTimer = null;
+function showToast(msg) {
+  document.querySelectorAll('.toast').forEach(t => t.remove());
+  const t = document.createElement('div');
+  t.className = 'toast';
+  t.textContent = msg;
+  document.body.appendChild(t);
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.remove(), 4000);
+}
+
+// expose for QA harness
+window.__app = { buildPayload, computeRemaining, loadState, saveState, get shoppingData() { return shoppingData; }, get tripFilter() { return tripFilter; }, setTripFilter };
+
+loadData();
+</script>
+
+</body>
+</html>

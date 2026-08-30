@@ -1,0 +1,3142 @@
+{
+  "generated_at": "2026-08-30T16:14:34.512688",
+  "week_days_included": [
+    "Friday",
+    "Monday",
+    "Thursday",
+    "Tuesday",
+    "Wednesday",
+    "Weekend"
+  ],
+  "stats": {
+    "raw_ingredient_count": 95,
+    "unique_after_dedup": 49,
+    "skipped_staples": 31,
+    "routing_matched": 34,
+    "routing_unmatched": 15,
+    "multi_store": 0,
+    "unresolved_variants": 0,
+    "user_extras": 0
+  },
+  "by_store": {
+    "Whole Foods": [
+      {
+        "canonical_name": "Avacado",
+        "norm": "avocado",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "2 total"
+          }
+        },
+        "total_qty_display": "2 total",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "carrots",
+        "norm": "carrot",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "6",
+            "qty_parsed": [
+              6.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 3,
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Beef Pappardelle",
+          "Carrot & Mushrooms",
+          "Chicken Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)",
+          "Carrot & Mushrooms (Tue)",
+          "Chicken Fried Rice (Thu)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday",
+              "Tuesday"
+            ],
+            "dishes": [
+              "Beef Pappardelle",
+              "Carrot & Mushrooms"
+            ],
+            "qty_display": "2 + 6"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "2 + 6 + 2",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "cherry tomatoes",
+        "norm": "cherry tomato",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "1 cup",
+            "qty_parsed": [
+              1.0,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Bún (chicken)"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "1 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "cucumber",
+        "norm": "cucumber",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Bún (chicken)"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "1 total"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 total",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "eggs",
+        "norm": "egg",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "5-6",
+            "qty_parsed": [
+              5.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chicken Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Chicken Fried Rice (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "5.5 total"
+          }
+        },
+        "total_qty_display": "5.5 total",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "garlic",
+        "norm": "garlic",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": "2 cloves",
+            "qty_parsed": [
+              2.0,
+              "cloves"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Rib Cap",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "2 cloves",
+            "qty_parsed": [
+              2.0,
+              "cloves"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "4-6",
+            "qty_parsed": [
+              5.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "3-4 cloves",
+            "qty_parsed": [
+              3.5,
+              "cloves"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 6,
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Beef Pappardelle",
+          "Bún (chicken)",
+          "Carrot & Mushrooms",
+          "Chicken Fried Rice",
+          "Green Beans (Garlicky)",
+          "Rib Cap"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)",
+          "Bún (chicken) (Wed)",
+          "Carrot & Mushrooms (Tue)",
+          "Chicken Fried Rice (Thu)",
+          "Green Beans (Garlicky) (Tue)",
+          "Rib Cap (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 5,
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Beef Pappardelle",
+              "Bún (chicken)",
+              "Carrot & Mushrooms",
+              "Green Beans (Garlicky)",
+              "Rib Cap"
+            ],
+            "qty_display": "13 cloves"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "3.5 cloves"
+          }
+        },
+        "total_qty_display": "16.5 cloves",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "gochujang",
+        "norm": "gochujang",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Rib Cap",
+            "qty_str": "1 tbsp",
+            "qty_parsed": [
+              1.0,
+              "tbsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Rib Cap"
+        ],
+        "dishes_with_days": [
+          "Rib Cap (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Rib Cap"
+            ],
+            "qty_display": "1 tbsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 tbsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "fresh green beans",
+        "norm": "green bean",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "12 ounces",
+            "qty_parsed": [
+              12.0,
+              "ounces"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Chicken Fried Rice",
+          "Green Beans (Garlicky)"
+        ],
+        "dishes_with_days": [
+          "Chicken Fried Rice (Thu)",
+          "Green Beans (Garlicky) (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Green Beans (Garlicky)"
+            ],
+            "qty_display": "12 ounces"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "0.5 cup"
+          }
+        },
+        "total_qty_display": "12 ounces + 1/2 cup",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "green onions",
+        "norm": "green onion",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Rib Cap",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "3-4",
+            "qty_parsed": [
+              3.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 3,
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms",
+          "Chicken Fried Rice",
+          "Rib Cap"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Tue)",
+          "Chicken Fried Rice (Thu)",
+          "Rib Cap (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms",
+              "Rib Cap"
+            ],
+            "qty_display": "3 total"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "3.5 total"
+          }
+        },
+        "total_qty_display": "6.5 total",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "pappardelle pasta",
+        "norm": "pappardelle pasta",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": "12 oz",
+            "qty_parsed": [
+              12.0,
+              "oz"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Beef Pappardelle"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Beef Pappardelle"
+            ],
+            "qty_display": "12 oz"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "12 oz",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Fresh parsley",
+        "norm": "parsley",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Beef Pappardelle"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Beef Pappardelle"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "pint Cherry tomatoes",
+        "norm": "pint cherry tomato",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Beef Pappardelle"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Beef Pappardelle"
+            ],
+            "qty_display": "1 total"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 total",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "head romaine lettuce",
+        "norm": "romaine lettuce",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Bún (chicken)"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Salsa",
+        "norm": "salsa",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Sour Cream",
+        "norm": "sour cream",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Taco Shells",
+        "norm": "taco shell",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "(28 oz) crushed tomatoes",
+        "norm": "tomato",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Monday",
+          "Friday"
+        ],
+        "dishes": [
+          "Beef Pappardelle",
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)",
+          "Tacos (Fri)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Beef Pappardelle"
+            ],
+            "qty_display": "1 can"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1 total"
+          }
+        },
+        "total_qty_display": "2 can",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "onion",
+        "norm": "yellow onion",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Beef Pappardelle",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 3,
+        "days": [
+          "Monday",
+          "Thursday",
+          "Friday"
+        ],
+        "dishes": [
+          "Beef Pappardelle",
+          "Chicken Fried Rice",
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Beef Pappardelle (Mon)",
+          "Chicken Fried Rice (Thu)",
+          "Tacos (Fri)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Beef Pappardelle"
+            ],
+            "qty_display": "1 total"
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Thursday",
+              "Friday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice",
+              "Tacos"
+            ],
+            "qty_display": "2 total"
+          }
+        },
+        "total_qty_display": "3 total",
+        "math_mode": "multiplied"
+      }
+    ],
+    "Sam’s Club": [
+      {
+        "canonical_name": "Black Olives",
+        "norm": "black olive",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          }
+        ],
+        "stores": [
+          "Sam’s Club"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1 can"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 can",
+        "math_mode": "summed"
+      }
+    ],
+    "Costco": [
+      {
+        "canonical_name": "Cheese",
+        "norm": "cheese",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "chicken breast",
+        "norm": "chicken breast",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "2 lbs",
+            "qty_parsed": [
+              2.0,
+              "lbs"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Wednesday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Bún (chicken)",
+          "Chicken Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)",
+          "Chicken Fried Rice (Thu)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "2 lbs"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "2.5 total"
+          }
+        },
+        "total_qty_display": "4.5 lbs",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Green Chili Salsa",
+        "norm": "green chili salsa",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Hamburger",
+        "norm": "hamburger",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": "2 lb",
+            "qty_parsed": [
+              2.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "2 lb"
+          }
+        },
+        "total_qty_display": "2 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "rib cap (spinalis dorsi",
+        "norm": "rib cap spinali dorsi",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Rib Cap",
+            "qty_str": "2 1/2-3 lb",
+            "qty_parsed": [
+              2.75,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Rib Cap"
+        ],
+        "dishes_with_days": [
+          "Rib Cap (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Rib Cap"
+            ],
+            "qty_display": "2.75 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2.75 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "water",
+        "norm": "water",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "3 cups",
+            "qty_parsed": [
+              3.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Beverage",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "dishes": [
+          "Bún (chicken)",
+          "Green Beans (Garlicky)"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)",
+          "Green Beans (Garlicky) (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Tuesday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)",
+              "Green Beans (Garlicky)"
+            ],
+            "qty_display": "1/4 cup + 3 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1/4 cup + 3 cups",
+        "math_mode": "mixed"
+      }
+    ],
+    "888 Market / Pan Asia": [
+      {
+        "canonical_name": "Chinese five-spice",
+        "norm": "chinese five-spice",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Rib Cap",
+            "qty_str": "1 tsp",
+            "qty_parsed": [
+              1.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Rib Cap"
+        ],
+        "dishes_with_days": [
+          "Rib Cap (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Rib Cap"
+            ],
+            "qty_display": "1 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 tsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "cooked rice",
+        "norm": "rice",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chicken Fried Rice",
+            "qty_str": "4-5 cups",
+            "qty_parsed": [
+              4.5,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chicken Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Chicken Fried Rice (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Fried Rice"
+            ],
+            "qty_display": "4.5 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4.5 cups",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "TBS Chinese vinegar",
+        "norm": "tbs chinese vinegar",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "fresh Thai basil leaves",
+        "norm": "thai basil leaf",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Bún (chicken)"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "tofu squares",
+        "norm": "tofu square",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "vermicelli rice noodles (Bún 802 Old Man",
+        "norm": "vermicelli rice noodle bún 802 old man",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "12-16 oz",
+            "qty_parsed": [
+              14.0,
+              "oz"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Bún (chicken)"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "14 oz"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "14 oz",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Wood Ear mushroom",
+        "norm": "wood ear mushroom",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      }
+    ],
+    "Walmart": [
+      {
+        "canonical_name": "Mi Rancho Organic Yellow Corn Tortilla",
+        "norm": "mi rancho yellow corn tortilla",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Walmart"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1 total"
+          }
+        },
+        "total_qty_display": "1 total",
+        "math_mode": "multiplied"
+      }
+    ],
+    "Amazon": [
+      {
+        "canonical_name": "Taco Seasoning",
+        "norm": "taco seasoning",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Amazon"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      }
+    ]
+  },
+  "multi_store": [],
+  "no_store_match": [
+    {
+      "canonical_name": ".5-1 Chopped Thai chili (frozen",
+      "norm": "5-1 thai chili frozen",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "bone-in short ribs",
+      "norm": "bone-in short rib",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Beef Pappardelle",
+          "qty_str": "2 lbs",
+          "qty_parsed": [
+            2.0,
+            "lbs"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Beef Pappardelle"
+      ],
+      "dishes_with_days": [
+        "Beef Pappardelle (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Beef Pappardelle"
+          ],
+          "qty_display": "2 lbs"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2 lbs",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "good fish sauce such as Three Crabs brand",
+      "norm": "good fish sauce such as three crab brand",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": "1 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "King Mushrooms match sticked",
+      "norm": "king mushroom match sticked",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Carrot & Mushrooms",
+          "qty_str": "2-3",
+          "qty_parsed": [
+            2.5,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Carrot & Mushrooms"
+      ],
+      "dishes_with_days": [
+        "Carrot & Mushrooms (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Carrot & Mushrooms"
+          ],
+          "qty_display": "2-3"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2-3",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "fresh mint leaves",
+      "norm": "mint leaf",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": "1 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Nuoc Cham",
+      "norm": "nuoc cham",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "okra",
+      "norm": "okra",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chicken Fried Rice",
+          "qty_str": "1/2 c",
+          "qty_parsed": [
+            0.5,
+            "c"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chicken Fried Rice"
+      ],
+      "dishes_with_days": [
+        "Chicken Fried Rice (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chicken Fried Rice"
+          ],
+          "qty_display": "1/2 c"
+        }
+      },
+      "total_qty_display": "1/2 c",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "peas (fresh",
+      "norm": "pea fresh",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chicken Fried Rice",
+          "qty_str": "1/2 cup",
+          "qty_parsed": [
+            0.5,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chicken Fried Rice"
+      ],
+      "dishes_with_days": [
+        "Chicken Fried Rice (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chicken Fried Rice"
+          ],
+          "qty_display": "0.5 cup"
+        }
+      },
+      "total_qty_display": "0.5 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "pickled carrots & daikon",
+      "norm": "pickled carrot daikon",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": "1 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "red wine",
+      "norm": "red wine",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Beef Pappardelle",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Beef Pappardelle"
+      ],
+      "dishes_with_days": [
+        "Beef Pappardelle (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Beef Pappardelle"
+          ],
+          "qty_display": "1 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "scallions",
+      "norm": "scallion",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": "1/2 cup",
+          "qty_parsed": [
+            0.5,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": "0.5 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "0.5 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Shrimp Rolls",
+      "norm": "shrimp roll",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": "25-30",
+          "qty_parsed": [
+            27.5,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": "25-30"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "25-30",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Tbs Chinese Vinager",
+      "norm": "tbs chinese vinager",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chicken Fried Rice",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chicken Fried Rice"
+      ],
+      "dishes_with_days": [
+        "Chicken Fried Rice (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chicken Fried Rice"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Tbs minced lemon grass",
+      "norm": "tbs lemon grass",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Bún (chicken)",
+          "qty_str": "2",
+          "qty_parsed": [
+            2.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Bún (chicken)"
+      ],
+      "dishes_with_days": [
+        "Bún (chicken) (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Bún (chicken)"
+          ],
+          "qty_display": "2 total"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2 total",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Wild Tree - garlic galore and all purpose seasoning",
+      "norm": "wild tree - garlic galore and all purpose seasoning",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Beef Pappardelle",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Beef Pappardelle"
+      ],
+      "dishes_with_days": [
+        "Beef Pappardelle (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Beef Pappardelle"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    }
+  ],
+  "skipped_staples": [
+    {
+      "day": "Monday",
+      "dish": "Beef Pappardelle",
+      "name": "olive oil",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp olive oil"
+    },
+    {
+      "day": "Monday",
+      "dish": "Beef Pappardelle",
+      "name": "Salt and pepper",
+      "quantity": null,
+      "original": "Salt and pepper, to taste"
+    },
+    {
+      "day": "Monday",
+      "dish": "Beef Pappardelle",
+      "name": "dried thyme",
+      "quantity": "1 tsp",
+      "original": "1 tsp dried thyme"
+    },
+    {
+      "day": "Monday",
+      "dish": "Beef Pappardelle",
+      "name": "bay leaf",
+      "quantity": "1",
+      "original": "1 bay leaf"
+    },
+    {
+      "day": "Monday",
+      "dish": "Beef Pappardelle",
+      "name": "red pepper",
+      "quantity": "1",
+      "original": "1 red pepper"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "soy sauce",
+      "quantity": "1/4 cup",
+      "original": "¼ cup soy sauce"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "toasted sesame oil",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp toasted sesame oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "rice vinegar",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp rice vinegar"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "hoisin sauce",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp hoisin sauce (seed-oil-free)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "honey",
+      "quantity": "1 1/2 tbsp",
+      "original": "1½ tbsp honey"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "-inch ginger",
+      "quantity": "1",
+      "original": "1-inch ginger, grated"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Rib Cap",
+      "name": "black pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp black pepper"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Carrot & Mushrooms",
+      "name": "olive oil",
+      "quantity": "2 tablespoons",
+      "original": "2 tablespoons olive oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Carrot & Mushrooms",
+      "name": "sugar",
+      "quantity": "1 teaspoon",
+      "original": "1 teaspoon sugar"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Carrot & Mushrooms",
+      "name": "TBS Soy sauce",
+      "quantity": "2-3",
+      "original": "2-3 TBS Soy sauce"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Carrot & Mushrooms",
+      "name": "Tbs ginger",
+      "quantity": "1-2",
+      "original": "1-2 Tbs ginger"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Carrot & Mushrooms",
+      "name": "Dash of dark soy sauce",
+      "quantity": null,
+      "original": "Dash of dark soy sauce"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Green Beans (Garlicky)",
+      "name": "extra virgin olive oil",
+      "quantity": "1 tablespoon",
+      "original": "1 tablespoon extra virgin olive oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Green Beans (Garlicky)",
+      "name": "fine sea salt",
+      "quantity": "1/2 teaspoon",
+      "original": "1/2 teaspoon fine sea salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "sugar",
+      "quantity": "1/8 C",
+      "original": "1/8 C sugar"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "fish sauce",
+      "quantity": "1/4 C",
+      "original": "1/4 C fish sauce (three Crabs)"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "Tbs honey",
+      "quantity": "1",
+      "original": "1 Tbs honey"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "Tbs dark soy sauce",
+      "quantity": "1",
+      "original": "1 Tbs dark soy sauce"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "Tbs EVOO",
+      "quantity": "2",
+      "original": "2 Tbs EVOO"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "five spice",
+      "quantity": "1 tsp",
+      "original": "1 tsp five spice"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "Tbs garlic powder",
+      "quantity": "1",
+      "original": "1 Tbs garlic powder"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "sugar",
+      "quantity": "1.5 cup",
+      "original": "1.5 cup of sugar"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "distilled white vinegar",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup of distilled white vinegar"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Fried Rice",
+      "name": "avocado oil",
+      "quantity": "2-3 tbsp",
+      "original": "2–3 tbsp avocado oil or olive oil"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Fried Rice",
+      "name": "soy sauce (or to taste)Salt & black pepper",
+      "quantity": "2-3 tbsp",
+      "original": "2–3 tbsp soy sauce (or to taste)Salt & black pepper, to taste"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Fried Rice",
+      "name": "sprinkle of sugar",
+      "quantity": null,
+      "original": "sprinkle of sugar"
+    }
+  ],
+  "unresolved_variants": [],
+  "user_extras": []
+}
