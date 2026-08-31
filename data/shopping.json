@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:43:48.371871",
+  "generated_at": "2026-08-30T22:57:32.586889",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -69,10 +69,10 @@
             "dishes": [
               "Tacos"
             ],
-            "qty_display": "2 total"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "2 total",
+        "total_qty_display": "2",
         "math_mode": "multiplied"
       },
       {
@@ -144,7 +144,7 @@
               "Beef Pappardelle",
               "Carrot & Mushrooms"
             ],
-            "qty_display": "2 + 6"
+            "qty_display": "8"
           },
           "Wed": {
             "uses": 1,
@@ -157,8 +157,8 @@
             "qty_display": "2"
           }
         },
-        "total_qty_display": "2 + 6 + 2",
-        "math_mode": "mixed"
+        "total_qty_display": "10",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Cherry tomatoes",
@@ -272,7 +272,7 @@
             "dishes": [
               "Bún (chicken)"
             ],
-            "qty_display": "1 total"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -281,7 +281,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1 total",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       },
       {
@@ -333,10 +333,10 @@
             "dishes": [
               "Chicken Fried Rice"
             ],
-            "qty_display": "5.5 total"
+            "qty_display": "6"
           }
         },
-        "total_qty_display": "5.5 total",
+        "total_qty_display": "6",
         "math_mode": "multiplied"
       },
       {
@@ -585,8 +585,8 @@
             "qty_display": "0.5 cup"
           }
         },
-        "total_qty_display": "12 ounces + 1/2 cup",
-        "math_mode": "mixed"
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Green onions",
@@ -655,7 +655,7 @@
               "Carrot & Mushrooms",
               "Rib Cap"
             ],
-            "qty_display": "3 total"
+            "qty_display": "3"
           },
           "Wed": {
             "uses": 1,
@@ -665,10 +665,10 @@
             "dishes": [
               "Chicken Fried Rice"
             ],
-            "qty_display": "3.5 total"
+            "qty_display": "4"
           }
         },
-        "total_qty_display": "6.5 total",
+        "total_qty_display": "7",
         "math_mode": "multiplied"
       },
       {
@@ -1222,7 +1222,7 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "(28 oz) crushed tomatoes",
+        "canonical_name": "Crushed tomatoes",
         "norm": "tomato",
         "occurrences": [
           {
@@ -1286,7 +1286,7 @@
             "dishes": [
               "Tacos"
             ],
-            "qty_display": "1 total"
+            "qty_display": "1"
           }
         },
         "total_qty_display": "2 can",
@@ -1359,7 +1359,7 @@
             "dishes": [
               "Beef Pappardelle"
             ],
-            "qty_display": "1 total"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 2,
@@ -1371,10 +1371,10 @@
               "Chicken Fried Rice",
               "Tacos"
             ],
-            "qty_display": "2 total"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "3 total",
+        "total_qty_display": "3",
         "math_mode": "multiplied"
       }
     ],
@@ -1611,7 +1611,7 @@
             "dishes": [
               "Chicken Fried Rice"
             ],
-            "qty_display": "2.5 total"
+            "qty_display": "3"
           }
         },
         "total_qty_display": "4.5 lbs",
@@ -1907,8 +1907,8 @@
             "qty_display": "1"
           }
         },
-        "total_qty_display": "1 + 1",
-        "math_mode": "mixed"
+        "total_qty_display": "2",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "King Mushrooms",
@@ -2008,7 +2008,7 @@
             "dishes": [
               "Bún (chicken)"
             ],
-            "qty_display": "2 total"
+            "qty_display": "2"
           },
           "Wed": {
             "uses": 0,
@@ -2017,7 +2017,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2 total",
+        "total_qty_display": "2",
         "math_mode": "multiplied"
       },
       {
@@ -2566,10 +2566,10 @@
             "dishes": [
               "Tacos"
             ],
-            "qty_display": "1 total"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "1 total",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       }
     ],
