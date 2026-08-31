@@ -620,10 +620,6 @@ function updateFooter() {
     pbtn.textContent = `📤 Push ${toBuy} to Skylight`;
   }
   if (pbtn) pbtn.disabled = toBuy === 0;
-  const btn = document.getElementById('copy-btn');
-  if (btn) { btn.textContent = `📋 Copy list (${toBuy})`; btn.disabled = toBuy === 0; }
-  const tbtn = document.getElementById('copy-text-btn');
-  if (tbtn) tbtn.disabled = toBuy === 0;
   // meals button stays enabled regardless of grocery count
 }
 
