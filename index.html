@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🛒 Weekly Shopping - Zhou</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛒%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#2d5a3d">
+<meta name="description" content="Zhou family weekly grocery list, grouped by store and shopping trip.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
@@ -132,14 +135,14 @@
     <div id="days-list"></div>
   </div>
 
-  <div class="trip-filter">
-    <button class="trip-btn all active" onclick="setTripFilter('all')" id="trip-all">
+  <div class="trip-filter" role="group" aria-label="Shopping trip filter">
+    <button class="trip-btn all active" onclick="setTripFilter('all')" id="trip-all" aria-pressed="true">
       All Items<span class="trip-label">both trips</span>
     </button>
-    <button class="trip-btn mon" onclick="setTripFilter('mon')" id="trip-mon">
+    <button class="trip-btn mon" onclick="setTripFilter('mon')" id="trip-mon" aria-pressed="false">
       🗓️ Monday<span class="trip-label">Mon/Tue/Wed + shelf</span>
     </button>
-    <button class="trip-btn wed" onclick="setTripFilter('wed')" id="trip-wed">
+    <button class="trip-btn wed" onclick="setTripFilter('wed')" id="trip-wed" aria-pressed="false">
       🗓️ Wednesday<span class="trip-label">Thu/Fri/Weekend fresh</span>
     </button>
   </div>
@@ -603,9 +606,12 @@ function removeExtra(id) {
 // ---------- trip filter ----------
 function setTripFilter(which) {
   tripFilter = which;
-  document.querySelectorAll('.trip-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.trip-btn').forEach(b => {
+    b.classList.remove('active');
+    b.setAttribute('aria-pressed', 'false');
+  });
   const btn = document.getElementById('trip-' + which);
-  if (btn) btn.classList.add('active');
+  if (btn) { btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }
   if (shoppingData) render();
 }
 
@@ -847,34 +853,6 @@ async function pushToSkylight() {
   } finally {
     btn.disabled = false;
   }
-}
-
-async function copyForKit() {
-  const payload = buildPayload();
-  warnIfUnrouted(payload);
-  if (!payload.items.length) { showToast('Nothing to copy - list is empty.'); return; }
-  const tripLabel = tripFilter === 'all' ? 'all' : tripFilter;
-  const out = {
-    kind: 'zhou-grocery-skylight-push',
-    generated_at: new Date().toISOString(),
-    trip_filter: tripLabel,
-    count: payload.items.length,
-    items: payload.items,
-  };
-  const ok = await copyToClipboard(JSON.stringify(out, null, 2));
-  // expose last payload for QA / debugging
-  window.__lastPayload = out;
-  showToast(ok ? `📋 Copied ${payload.items.length} items. Paste to Kit to push to Skylight.` : 'Copy failed - long-press to copy manually.');
-}
-
-async function copyTextForKit() {
-  const payload = buildPayload();
-  warnIfUnrouted(payload);
-  if (!payload.items.length) { showToast('Nothing to copy - list is empty.'); return; }
-  const text = payloadToText(payload);
-  window.__lastText = text;
-  const ok = await copyToClipboard(text);
-  showToast(ok ? `📋 Copied ${payload.items.length} items as text.` : 'Copy failed - long-press to copy manually.');
 }
 
 // ---------- misc ----------
