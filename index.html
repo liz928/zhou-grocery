@@ -169,9 +169,8 @@
 <div class="sticky-footer">
   <div class="footer-content">
     <div class="footer-stats" id="footer-stats">0 items</div>
-    <button onclick="copyTextForKit()" id="copy-text-btn">📋 Copy as text</button>
+    <button onclick="pushMealsToSkylight()" id="meals-btn">🍽️ Push meals</button>
     <button onclick="pushToSkylight()" class="primary" id="push-btn">📤 Push to Skylight</button>
-    <button onclick="copyForKit()" id="copy-btn">📋 Copy list</button>
   </div>
 </div>
 
@@ -625,6 +624,7 @@ function updateFooter() {
   if (btn) { btn.textContent = `📋 Copy list (${toBuy})`; btn.disabled = toBuy === 0; }
   const tbtn = document.getElementById('copy-text-btn');
   if (tbtn) tbtn.disabled = toBuy === 0;
+  // meals button stays enabled regardless of grocery count
 }
 
 // ---------- build payload (respects checkmarks, filter, freezer) ----------
@@ -719,6 +719,34 @@ function warnIfUnrouted(payload) {
 
 // ---------- REAL one-click push to Skylight (via Tailscale Funnel) ----------
 const PUSH_API = 'https://lizs-mac-mini.tail2a0053.ts.net';
+
+// Push this week's dinners to the Skylight MEALS tab
+async function pushMealsToSkylight() {
+  if (!confirm('Push this week + next week dinners to the Skylight Meals tab?\n\n(Re-pushing replaces, no duplicates.)')) return;
+  const btn = document.getElementById('meals-btn');
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⏳ Pushing meals...';
+  try {
+    const r = await fetch(PUSH_API + '/api/push-meal-calendar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ week: 'both' }),
+    });
+    const result = await r.json();
+    if (!result.ok && result.error) throw new Error(result.error);
+    let msg = '✅ Pushed ' + (result.created != null ? result.created : '') + ' meal entries to Skylight!';
+    if (result.failed) msg += ' (' + result.failed + ' failed)';
+    showToast(msg);
+    btn.textContent = '✅ Meals pushed!';
+    setTimeout(() => { btn.textContent = original; }, 3000);
+  } catch (e) {
+    showToast('❌ Meals push failed: ' + e.message);
+    btn.textContent = original;
+  } finally {
+    btn.disabled = false;
+  }
+}
 
 async function pushToSkylight() {
   const payload = buildPayload();
