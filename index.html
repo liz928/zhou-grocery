@@ -716,6 +716,46 @@ function warnIfUnrouted(payload) {
 // ---------- REAL one-click push to Skylight (via Tailscale Funnel) ----------
 const PUSH_API = 'https://lizs-mac-mini.tail2a0053.ts.net';
 
+// The API key is NEVER stored in this public repo. It lives only in your
+// browser's localStorage on the devices you use. First push on a new device
+// will prompt for it once.
+const KEY_STORAGE = 'zhou-grocery-api-key';
+function getApiKey(promptIfMissing) {
+  let k = '';
+  try { k = localStorage.getItem(KEY_STORAGE) || ''; } catch (e) {}
+  if (!k && promptIfMissing) {
+    k = window.prompt('One-time setup: paste your Push key (Kit gave you this). It stays on this device only.') || '';
+    k = k.trim();
+    if (k) { try { localStorage.setItem(KEY_STORAGE, k); } catch (e) {} }
+  }
+  return k;
+}
+function clearApiKey() {
+  try { localStorage.removeItem(KEY_STORAGE); } catch (e) {}
+  showToast('Push key cleared from this device.');
+}
+async function apiPost(path, body) {
+  const key = getApiKey(true);
+  if (!key) throw new Error('No push key set on this device');
+  const r = await fetch(PUSH_API + path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-API-Key': key },
+    body: JSON.stringify(body),
+  });
+  if (r.status === 401) {
+    try { localStorage.removeItem(KEY_STORAGE); } catch (e) {}
+    throw new Error('Push key rejected - cleared it, tap push again to re-enter');
+  }
+  const ct = r.headers.get('content-type') || '';
+  if (!r.ok && !ct.includes('application/json')) {
+    throw new Error('Server error ' + r.status + ' (Mac Mini may be asleep)');
+  }
+  if (!ct.includes('application/json')) {
+    throw new Error('Unexpected response (Mac Mini may be asleep)');
+  }
+  return await r.json();
+}
+
 // Push this week's dinners to the Skylight MEALS tab
 async function pushMealsToSkylight() {
   if (!confirm('Push this week + next week dinners to the Skylight Meals tab?\n\n(Re-pushing replaces, no duplicates.)')) return;
@@ -724,12 +764,7 @@ async function pushMealsToSkylight() {
   btn.disabled = true;
   btn.textContent = '⏳ Pushing meals...';
   try {
-    const r = await fetch(PUSH_API + '/api/push-meal-calendar', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ week: 'both' }),
-    });
-    const result = await r.json();
+    const result = await apiPost('/api/push-meal-calendar', { week: 'both' });
     if (!result.ok && result.error) throw new Error(result.error);
     let msg = '✅ Pushed ' + (result.created != null ? result.created : '') + ' meal entries to Skylight!';
     if (result.failed) msg += ' (' + result.failed + ' failed)';
@@ -755,12 +790,7 @@ async function pushToSkylight() {
   btn.disabled = true;
   btn.textContent = '⏳ Pushing...';
   try {
-    const r = await fetch(PUSH_API + '/api/push-to-skylight', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ items: payload.items, includeExtras: false }),
-    });
-    const result = await r.json();
+    const result = await apiPost('/api/push-to-skylight', { items: payload.items, includeExtras: false });
     if (result.error) throw new Error(result.error);
     let msg = `✅ Added ${result.added} items to Skylight!`;
     if (result.failed && result.failed.length) msg += ` (${result.failed.length} failed)`;
