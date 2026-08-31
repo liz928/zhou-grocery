@@ -176,7 +176,29 @@
 
 <script>
 'use strict';
-const STORAGE_KEY = 'zhou-weekly-shopping-v2';
+// Week-scoped storage: checkmarks reset automatically when a new meal plan is
+// generated, so last week's "I have it" ticks never carry into a new list.
+const STORAGE_KEY_BASE = 'zhou-weekly-shopping-v2';
+let STORAGE_KEY = STORAGE_KEY_BASE;
+function setWeekScopedKey(generatedAt) {
+  try {
+    const d = generatedAt ? new Date(generatedAt) : new Date();
+    if (isNaN(d.getTime())) { STORAGE_KEY = STORAGE_KEY_BASE; return; }
+    // Monday-anchored week id, e.g. 2026-08-24
+    const day = (d.getDay() + 6) % 7; // Mon=0
+    const mon = new Date(d);
+    mon.setDate(d.getDate() - day);
+    const id = mon.toISOString().slice(0, 10);
+    STORAGE_KEY = STORAGE_KEY_BASE + ':' + id;
+    // tidy up old week keys so localStorage doesn't grow forever
+    try {
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(STORAGE_KEY_BASE + ':') && k !== STORAGE_KEY) localStorage.removeItem(k);
+      }
+    } catch (e) {}
+  } catch (e) { STORAGE_KEY = STORAGE_KEY_BASE; }
+}
 const DATA_URL = './data/shopping.json';
 const MEALS_URL = './data/meals.json';
 
@@ -205,6 +227,8 @@ async function loadData() {
     if (!sRes.ok) throw new Error('shopping.json ' + sRes.status);
     shoppingData = await sRes.json();
     mealsData = mRes.ok ? await mRes.json() : { days: {} };
+    // Scope saved checkmarks to this plan's week before anything reads state
+    setWeekScopedKey(shoppingData.generated_at);
     render();
   } catch (e) {
     const el = document.getElementById('loading');
@@ -589,6 +613,25 @@ function applyTripFilter() {
   document.body.classList.remove('trip-mon', 'trip-wed');
   if (tripFilter === 'mon') document.body.classList.add('trip-mon');
   if (tripFilter === 'wed') document.body.classList.add('trip-wed');
+  hideEmptySections();
+}
+
+// Hide any store section whose items are all filtered out, and make the header
+// count reflect what's actually showing. Prevents "Costco (6)" with nothing under it.
+function hideEmptySections() {
+  document.querySelectorAll('.store-section').forEach(sec => {
+    if (sec.classList.contains('staples')) return; // staples block has no .item rows
+    const items = sec.querySelectorAll('.item');
+    if (!items.length) return;
+    let visible = 0;
+    items.forEach(li => {
+      const style = window.getComputedStyle(li);
+      if (style.display !== 'none') visible++;
+    });
+    sec.style.display = visible ? '' : 'none';
+    const badge = sec.querySelector('.store-count');
+    if (badge) badge.textContent = visible;
+  });
 }
 
 // ---------- footer / counts ----------
@@ -839,6 +882,7 @@ function toggleHideHaveIt() {
   document.body.classList.toggle('hide-have-it');
   const show = document.body.classList.contains('hide-have-it');
   document.getElementById('hide-btn').textContent = show ? 'Show "have it"' : 'Hide "have it"';
+  hideEmptySections();
 }
 
 function resetAll() {

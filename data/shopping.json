@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T16:56:08.402702",
+  "generated_at": "2026-08-30T22:37:37.688774",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -10,9 +10,9 @@
   ],
   "stats": {
     "raw_ingredient_count": 95,
-    "unique_after_dedup": 49,
-    "skipped_staples": 31,
-    "routing_matched": 34,
+    "unique_after_dedup": 48,
+    "skipped_staples": 33,
+    "routing_matched": 33,
     "routing_unmatched": 15,
     "multi_store": 0,
     "unresolved_variants": 0,
@@ -21,7 +21,7 @@
   "by_store": {
     "Whole Foods": [
       {
-        "canonical_name": "Avacado",
+        "canonical_name": "Avocado",
         "norm": "avocado",
         "occurrences": [
           {
@@ -1456,7 +1456,7 @@
           "Costco"
         ],
         "category": "Unknown",
-        "type": "unknown",
+        "type": "meat",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
@@ -1471,7 +1471,7 @@
           "Tacos (Fri)"
         ],
         "trip": "Wed",
-        "icon": "❓",
+        "icon": "🥩",
         "per_trip": {
           "Mon": {
             "uses": 0,
@@ -1511,7 +1511,7 @@
           "Costco"
         ],
         "category": "Unknown",
-        "type": "unknown",
+        "type": "meat",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
@@ -1526,7 +1526,7 @@
           "Rib Cap (Tue)"
         ],
         "trip": "Mon",
-        "icon": "❓",
+        "icon": "🥩",
         "per_trip": {
           "Mon": {
             "uses": 1,
@@ -1547,75 +1547,6 @@
         },
         "total_qty_display": "2.75 lb",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "water",
-        "norm": "water",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Green Beans (Garlicky)",
-            "qty_str": "1/4 cup",
-            "qty_parsed": [
-              0.25,
-              "cup"
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Bún (chicken)",
-            "qty_str": "3 cups",
-            "qty_parsed": [
-              3.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Beverage",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Wednesday"
-        ],
-        "dishes": [
-          "Bún (chicken)",
-          "Green Beans (Garlicky)"
-        ],
-        "dishes_with_days": [
-          "Bún (chicken) (Wed)",
-          "Green Beans (Garlicky) (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Bún (chicken)",
-              "Green Beans (Garlicky)"
-            ],
-            "qty_display": "1/4 cup + 3 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/4 cup + 3 cups",
-        "math_mode": "mixed"
       }
     ],
     "888 Market / Pan Asia": [
@@ -2191,7 +2122,7 @@
       ],
       "stores": [],
       "category": "Unknown",
-      "type": "unknown",
+      "type": "meat",
       "matched_routing": false,
       "is_countable": false,
       "user_routed": false,
@@ -2206,7 +2137,7 @@
         "Beef Pappardelle (Mon)"
       ],
       "trip": "Mon",
-      "icon": "❓",
+      "icon": "🥩",
       "per_trip": {
         "Mon": {
           "uses": 1,
@@ -2759,7 +2690,7 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "Tbs Chinese Vinager",
+      "canonical_name": "Tbs Chinese Vinegar",
       "norm": "tbs chinese vinager",
       "occurrences": [
         {
@@ -3053,6 +2984,13 @@
       "original": "1/2 teaspoon fine sea salt"
     },
     {
+      "day": "Tuesday",
+      "dish": "Green Beans (Garlicky)",
+      "name": "water",
+      "quantity": "1/4 cup",
+      "original": "1/4 cup water"
+    },
+    {
       "day": "Wednesday",
       "dish": "Bún (chicken)",
       "name": "sugar",
@@ -3107,6 +3045,13 @@
       "name": "sugar",
       "quantity": "1.5 cup",
       "original": "1.5 cup of sugar"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Bún (chicken)",
+      "name": "water",
+      "quantity": "3 cups",
+      "original": "3 cups of water"
     },
     {
       "day": "Wednesday",
