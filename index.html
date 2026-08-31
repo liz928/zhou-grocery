@@ -170,7 +170,8 @@
   <div class="footer-content">
     <div class="footer-stats" id="footer-stats">0 items</div>
     <button onclick="copyTextForKit()" id="copy-text-btn">📋 Copy as text</button>
-    <button onclick="copyForKit()" class="primary" id="copy-btn">📱 Copy list for Kit</button>
+    <button onclick="pushToSkylight()" class="primary" id="push-btn">📤 Push to Skylight</button>
+    <button onclick="copyForKit()" id="copy-btn">📋 Copy list</button>
   </div>
 </div>
 
@@ -615,9 +616,13 @@ function updateFooter() {
   const extrasNote = extras ? ` · +${extras} extras` : '';
   document.getElementById('footer-stats').textContent =
     `${toBuy} to buy · ${have} have · ${freezer} freezer${extrasNote} (${tripLabel})`;
+  const pbtn = document.getElementById('push-btn');
+  if (pbtn && !pbtn.disabled) {
+    pbtn.textContent = `📤 Push ${toBuy} to Skylight`;
+  }
+  if (pbtn) pbtn.disabled = toBuy === 0;
   const btn = document.getElementById('copy-btn');
-  btn.textContent = `📱 Copy list for Kit (${toBuy})`;
-  btn.disabled = toBuy === 0;
+  if (btn) { btn.textContent = `📋 Copy list (${toBuy})`; btn.disabled = toBuy === 0; }
   const tbtn = document.getElementById('copy-text-btn');
   if (tbtn) tbtn.disabled = toBuy === 0;
 }
@@ -710,6 +715,41 @@ function warnIfUnrouted(payload) {
     return true;
   }
   return false;
+}
+
+// ---------- REAL one-click push to Skylight (via Tailscale Funnel) ----------
+const PUSH_API = 'https://lizs-mac-mini.tail2a0053.ts.net';
+
+async function pushToSkylight() {
+  const payload = buildPayload();
+  warnIfUnrouted(payload);
+  if (!payload.items.length) { showToast('Nothing to push - list is empty.'); return; }
+  const tripLabel = tripFilter === 'all' ? 'all trips' : (tripFilter === 'mon' ? 'Monday trip' : 'Wednesday trip');
+  if (!confirm(`Push ${payload.items.length} items (${tripLabel}) to Skylight?`)) return;
+  const btn = document.getElementById('push-btn');
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⏳ Pushing...';
+  try {
+    const r = await fetch(PUSH_API + '/api/push-to-skylight', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ items: payload.items, includeExtras: false }),
+    });
+    const result = await r.json();
+    if (result.error) throw new Error(result.error);
+    let msg = `✅ Added ${result.added} items to Skylight!`;
+    if (result.failed && result.failed.length) msg += ` (${result.failed.length} failed)`;
+    if (result.skipped && result.skipped.length) msg += ` (${result.skipped.length} skipped - no store)`;
+    showToast(msg);
+    btn.textContent = '✅ Pushed!';
+    setTimeout(() => { btn.textContent = original; }, 3000);
+  } catch (e) {
+    showToast('❌ Push failed: ' + e.message + ' (Mac Mini may be asleep)');
+    btn.textContent = original;
+  } finally {
+    btn.disabled = false;
+  }
 }
 
 async function copyForKit() {
