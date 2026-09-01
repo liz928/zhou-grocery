@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:00:04.165913",
+  "generated_at": "2026-09-01T05:00:04.157028",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 95,
-    "unique_after_dedup": 44,
-    "skipped_staples": 35,
-    "routing_matched": 40,
-    "routing_unmatched": 4,
+    "raw_ingredient_count": 106,
+    "unique_after_dedup": 48,
+    "skipped_staples": 40,
+    "routing_matched": 41,
+    "routing_unmatched": 7,
     "multi_store": 2,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -350,6 +350,15 @@
             ]
           },
           {
+            "day": "Tuesday",
+            "dish": "Scallops",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
             "day": "Wednesday",
             "dish": "Bún (chicken)",
             "qty_str": "4-6",
@@ -376,7 +385,7 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 6,
+        "use_count": 7,
         "days": [
           "Monday",
           "Tuesday",
@@ -389,7 +398,8 @@
           "Carrot & Mushrooms",
           "Chicken Fried Rice",
           "Green Beans (Garlicky)",
-          "Rib Cap"
+          "Rib Cap",
+          "Scallops"
         ],
         "dishes_with_days": [
           "Beef Pappardelle (Mon)",
@@ -397,13 +407,14 @@
           "Carrot & Mushrooms (Tue)",
           "Chicken Fried Rice (Thu)",
           "Green Beans (Garlicky) (Tue)",
-          "Rib Cap (Tue)"
+          "Rib Cap (Tue)",
+          "Scallops (Tue)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 5,
+            "uses": 6,
             "days": [
               "Monday",
               "Tuesday",
@@ -414,9 +425,10 @@
               "Bún (chicken)",
               "Carrot & Mushrooms",
               "Green Beans (Garlicky)",
-              "Rib Cap"
+              "Rib Cap",
+              "Scallops"
             ],
-            "qty_display": "13 cloves"
+            "qty_display": "2 cloves + 3 + 1 + 2 cloves + 4-6"
           },
           "Wed": {
             "uses": 1,
@@ -429,8 +441,8 @@
             "qty_display": "3.5 cloves"
           }
         },
-        "total_qty_display": "16.5 cloves",
-        "math_mode": "summed"
+        "total_qty_display": "2 cloves + 3 + 1 + 2 cloves + 4-6 + 3-4 cloves",
+        "math_mode": "mixed"
       },
       {
         "canonical_name": "Gochujang",
@@ -639,6 +651,61 @@
           }
         },
         "total_qty_display": "7",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Oranges juiced",
+        "norm": "orange juiced",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Scallops",
+            "qty_str": "4",
+            "qty_parsed": [
+              4.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Beverage",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Scallops"
+        ],
+        "dishes_with_days": [
+          "Scallops (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Scallops"
+            ],
+            "qty_display": "4"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4",
         "math_mode": "multiplied"
       },
       {
@@ -2350,6 +2417,15 @@
           ]
         },
         {
+          "day": "Wednesday",
+          "dish": "Pickled Diakon and Carrots",
+          "qty_str": "9-12",
+          "qty_parsed": [
+            10.5,
+            ""
+          ]
+        },
+        {
           "day": "Thursday",
           "dish": "Chicken Fried Rice",
           "qty_str": "2",
@@ -2368,36 +2444,41 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 3,
+      "use_count": 4,
       "days": [
         "Monday",
         "Tuesday",
+        "Wednesday",
         "Thursday"
       ],
       "dishes": [
         "Beef Pappardelle",
         "Carrot & Mushrooms",
-        "Chicken Fried Rice"
+        "Chicken Fried Rice",
+        "Pickled Diakon and Carrots"
       ],
       "dishes_with_days": [
         "Beef Pappardelle (Mon)",
         "Carrot & Mushrooms (Tue)",
-        "Chicken Fried Rice (Thu)"
+        "Chicken Fried Rice (Thu)",
+        "Pickled Diakon and Carrots (Wed)"
       ],
       "trip": "Mon/Wed",
       "icon": "🥬",
       "per_trip": {
         "Mon": {
-          "uses": 2,
+          "uses": 3,
           "days": [
             "Monday",
-            "Tuesday"
+            "Tuesday",
+            "Wednesday"
           ],
           "dishes": [
             "Beef Pappardelle",
-            "Carrot & Mushrooms"
+            "Carrot & Mushrooms",
+            "Pickled Diakon and Carrots"
           ],
-          "qty_display": "8"
+          "qty_display": "19"
         },
         "Wed": {
           "uses": 1,
@@ -2410,7 +2491,7 @@
           "qty_display": "2"
         }
       },
-      "total_qty_display": "10",
+      "total_qty_display": "21",
       "math_mode": "summed"
     },
     {
@@ -2472,6 +2553,112 @@
     }
   ],
   "no_store_match": [
+    {
+      "canonical_name": "Daikon radish",
+      "norm": "daikon radish",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Pickled Diakon and Carrots",
+          "qty_str": "3",
+          "qty_parsed": [
+            3.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Pickled Diakon and Carrots"
+      ],
+      "dishes_with_days": [
+        "Pickled Diakon and Carrots (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Pickled Diakon and Carrots"
+          ],
+          "qty_display": "3"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "3",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Distilled vinegar",
+      "norm": "distilled vinegar",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Pickled Diakon and Carrots",
+          "qty_str": "2 C",
+          "qty_parsed": [
+            2.0,
+            "c"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Pickled Diakon and Carrots"
+      ],
+      "dishes_with_days": [
+        "Pickled Diakon and Carrots (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Pickled Diakon and Carrots"
+          ],
+          "qty_display": "2 C"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2 C",
+      "math_mode": "single"
+    },
     {
       "canonical_name": "Mint leaves",
       "norm": "mint leaf",
@@ -2683,6 +2870,59 @@
       },
       "total_qty_display": "0.5 cup",
       "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Scallops Costco",
+      "norm": "scallop costco",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Scallops",
+          "qty_str": "4 lbs",
+          "qty_parsed": [
+            4.0,
+            "lbs"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "meat",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Scallops"
+      ],
+      "dishes_with_days": [
+        "Scallops (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥩",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Scallops"
+          ],
+          "qty_display": "4 lbs"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "4 lbs",
+      "math_mode": "summed"
     }
   ],
   "skipped_staples": [
@@ -2827,6 +3067,20 @@
       "original": "1/4 cup water"
     },
     {
+      "day": "Tuesday",
+      "dish": "Scallops",
+      "name": "Butter",
+      "quantity": null,
+      "original": "Butter"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Scallops",
+      "name": "Salt pepper",
+      "quantity": null,
+      "original": "Salt pepper"
+    },
+    {
       "day": "Wednesday",
       "dish": "Bún (chicken)",
       "name": "sugar",
@@ -2902,6 +3156,27 @@
       "name": "distilled white vinegar",
       "quantity": "1/2 cup",
       "original": "1/2 cup of distilled white vinegar"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Pickled Diakon and Carrots",
+      "name": "salt",
+      "quantity": "1 tbsp",
+      "original": "1 tbsp salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Pickled Diakon and Carrots",
+      "name": "boiling water",
+      "quantity": "2 C",
+      "original": "2 C boiling water"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Pickled Diakon and Carrots",
+      "name": "granulated white sugar",
+      "quantity": "2.25 C",
+      "original": "2.25 C granulated white sugar"
     },
     {
       "day": "Thursday",

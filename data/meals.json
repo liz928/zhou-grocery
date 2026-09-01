@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:00:04.165913",
+  "generated_at": "2026-09-01T05:00:04.157028",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -400,9 +400,56 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "66426ae7712b7c899dac664c",
+          "name": "Scallops",
+          "ingredients": [
+            {
+              "original": "4 lbs scallops Costco",
+              "quantity": "4 lbs",
+              "name": "scallops Costco",
+              "notes": "",
+              "checked": false,
+              "checklist": "Citrus"
+            },
+            {
+              "original": "4 oranges juiced",
+              "quantity": "4",
+              "name": "oranges juiced",
+              "notes": "",
+              "checked": false,
+              "checklist": "Citrus"
+            },
+            {
+              "original": "Garlic",
+              "quantity": null,
+              "name": "Garlic",
+              "notes": "",
+              "checked": false,
+              "checklist": "Citrus"
+            },
+            {
+              "original": "Butter",
+              "quantity": null,
+              "name": "Butter",
+              "notes": "",
+              "checked": false,
+              "checklist": "Citrus"
+            },
+            {
+              "original": "Salt pepper",
+              "quantity": null,
+              "name": "Salt pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Citrus"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 4
+      "dish_count": 5
     },
     "Wednesday": {
       "dishes": [
@@ -618,9 +665,64 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "66669127371d037c0a0374da",
+          "name": "Pickled Diakon and Carrots",
+          "ingredients": [
+            {
+              "original": "3 daikon radish (white, long Chinese or Japanese)",
+              "quantity": "3",
+              "name": "daikon radish (white",
+              "notes": "long Chinese or Japanese)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "9-12 carrots",
+              "quantity": "9-12",
+              "name": "carrots",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tbsp salt",
+              "quantity": "1 tbsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 C boiling water",
+              "quantity": "2 C",
+              "name": "boiling water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2.25 C granulated white sugar",
+              "quantity": "2.25 C",
+              "name": "granulated white sugar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 C distilled vinegar",
+              "quantity": "2 C",
+              "name": "distilled vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 2
+      "dish_count": 3
     },
     "Thursday": {
       "dishes": [
