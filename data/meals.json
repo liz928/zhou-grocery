@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T05:00:04.904244",
+  "generated_at": "2026-09-03T05:00:04.108378",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -468,7 +468,7 @@
               "quantity": "2 lbs",
               "name": "chicken breast",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -476,7 +476,7 @@
               "quantity": "1/8 C",
               "name": "sugar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -484,7 +484,7 @@
               "quantity": "1/4 C",
               "name": "fish sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -492,7 +492,7 @@
               "quantity": "1",
               "name": "Tbs honey",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -500,7 +500,7 @@
               "quantity": "1",
               "name": "Tbs dark soy sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -508,7 +508,7 @@
               "quantity": "2",
               "name": "Tbs EVOO",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -516,7 +516,7 @@
               "quantity": "1 tsp",
               "name": "five spice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -524,7 +524,7 @@
               "quantity": "1",
               "name": "Tbs garlic powder",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -532,7 +532,7 @@
               "quantity": "2",
               "name": "Tbs minced lemon grass",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -540,7 +540,7 @@
               "quantity": "1 cup",
               "name": "good fish sauce such as Three Crabs brand",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -548,7 +548,7 @@
               "quantity": "1.5 cup",
               "name": "sugar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -556,7 +556,7 @@
               "quantity": "3 cups",
               "name": "water",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -564,7 +564,7 @@
               "quantity": "1/2 cup",
               "name": "distilled white vinegar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -572,7 +572,7 @@
               "quantity": "4-6",
               "name": "minced garlic",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -580,7 +580,7 @@
               "quantity": null,
               "name": ".5-1 Chopped Thai chili (frozen",
               "notes": "fresh)",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -596,7 +596,7 @@
               "quantity": "1",
               "name": "head romaine lettuce",
               "notes": "shredded or torn into bite-size pieces",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -604,7 +604,7 @@
               "quantity": "1",
               "name": "cucumber",
               "notes": "julienned or thinly sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -612,7 +612,7 @@
               "quantity": "1 cup",
               "name": "cherry tomatoes",
               "notes": "halved",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -620,7 +620,7 @@
               "quantity": "1 cup",
               "name": "pickled carrots & daikon",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -628,7 +628,7 @@
               "quantity": "1 cup",
               "name": "fresh mint leaves",
               "notes": "torn",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -636,7 +636,7 @@
               "quantity": "1/2 cup",
               "name": "fresh Thai basil leaves",
               "notes": "torn",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -644,7 +644,7 @@
               "quantity": "1/2 cup",
               "name": "scallions",
               "notes": "thinly sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -660,7 +660,7 @@
               "quantity": null,
               "name": "Nuoc Cham",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             }
           ],
