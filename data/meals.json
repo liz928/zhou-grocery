@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T05:00:04.108378",
+  "generated_at": "2026-09-04T05:00:03.872538",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -773,7 +773,7 @@
               "quantity": "1/2 cup",
               "name": "green beans",
               "notes": "cut into 1-inch pieces",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -797,7 +797,7 @@
               "quantity": "3-4 cloves",
               "name": "garlic",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
