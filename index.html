@@ -172,6 +172,7 @@
 <div class="sticky-footer">
   <div class="footer-content">
     <div class="footer-stats" id="footer-stats">0 items</div>
+    <button onclick="rebuildDashboard()" id="rebuild-btn">🔄 Get this week's meals</button>
     <button onclick="pushMealsToSkylight()" id="meals-btn">🍽️ Push meals</button>
     <button onclick="pushToSkylight()" class="primary" id="push-btn">📤 Push to Skylight</button>
   </div>
@@ -803,6 +804,29 @@ async function apiPost(path, body) {
     throw new Error('Unexpected response (Mac Mini may be asleep)');
   }
   return await r.json();
+}
+
+// Pull the latest meal plan from Trello, rebuild the shopping list, and push it
+// live. Use this after changing cards in the Trello meal plan board.
+async function rebuildDashboard() {
+  const btn = document.getElementById('rebuild-btn');
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⏳ Grabbing from Trello...';
+  try {
+    const result = await apiPost('/api/rebuild-dashboard', {});
+    if (!result.ok && result.error) throw new Error(result.error);
+    let msg = '✅ Got it';
+    if (result.items != null) msg += ' - ' + result.items + ' items across ' + result.stores + ' stores';
+    showToast(msg + '. Reloading...');
+    btn.textContent = '✅ Updated!';
+    // GitHub Pages needs a moment to rebuild, then hard-reload past the CDN cache.
+    setTimeout(() => { location.href = location.pathname + '?t=' + Date.now(); }, 4000);
+  } catch (e) {
+    showToast('❌ Refresh failed: ' + e.message);
+    btn.textContent = original;
+    btn.disabled = false;
+  }
 }
 
 // Push this week's dinners to the Skylight MEALS tab
