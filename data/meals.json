@@ -1,135 +1,87 @@
 {
-  "generated_at": "2026-09-08T05:00:03.915082",
+  "generated_at": "2026-09-09T00:29:13.364317",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
       "dishes": [
         {
           "card_id": "69cb31c1327470d010f96723",
-          "name": "6:45 *cook early*",
+          "name": "6:45",
           "ingredients": [],
           "is_multi_variant": false
         },
         {
-          "card_id": "677eefe2148aae84d4a1bc69",
-          "name": "Beef Pappardelle",
+          "card_id": "67a2ef4845e6a01bf4bbcfa0",
+          "name": "Soft Chocolate Chip Cookie",
           "ingredients": [
             {
-              "original": "12 oz pappardelle pasta",
-              "quantity": "12 oz",
-              "name": "pappardelle pasta",
+              "original": "8 tablespoons of salted butter",
+              "quantity": "8 tablespoons",
+              "name": "salted butter",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "2 tbsp olive oil",
-              "quantity": "2 tbsp",
-              "name": "olive oil",
+              "original": "1/2 cup white sugar (raw cane sugar preferred for coarser texture)",
+              "quantity": "1/2 cup",
+              "name": "white sugar",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "2 lbs bone-in short ribs or similar",
-              "quantity": "2 lbs",
-              "name": "bone-in short ribs",
-              "notes": "similar",
+              "original": "1/4 cup packed light brown sugar",
+              "quantity": "1/4 cup",
+              "name": "packed light brown sugar",
+              "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "Salt and pepper, to taste",
-              "quantity": null,
-              "name": "Salt and pepper",
-              "notes": "to taste",
+              "original": "1 teaspoon vanilla",
+              "quantity": "1 teaspoon",
+              "name": "vanilla",
+              "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 onion, chopped",
+              "original": "1 egg",
               "quantity": "1",
-              "name": "onion",
-              "notes": "chopped",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 carrots, diced",
-              "quantity": "2",
-              "name": "carrots",
-              "notes": "diced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 cloves garlic, minced",
-              "quantity": "2 cloves",
-              "name": "garlic",
-              "notes": "minced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 cup red wine",
-              "quantity": "1 cup",
-              "name": "red wine",
+              "name": "egg",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 can (28 oz) crushed tomatoes",
-              "quantity": "1 can",
-              "name": "(28 oz) crushed tomatoes",
+              "original": "1 1/2 cups all-purpose flour (6.75 ounces)",
+              "quantity": "1 1/2 cups",
+              "name": "all-purpose flour",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 tsp dried thyme",
-              "quantity": "1 tsp",
-              "name": "dried thyme",
+              "original": "1/2 teaspoon baking soda",
+              "quantity": "1/2 teaspoon",
+              "name": "baking soda",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 bay leaf",
-              "quantity": "1",
-              "name": "bay leaf",
+              "original": "1/4 teaspoon salt (add a little extra if desired)",
+              "quantity": "1/4 teaspoon",
+              "name": "salt",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "Fresh parsley, for garnish",
-              "quantity": null,
-              "name": "Fresh parsley",
-              "notes": "for garnish",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 red pepper",
-              "quantity": "1",
-              "name": "red pepper",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 pint Cherry tomatoes",
-              "quantity": "1",
-              "name": "pint Cherry tomatoes",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Wild Tree - garlic galore and all purpose seasoning",
-              "quantity": null,
-              "name": "Wild Tree - garlic galore and all purpose seasoning",
+              "original": "3/4 cup chocolate chips",
+              "quantity": "3/4 cup",
+              "name": "chocolate chips",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
@@ -147,309 +99,9 @@
           "name": "5:45",
           "ingredients": [],
           "is_multi_variant": false
-        },
-        {
-          "card_id": "678ea58d9d73268420e7d3ec",
-          "name": "Rib Cap",
-          "ingredients": [
-            {
-              "original": "2½–3 lb rib cap (spinalis dorsi, rolled & tied if needed)",
-              "quantity": "2 1/2-3 lb",
-              "name": "rib cap (spinalis dorsi",
-              "notes": "rolled & tied if needed)",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "¼ cup soy sauce",
-              "quantity": "1/4 cup",
-              "name": "soy sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "2 tbsp toasted sesame oil",
-              "quantity": "2 tbsp",
-              "name": "toasted sesame oil",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "2 tbsp rice vinegar",
-              "quantity": "2 tbsp",
-              "name": "rice vinegar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "2 tbsp hoisin sauce (seed-oil-free)",
-              "quantity": "2 tbsp",
-              "name": "hoisin sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "1½ tbsp honey",
-              "quantity": "1 1/2 tbsp",
-              "name": "honey",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "3 garlic cloves, minced",
-              "quantity": "3",
-              "name": "garlic cloves",
-              "notes": "minced",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "1-inch ginger, grated",
-              "quantity": "1",
-              "name": "-inch ginger",
-              "notes": "grated",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "1 tbsp gochujang (or ½ tsp red pepper flakes)",
-              "quantity": "1 tbsp",
-              "name": "gochujang",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "2 green onions, thinly sliced",
-              "quantity": "2",
-              "name": "green onions",
-              "notes": "thinly sliced",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "1 tsp Chinese five-spice",
-              "quantity": "1 tsp",
-              "name": "Chinese five-spice",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            },
-            {
-              "original": "½ tsp black pepper",
-              "quantity": "1/2 tsp",
-              "name": "black pepper",
-              "notes": "",
-              "checked": false,
-              "checklist": "Marinade (asian style)"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "674a922887ea92d540d43981",
-          "name": "Carrot & Mushrooms",
-          "ingredients": [
-            {
-              "original": "6 medium carrots, peeled, thinly sliced",
-              "quantity": "6",
-              "name": "medium carrots",
-              "notes": "peeled, thinly sliced",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "2 tablespoons olive oil",
-              "quantity": "2 tablespoons",
-              "name": "olive oil",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "1 garlic clove, peeled and smashed",
-              "quantity": "1",
-              "name": "garlic clove",
-              "notes": "peeled and smashed",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "2-3 King Mushrooms match sticked",
-              "quantity": "2-3",
-              "name": "King Mushrooms match sticked",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "1 teaspoon sugar",
-              "quantity": "1 teaspoon",
-              "name": "sugar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "2-3 TBS Soy sauce",
-              "quantity": "2-3",
-              "name": "TBS Soy sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "1 TBS Chinese vinegar",
-              "quantity": "1",
-              "name": "TBS Chinese vinegar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "1-2 Tbs ginger",
-              "quantity": "1-2",
-              "name": "Tbs ginger",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "2 tofu squares (spiced)",
-              "quantity": "2",
-              "name": "tofu squares",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "Wood Ear mushroom",
-              "quantity": null,
-              "name": "Wood Ear mushroom",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "Dash of dark soy sauce",
-              "quantity": null,
-              "name": "Dash of dark soy sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            },
-            {
-              "original": "green onion",
-              "quantity": null,
-              "name": "green onion",
-              "notes": "",
-              "checked": false,
-              "checklist": "Checklist"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "673174706d79e0bacf0490d5",
-          "name": "Green Beans (Garlicky)",
-          "ingredients": [
-            {
-              "original": "1 tablespoon extra virgin olive oil",
-              "quantity": "1 tablespoon",
-              "name": "extra virgin olive oil",
-              "notes": "",
-              "checked": false,
-              "checklist": "Garlicky Green Beans"
-            },
-            {
-              "original": "2 cloves garlic, minced (or more to taste)",
-              "quantity": "2 cloves",
-              "name": "garlic",
-              "notes": "minced (or more to taste)",
-              "checked": false,
-              "checklist": "Garlicky Green Beans"
-            },
-            {
-              "original": "12 ounces fresh green beans, cut into 1 inch pieces",
-              "quantity": "12 ounces",
-              "name": "fresh green beans",
-              "notes": "cut into 1 inch pieces",
-              "checked": false,
-              "checklist": "Garlicky Green Beans"
-            },
-            {
-              "original": "1/2 teaspoon fine sea salt",
-              "quantity": "1/2 teaspoon",
-              "name": "fine sea salt",
-              "notes": "",
-              "checked": false,
-              "checklist": "Garlicky Green Beans"
-            },
-            {
-              "original": "1/4 cup water",
-              "quantity": "1/4 cup",
-              "name": "water",
-              "notes": "",
-              "checked": false,
-              "checklist": "Garlicky Green Beans"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "66426ae7712b7c899dac664c",
-          "name": "Scallops",
-          "ingredients": [
-            {
-              "original": "4 lbs scallops Costco",
-              "quantity": "4 lbs",
-              "name": "scallops Costco",
-              "notes": "",
-              "checked": false,
-              "checklist": "Citrus"
-            },
-            {
-              "original": "4 oranges juiced",
-              "quantity": "4",
-              "name": "oranges juiced",
-              "notes": "",
-              "checked": false,
-              "checklist": "Citrus"
-            },
-            {
-              "original": "Garlic",
-              "quantity": null,
-              "name": "Garlic",
-              "notes": "",
-              "checked": false,
-              "checklist": "Citrus"
-            },
-            {
-              "original": "Butter",
-              "quantity": null,
-              "name": "Butter",
-              "notes": "",
-              "checked": false,
-              "checklist": "Citrus"
-            },
-            {
-              "original": "Salt pepper",
-              "quantity": null,
-              "name": "Salt pepper",
-              "notes": "",
-              "checked": false,
-              "checklist": "Citrus"
-            }
-          ],
-          "is_multi_variant": false
         }
       ],
-      "dish_count": 5
+      "dish_count": 1
     },
     "Wednesday": {
       "dishes": [
@@ -460,215 +112,8 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "66426a591398f091085d52ee",
-          "name": "Bún (chicken)",
-          "ingredients": [
-            {
-              "original": "2 lbs chicken breast (sliced into 3-4 pieces each)",
-              "quantity": "2 lbs",
-              "name": "chicken breast",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1/8 C sugar",
-              "quantity": "1/8 C",
-              "name": "sugar",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1/4 C fish sauce (three Crabs)",
-              "quantity": "1/4 C",
-              "name": "fish sauce",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1 Tbs honey",
-              "quantity": "1",
-              "name": "Tbs honey",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1 Tbs dark soy sauce",
-              "quantity": "1",
-              "name": "Tbs dark soy sauce",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "2 Tbs EVOO",
-              "quantity": "2",
-              "name": "Tbs EVOO",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1 tsp five spice",
-              "quantity": "1 tsp",
-              "name": "five spice",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1 Tbs garlic powder",
-              "quantity": "1",
-              "name": "Tbs garlic powder",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "2 Tbs minced lemon grass",
-              "quantity": "2",
-              "name": "Tbs minced lemon grass",
-              "notes": "",
-              "checked": true,
-              "checklist": "Chicken Marinade"
-            },
-            {
-              "original": "1 cup of good fish sauce such as Three Crabs brand",
-              "quantity": "1 cup",
-              "name": "good fish sauce such as Three Crabs brand",
-              "notes": "",
-              "checked": true,
-              "checklist": "Dipping Sauce for top (3-4T each)"
-            },
-            {
-              "original": "1.5 cup of sugar",
-              "quantity": "1.5 cup",
-              "name": "sugar",
-              "notes": "",
-              "checked": true,
-              "checklist": "Dipping Sauce for top (3-4T each)"
-            },
-            {
-              "original": "3 cups of water",
-              "quantity": "3 cups",
-              "name": "water",
-              "notes": "",
-              "checked": true,
-              "checklist": "Dipping Sauce for top (3-4T each)"
-            },
-            {
-              "original": "1/2 cup of distilled white vinegar",
-              "quantity": "1/2 cup",
-              "name": "distilled white vinegar",
-              "notes": "",
-              "checked": true,
-              "checklist": "Dipping Sauce for top (3-4T each)"
-            },
-            {
-              "original": "4-6 minced garlic",
-              "quantity": "4-6",
-              "name": "minced garlic",
-              "notes": "",
-              "checked": true,
-              "checklist": "Dipping Sauce for top (3-4T each)"
-            },
-            {
-              "original": ".5-1 Chopped Thai chili (frozen or fresh)",
-              "quantity": null,
-              "name": ".5-1 Chopped Thai chili (frozen",
-              "notes": "fresh)",
-              "checked": true,
-              "checklist": "Dipping Sauce for top (3-4T each)"
-            },
-            {
-              "original": "12–16 oz vermicelli rice noodles (Bún 802 Old Man or Three Ladies brand recommended)",
-              "quantity": "12-16 oz",
-              "name": "vermicelli rice noodles (Bún 802 Old Man",
-              "notes": "Three Ladies brand recommended)",
-              "checked": false,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "1 head romaine lettuce, shredded or torn into bite-size pieces",
-              "quantity": "1",
-              "name": "head romaine lettuce",
-              "notes": "shredded or torn into bite-size pieces",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "1 cucumber, julienned or thinly sliced",
-              "quantity": "1",
-              "name": "cucumber",
-              "notes": "julienned or thinly sliced",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "1 cup cherry tomatoes, halved",
-              "quantity": "1 cup",
-              "name": "cherry tomatoes",
-              "notes": "halved",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "1 cup pickled carrots & daikon (pickled—see recipe card if needed)",
-              "quantity": "1 cup",
-              "name": "pickled carrots & daikon",
-              "notes": "",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "1 cup fresh mint leaves, torn",
-              "quantity": "1 cup",
-              "name": "fresh mint leaves",
-              "notes": "torn",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "½ cup fresh Thai basil leaves, torn",
-              "quantity": "1/2 cup",
-              "name": "fresh Thai basil leaves",
-              "notes": "torn",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "½ cup scallions, thinly sliced",
-              "quantity": "1/2 cup",
-              "name": "scallions",
-              "notes": "thinly sliced",
-              "checked": true,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "25-30 Shrimp Rolls (see separate recipe card)",
-              "quantity": "25-30",
-              "name": "Shrimp Rolls",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bowl Components"
-            },
-            {
-              "original": "Nuoc Cham (dipping sauce—recipe below)",
-              "quantity": null,
-              "name": "Nuoc Cham",
-              "notes": "",
-              "checked": true,
-              "checklist": "Bowl Components"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "66669127371d037c0a0374da",
-          "name": "Pickled Diakon and Carrots",
+          "name": "Pickled Daikon and Carrots",
           "ingredients": [
             {
               "original": "3 daikon radish (white, long Chinese or Japanese)",
@@ -720,9 +165,287 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "66426a542a21ad38b51edc31",
+          "name": "Shrimp Rolls",
+          "ingredients": [
+            {
+              "original": "(1 package thawed)",
+              "quantity": null,
+              "name": "",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 lbs raw shrimp, peeled and deveined",
+              "quantity": "2 lbs",
+              "name": "raw shrimp",
+              "notes": "peeled and deveined",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 lime (for cleaning)",
+              "quantity": "2",
+              "name": "lime",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 tsp black pepper",
+              "quantity": "2 tsp",
+              "name": "black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 tsp salt",
+              "quantity": "2 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 tsp garlic salt",
+              "quantity": "2 tsp",
+              "name": "garlic salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 egg (beaten, for egg wash to seal rolls)",
+              "quantity": "1",
+              "name": "egg (beaten",
+              "notes": "for egg wash to seal rolls)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Neutral oil for frying (avocado oil recommended)",
+              "quantity": null,
+              "name": "Neutral oil for frying",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "66426a591398f091085d52ee",
+          "name": "Bún (chicken)",
+          "ingredients": [
+            {
+              "original": "2 lbs chicken breast (sliced into 3-4 pieces each)",
+              "quantity": "2 lbs",
+              "name": "chicken breast",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1/8 C sugar",
+              "quantity": "1/8 C",
+              "name": "sugar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1/4 C fish sauce (three Crabs)",
+              "quantity": "1/4 C",
+              "name": "fish sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 Tbs honey",
+              "quantity": "1",
+              "name": "Tbs honey",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 Tbs dark soy sauce",
+              "quantity": "1",
+              "name": "Tbs dark soy sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "2 Tbs EVOO",
+              "quantity": "2",
+              "name": "Tbs EVOO",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 tsp five spice",
+              "quantity": "1 tsp",
+              "name": "five spice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 Tbs garlic powder",
+              "quantity": "1",
+              "name": "Tbs garlic powder",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "2 Tbs minced lemon grass",
+              "quantity": "2",
+              "name": "Tbs minced lemon grass",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 cup of good fish sauce such as Three Crabs brand",
+              "quantity": "1 cup",
+              "name": "good fish sauce such as Three Crabs brand",
+              "notes": "",
+              "checked": false,
+              "checklist": "Dipping Sauce for top (3-4T each)"
+            },
+            {
+              "original": "1.5 cup of sugar",
+              "quantity": "1.5 cup",
+              "name": "sugar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Dipping Sauce for top (3-4T each)"
+            },
+            {
+              "original": "3 cups of water",
+              "quantity": "3 cups",
+              "name": "water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Dipping Sauce for top (3-4T each)"
+            },
+            {
+              "original": "1/2 cup of distilled white vinegar",
+              "quantity": "1/2 cup",
+              "name": "distilled white vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Dipping Sauce for top (3-4T each)"
+            },
+            {
+              "original": "4-6 minced garlic",
+              "quantity": "4-6",
+              "name": "minced garlic",
+              "notes": "",
+              "checked": false,
+              "checklist": "Dipping Sauce for top (3-4T each)"
+            },
+            {
+              "original": ".5-1 Chopped Thai chili (frozen or fresh)",
+              "quantity": null,
+              "name": ".5-1 Chopped Thai chili (frozen",
+              "notes": "fresh)",
+              "checked": false,
+              "checklist": "Dipping Sauce for top (3-4T each)"
+            },
+            {
+              "original": "12–16 oz vermicelli rice noodles (Bún 802 Old Man or Three Ladies brand recommended)",
+              "quantity": "12-16 oz",
+              "name": "vermicelli rice noodles (Bún 802 Old Man",
+              "notes": "Three Ladies brand recommended)",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "1 head romaine lettuce, shredded or torn into bite-size pieces",
+              "quantity": "1",
+              "name": "head romaine lettuce",
+              "notes": "shredded or torn into bite-size pieces",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "1 cucumber, julienned or thinly sliced",
+              "quantity": "1",
+              "name": "cucumber",
+              "notes": "julienned or thinly sliced",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "1 cup cherry tomatoes, halved",
+              "quantity": "1 cup",
+              "name": "cherry tomatoes",
+              "notes": "halved",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "1 cup pickled carrots & daikon (pickled—see recipe card if needed)",
+              "quantity": "1 cup",
+              "name": "pickled carrots & daikon",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "1 cup fresh mint leaves, torn",
+              "quantity": "1 cup",
+              "name": "fresh mint leaves",
+              "notes": "torn",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "½ cup fresh Thai basil leaves, torn",
+              "quantity": "1/2 cup",
+              "name": "fresh Thai basil leaves",
+              "notes": "torn",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "½ cup scallions, thinly sliced",
+              "quantity": "1/2 cup",
+              "name": "scallions",
+              "notes": "thinly sliced",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "25-30 Shrimp Rolls (see separate recipe card)",
+              "quantity": "25-30",
+              "name": "Shrimp Rolls",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bowl Components"
+            },
+            {
+              "original": "Nuoc Cham (dipping sauce—recipe below)",
+              "quantity": null,
+              "name": "Nuoc Cham",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bowl Components"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 3
+      "dish_count": 4
     },
     "Thursday": {
       "dishes": [
@@ -733,132 +456,243 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "6a828b295acbbdcb1db8a0ea",
-          "name": "Chicken Fried Rice",
+          "card_id": "6aa06880ee9adcba2db5fd89",
+          "name": "Build-Your-Own Pizza Night",
           "ingredients": [
             {
-              "original": "4–5 cups cooked rice",
-              "quantity": "4-5 cups",
-              "name": "cooked rice",
-              "notes": "",
-              "checked": true,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2-3 chicken breast, thinly sliced and chopped",
-              "quantity": "2-3",
-              "name": "chicken breast",
-              "notes": "thinly sliced and chopped",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "5-6 eggs, beaten",
-              "quantity": "5-6",
-              "name": "eggs",
-              "notes": "beaten",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 medium carrot, shredded",
-              "quantity": "2",
-              "name": "medium carrot",
-              "notes": "shredded",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "½ cup green beans, cut into 1-inch pieces",
-              "quantity": "1/2 cup",
-              "name": "green beans",
-              "notes": "cut into 1-inch pieces",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "½ cup peas (fresh or frozen)",
-              "quantity": "1/2 cup",
-              "name": "peas (fresh",
-              "notes": "frozen)",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "3–4 green onions, sliced (white and green parts separated)",
-              "quantity": "3-4",
-              "name": "green onions",
-              "notes": "sliced (white and green parts separated)",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "3–4 cloves garlic, minced",
-              "quantity": "3-4 cloves",
-              "name": "garlic",
-              "notes": "minced",
-              "checked": true,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2–3 tbsp avocado oil or olive oil",
-              "quantity": "2-3 tbsp",
-              "name": "avocado oil",
-              "notes": "olive oil",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2–3 tbsp soy sauce (or to taste)Salt & black pepper, to taste",
-              "quantity": "2-3 tbsp",
-              "name": "soy sauce (or to taste)Salt & black pepper",
-              "notes": "to taste",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "sprinkle of sugar",
+              "original": "Pizza dough (see homemade pizza dough card)",
               "quantity": null,
-              "name": "sprinkle of sugar",
+              "name": "Pizza dough",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 Tbs Chinese Vinager",
-              "quantity": "1",
-              "name": "Tbs Chinese Vinager",
+              "original": "Crushed tomato sauce (from the pizza card)",
+              "quantity": null,
+              "name": "Crushed tomato sauce",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1/2 c okra",
-              "quantity": "1/2 c",
-              "name": "okra",
+              "original": "Optional: dairy-free pesto as a second sauce",
+              "quantity": null,
+              "name": "Optional: dairy-free pesto as a second sauce",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 Onion, diced",
-              "quantity": "1",
+              "original": "Shredded mozzarella (real cheese bowl)",
+              "quantity": null,
+              "name": "Shredded mozzarella",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Optional Parmesan, for after baking",
+              "quantity": null,
+              "name": "Optional Parmesan",
+              "notes": "for after baking",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Dairy-free mozzarella shreds (DF bowl)",
+              "quantity": null,
+              "name": "Dairy-free mozzarella shreds",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Nutritional yeast, for no-cheese pies",
+              "quantity": null,
+              "name": "Nutritional yeast",
+              "notes": "for no-cheese pies",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Mushrooms",
+              "quantity": null,
+              "name": "Mushrooms",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Red or yellow pepper (no green)",
+              "quantity": null,
+              "name": "Red",
+              "notes": "yellow pepper (no green)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Onion",
+              "quantity": null,
               "name": "Onion",
-              "notes": "diced",
-              "checked": true,
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Tomato",
+              "quantity": null,
+              "name": "Tomato",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Olives",
+              "quantity": null,
+              "name": "Olives",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Fresh basil",
+              "quantity": null,
+              "name": "Fresh basil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Cooked chicken",
+              "quantity": null,
+              "name": "Cooked chicken",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Optional turkey pepperoni",
+              "quantity": null,
+              "name": "Optional turkey pepperoni",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Olive oil, for brushing the rim",
+              "quantity": null,
+              "name": "Olive oil",
+              "notes": "for brushing the rim",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Parchment squares, one per pizza",
+              "quantity": null,
+              "name": "Parchment squares",
+              "notes": "one per pizza",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "6aa0ed4b19a1a592e36cf7b2",
+          "name": "Pasta with Hamburger and Rao's Sauce",
+          "ingredients": [
+            {
+              "original": "1 lb ground beef",
+              "quantity": "1 lb",
+              "name": "ground beef",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 (24 oz) jar Rao's marinara (or Arrabbiata for heat)",
+              "quantity": "1",
+              "name": "(24 oz) jar Rao's marinara",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 lb pasta (spaghetti, penne, or rigatoni)",
+              "quantity": "1 lb",
+              "name": "pasta (spaghetti",
+              "notes": "penne, or rigatoni)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbsp olive oil",
+              "quantity": "1 Tbsp",
+              "name": "olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 onion, diced (optional)",
+              "quantity": "1/2",
+              "name": "onion",
+              "notes": "diced (optional)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 garlic cloves, minced (optional)",
+              "quantity": "2",
+              "name": "garlic cloves",
+              "notes": "minced (optional)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp salt",
+              "quantity": "1/2 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 tsp black pepper",
+              "quantity": "1/4 tsp",
+              "name": "black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup reserved pasta water",
+              "quantity": "1/2 cup",
+              "name": "reserved pasta water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Fresh basil, torn (optional)",
+              "quantity": null,
+              "name": "Fresh basil",
+              "notes": "torn (optional)",
+              "checked": false,
               "checklist": "Ingredients"
             }
           ],
           "is_multi_variant": false
         }
       ],
-      "dish_count": 2
+      "dish_count": 3
     },
     "Friday": {
       "dishes": [
         {
           "card_id": "69cb32aaa86a516630216800",
-          "name": "5:30",
+          "name": "5:30 (Liz & Bobby OOT)",
           "ingredients": [],
           "is_multi_variant": false
         },
@@ -967,6 +801,1313 @@
         }
       ],
       "dish_count": 2
+    },
+    "Next Friday": {
+      "dishes": [
+        {
+          "card_id": "6aa095c70b7b42784d07b0a7",
+          "name": "Food trucks - Andrew & Adalyn school movie night",
+          "ingredients": [],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "6a14e744b00ff8aa5c9633b0",
+          "name": "🌽 Southwest Pasta Salad",
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
+            {
+              "name": "Ingredients",
+              "ingredients": [
+                {
+                  "original": "1 lb rotini or shell pasta",
+                  "quantity": "1 lb",
+                  "name": "rotini",
+                  "notes": "shell pasta",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 can (15 oz) black beans",
+                  "quantity": "1 can",
+                  "name": "(15 oz) black beans",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 cup corn",
+                  "quantity": "1 cup",
+                  "name": "corn",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 red bell pepper",
+                  "quantity": "1",
+                  "name": "red bell pepper",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "½ red onion",
+                  "quantity": "1/2",
+                  "name": "red onion",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 cup cherry tomatoes",
+                  "quantity": "1 cup",
+                  "name": "cherry tomatoes",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "½ cup fresh cilantro",
+                  "quantity": "1/2 cup",
+                  "name": "fresh cilantro",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 avocado (optional, add at serving)",
+                  "quantity": "1",
+                  "name": "avocado (optional",
+                  "notes": "add at serving)",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "⅓ cup olive oil (dressing)",
+                  "quantity": "1/3 cup",
+                  "name": "olive oil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "2 limes (dressing - juice)",
+                  "quantity": "2",
+                  "name": "limes",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tbsp honey (dressing)",
+                  "quantity": "1 tbsp",
+                  "name": "honey",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "2 tsp cumin (dressing)",
+                  "quantity": "2 tsp",
+                  "name": "cumin",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tsp chili powder (dressing)",
+                  "quantity": "1 tsp",
+                  "name": "chili powder",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tsp salt (dressing)",
+                  "quantity": "1 tsp",
+                  "name": "salt",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "½ tsp black pepper (dressing)",
+                  "quantity": "1/2 tsp",
+                  "name": "black pepper",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                }
+              ]
+            },
+            {
+              "name": "Helper Task",
+              "ingredients": [
+                {
+                  "original": "Cook pasta al dente, drain + rinse cold",
+                  "quantity": null,
+                  "name": "Cook pasta al dente",
+                  "notes": "drain + rinse cold",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Drain + rinse black beans",
+                  "quantity": null,
+                  "name": "Drain + rinse black beans",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Dice red bell pepper",
+                  "quantity": null,
+                  "name": "Dice red bell pepper",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Finely dice red onion",
+                  "quantity": null,
+                  "name": "Finely dice red onion",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Halve cherry tomatoes",
+                  "quantity": null,
+                  "name": "Halve cherry tomatoes",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Chop ½ cup fresh cilantro",
+                  "quantity": null,
+                  "name": "Chop 1/2 cup fresh cilantro",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Whisk dressing in jar",
+                  "quantity": null,
+                  "name": "Whisk dressing in jar",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Combine all in big bowl + toss",
+                  "quantity": null,
+                  "name": "Combine all in big bowl + toss",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Refrigerate at least 30 min",
+                  "quantity": null,
+                  "name": "Refrigerate at least 30 min",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                }
+              ]
+            }
+          ],
+          "paired_ingredients": []
+        },
+        {
+          "card_id": "6aa09676021d7af3e95d6693",
+          "name": "Fruit Tray",
+          "ingredients": [],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 3
+    },
+    "Next Monday": {
+      "dishes": [
+        {
+          "card_id": "66f19c20b65b3e353956af9e",
+          "name": "Barbacoa Bowls",
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
+            {
+              "name": "Ingredients - Beef",
+              "ingredients": [
+                {
+                  "original": "4 lbs beef Chuck Roast",
+                  "quantity": "4 lbs",
+                  "name": "beef Chuck Roast",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1/2 Tbs adobo seasoning (WT)",
+                  "quantity": "1/2",
+                  "name": "Tbs adobo seasoning",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1 tsp cumin",
+                  "quantity": "1 tsp",
+                  "name": "cumin",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1/2 Tbs dried oregano",
+                  "quantity": "1/2",
+                  "name": "Tbs dried oregano",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1 tsp smoked paprika",
+                  "quantity": "1 tsp",
+                  "name": "smoked paprika",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1 tsp salt",
+                  "quantity": "1 tsp",
+                  "name": "salt",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1/2 teaspoon black pepper",
+                  "quantity": "1/2 teaspoon",
+                  "name": "black pepper",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "2 cup beef broth",
+                  "quantity": "2 cup",
+                  "name": "beef broth",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "2 bay leaves",
+                  "quantity": "2",
+                  "name": "bay leaves",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1/2 Tbs Ranchers (WT)",
+                  "quantity": "1/2",
+                  "name": "Tbs Ranchers",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1/2 Tbs Garlic galore (WT)",
+                  "quantity": "1/2",
+                  "name": "Tbs Garlic galore",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                },
+                {
+                  "original": "1/2 Tbs taco seasoning (WT)",
+                  "quantity": "1/2",
+                  "name": "Tbs taco seasoning",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Beef"
+                }
+              ]
+            },
+            {
+              "name": "Ingredients - Veggies",
+              "ingredients": [
+                {
+                  "original": "3 red peppers, sliced",
+                  "quantity": "3",
+                  "name": "red peppers",
+                  "notes": "sliced",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                },
+                {
+                  "original": "1 orange peppers, sliced",
+                  "quantity": "1",
+                  "name": "orange peppers",
+                  "notes": "sliced",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                },
+                {
+                  "original": "2 yellow peppers, sliced",
+                  "quantity": "2",
+                  "name": "yellow peppers",
+                  "notes": "sliced",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                },
+                {
+                  "original": "1 yellow onion, sliced",
+                  "quantity": "1",
+                  "name": "yellow onion",
+                  "notes": "sliced",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                },
+                {
+                  "original": "splash of oil",
+                  "quantity": null,
+                  "name": "splash of oil",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                },
+                {
+                  "original": "Ranchers (WT)",
+                  "quantity": null,
+                  "name": "Ranchers",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                },
+                {
+                  "original": "Salt",
+                  "quantity": null,
+                  "name": "Salt",
+                  "notes": "",
+                  "checked": true,
+                  "checklist": "Ingredients - Veggies"
+                }
+              ]
+            }
+          ],
+          "paired_ingredients": [
+            {
+              "original": "2-3 avocado, sliced (start with 1)",
+              "quantity": "2-3",
+              "name": "avocado",
+              "notes": "sliced (start with 1)",
+              "checked": true,
+              "checklist": "Ingredients - Toppings & Garnish (options)"
+            },
+            {
+              "original": "1-2 diced tomatoes",
+              "quantity": "1-2",
+              "name": "diced tomatoes",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Toppings & Garnish (options)"
+            },
+            {
+              "original": "Sour cream (dairy free)",
+              "quantity": null,
+              "name": "Sour cream",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Toppings & Garnish (options)"
+            },
+            {
+              "original": "1 can Black Olives",
+              "quantity": "1 can",
+              "name": "Black Olives",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Toppings & Garnish (options)"
+            },
+            {
+              "original": "Salsa",
+              "quantity": null,
+              "name": "Salsa",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Toppings & Garnish (options)"
+            }
+          ]
+        }
+      ],
+      "dish_count": 1
+    },
+    "Next Tuesday": {
+      "dishes": [
+        {
+          "card_id": "6a14ed864acfed518b9fa137",
+          "name": "🍯 Honey Garlic Grilled CHICKEN",
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
+            {
+              "name": "Ingredients",
+              "ingredients": [
+                {
+                  "original": "¼ cup olive oil",
+                  "quantity": "1/4 cup",
+                  "name": "olive oil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "3 tbsp honey",
+                  "quantity": "3 tbsp",
+                  "name": "honey",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "5 garlic cloves",
+                  "quantity": "5",
+                  "name": "garlic cloves",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "2 tbsp soy sauce",
+                  "quantity": "2 tbsp",
+                  "name": "soy sauce",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tsp smoked paprika",
+                  "quantity": "1 tsp",
+                  "name": "smoked paprika",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "½ tsp black pepper",
+                  "quantity": "1/2 tsp",
+                  "name": "black pepper",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "2 lbs chicken thighs (or shrimp/salmon)",
+                  "quantity": "2 lbs",
+                  "name": "chicken thighs",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                }
+              ]
+            },
+            {
+              "name": "Helper Task",
+              "ingredients": [
+                {
+                  "original": "Mince 5 garlic cloves",
+                  "quantity": null,
+                  "name": "Mince 5 garlic cloves",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Whisk marinade in bag or bowl",
+                  "quantity": null,
+                  "name": "Whisk marinade in bag",
+                  "notes": "bowl",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Add protein, toss to coat",
+                  "quantity": null,
+                  "name": "Add protein",
+                  "notes": "toss to coat",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Refrigerate 2-6 hours",
+                  "quantity": null,
+                  "name": "Refrigerate 2-6 hours",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                }
+              ]
+            }
+          ],
+          "paired_ingredients": []
+        },
+        {
+          "card_id": "6729905fd7e0ad24a142c5f7",
+          "name": "Baby Bok Choy - Steamed with Oyster Sauce",
+          "ingredients": [
+            {
+              "original": "1 pckg bok choy",
+              "quantity": "1",
+              "name": "pckg bok choy",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bok Choy"
+            },
+            {
+              "original": "Garlic",
+              "quantity": null,
+              "name": "Garlic",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bok Choy"
+            },
+            {
+              "original": "EVOO",
+              "quantity": null,
+              "name": "EVOO",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bok Choy"
+            },
+            {
+              "original": "2 tsp soy sauce",
+              "quantity": "2 tsp",
+              "name": "soy sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bok Choy"
+            },
+            {
+              "original": "1 tsp oyster sauce",
+              "quantity": "1 tsp",
+              "name": "oyster sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bok Choy"
+            },
+            {
+              "original": "water splash",
+              "quantity": null,
+              "name": "water splash",
+              "notes": "",
+              "checked": false,
+              "checklist": "Bok Choy"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "6a14edced66bb4f01661b2c7",
+          "name": "🍚 Rice (Simple)",
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
+            {
+              "name": "Ingredients",
+              "ingredients": [
+                {
+                  "original": "4 cups rice (white/jasmine/basmati)",
+                  "quantity": "4 cups",
+                  "name": "rice",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "4 cups water",
+                  "quantity": "4 cups",
+                  "name": "water",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tsp salt",
+                  "quantity": "1 tsp",
+                  "name": "salt",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tbsp butter or olive oil",
+                  "quantity": "1 tbsp",
+                  "name": "butter",
+                  "notes": "olive oil",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                }
+              ]
+            },
+            {
+              "name": "Helper Task",
+              "ingredients": [
+                {
+                  "original": "Rinse rice in cold water until clear",
+                  "quantity": null,
+                  "name": "Rinse rice in cold water until clear",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Combine rice, water, salt, butter in pot",
+                  "quantity": null,
+                  "name": "Combine rice",
+                  "notes": "water, salt, butter in pot",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Bring to boil",
+                  "quantity": null,
+                  "name": "Bring to boil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Reduce to lowest simmer + cover",
+                  "quantity": null,
+                  "name": "Reduce to lowest simmer + cover",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                },
+                {
+                  "original": "Cook 18-20 min covered",
+                  "quantity": null,
+                  "name": "Cook 18-20 min covered",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                }
+              ]
+            }
+          ],
+          "paired_ingredients": []
+        },
+        {
+          "card_id": "66426b08cf38d05a1698769f",
+          "name": "Egg with Tomato",
+          "ingredients": [
+            {
+              "original": "5 large eggs",
+              "quantity": "5",
+              "name": "large eggs",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3 medium tomatoes (cut into wedges)",
+              "quantity": "3",
+              "name": "medium tomatoes",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tablespoon EVOO",
+              "quantity": "1 tablespoon",
+              "name": "EVOO",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 teaspoon salt",
+              "quantity": "1/2 teaspoon",
+              "name": "salt",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 green onion, chopped (for garnish)",
+              "quantity": "1",
+              "name": "green onion",
+              "notes": "chopped (for garnish)",
+              "checked": true,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 4
+    },
+    "Next Wednesday": {
+      "dishes": [
+        {
+          "card_id": "66291db7575fdcfcb7710b9f",
+          "name": "Chicken lettuce Cups & Cucumber",
+          "ingredients": [
+            {
+              "original": "2-3 chicken breast (1 package)",
+              "quantity": "2-3",
+              "name": "chicken breast",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "3 T Honey",
+              "quantity": "3 T",
+              "name": "Honey",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1/4 tsp Salt",
+              "quantity": "1/4 tsp",
+              "name": "Salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "2 T Soy Sauce",
+              "quantity": "2 T",
+              "name": "Soy Sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 T Ketchup",
+              "quantity": "1 T",
+              "name": "Ketchup",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 tsp Chinese Vinegar",
+              "quantity": "1 tsp",
+              "name": "Chinese Vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 T Hoisin Sauce",
+              "quantity": "1 T",
+              "name": "Hoisin Sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 T Oyster Sauce",
+              "quantity": "1 T",
+              "name": "Oyster Sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 tsp Sugar",
+              "quantity": "1 tsp",
+              "name": "Sugar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Marinade"
+            },
+            {
+              "original": "1 lb mini cucumbers",
+              "quantity": "1 lb",
+              "name": "mini cucumbers",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "1 small Red Onion/Shallot (1/6 Cup)",
+              "quantity": "1",
+              "name": "small Red Onion/Shallot",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "3 T Rice Vinegar",
+              "quantity": "3 T",
+              "name": "Rice Vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "1 T Sugar",
+              "quantity": "1 T",
+              "name": "Sugar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "1 tsp dried dill",
+              "quantity": "1 tsp",
+              "name": "dried dill",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "1 tsp Chinese vinegar",
+              "quantity": "1 tsp",
+              "name": "Chinese vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "1/2 tsp crushed Red Pepper (optional)",
+              "quantity": "1/2 tsp",
+              "name": "crushed Red Pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "Garlic",
+              "quantity": null,
+              "name": "Garlic",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "Ginger",
+              "quantity": null,
+              "name": "Ginger",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "1 T soy sauce",
+              "quantity": "1 T",
+              "name": "soy sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cucumber Salad for topping"
+            },
+            {
+              "original": "3 Garlic",
+              "quantity": "3",
+              "name": "Garlic",
+              "notes": "",
+              "checked": false,
+              "checklist": "Peanut sauce"
+            },
+            {
+              "original": "1/3 C Peanut Butter",
+              "quantity": "1/3 C",
+              "name": "Peanut Butter",
+              "notes": "",
+              "checked": false,
+              "checklist": "Peanut sauce"
+            },
+            {
+              "original": "2 T Hoisin Sauce",
+              "quantity": "2 T",
+              "name": "Hoisin Sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Peanut sauce"
+            },
+            {
+              "original": "warm Water to thin",
+              "quantity": null,
+              "name": "warm Water to thin",
+              "notes": "",
+              "checked": false,
+              "checklist": "Peanut sauce"
+            },
+            {
+              "original": "1 T Lime juice",
+              "quantity": "1 T",
+              "name": "Lime juice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Peanut sauce"
+            },
+            {
+              "original": "2 tsp Sugar to taste",
+              "quantity": "2 tsp",
+              "name": "Sugar to taste",
+              "notes": "",
+              "checked": false,
+              "checklist": "Peanut sauce"
+            },
+            {
+              "original": "1 bunch cilantro",
+              "quantity": "1",
+              "name": "bunch cilantro",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "1/2 C coconut cream",
+              "quantity": "1/2 C",
+              "name": "coconut cream",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "2 T Lime juice",
+              "quantity": "2 T",
+              "name": "Lime juice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "1 garlic clove",
+              "quantity": "1",
+              "name": "garlic clove",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "2 T EVOO",
+              "quantity": "2 T",
+              "name": "EVOO",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "1/2 tsp honey",
+              "quantity": "1/2 tsp",
+              "name": "honey",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "1/4 tsp salt",
+              "quantity": "1/4 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "1/4 tsp pepper",
+              "quantity": "1/4 tsp",
+              "name": "pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Cilantro Sauce (blender)"
+            },
+            {
+              "original": "EVOO",
+              "quantity": null,
+              "name": "EVOO",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "3 Garlic",
+              "quantity": "3",
+              "name": "Garlic",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "1.5 T Ginger",
+              "quantity": "1.5 T",
+              "name": "Ginger",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "1 Onion, diced",
+              "quantity": "1",
+              "name": "Onion",
+              "notes": "diced",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "4-5 Carrots",
+              "quantity": "4-5",
+              "name": "Carrots",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "Green Onion",
+              "quantity": null,
+              "name": "Green Onion",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "Boston lettuce cups",
+              "quantity": null,
+              "name": "Boston lettuce cups",
+              "notes": "",
+              "checked": false,
+              "checklist": "Chicken Filling "
+            },
+            {
+              "original": "Rice vermicelli noodles (for wraps)",
+              "quantity": null,
+              "name": "Rice vermicelli noodles",
+              "notes": "",
+              "checked": false,
+              "checklist": "Noodles (topping)"
+            }
+          ],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 1
+    },
+    "Next Thursday": {
+      "dishes": [
+        {
+          "card_id": "6aa06bac1d1ff340534614de",
+          "name": "Mediterranean Bowl with Lemon-Herb Chicken",
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
+            {
+              "name": "Ingredients - Lemon-Herb Chicken",
+              "ingredients": [
+                {
+                  "original": "1.5-2 lb boneless skinless chicken breasts (pounded to even 1/2-3/4 inch)",
+                  "quantity": "1.5-2 lb",
+                  "name": "boneless skinless chicken breasts",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "3 Tbsp extra-virgin olive oil",
+                  "quantity": "3 Tbsp",
+                  "name": "extra-virgin olive oil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "3 Tbsp fresh lemon juice + zest of 1 lemon",
+                  "quantity": "3 Tbsp",
+                  "name": "fresh lemon juice + zest of 1 lemon",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "3 garlic cloves, minced",
+                  "quantity": "3",
+                  "name": "garlic cloves",
+                  "notes": "minced",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "1 tsp dried oregano",
+                  "quantity": "1 tsp",
+                  "name": "dried oregano",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "1 tsp dried thyme or Italian seasoning",
+                  "quantity": "1 tsp",
+                  "name": "dried thyme",
+                  "notes": "Italian seasoning",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "1/2 tsp sea salt",
+                  "quantity": "1/2 tsp",
+                  "name": "sea salt",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                },
+                {
+                  "original": "1/4 tsp black pepper",
+                  "quantity": "1/4 tsp",
+                  "name": "black pepper",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Lemon-Herb Chicken"
+                }
+              ]
+            },
+            {
+              "name": "Ingredients - Bowl Components",
+              "ingredients": [
+                {
+                  "original": "1.5 cups quinoa (or rice, cooked in vegetable broth)",
+                  "quantity": "1.5 cups",
+                  "name": "quinoa (or rice",
+                  "notes": "cooked in vegetable broth)",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "OR 6-8 cups mixed greens for a lighter base",
+                  "quantity": null,
+                  "name": "OR 6-8 cups mixed greens for a lighter base",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1 English cucumber, diced or sliced",
+                  "quantity": "1",
+                  "name": "English cucumber",
+                  "notes": "diced or sliced",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1.5 cups cherry tomatoes, halved",
+                  "quantity": "1.5 cups",
+                  "name": "cherry tomatoes",
+                  "notes": "halved",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1/2 small red onion, thinly sliced (soak in ice water 5 min to mellow)",
+                  "quantity": "1/2",
+                  "name": "small red onion",
+                  "notes": "thinly sliced (soak in ice water 5 min to mellow)",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1/2 cup Kalamata olives, pitted and halved (optional)",
+                  "quantity": "1/2 cup",
+                  "name": "Kalamata olives",
+                  "notes": "pitted and halved (optional)",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1 avocado, sliced (optional)",
+                  "quantity": "1",
+                  "name": "avocado",
+                  "notes": "sliced (optional)",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1/4 cup fresh parsley or cilantro, chopped",
+                  "quantity": "1/4 cup",
+                  "name": "fresh parsley",
+                  "notes": "cilantro, chopped",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                },
+                {
+                  "original": "1/2-3/4 cup hummus (seed-oil-free: Ithaca, Cedars, or Roots)",
+                  "quantity": "1/2-3/4 cup",
+                  "name": "hummus (seed-oil-free: Ithaca",
+                  "notes": "Cedars, or Roots)",
+                  "checked": false,
+                  "checklist": "Ingredients - Bowl Components"
+                }
+              ]
+            }
+          ],
+          "paired_ingredients": [
+            {
+              "original": "1/4 cup tahini (pure sesame paste, no added seed oils)",
+              "quantity": "1/4 cup",
+              "name": "tahini (pure sesame paste",
+              "notes": "no added seed oils)",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            },
+            {
+              "original": "3 Tbsp fresh lemon juice",
+              "quantity": "3 Tbsp",
+              "name": "fresh lemon juice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            },
+            {
+              "original": "2 Tbsp extra-virgin olive oil",
+              "quantity": "2 Tbsp",
+              "name": "extra-virgin olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            },
+            {
+              "original": "1 garlic clove, grated",
+              "quantity": "1",
+              "name": "garlic clove",
+              "notes": "grated",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            },
+            {
+              "original": "2-4 Tbsp water (to thin)",
+              "quantity": "2-4 Tbsp",
+              "name": "water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            },
+            {
+              "original": "1/2 tsp sea salt",
+              "quantity": "1/2 tsp",
+              "name": "sea salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            },
+            {
+              "original": "Pinch black pepper",
+              "quantity": null,
+              "name": "Pinch black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Tahini-Lemon Dressing"
+            }
+          ]
+        }
+      ],
+      "dish_count": 1
     }
   }
 }

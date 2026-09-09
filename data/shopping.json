@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:00:03.915082",
+  "generated_at": "2026-09-09T00:29:13.364317",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 106,
-    "unique_after_dedup": 48,
-    "skipped_staples": 40,
-    "routing_matched": 41,
-    "routing_unmatched": 7,
+    "raw_ingredient_count": 87,
+    "unique_after_dedup": 50,
+    "skipped_staples": 30,
+    "routing_matched": 37,
+    "routing_unmatched": 13,
     "multi_store": 2,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -76,6 +76,73 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Basil",
+        "norm": "basil",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Pasta with Hamburger and Rao's Sauce",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night",
+          "Pasta with Hamburger and Rao's Sauce"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Thu)",
+          "Pasta with Hamburger and Rao's Sauce (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night",
+              "Pasta with Hamburger and Rao's Sauce"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
         "canonical_name": "Cheese",
         "norm": "cheese",
         "occurrences": [
@@ -135,15 +202,6 @@
         "norm": "cherry tomato",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
             "day": "Wednesday",
             "dish": "Bún (chicken)",
             "qty_str": "1 cup",
@@ -161,33 +219,28 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday",
           "Wednesday"
         ],
         "dishes": [
-          "Beef Pappardelle",
           "Bún (chicken)"
         ],
         "dishes_with_days": [
-          "Beef Pappardelle (Mon)",
           "Bún (chicken) (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Monday",
               "Wednesday"
             ],
             "dishes": [
-              "Beef Pappardelle",
               "Bún (chicken)"
             ],
-            "qty_display": "2 cup"
+            "qty_display": "1 cup"
           },
           "Wed": {
             "uses": 0,
@@ -196,7 +249,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2 cup",
+        "total_qty_display": "1 cup",
         "math_mode": "summed"
       },
       {
@@ -255,15 +308,24 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Eggs",
+        "canonical_name": "Egg",
         "norm": "egg",
         "occurrences": [
           {
-            "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "5-6",
+            "day": "Monday",
+            "dish": "Soft Chocolate Chip Cookie",
+            "qty_str": "1",
             "qty_parsed": [
-              5.5,
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Shrimp Rolls",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
               ""
             ]
           }
@@ -276,15 +338,146 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Monday",
+          "Wednesday"
+        ],
+        "dishes": [
+          "Shrimp Rolls",
+          "Soft Chocolate Chip Cookie"
+        ],
+        "dishes_with_days": [
+          "Shrimp Rolls (Wed)",
+          "Soft Chocolate Chip Cookie (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Shrimp Rolls",
+              "Soft Chocolate Chip Cookie"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Garlic",
+        "norm": "garlic",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Bún (chicken)",
+            "qty_str": "4-6",
+            "qty_parsed": [
+              5.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Pasta with Hamburger and Rao's Sauce",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Wednesday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Bún (chicken)",
+          "Pasta with Hamburger and Rao's Sauce"
+        ],
+        "dishes_with_days": [
+          "Bún (chicken) (Wed)",
+          "Pasta with Hamburger and Rao's Sauce (Thu)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Bún (chicken)"
+            ],
+            "qty_display": "4-6"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Pasta with Hamburger and Rao's Sauce"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "7",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Mushrooms",
+        "norm": "mushroom",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
         "use_count": 1,
         "days": [
           "Thursday"
         ],
         "dishes": [
-          "Chicken Fried Rice"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Chicken Fried Rice (Thu)"
+          "Build-Your-Own Pizza Night (Thu)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -301,517 +494,8 @@
               "Thursday"
             ],
             "dishes": [
-              "Chicken Fried Rice"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "6"
-          }
-        },
-        "total_qty_display": "6",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Garlic",
-        "norm": "garlic",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": "2 cloves",
-            "qty_parsed": [
-              2.0,
-              "cloves"
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Rib Cap",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Carrot & Mushrooms",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Green Beans (Garlicky)",
-            "qty_str": "2 cloves",
-            "qty_parsed": [
-              2.0,
-              "cloves"
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Scallops",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Bún (chicken)",
-            "qty_str": "4-6",
-            "qty_parsed": [
-              5.0,
-              ""
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "3-4 cloves",
-            "qty_parsed": [
-              3.5,
-              "cloves"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 7,
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday"
-        ],
-        "dishes": [
-          "Beef Pappardelle",
-          "Bún (chicken)",
-          "Carrot & Mushrooms",
-          "Chicken Fried Rice",
-          "Green Beans (Garlicky)",
-          "Rib Cap",
-          "Scallops"
-        ],
-        "dishes_with_days": [
-          "Beef Pappardelle (Mon)",
-          "Bún (chicken) (Wed)",
-          "Carrot & Mushrooms (Tue)",
-          "Chicken Fried Rice (Thu)",
-          "Green Beans (Garlicky) (Tue)",
-          "Rib Cap (Tue)",
-          "Scallops (Tue)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 6,
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Beef Pappardelle",
-              "Bún (chicken)",
-              "Carrot & Mushrooms",
-              "Green Beans (Garlicky)",
-              "Rib Cap",
-              "Scallops"
-            ],
-            "qty_display": "2 cloves + 3 + 1 + 2 cloves + 4-6"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chicken Fried Rice"
-            ],
-            "qty_display": "3.5 cloves"
-          }
-        },
-        "total_qty_display": "2 cloves + 3 + 1 + 2 cloves + 4-6 + 3-4 cloves",
-        "math_mode": "mixed"
-      },
-      {
-        "canonical_name": "Gochujang",
-        "norm": "gochujang",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Rib Cap",
-            "qty_str": "1 tbsp",
-            "qty_parsed": [
-              1.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Rib Cap"
-        ],
-        "dishes_with_days": [
-          "Rib Cap (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Rib Cap"
-            ],
-            "qty_display": "1 tbsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Green beans",
-        "norm": "green bean",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Green Beans (Garlicky)",
-            "qty_str": "12 ounces",
-            "qty_parsed": [
-              12.0,
-              "ounces"
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Thursday"
-        ],
-        "dishes": [
-          "Chicken Fried Rice",
-          "Green Beans (Garlicky)"
-        ],
-        "dishes_with_days": [
-          "Chicken Fried Rice (Thu)",
-          "Green Beans (Garlicky) (Tue)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Green Beans (Garlicky)"
-            ],
-            "qty_display": "12 ounces"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chicken Fried Rice"
-            ],
-            "qty_display": "0.5 cup"
-          }
-        },
-        "total_qty_display": "1 lb",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Green onions",
-        "norm": "green onion",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Rib Cap",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Carrot & Mushrooms",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "3-4",
-            "qty_parsed": [
-              3.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 3,
-        "days": [
-          "Tuesday",
-          "Thursday"
-        ],
-        "dishes": [
-          "Carrot & Mushrooms",
-          "Chicken Fried Rice",
-          "Rib Cap"
-        ],
-        "dishes_with_days": [
-          "Carrot & Mushrooms (Tue)",
-          "Chicken Fried Rice (Thu)",
-          "Rib Cap (Tue)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Carrot & Mushrooms",
-              "Rib Cap"
-            ],
-            "qty_display": "3"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chicken Fried Rice"
-            ],
-            "qty_display": "4"
-          }
-        },
-        "total_qty_display": "7",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Oranges juiced",
-        "norm": "orange juiced",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Scallops",
-            "qty_str": "4",
-            "qty_parsed": [
-              4.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Beverage",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Scallops"
-        ],
-        "dishes_with_days": [
-          "Scallops (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Scallops"
-            ],
-            "qty_display": "4"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Pappardelle pasta",
-        "norm": "pappardelle pasta",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": "12 oz",
-            "qty_parsed": [
-              12.0,
-              "oz"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Beef Pappardelle"
-        ],
-        "dishes_with_days": [
-          "Beef Pappardelle (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Pappardelle"
-            ],
-            "qty_display": "12 oz"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "12 oz",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Parsley",
-        "norm": "parsley",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Beef Pappardelle"
-        ],
-        "dishes_with_days": [
-          "Beef Pappardelle (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Pappardelle"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
             "qty_display": ""
           }
         },
@@ -819,59 +503,114 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Peas",
-        "norm": "pea",
+        "canonical_name": "Pasta",
+        "norm": "pasta",
         "occurrences": [
           {
             "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "1/2 cup",
+            "dish": "Pasta with Hamburger and Rao's Sauce",
+            "qty_str": "1 lb",
             "qty_parsed": [
-              0.5,
-              "cup"
+              1.0,
+              "lb"
             ]
           }
         ],
         "stores": [
           "Whole Foods"
         ],
-        "category": "Frozen",
-        "type": "shelf",
+        "category": "Unknown",
+        "type": "unknown",
         "matched_routing": true,
         "is_countable": false,
-        "user_routed": false,
+        "user_routed": true,
         "use_count": 1,
         "days": [
           "Thursday"
         ],
         "dishes": [
-          "Chicken Fried Rice"
+          "Pasta with Hamburger and Rao's Sauce"
         ],
         "dishes_with_days": [
-          "Chicken Fried Rice (Thu)"
+          "Pasta with Hamburger and Rao's Sauce (Thu)"
         ],
-        "trip": "Mon",
-        "icon": "🥫",
+        "trip": "Wed",
+        "icon": "❓",
         "per_trip": {
           "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
             "uses": 1,
             "days": [
               "Thursday"
             ],
             "dishes": [
-              "Chicken Fried Rice"
+              "Pasta with Hamburger and Rao's Sauce"
             ],
-            "qty_display": "0.5 cup"
-          },
-          "Wed": {
+            "qty_display": "1 lb"
+          }
+        },
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Red",
+        "norm": "red",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night"
+            ],
+            "qty_display": ""
           }
         },
-        "total_qty_display": "0.5 cup",
-        "math_mode": "summed"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Romaine lettuce",
@@ -1039,16 +778,16 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Crushed tomatoes",
+        "canonical_name": "Tomato",
         "norm": "tomato",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": "1 can",
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
             "qty_parsed": [
-              1.0,
-              "can"
+              null,
+              null
             ]
           },
           {
@@ -1071,63 +810,116 @@
         "user_routed": false,
         "use_count": 2,
         "days": [
-          "Monday",
+          "Thursday",
           "Friday"
         ],
         "dishes": [
-          "Beef Pappardelle",
+          "Build-Your-Own Pizza Night",
           "Tacos"
         ],
         "dishes_with_days": [
-          "Beef Pappardelle (Mon)",
+          "Build-Your-Own Pizza Night (Thu)",
           "Tacos (Fri)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
             "days": [
-              "Monday"
+              "Thursday",
+              "Friday"
             ],
             "dishes": [
-              "Beef Pappardelle"
+              "Build-Your-Own Pizza Night",
+              "Tacos"
             ],
-            "qty_display": "1 can"
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Crushed tomato sauce",
+        "norm": "tomato sauce",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
             "days": [
-              "Friday"
+              "Thursday"
             ],
             "dishes": [
-              "Tacos"
+              "Build-Your-Own Pizza Night"
             ],
             "qty_display": "1"
           }
         },
-        "total_qty_display": "2 can",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Onion",
         "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": "1",
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
             "qty_parsed": [
-              1.0,
-              ""
+              null,
+              null
             ]
           },
           {
             "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "1",
+            "dish": "Pasta with Hamburger and Rao's Sauce",
+            "qty_str": "1/2",
             "qty_parsed": [
-              1.0,
+              0.5,
               ""
             ]
           },
@@ -1151,162 +943,156 @@
         "user_routed": true,
         "use_count": 3,
         "days": [
-          "Monday",
           "Thursday",
           "Friday"
         ],
         "dishes": [
-          "Beef Pappardelle",
-          "Chicken Fried Rice",
+          "Build-Your-Own Pizza Night",
+          "Pasta with Hamburger and Rao's Sauce",
           "Tacos"
         ],
         "dishes_with_days": [
-          "Beef Pappardelle (Mon)",
-          "Chicken Fried Rice (Thu)",
+          "Build-Your-Own Pizza Night (Thu)",
+          "Pasta with Hamburger and Rao's Sauce (Thu)",
           "Tacos (Fri)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Pappardelle"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 3,
             "days": [
               "Thursday",
               "Friday"
             ],
             "dishes": [
-              "Chicken Fried Rice",
+              "Build-Your-Own Pizza Night",
+              "Pasta with Hamburger and Rao's Sauce",
               "Tacos"
             ],
-            "qty_display": "2"
+            "qty_display": "3"
           }
         },
         "total_qty_display": "3",
         "math_mode": "multiplied"
       }
     ],
-    "Sam’s Club": [
-      {
-        "canonical_name": "Black Olives",
-        "norm": "black olive",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Tacos",
-            "qty_str": "1 can",
-            "qty_parsed": [
-              1.0,
-              "can"
-            ]
-          }
-        ],
-        "stores": [
-          "Sam’s Club"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Tacos"
-        ],
-        "dishes_with_days": [
-          "Tacos (Fri)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Tacos"
-            ],
-            "qty_display": "1 can"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 can",
-        "math_mode": "summed"
-      }
-    ],
     "Costco": [
       {
-        "canonical_name": "Bone-in short ribs",
-        "norm": "bone-in short rib",
+        "canonical_name": "Beef",
+        "norm": "beef",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": "2 lbs",
+            "day": "Thursday",
+            "dish": "Pasta with Hamburger and Rao's Sauce",
+            "qty_str": "1 lb",
             "qty_parsed": [
-              2.0,
-              "lbs"
+              1.0,
+              "lb"
             ]
           }
         ],
         "stores": [
           "Costco"
         ],
-        "category": "Unknown",
+        "category": "Meat-Beef",
         "type": "meat",
         "matched_routing": true,
         "is_countable": false,
-        "user_routed": true,
+        "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Thursday"
         ],
         "dishes": [
-          "Beef Pappardelle"
+          "Pasta with Hamburger and Rao's Sauce"
         ],
         "dishes_with_days": [
-          "Beef Pappardelle (Mon)"
+          "Pasta with Hamburger and Rao's Sauce (Thu)"
         ],
-        "trip": "Mon",
+        "trip": "Wed",
         "icon": "🥩",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Pappardelle"
-            ],
-            "qty_display": "2 lbs"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Pasta with Hamburger and Rao's Sauce"
+            ],
+            "qty_display": "1 lb"
           }
         },
-        "total_qty_display": "2 lbs",
+        "total_qty_display": "1 lb",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Chicken",
+        "norm": "chicken",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Chicken breast",
@@ -1320,15 +1106,6 @@
               2.0,
               "lbs"
             ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "2-3",
-            "qty_parsed": [
-              2.5,
-              ""
-            ]
           }
         ],
         "stores": [
@@ -1339,20 +1116,17 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Wednesday",
-          "Thursday"
+          "Wednesday"
         ],
         "dishes": [
-          "Bún (chicken)",
-          "Chicken Fried Rice"
+          "Bún (chicken)"
         ],
         "dishes_with_days": [
-          "Bún (chicken) (Wed)",
-          "Chicken Fried Rice (Thu)"
+          "Bún (chicken) (Wed)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Mon",
         "icon": "🥩",
         "per_trip": {
           "Mon": {
@@ -1366,17 +1140,13 @@
             "qty_display": "2 lbs"
           },
           "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chicken Fried Rice"
-            ],
-            "qty_display": "3"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
-        "total_qty_display": "4.5 lbs",
+        "total_qty_display": "2 lbs",
         "math_mode": "summed"
       },
       {
@@ -1490,173 +1260,45 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Rib cap",
-        "norm": "rib cap",
+        "canonical_name": "Parmesan",
+        "norm": "parmesan",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Rib Cap",
-            "qty_str": "2 1/2-3 lb",
+            "day": "Thursday",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
             "qty_parsed": [
-              2.75,
-              "lb"
+              null,
+              null
             ]
           }
         ],
         "stores": [
           "Costco"
         ],
-        "category": "Unknown",
-        "type": "meat",
+        "category": "Dairy",
+        "type": "fresh",
         "matched_routing": true,
         "is_countable": false,
-        "user_routed": true,
+        "user_routed": false,
         "use_count": 1,
         "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Rib Cap"
-        ],
-        "dishes_with_days": [
-          "Rib Cap (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Rib Cap"
-            ],
-            "qty_display": "2.75 lb"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2.75 lb",
-        "math_mode": "summed"
-      }
-    ],
-    "888 Market / Pan Asia": [
-      {
-        "canonical_name": "Chinese five-spice",
-        "norm": "chinese five-spice",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Rib Cap",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Rib Cap"
-        ],
-        "dishes_with_days": [
-          "Rib Cap (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Rib Cap"
-            ],
-            "qty_display": "1 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Chinese vinegar",
-        "norm": "chinese vinegar",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Carrot & Mushrooms",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Chicken Fried Rice",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
           "Thursday"
         ],
         "dishes": [
-          "Carrot & Mushrooms",
-          "Chicken Fried Rice"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Carrot & Mushrooms (Tue)",
-          "Chicken Fried Rice (Thu)"
+          "Build-Your-Own Pizza Night (Thu)"
         ],
-        "trip": "Mon/Wed",
-        "icon": "❓",
+        "trip": "Wed",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Carrot & Mushrooms"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -1664,58 +1306,58 @@
               "Thursday"
             ],
             "dishes": [
-              "Chicken Fried Rice"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "1"
+            "qty_display": ""
           }
         },
-        "total_qty_display": "2",
-        "math_mode": "summed"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
-        "canonical_name": "King Mushrooms",
-        "norm": "king mushroom",
+        "canonical_name": "Shrimp",
+        "norm": "shrimp",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Carrot & Mushrooms",
-            "qty_str": "2-3",
+            "day": "Wednesday",
+            "dish": "Shrimp Rolls",
+            "qty_str": "2 lbs",
             "qty_parsed": [
-              2.5,
-              ""
+              2.0,
+              "lbs"
             ]
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Costco"
         ],
-        "category": "Unknown",
-        "type": "fresh",
+        "category": "Meat-Seafood",
+        "type": "meat",
         "matched_routing": true,
         "is_countable": false,
-        "user_routed": true,
+        "user_routed": false,
         "use_count": 1,
         "days": [
-          "Tuesday"
+          "Wednesday"
         ],
         "dishes": [
-          "Carrot & Mushrooms"
+          "Shrimp Rolls"
         ],
         "dishes_with_days": [
-          "Carrot & Mushrooms (Tue)"
+          "Shrimp Rolls (Wed)"
         ],
         "trip": "Mon",
-        "icon": "🥬",
+        "icon": "🥩",
         "per_trip": {
           "Mon": {
             "uses": 1,
             "days": [
-              "Tuesday"
+              "Wednesday"
             ],
             "dishes": [
-              "Carrot & Mushrooms"
+              "Shrimp Rolls"
             ],
-            "qty_display": "2-3"
+            "qty_display": "2 lbs"
           },
           "Wed": {
             "uses": 0,
@@ -1724,9 +1366,180 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2-3",
-        "math_mode": "single"
+        "total_qty_display": "2 lbs",
+        "math_mode": "summed"
+      }
+    ],
+    "Sam’s Club": [
+      {
+        "canonical_name": "Black Olives",
+        "norm": "black olive",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          }
+        ],
+        "stores": [
+          "Sam’s Club"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1 can"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 can",
+        "math_mode": "summed"
+      }
+    ],
+    "Walmart": [
+      {
+        "canonical_name": "Chocolate chips",
+        "norm": "chocolate chip",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Soft Chocolate Chip Cookie",
+            "qty_str": "3/4 cup",
+            "qty_parsed": [
+              0.75,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Walmart"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Soft Chocolate Chip Cookie"
+        ],
+        "dishes_with_days": [
+          "Soft Chocolate Chip Cookie (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Soft Chocolate Chip Cookie"
+            ],
+            "qty_display": "0.75 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.75 cup",
+        "math_mode": "summed"
       },
+      {
+        "canonical_name": "Mi Rancho Organic Yellow Corn Tortilla",
+        "norm": "mi rancho yellow corn tortilla",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Walmart"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      }
+    ],
+    "888 Market / Pan Asia": [
       {
         "canonical_name": "Lemon grass",
         "norm": "lemongrass",
@@ -1769,6 +1582,61 @@
             ],
             "dishes": [
               "Bún (chicken)"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Lime",
+        "norm": "lime",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Shrimp Rolls",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Shrimp Rolls"
+        ],
+        "dishes_with_days": [
+          "Shrimp Rolls (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Shrimp Rolls"
             ],
             "qty_display": "2"
           },
@@ -2058,61 +1926,6 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Tofu squares",
-        "norm": "tofu square",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Carrot & Mushrooms",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Carrot & Mushrooms"
-        ],
-        "dishes_with_days": [
-          "Carrot & Mushrooms (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Carrot & Mushrooms"
-            ],
-            "qty_display": "2"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "single"
-      },
-      {
         "canonical_name": "Vermicelli rice noodles",
         "norm": "vermicelli rice noodles",
         "occurrences": [
@@ -2166,118 +1979,6 @@
         },
         "total_qty_display": "14 oz",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Wood Ear mushroom",
-        "norm": "wood ear mushroom",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Carrot & Mushrooms",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Carrot & Mushrooms"
-        ],
-        "dishes_with_days": [
-          "Carrot & Mushrooms (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Carrot & Mushrooms"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      }
-    ],
-    "Walmart": [
-      {
-        "canonical_name": "Mi Rancho Organic Yellow Corn Tortilla",
-        "norm": "mi rancho yellow corn tortilla",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Tacos",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Walmart"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Tacos"
-        ],
-        "dishes_with_days": [
-          "Tacos (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Tacos"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
       }
     ],
     "Amazon": [
@@ -2335,61 +2036,6 @@
         },
         "total_qty_display": "",
         "math_mode": "none"
-      },
-      {
-        "canonical_name": "Wild Tree - garlic galore and all purpose seasoning",
-        "norm": "wild tree - garlic galore and all purpose seasoning",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Pappardelle",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Beef Pappardelle"
-        ],
-        "dishes_with_days": [
-          "Beef Pappardelle (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Pappardelle"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
       }
     ]
   },
@@ -2399,38 +2045,11 @@
       "norm": "carrot",
       "occurrences": [
         {
-          "day": "Monday",
-          "dish": "Beef Pappardelle",
-          "qty_str": "2",
-          "qty_parsed": [
-            2.0,
-            ""
-          ]
-        },
-        {
-          "day": "Tuesday",
-          "dish": "Carrot & Mushrooms",
-          "qty_str": "6",
-          "qty_parsed": [
-            6.0,
-            ""
-          ]
-        },
-        {
           "day": "Wednesday",
-          "dish": "Pickled Diakon and Carrots",
+          "dish": "Pickled Daikon and Carrots",
           "qty_str": "9-12",
           "qty_parsed": [
             10.5,
-            ""
-          ]
-        },
-        {
-          "day": "Thursday",
-          "dish": "Chicken Fried Rice",
-          "qty_str": "2",
-          "qty_parsed": [
-            2.0,
             ""
           ]
         }
@@ -2444,55 +2063,38 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 4,
+      "use_count": 1,
       "days": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday"
+        "Wednesday"
       ],
       "dishes": [
-        "Beef Pappardelle",
-        "Carrot & Mushrooms",
-        "Chicken Fried Rice",
-        "Pickled Diakon and Carrots"
+        "Pickled Daikon and Carrots"
       ],
       "dishes_with_days": [
-        "Beef Pappardelle (Mon)",
-        "Carrot & Mushrooms (Tue)",
-        "Chicken Fried Rice (Thu)",
-        "Pickled Diakon and Carrots (Wed)"
+        "Pickled Daikon and Carrots (Wed)"
       ],
-      "trip": "Mon/Wed",
+      "trip": "Mon",
       "icon": "🥬",
       "per_trip": {
         "Mon": {
-          "uses": 3,
+          "uses": 1,
           "days": [
-            "Monday",
-            "Tuesday",
             "Wednesday"
           ],
           "dishes": [
-            "Beef Pappardelle",
-            "Carrot & Mushrooms",
-            "Pickled Diakon and Carrots"
+            "Pickled Daikon and Carrots"
           ],
-          "qty_display": "19"
+          "qty_display": "9-12"
         },
         "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chicken Fried Rice"
-          ],
-          "qty_display": "2"
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
         }
       },
-      "total_qty_display": "21",
-      "math_mode": "summed"
+      "total_qty_display": "9-12",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Sour Cream",
@@ -2559,7 +2161,7 @@
       "occurrences": [
         {
           "day": "Wednesday",
-          "dish": "Pickled Diakon and Carrots",
+          "dish": "Pickled Daikon and Carrots",
           "qty_str": "3",
           "qty_parsed": [
             3.0,
@@ -2578,10 +2180,10 @@
         "Wednesday"
       ],
       "dishes": [
-        "Pickled Diakon and Carrots"
+        "Pickled Daikon and Carrots"
       ],
       "dishes_with_days": [
-        "Pickled Diakon and Carrots (Wed)"
+        "Pickled Daikon and Carrots (Wed)"
       ],
       "trip": "Mon",
       "icon": "❓",
@@ -2592,7 +2194,7 @@
             "Wednesday"
           ],
           "dishes": [
-            "Pickled Diakon and Carrots"
+            "Pickled Daikon and Carrots"
           ],
           "qty_display": "3"
         },
@@ -2607,12 +2209,118 @@
       "math_mode": "single"
     },
     {
+      "canonical_name": "Dairy-free mozzarella shreds",
+      "norm": "dairy-free mozzarella shred",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Dairy-free pesto as a second sauce",
+      "norm": "dairy-free pesto as a second sauce",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
       "canonical_name": "Distilled vinegar",
       "norm": "distilled vinegar",
       "occurrences": [
         {
           "day": "Wednesday",
-          "dish": "Pickled Diakon and Carrots",
+          "dish": "Pickled Daikon and Carrots",
           "qty_str": "2 C",
           "qty_parsed": [
             2.0,
@@ -2631,10 +2339,10 @@
         "Wednesday"
       ],
       "dishes": [
-        "Pickled Diakon and Carrots"
+        "Pickled Daikon and Carrots"
       ],
       "dishes_with_days": [
-        "Pickled Diakon and Carrots (Wed)"
+        "Pickled Daikon and Carrots (Wed)"
       ],
       "trip": "Mon",
       "icon": "❓",
@@ -2645,7 +2353,7 @@
             "Wednesday"
           ],
           "dishes": [
-            "Pickled Diakon and Carrots"
+            "Pickled Daikon and Carrots"
           ],
           "qty_display": "2 C"
         },
@@ -2713,16 +2421,16 @@
       "math_mode": "summed"
     },
     {
-      "canonical_name": "Okra",
-      "norm": "okra",
+      "canonical_name": "Mozzarella",
+      "norm": "mozzarella",
       "occurrences": [
         {
           "day": "Thursday",
-          "dish": "Chicken Fried Rice",
-          "qty_str": "1/2 c",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
           "qty_parsed": [
-            0.5,
-            "c"
+            null,
+            null
           ]
         }
       ],
@@ -2737,10 +2445,10 @@
         "Thursday"
       ],
       "dishes": [
-        "Chicken Fried Rice"
+        "Build-Your-Own Pizza Night"
       ],
       "dishes_with_days": [
-        "Chicken Fried Rice (Thu)"
+        "Build-Your-Own Pizza Night (Thu)"
       ],
       "trip": "Wed",
       "icon": "❓",
@@ -2757,25 +2465,25 @@
             "Thursday"
           ],
           "dishes": [
-            "Chicken Fried Rice"
+            "Build-Your-Own Pizza Night"
           ],
-          "qty_display": "1/2 c"
+          "qty_display": ""
         }
       },
-      "total_qty_display": "1/2 c",
-      "math_mode": "single"
+      "total_qty_display": "",
+      "math_mode": "none"
     },
     {
-      "canonical_name": "Red wine",
-      "norm": "red wine",
+      "canonical_name": "Neutral oil for frying",
+      "norm": "neutral oil for frying",
       "occurrences": [
         {
-          "day": "Monday",
-          "dish": "Beef Pappardelle",
-          "qty_str": "1 cup",
+          "day": "Wednesday",
+          "dish": "Shrimp Rolls",
+          "qty_str": null,
           "qty_parsed": [
-            1.0,
-            "cup"
+            null,
+            null
           ]
         }
       ],
@@ -2787,13 +2495,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
+        "Wednesday"
       ],
       "dishes": [
-        "Beef Pappardelle"
+        "Shrimp Rolls"
       ],
       "dishes_with_days": [
-        "Beef Pappardelle (Mon)"
+        "Shrimp Rolls (Wed)"
       ],
       "trip": "Mon",
       "icon": "❓",
@@ -2801,12 +2509,12 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Monday"
+            "Wednesday"
           ],
           "dishes": [
-            "Beef Pappardelle"
+            "Shrimp Rolls"
           ],
-          "qty_display": "1 cup"
+          "qty_display": ""
         },
         "Wed": {
           "uses": 0,
@@ -2815,8 +2523,220 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "1 cup",
-      "math_mode": "summed"
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Olives",
+      "norm": "olive",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Parchment squares",
+      "norm": "parchment square",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Pizza dough",
+      "norm": "pizza dough",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Rao's marinara",
+      "norm": "rao s marinara",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Pasta with Hamburger and Rao's Sauce",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Pasta with Hamburger and Rao's Sauce"
+      ],
+      "dishes_with_days": [
+        "Pasta with Hamburger and Rao's Sauce (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Pasta with Hamburger and Rao's Sauce"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Scallions",
@@ -2872,16 +2792,16 @@
       "math_mode": "summed"
     },
     {
-      "canonical_name": "Scallops Costco",
-      "norm": "scallop costco",
+      "canonical_name": "Turkey pepperoni",
+      "norm": "turkey pepperoni",
       "occurrences": [
         {
-          "day": "Tuesday",
-          "dish": "Scallops",
-          "qty_str": "4 lbs",
+          "day": "Thursday",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
           "qty_parsed": [
-            4.0,
-            "lbs"
+            null,
+            null
           ]
         }
       ],
@@ -2889,196 +2809,133 @@
       "category": "Unknown",
       "type": "meat",
       "matched_routing": false,
-      "is_countable": false,
+      "is_countable": true,
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Tuesday"
+        "Thursday"
       ],
       "dishes": [
-        "Scallops"
+        "Build-Your-Own Pizza Night"
       ],
       "dishes_with_days": [
-        "Scallops (Tue)"
+        "Build-Your-Own Pizza Night (Thu)"
       ],
-      "trip": "Mon",
+      "trip": "Wed",
       "icon": "🥩",
       "per_trip": {
         "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Scallops"
-          ],
-          "qty_display": "4 lbs"
-        },
-        "Wed": {
           "uses": 0,
           "days": [],
           "dishes": [],
           "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": "1"
         }
       },
-      "total_qty_display": "4 lbs",
-      "math_mode": "summed"
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
     }
   ],
   "skipped_staples": [
     {
       "day": "Monday",
-      "dish": "Beef Pappardelle",
-      "name": "olive oil",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp olive oil"
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "salted butter",
+      "quantity": "8 tablespoons",
+      "original": "8 tablespoons of salted butter"
     },
     {
       "day": "Monday",
-      "dish": "Beef Pappardelle",
-      "name": "Salt and pepper",
-      "quantity": null,
-      "original": "Salt and pepper, to taste"
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "white sugar",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup white sugar (raw cane sugar preferred for coarser texture)"
     },
     {
       "day": "Monday",
-      "dish": "Beef Pappardelle",
-      "name": "dried thyme",
-      "quantity": "1 tsp",
-      "original": "1 tsp dried thyme"
-    },
-    {
-      "day": "Monday",
-      "dish": "Beef Pappardelle",
-      "name": "bay leaf",
-      "quantity": "1",
-      "original": "1 bay leaf"
-    },
-    {
-      "day": "Monday",
-      "dish": "Beef Pappardelle",
-      "name": "red pepper",
-      "quantity": "1",
-      "original": "1 red pepper"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "soy sauce",
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "packed light brown sugar",
       "quantity": "1/4 cup",
-      "original": "¼ cup soy sauce"
+      "original": "1/4 cup packed light brown sugar"
     },
     {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "toasted sesame oil",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp toasted sesame oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "rice vinegar",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp rice vinegar"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "hoisin sauce",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp hoisin sauce (seed-oil-free)"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "honey",
-      "quantity": "1 1/2 tbsp",
-      "original": "1½ tbsp honey"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "-inch ginger",
-      "quantity": "1",
-      "original": "1-inch ginger, grated"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Rib Cap",
-      "name": "black pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp black pepper"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Carrot & Mushrooms",
-      "name": "olive oil",
-      "quantity": "2 tablespoons",
-      "original": "2 tablespoons olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Carrot & Mushrooms",
-      "name": "sugar",
+      "day": "Monday",
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "vanilla",
       "quantity": "1 teaspoon",
-      "original": "1 teaspoon sugar"
+      "original": "1 teaspoon vanilla"
     },
     {
-      "day": "Tuesday",
-      "dish": "Carrot & Mushrooms",
-      "name": "TBS Soy sauce",
-      "quantity": "2-3",
-      "original": "2-3 TBS Soy sauce"
+      "day": "Monday",
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "all-purpose flour",
+      "quantity": "1 1/2 cups",
+      "original": "1 1/2 cups all-purpose flour (6.75 ounces)"
     },
     {
-      "day": "Tuesday",
-      "dish": "Carrot & Mushrooms",
-      "name": "Tbs ginger",
-      "quantity": "1-2",
-      "original": "1-2 Tbs ginger"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Carrot & Mushrooms",
-      "name": "Dash of dark soy sauce",
-      "quantity": null,
-      "original": "Dash of dark soy sauce"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Green Beans (Garlicky)",
-      "name": "extra virgin olive oil",
-      "quantity": "1 tablespoon",
-      "original": "1 tablespoon extra virgin olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Green Beans (Garlicky)",
-      "name": "fine sea salt",
+      "day": "Monday",
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "baking soda",
       "quantity": "1/2 teaspoon",
-      "original": "1/2 teaspoon fine sea salt"
+      "original": "1/2 teaspoon baking soda"
     },
     {
-      "day": "Tuesday",
-      "dish": "Green Beans (Garlicky)",
-      "name": "water",
-      "quantity": "1/4 cup",
-      "original": "1/4 cup water"
+      "day": "Monday",
+      "dish": "Soft Chocolate Chip Cookie",
+      "name": "salt",
+      "quantity": "1/4 teaspoon",
+      "original": "1/4 teaspoon salt (add a little extra if desired)"
     },
     {
-      "day": "Tuesday",
-      "dish": "Scallops",
-      "name": "Butter",
-      "quantity": null,
-      "original": "Butter"
+      "day": "Wednesday",
+      "dish": "Pickled Daikon and Carrots",
+      "name": "salt",
+      "quantity": "1 tbsp",
+      "original": "1 tbsp salt"
     },
     {
-      "day": "Tuesday",
-      "dish": "Scallops",
-      "name": "Salt pepper",
-      "quantity": null,
-      "original": "Salt pepper"
+      "day": "Wednesday",
+      "dish": "Pickled Daikon and Carrots",
+      "name": "boiling water",
+      "quantity": "2 C",
+      "original": "2 C boiling water"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Pickled Daikon and Carrots",
+      "name": "granulated white sugar",
+      "quantity": "2.25 C",
+      "original": "2.25 C granulated white sugar"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Shrimp Rolls",
+      "name": "black pepper",
+      "quantity": "2 tsp",
+      "original": "2 tsp black pepper"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Shrimp Rolls",
+      "name": "salt",
+      "quantity": "2 tsp",
+      "original": "2 tsp salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Shrimp Rolls",
+      "name": "garlic salt",
+      "quantity": "2 tsp",
+      "original": "2 tsp garlic salt"
     },
     {
       "day": "Wednesday",
@@ -3158,53 +3015,46 @@
       "original": "1/2 cup of distilled white vinegar"
     },
     {
-      "day": "Wednesday",
-      "dish": "Pickled Diakon and Carrots",
-      "name": "salt",
-      "quantity": "1 tbsp",
-      "original": "1 tbsp salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Pickled Diakon and Carrots",
-      "name": "boiling water",
-      "quantity": "2 C",
-      "original": "2 C boiling water"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Pickled Diakon and Carrots",
-      "name": "granulated white sugar",
-      "quantity": "2.25 C",
-      "original": "2.25 C granulated white sugar"
-    },
-    {
       "day": "Thursday",
-      "dish": "Chicken Fried Rice",
-      "name": "cooked rice",
-      "quantity": "4-5 cups",
-      "original": "4–5 cups cooked rice"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chicken Fried Rice",
-      "name": "avocado oil",
-      "quantity": "2-3 tbsp",
-      "original": "2–3 tbsp avocado oil or olive oil"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chicken Fried Rice",
-      "name": "soy sauce (or to taste)Salt & black pepper",
-      "quantity": "2-3 tbsp",
-      "original": "2–3 tbsp soy sauce (or to taste)Salt & black pepper, to taste"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chicken Fried Rice",
-      "name": "sprinkle of sugar",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Nutritional yeast",
       "quantity": null,
-      "original": "sprinkle of sugar"
+      "original": "Nutritional yeast, for no-cheese pies"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Olive oil",
+      "quantity": null,
+      "original": "Olive oil, for brushing the rim"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Pasta with Hamburger and Rao's Sauce",
+      "name": "olive oil",
+      "quantity": "1 Tbsp",
+      "original": "1 Tbsp olive oil"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Pasta with Hamburger and Rao's Sauce",
+      "name": "salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp salt"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Pasta with Hamburger and Rao's Sauce",
+      "name": "black pepper",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp black pepper"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Pasta with Hamburger and Rao's Sauce",
+      "name": "reserved pasta water",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup reserved pasta water"
     }
   ],
   "unresolved_variants": [],
