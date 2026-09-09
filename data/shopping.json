@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:29:13.364317",
+  "generated_at": "2026-09-09T00:30:43.980476",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,10 +9,10 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 87,
-    "unique_after_dedup": 50,
-    "skipped_staples": 30,
-    "routing_matched": 37,
+    "raw_ingredient_count": 78,
+    "unique_after_dedup": 49,
+    "skipped_staples": 23,
+    "routing_matched": 36,
     "routing_unmatched": 13,
     "multi_store": 2,
     "unresolved_variants": 0,
@@ -312,15 +312,6 @@
         "norm": "egg",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Soft Chocolate Chip Cookie",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
             "day": "Wednesday",
             "dish": "Shrimp Rolls",
             "qty_str": "1",
@@ -338,33 +329,28 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday",
           "Wednesday"
         ],
         "dishes": [
-          "Shrimp Rolls",
-          "Soft Chocolate Chip Cookie"
+          "Shrimp Rolls"
         ],
         "dishes_with_days": [
-          "Shrimp Rolls (Wed)",
-          "Soft Chocolate Chip Cookie (Mon)"
+          "Shrimp Rolls (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Monday",
               "Wednesday"
             ],
             "dishes": [
-              "Shrimp Rolls",
-              "Soft Chocolate Chip Cookie"
+              "Shrimp Rolls"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -373,7 +359,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       },
       {
@@ -1427,118 +1413,6 @@
         "math_mode": "summed"
       }
     ],
-    "Walmart": [
-      {
-        "canonical_name": "Chocolate chips",
-        "norm": "chocolate chip",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Soft Chocolate Chip Cookie",
-            "qty_str": "3/4 cup",
-            "qty_parsed": [
-              0.75,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Walmart"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Soft Chocolate Chip Cookie"
-        ],
-        "dishes_with_days": [
-          "Soft Chocolate Chip Cookie (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Soft Chocolate Chip Cookie"
-            ],
-            "qty_display": "0.75 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.75 cup",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Mi Rancho Organic Yellow Corn Tortilla",
-        "norm": "mi rancho yellow corn tortilla",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Tacos",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Walmart"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Tacos"
-        ],
-        "dishes_with_days": [
-          "Tacos (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Tacos"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      }
-    ],
     "888 Market / Pan Asia": [
       {
         "canonical_name": "Lemon grass",
@@ -1979,6 +1853,63 @@
         },
         "total_qty_display": "14 oz",
         "math_mode": "summed"
+      }
+    ],
+    "Walmart": [
+      {
+        "canonical_name": "Mi Rancho Organic Yellow Corn Tortilla",
+        "norm": "mi rancho yellow corn tortilla",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Walmart"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       }
     ],
     "Amazon": [
@@ -2846,55 +2777,6 @@
     }
   ],
   "skipped_staples": [
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "salted butter",
-      "quantity": "8 tablespoons",
-      "original": "8 tablespoons of salted butter"
-    },
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "white sugar",
-      "quantity": "1/2 cup",
-      "original": "1/2 cup white sugar (raw cane sugar preferred for coarser texture)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "packed light brown sugar",
-      "quantity": "1/4 cup",
-      "original": "1/4 cup packed light brown sugar"
-    },
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "vanilla",
-      "quantity": "1 teaspoon",
-      "original": "1 teaspoon vanilla"
-    },
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "all-purpose flour",
-      "quantity": "1 1/2 cups",
-      "original": "1 1/2 cups all-purpose flour (6.75 ounces)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "baking soda",
-      "quantity": "1/2 teaspoon",
-      "original": "1/2 teaspoon baking soda"
-    },
-    {
-      "day": "Monday",
-      "dish": "Soft Chocolate Chip Cookie",
-      "name": "salt",
-      "quantity": "1/4 teaspoon",
-      "original": "1/4 teaspoon salt (add a little extra if desired)"
-    },
     {
       "day": "Wednesday",
       "dish": "Pickled Daikon and Carrots",
