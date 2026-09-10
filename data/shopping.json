@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:00:03.983824",
+  "generated_at": "2026-09-10T05:00:03.632786",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 78,
-    "unique_after_dedup": 49,
+    "raw_ingredient_count": 77,
+    "unique_after_dedup": 48,
     "skipped_staples": 23,
     "routing_matched": 36,
-    "routing_unmatched": 13,
+    "routing_unmatched": 12,
     "multi_store": 2,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -440,10 +440,10 @@
           {
             "day": "Thursday",
             "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
+            "qty_str": "8 oz",
             "qty_parsed": [
-              null,
-              null
+              8.0,
+              "oz"
             ]
           }
         ],
@@ -482,11 +482,11 @@
             "dishes": [
               "Build-Your-Own Pizza Night"
             ],
-            "qty_display": ""
+            "qty_display": "8 oz"
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
+        "total_qty_display": "8 oz",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Pasta",
@@ -550,10 +550,10 @@
           {
             "day": "Thursday",
             "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
+            "qty_str": "1",
             "qty_parsed": [
-              null,
-              null
+              1.0,
+              ""
             ]
           }
         ],
@@ -592,11 +592,11 @@
             "dishes": [
               "Build-Your-Own Pizza Night"
             ],
-            "qty_display": ""
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
+        "total_qty_display": "1",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Romaine lettuce",
@@ -764,16 +764,16 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Tomato",
+        "canonical_name": "Tomatoes",
         "norm": "tomato",
         "occurrences": [
           {
             "day": "Thursday",
             "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
+            "qty_str": "2",
             "qty_parsed": [
-              null,
-              null
+              2.0,
+              ""
             ]
           },
           {
@@ -826,10 +826,10 @@
               "Build-Your-Own Pizza Night",
               "Tacos"
             ],
-            "qty_display": "2"
+            "qty_display": "3"
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "3",
         "math_mode": "multiplied"
       },
       {
@@ -894,10 +894,10 @@
           {
             "day": "Thursday",
             "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
+            "qty_str": "1",
             "qty_parsed": [
-              null,
-              null
+              1.0,
+              ""
             ]
           },
           {
@@ -1032,10 +1032,10 @@
           {
             "day": "Thursday",
             "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
+            "qty_str": "2 cups",
             "qty_parsed": [
-              null,
-              null
+              2.0,
+              "cups"
             ]
           }
         ],
@@ -1074,11 +1074,11 @@
             "dishes": [
               "Build-Your-Own Pizza Night"
             ],
-            "qty_display": ""
+            "qty_display": "2 cups"
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
+        "total_qty_display": "2 cups",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Chicken breast",
@@ -2140,8 +2140,8 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "Dairy-free mozzarella shreds",
-      "norm": "dairy-free mozzarella shred",
+      "canonical_name": "Dairy-free mozzarella shreds - Daiya",
+      "norm": "dairy-free mozzarella shred - daiya",
       "occurrences": [
         {
           "day": "Thursday",
@@ -2193,8 +2193,8 @@
       "math_mode": "none"
     },
     {
-      "canonical_name": "Dairy-free pesto as a second sauce",
-      "norm": "dairy-free pesto as a second sauce",
+      "canonical_name": "Dairy-free pesto",
+      "norm": "dairy-free pesto",
       "occurrences": [
         {
           "day": "Thursday",
@@ -2464,10 +2464,10 @@
         {
           "day": "Thursday",
           "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
+          "qty_str": "1/2 cup",
           "qty_parsed": [
-            null,
-            null
+            0.5,
+            "cup"
           ]
         }
       ],
@@ -2504,68 +2504,15 @@
           "dishes": [
             "Build-Your-Own Pizza Night"
           ],
-          "qty_display": ""
+          "qty_display": "0.5 cup"
         }
       },
-      "total_qty_display": "",
-      "math_mode": "none"
+      "total_qty_display": "0.5 cup",
+      "math_mode": "summed"
     },
     {
       "canonical_name": "Parchment squares",
       "norm": "parchment square",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Pizza dough",
-      "norm": "pizza dough",
       "occurrences": [
         {
           "day": "Thursday",

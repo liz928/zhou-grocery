@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:00:03.983824",
+  "generated_at": "2026-09-10T05:00:03.632786",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -167,7 +167,7 @@
               "quantity": "2 lbs",
               "name": "chicken breast",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -175,7 +175,7 @@
               "quantity": "1/8 C",
               "name": "sugar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -183,7 +183,7 @@
               "quantity": "1/4 C",
               "name": "fish sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -191,7 +191,7 @@
               "quantity": "1",
               "name": "Tbs honey",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -199,7 +199,7 @@
               "quantity": "1",
               "name": "Tbs dark soy sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -207,7 +207,7 @@
               "quantity": "2",
               "name": "Tbs EVOO",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -215,7 +215,7 @@
               "quantity": "1 tsp",
               "name": "five spice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -223,7 +223,7 @@
               "quantity": "1",
               "name": "Tbs garlic powder",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -231,7 +231,7 @@
               "quantity": "2",
               "name": "Tbs minced lemon grass",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Chicken Marinade"
             },
             {
@@ -239,7 +239,7 @@
               "quantity": "1 cup",
               "name": "good fish sauce such as Three Crabs brand",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -247,7 +247,7 @@
               "quantity": "1.5 cup",
               "name": "sugar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -255,7 +255,7 @@
               "quantity": "3 cups",
               "name": "water",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -263,7 +263,7 @@
               "quantity": "1/2 cup",
               "name": "distilled white vinegar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -271,7 +271,7 @@
               "quantity": "4-6",
               "name": "minced garlic",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -279,7 +279,7 @@
               "quantity": null,
               "name": ".5-1 Chopped Thai chili (frozen",
               "notes": "fresh)",
-              "checked": false,
+              "checked": true,
               "checklist": "Dipping Sauce for top (3-4T each)"
             },
             {
@@ -295,7 +295,7 @@
               "quantity": "1",
               "name": "head romaine lettuce",
               "notes": "shredded or torn into bite-size pieces",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -303,7 +303,7 @@
               "quantity": "1",
               "name": "cucumber",
               "notes": "julienned or thinly sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -311,7 +311,7 @@
               "quantity": "1 cup",
               "name": "cherry tomatoes",
               "notes": "halved",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -319,7 +319,7 @@
               "quantity": "1 cup",
               "name": "pickled carrots & daikon",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -327,7 +327,7 @@
               "quantity": "1 cup",
               "name": "fresh mint leaves",
               "notes": "torn",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -335,7 +335,7 @@
               "quantity": "1/2 cup",
               "name": "fresh Thai basil leaves",
               "notes": "torn",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -351,7 +351,7 @@
               "quantity": "25-30",
               "name": "Shrimp Rolls",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             },
             {
@@ -359,7 +359,7 @@
               "quantity": null,
               "name": "Nuoc Cham",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Bowl Components"
             }
           ],
@@ -379,145 +379,205 @@
         {
           "card_id": "6aa06880ee9adcba2db5fd89",
           "name": "Build-Your-Own Pizza Night",
-          "ingredients": [
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
             {
-              "original": "Pizza dough (see homemade pizza dough card)",
-              "quantity": null,
-              "name": "Pizza dough",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
+              "name": "Ingredients",
+              "ingredients": [
+                {
+                  "original": "Crushed tomato sauce",
+                  "quantity": null,
+                  "name": "Crushed tomato sauce",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Optional: dairy-free pesto (second sauce)",
+                  "quantity": null,
+                  "name": "Optional: dairy-free pesto",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Shredded mozzarella (real cheese bowl)",
+                  "quantity": null,
+                  "name": "Shredded mozzarella",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Optional Parmesan, for after baking",
+                  "quantity": null,
+                  "name": "Optional Parmesan",
+                  "notes": "for after baking",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Dairy-free mozzarella shreds - Daiya (DF bowl)",
+                  "quantity": null,
+                  "name": "Dairy-free mozzarella shreds - Daiya",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Nutritional yeast, for no-cheese pies",
+                  "quantity": null,
+                  "name": "Nutritional yeast",
+                  "notes": "for no-cheese pies",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "8 oz mushrooms, sliced",
+                  "quantity": "8 oz",
+                  "name": "mushrooms",
+                  "notes": "sliced",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 red or yellow bell pepper, sliced (NO green)",
+                  "quantity": "1",
+                  "name": "red",
+                  "notes": "yellow bell pepper, sliced (NO green)",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 onion, thinly sliced",
+                  "quantity": "1",
+                  "name": "onion",
+                  "notes": "thinly sliced",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "2 tomatoes, sliced",
+                  "quantity": "2",
+                  "name": "tomatoes",
+                  "notes": "sliced",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1/2 cup olives",
+                  "quantity": "1/2 cup",
+                  "name": "olives",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Fresh basil",
+                  "quantity": null,
+                  "name": "Fresh basil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "2 cups cooked chicken, diced",
+                  "quantity": "2 cups",
+                  "name": "cooked chicken",
+                  "notes": "diced",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Optional turkey pepperoni",
+                  "quantity": null,
+                  "name": "Optional turkey pepperoni",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Olive oil, for brushing the rim",
+                  "quantity": null,
+                  "name": "Olive oil",
+                  "notes": "for brushing the rim",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "Parchment squares, one per pizza",
+                  "quantity": null,
+                  "name": "Parchment squares",
+                  "notes": "one per pizza",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                }
+              ]
             },
             {
-              "original": "Crushed tomato sauce (from the pizza card)",
-              "quantity": null,
-              "name": "Crushed tomato sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Optional: dairy-free pesto as a second sauce",
-              "quantity": null,
-              "name": "Optional: dairy-free pesto as a second sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Shredded mozzarella (real cheese bowl)",
-              "quantity": null,
-              "name": "Shredded mozzarella",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Optional Parmesan, for after baking",
-              "quantity": null,
-              "name": "Optional Parmesan",
-              "notes": "for after baking",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Dairy-free mozzarella shreds (DF bowl)",
-              "quantity": null,
-              "name": "Dairy-free mozzarella shreds",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Nutritional yeast, for no-cheese pies",
-              "quantity": null,
-              "name": "Nutritional yeast",
-              "notes": "for no-cheese pies",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Mushrooms",
-              "quantity": null,
-              "name": "Mushrooms",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Red or yellow pepper (no green)",
-              "quantity": null,
-              "name": "Red",
-              "notes": "yellow pepper (no green)",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Onion",
-              "quantity": null,
-              "name": "Onion",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Tomato",
-              "quantity": null,
-              "name": "Tomato",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Olives",
-              "quantity": null,
-              "name": "Olives",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Fresh basil",
-              "quantity": null,
-              "name": "Fresh basil",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Cooked chicken",
-              "quantity": null,
-              "name": "Cooked chicken",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Optional turkey pepperoni",
-              "quantity": null,
-              "name": "Optional turkey pepperoni",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Olive oil, for brushing the rim",
-              "quantity": null,
-              "name": "Olive oil",
-              "notes": "for brushing the rim",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Parchment squares, one per pizza",
-              "quantity": null,
-              "name": "Parchment squares",
-              "notes": "one per pizza",
-              "checked": false,
-              "checklist": "Ingredients"
+              "name": "Dough (tripled)",
+              "ingredients": [
+                {
+                  "original": "2 1/4 cups warm water (about 110F)",
+                  "quantity": "2 1/4 cups",
+                  "name": "warm water",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                },
+                {
+                  "original": "2 Tbsp active dry yeast (about 3 packets)",
+                  "quantity": "2 Tbsp",
+                  "name": "active dry yeast",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                },
+                {
+                  "original": "2 Tbsp organic cane sugar",
+                  "quantity": "2 Tbsp",
+                  "name": "organic cane sugar",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                },
+                {
+                  "original": "6 Tbsp olive oil",
+                  "quantity": "6 Tbsp",
+                  "name": "olive oil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                },
+                {
+                  "original": "1 Tbsp salt",
+                  "quantity": "1 Tbsp",
+                  "name": "salt",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                },
+                {
+                  "original": "6 cups all-purpose flour, plus more as needed",
+                  "quantity": "6 cups",
+                  "name": "all-purpose flour",
+                  "notes": "plus more as needed",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                },
+                {
+                  "original": "SHORTCUT: or buy 6 store-bought dough balls instead",
+                  "quantity": null,
+                  "name": "SHORTCUT:",
+                  "notes": "buy 6 store-bought dough balls instead",
+                  "checked": false,
+                  "checklist": "Dough (tripled)"
+                }
+              ]
             }
           ],
-          "is_multi_variant": false
+          "paired_ingredients": []
         },
         {
           "card_id": "6aa0ed4b19a1a592e36cf7b2",
