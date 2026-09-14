@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:58:49.986123",
+  "generated_at": "2026-09-14T02:11:24.332577",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -13,173 +13,159 @@
         {
           "card_id": "66f19c20b65b3e353956af9e",
           "name": "Barbacoa Bowls",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
+          "ingredients": [
             {
-              "name": "Ingredients - Beef",
-              "ingredients": [
-                {
-                  "original": "4 lbs beef Chuck Roast",
-                  "quantity": "4 lbs",
-                  "name": "beef Chuck Roast",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1/2 Tbs adobo seasoning (WT)",
-                  "quantity": "1/2",
-                  "name": "Tbs adobo seasoning",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1 tsp cumin",
-                  "quantity": "1 tsp",
-                  "name": "cumin",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1/2 Tbs dried oregano",
-                  "quantity": "1/2",
-                  "name": "Tbs dried oregano",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1 tsp smoked paprika",
-                  "quantity": "1 tsp",
-                  "name": "smoked paprika",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1 tsp salt",
-                  "quantity": "1 tsp",
-                  "name": "salt",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1/2 teaspoon black pepper",
-                  "quantity": "1/2 teaspoon",
-                  "name": "black pepper",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "2 cup beef broth",
-                  "quantity": "2 cup",
-                  "name": "beef broth",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "2 bay leaves",
-                  "quantity": "2",
-                  "name": "bay leaves",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1/2 Tbs Ranchers (WT)",
-                  "quantity": "1/2",
-                  "name": "Tbs Ranchers",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1/2 Tbs Garlic galore (WT)",
-                  "quantity": "1/2",
-                  "name": "Tbs Garlic galore",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                },
-                {
-                  "original": "1/2 Tbs taco seasoning (WT)",
-                  "quantity": "1/2",
-                  "name": "Tbs taco seasoning",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Beef"
-                }
-              ]
+              "original": "4 lbs beef Chuck Roast",
+              "quantity": "4 lbs",
+              "name": "beef Chuck Roast",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Beef"
             },
             {
-              "name": "Ingredients - Veggies",
-              "ingredients": [
-                {
-                  "original": "3 red peppers, sliced",
-                  "quantity": "3",
-                  "name": "red peppers",
-                  "notes": "sliced",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                },
-                {
-                  "original": "1 orange peppers, sliced",
-                  "quantity": "1",
-                  "name": "orange peppers",
-                  "notes": "sliced",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                },
-                {
-                  "original": "2 yellow peppers, sliced",
-                  "quantity": "2",
-                  "name": "yellow peppers",
-                  "notes": "sliced",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                },
-                {
-                  "original": "1 yellow onion, sliced",
-                  "quantity": "1",
-                  "name": "yellow onion",
-                  "notes": "sliced",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                },
-                {
-                  "original": "splash of oil",
-                  "quantity": null,
-                  "name": "splash of oil",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                },
-                {
-                  "original": "Ranchers (WT)",
-                  "quantity": null,
-                  "name": "Ranchers",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                },
-                {
-                  "original": "Salt",
-                  "quantity": null,
-                  "name": "Salt",
-                  "notes": "",
-                  "checked": true,
-                  "checklist": "Ingredients - Veggies"
-                }
-              ]
-            }
-          ],
-          "paired_ingredients": [
+              "original": "1/2 Tbs adobo seasoning (WT)",
+              "quantity": "1/2",
+              "name": "Tbs adobo seasoning",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1 tsp cumin",
+              "quantity": "1 tsp",
+              "name": "cumin",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1/2 Tbs dried oregano",
+              "quantity": "1/2",
+              "name": "Tbs dried oregano",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1 tsp smoked paprika",
+              "quantity": "1 tsp",
+              "name": "smoked paprika",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1 tsp salt",
+              "quantity": "1 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1/2 teaspoon black pepper",
+              "quantity": "1/2 teaspoon",
+              "name": "black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "2 cup beef broth",
+              "quantity": "2 cup",
+              "name": "beef broth",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "2 bay leaves",
+              "quantity": "2",
+              "name": "bay leaves",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1/2 Tbs Ranchers (WT)",
+              "quantity": "1/2",
+              "name": "Tbs Ranchers",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1/2 Tbs Garlic galore (WT)",
+              "quantity": "1/2",
+              "name": "Tbs Garlic galore",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "1/2 Tbs taco seasoning (WT)",
+              "quantity": "1/2",
+              "name": "Tbs taco seasoning",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Beef"
+            },
+            {
+              "original": "3 red peppers, sliced",
+              "quantity": "3",
+              "name": "red peppers",
+              "notes": "sliced",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
+            {
+              "original": "1 orange peppers, sliced",
+              "quantity": "1",
+              "name": "orange peppers",
+              "notes": "sliced",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
+            {
+              "original": "2 yellow peppers, sliced",
+              "quantity": "2",
+              "name": "yellow peppers",
+              "notes": "sliced",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
+            {
+              "original": "1 yellow onion, sliced",
+              "quantity": "1",
+              "name": "yellow onion",
+              "notes": "sliced",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
+            {
+              "original": "splash of oil",
+              "quantity": null,
+              "name": "splash of oil",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
+            {
+              "original": "Ranchers (WT)",
+              "quantity": null,
+              "name": "Ranchers",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
+            {
+              "original": "Salt",
+              "quantity": null,
+              "name": "Salt",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Veggies"
+            },
             {
               "original": "2-3 avocado, sliced (start with 1)",
               "quantity": "2-3",
@@ -220,6 +206,12 @@
               "checked": true,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             }
+          ],
+          "is_multi_variant": false,
+          "combined_components": [
+            "Ingredients - Beef",
+            "Ingredients - Veggies",
+            "Ingredients - Toppings & Garnish (options)"
           ]
         }
       ],
@@ -893,157 +885,143 @@
         {
           "card_id": "6aa06bac1d1ff340534614de",
           "name": "Mediterranean Bowl with Lemon-Herb Chicken",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
+          "ingredients": [
             {
-              "name": "Ingredients - Lemon-Herb Chicken",
-              "ingredients": [
-                {
-                  "original": "1.5-2 lb boneless skinless chicken breasts (pounded to even 1/2-3/4 inch)",
-                  "quantity": "1.5-2 lb",
-                  "name": "boneless skinless chicken breasts",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "3 Tbsp extra-virgin olive oil",
-                  "quantity": "3 Tbsp",
-                  "name": "extra-virgin olive oil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "3 Tbsp fresh lemon juice + zest of 1 lemon",
-                  "quantity": "3 Tbsp",
-                  "name": "fresh lemon juice + zest of 1 lemon",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "3 garlic cloves, minced",
-                  "quantity": "3",
-                  "name": "garlic cloves",
-                  "notes": "minced",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "1 tsp dried oregano",
-                  "quantity": "1 tsp",
-                  "name": "dried oregano",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "1 tsp dried thyme or Italian seasoning",
-                  "quantity": "1 tsp",
-                  "name": "dried thyme",
-                  "notes": "Italian seasoning",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "1/2 tsp sea salt",
-                  "quantity": "1/2 tsp",
-                  "name": "sea salt",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                },
-                {
-                  "original": "1/4 tsp black pepper",
-                  "quantity": "1/4 tsp",
-                  "name": "black pepper",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Lemon-Herb Chicken"
-                }
-              ]
+              "original": "1.5-2 lb boneless skinless chicken breasts (pounded to even 1/2-3/4 inch)",
+              "quantity": "1.5-2 lb",
+              "name": "boneless skinless chicken breasts",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
-              "name": "Ingredients - Bowl Components",
-              "ingredients": [
-                {
-                  "original": "1.5 cups quinoa (or rice, cooked in vegetable broth)",
-                  "quantity": "1.5 cups",
-                  "name": "quinoa (or rice",
-                  "notes": "cooked in vegetable broth)",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "OR 6-8 cups mixed greens for a lighter base",
-                  "quantity": null,
-                  "name": "OR 6-8 cups mixed greens for a lighter base",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1 English cucumber, diced or sliced",
-                  "quantity": "1",
-                  "name": "English cucumber",
-                  "notes": "diced or sliced",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1.5 cups cherry tomatoes, halved",
-                  "quantity": "1.5 cups",
-                  "name": "cherry tomatoes",
-                  "notes": "halved",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1/2 small red onion, thinly sliced (soak in ice water 5 min to mellow)",
-                  "quantity": "1/2",
-                  "name": "small red onion",
-                  "notes": "thinly sliced (soak in ice water 5 min to mellow)",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1/2 cup Kalamata olives, pitted and halved (optional)",
-                  "quantity": "1/2 cup",
-                  "name": "Kalamata olives",
-                  "notes": "pitted and halved (optional)",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1 avocado, sliced (optional)",
-                  "quantity": "1",
-                  "name": "avocado",
-                  "notes": "sliced (optional)",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1/4 cup fresh parsley or cilantro, chopped",
-                  "quantity": "1/4 cup",
-                  "name": "fresh parsley",
-                  "notes": "cilantro, chopped",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                },
-                {
-                  "original": "1/2-3/4 cup hummus (seed-oil-free: Ithaca, Cedars, or Roots)",
-                  "quantity": "1/2-3/4 cup",
-                  "name": "hummus (seed-oil-free: Ithaca",
-                  "notes": "Cedars, or Roots)",
-                  "checked": false,
-                  "checklist": "Ingredients - Bowl Components"
-                }
-              ]
-            }
-          ],
-          "paired_ingredients": [
+              "original": "3 Tbsp extra-virgin olive oil",
+              "quantity": "3 Tbsp",
+              "name": "extra-virgin olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "3 Tbsp fresh lemon juice + zest of 1 lemon",
+              "quantity": "3 Tbsp",
+              "name": "fresh lemon juice + zest of 1 lemon",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "3 garlic cloves, minced",
+              "quantity": "3",
+              "name": "garlic cloves",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "1 tsp dried oregano",
+              "quantity": "1 tsp",
+              "name": "dried oregano",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "1 tsp dried thyme or Italian seasoning",
+              "quantity": "1 tsp",
+              "name": "dried thyme",
+              "notes": "Italian seasoning",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "1/2 tsp sea salt",
+              "quantity": "1/2 tsp",
+              "name": "sea salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "1/4 tsp black pepper",
+              "quantity": "1/4 tsp",
+              "name": "black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Lemon-Herb Chicken"
+            },
+            {
+              "original": "1.5 cups quinoa (or rice, cooked in vegetable broth)",
+              "quantity": "1.5 cups",
+              "name": "quinoa (or rice",
+              "notes": "cooked in vegetable broth)",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "OR 6-8 cups mixed greens for a lighter base",
+              "quantity": null,
+              "name": "OR 6-8 cups mixed greens for a lighter base",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1 English cucumber, diced or sliced",
+              "quantity": "1",
+              "name": "English cucumber",
+              "notes": "diced or sliced",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1.5 cups cherry tomatoes, halved",
+              "quantity": "1.5 cups",
+              "name": "cherry tomatoes",
+              "notes": "halved",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1/2 small red onion, thinly sliced (soak in ice water 5 min to mellow)",
+              "quantity": "1/2",
+              "name": "small red onion",
+              "notes": "thinly sliced (soak in ice water 5 min to mellow)",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1/2 cup Kalamata olives, pitted and halved (optional)",
+              "quantity": "1/2 cup",
+              "name": "Kalamata olives",
+              "notes": "pitted and halved (optional)",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1 avocado, sliced (optional)",
+              "quantity": "1",
+              "name": "avocado",
+              "notes": "sliced (optional)",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1/4 cup fresh parsley or cilantro, chopped",
+              "quantity": "1/4 cup",
+              "name": "fresh parsley",
+              "notes": "cilantro, chopped",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1/2-3/4 cup hummus (seed-oil-free: Ithaca, Cedars, or Roots)",
+              "quantity": "1/2-3/4 cup",
+              "name": "hummus (seed-oil-free: Ithaca",
+              "notes": "Cedars, or Roots)",
+              "checked": false,
+              "checklist": "Ingredients - Bowl Components"
+            },
             {
               "original": "1/4 cup tahini (pure sesame paste, no added seed oils)",
               "quantity": "1/4 cup",
@@ -1100,6 +1078,12 @@
               "checked": false,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             }
+          ],
+          "is_multi_variant": false,
+          "combined_components": [
+            "Ingredients - Lemon-Herb Chicken",
+            "Ingredients - Bowl Components",
+            "Ingredients - Tahini-Lemon Dressing"
           ]
         }
       ],
