@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:00:06.046358",
+  "generated_at": "2026-09-14T08:55:45.265759",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -10,9 +10,9 @@
   ],
   "stats": {
     "raw_ingredient_count": 141,
-    "unique_after_dedup": 58,
-    "skipped_staples": 61,
-    "routing_matched": 42,
+    "unique_after_dedup": 62,
+    "skipped_staples": 56,
+    "routing_matched": 46,
     "routing_unmatched": 16,
     "multi_store": 4,
     "unresolved_variants": 0,
@@ -911,6 +911,61 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Orange peppers",
+        "norm": "orange pepper",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Barbacoa Bowls",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Barbacoa Bowls"
+        ],
+        "dishes_with_days": [
+          "Barbacoa Bowls (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Barbacoa Bowls"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
         "canonical_name": "Parsley",
         "norm": "parsley",
         "occurrences": [
@@ -964,6 +1019,61 @@
         },
         "total_qty_display": "0.25 cup",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Red bell pepper",
+        "norm": "red bell pepper",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "🌽 Southwest Pasta Salad",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "🌽 Southwest Pasta Salad"
+        ],
+        "dishes_with_days": [
+          "🌽 Southwest Pasta Salad (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "🌽 Southwest Pasta Salad"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Red Onion/Shallot",
@@ -1049,6 +1159,75 @@
         },
         "total_qty_display": "2",
         "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Red peppers",
+        "norm": "red pepper",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Barbacoa Bowls",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Chicken lettuce Cups & Cucumber",
+            "qty_str": "1/2 tsp",
+            "qty_parsed": [
+              0.5,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Monday",
+          "Wednesday"
+        ],
+        "dishes": [
+          "Barbacoa Bowls",
+          "Chicken lettuce Cups & Cucumber"
+        ],
+        "dishes_with_days": [
+          "Barbacoa Bowls (Mon)",
+          "Chicken lettuce Cups & Cucumber (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Barbacoa Bowls",
+              "Chicken lettuce Cups & Cucumber"
+            ],
+            "qty_display": "3.5 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "3.5 tsp",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Salsa",
@@ -1328,6 +1507,61 @@
           }
         },
         "total_qty_display": "3",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Yellow peppers",
+        "norm": "yellow pepper",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Barbacoa Bowls",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Barbacoa Bowls"
+        ],
+        "dishes_with_days": [
+          "Barbacoa Bowls (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Barbacoa Bowls"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
         "math_mode": "multiplied"
       }
     ],
@@ -3526,27 +3760,6 @@
     {
       "day": "Monday",
       "dish": "Barbacoa Bowls",
-      "name": "red peppers",
-      "quantity": "3",
-      "original": "3 red peppers, sliced"
-    },
-    {
-      "day": "Monday",
-      "dish": "Barbacoa Bowls",
-      "name": "orange peppers",
-      "quantity": "1",
-      "original": "1 orange peppers, sliced"
-    },
-    {
-      "day": "Monday",
-      "dish": "Barbacoa Bowls",
-      "name": "yellow peppers",
-      "quantity": "2",
-      "original": "2 yellow peppers, sliced"
-    },
-    {
-      "day": "Monday",
-      "dish": "Barbacoa Bowls",
       "name": "Salt",
       "quantity": null,
       "original": "Salt"
@@ -3708,13 +3921,6 @@
     {
       "day": "Wednesday",
       "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "crushed Red Pepper",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp crushed Red Pepper (optional)"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
       "name": "Ginger",
       "quantity": null,
       "original": "Ginger"
@@ -3858,13 +4064,6 @@
       "name": "Pinch black pepper",
       "quantity": null,
       "original": "Pinch black pepper"
-    },
-    {
-      "day": "Friday",
-      "dish": "🌽 Southwest Pasta Salad",
-      "name": "red bell pepper",
-      "quantity": "1",
-      "original": "1 red bell pepper"
     },
     {
       "day": "Friday",
