@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T02:12:22.311931",
+  "generated_at": "2026-09-14T02:15:47.996321",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -27,7 +27,7 @@
               "quantity": "1/2",
               "name": "Tbs adobo seasoning",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -35,7 +35,7 @@
               "quantity": "1 tsp",
               "name": "cumin",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -43,7 +43,7 @@
               "quantity": "1/2",
               "name": "Tbs dried oregano",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -51,7 +51,7 @@
               "quantity": "1 tsp",
               "name": "smoked paprika",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -59,7 +59,7 @@
               "quantity": "1 tsp",
               "name": "salt",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -91,7 +91,7 @@
               "quantity": "1/2",
               "name": "Tbs Ranchers",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -99,7 +99,7 @@
               "quantity": "1/2",
               "name": "Tbs Garlic galore",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -107,7 +107,7 @@
               "quantity": "1/2",
               "name": "Tbs taco seasoning",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -115,7 +115,7 @@
               "quantity": "3",
               "name": "red peppers",
               "notes": "sliced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -123,7 +123,7 @@
               "quantity": "1",
               "name": "orange peppers",
               "notes": "sliced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -131,7 +131,7 @@
               "quantity": "2",
               "name": "yellow peppers",
               "notes": "sliced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -139,7 +139,7 @@
               "quantity": "1",
               "name": "yellow onion",
               "notes": "sliced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -147,7 +147,7 @@
               "quantity": null,
               "name": "splash of oil",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -155,7 +155,7 @@
               "quantity": null,
               "name": "Ranchers",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -163,7 +163,7 @@
               "quantity": null,
               "name": "Salt",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -171,7 +171,7 @@
               "quantity": "2-3",
               "name": "avocado",
               "notes": "sliced (start with 1)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             },
             {
@@ -179,7 +179,7 @@
               "quantity": "1-2",
               "name": "diced tomatoes",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             },
             {
@@ -187,7 +187,7 @@
               "quantity": null,
               "name": "Sour cream",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             },
             {
@@ -195,7 +195,7 @@
               "quantity": "1 can",
               "name": "Black Olives",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             },
             {
@@ -203,7 +203,7 @@
               "quantity": null,
               "name": "Salsa",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             }
           ],
@@ -487,7 +487,7 @@
               "quantity": "5",
               "name": "large eggs",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -495,7 +495,7 @@
               "quantity": "3",
               "name": "medium tomatoes",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -503,7 +503,7 @@
               "quantity": "1 tablespoon",
               "name": "EVOO",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -511,7 +511,7 @@
               "quantity": "1/2 teaspoon",
               "name": "salt",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -519,7 +519,7 @@
               "quantity": "1",
               "name": "green onion",
               "notes": "chopped (for garnish)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             }
           ],
