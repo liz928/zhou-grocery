@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:15:13.772246",
+  "generated_at": "2026-09-15T05:00:03.987275",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -9,9 +9,15 @@
           "name": "6:45",
           "ingredients": [],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "6aa8b85e223bffed25d846bd",
+          "name": "Eat Out",
+          "ingredients": [],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 1
+      "dish_count": 2
     },
     "Tuesday": {
       "dishes": [
