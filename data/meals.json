@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:55:45.265759",
+  "generated_at": "2026-09-14T22:15:13.772246",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -7,6 +7,17 @@
         {
           "card_id": "69cb31c1327470d010f96723",
           "name": "6:45",
+          "ingredients": [],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 1
+    },
+    "Tuesday": {
+      "dishes": [
+        {
+          "card_id": "69cb323880bbc84999772131",
+          "name": "5:45",
           "ingredients": [],
           "is_multi_variant": false
         },
@@ -27,7 +38,7 @@
               "quantity": "1/2",
               "name": "Tbs adobo seasoning",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -35,7 +46,7 @@
               "quantity": "1 tsp",
               "name": "cumin",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -43,7 +54,7 @@
               "quantity": "1/2",
               "name": "Tbs dried oregano",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -51,7 +62,7 @@
               "quantity": "1 tsp",
               "name": "smoked paprika",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -59,7 +70,7 @@
               "quantity": "1 tsp",
               "name": "salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -67,7 +78,7 @@
               "quantity": "1/2 teaspoon",
               "name": "black pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -91,7 +102,7 @@
               "quantity": "1/2",
               "name": "Tbs Ranchers",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -99,7 +110,7 @@
               "quantity": "1/2",
               "name": "Tbs Garlic galore",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -107,7 +118,7 @@
               "quantity": "1/2",
               "name": "Tbs taco seasoning",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef"
             },
             {
@@ -139,7 +150,7 @@
               "quantity": "1",
               "name": "yellow onion",
               "notes": "sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -179,7 +190,7 @@
               "quantity": "1-2",
               "name": "diced tomatoes",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Toppings & Garnish (options)"
             },
             {
@@ -216,317 +227,6 @@
         }
       ],
       "dish_count": 2
-    },
-    "Tuesday": {
-      "dishes": [
-        {
-          "card_id": "69cb323880bbc84999772131",
-          "name": "5:45",
-          "ingredients": [],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "6a14ed864acfed518b9fa137",
-          "name": "🍯 Honey Garlic Grilled CHICKEN",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
-            {
-              "name": "Ingredients",
-              "ingredients": [
-                {
-                  "original": "¼ cup olive oil",
-                  "quantity": "1/4 cup",
-                  "name": "olive oil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "3 tbsp honey",
-                  "quantity": "3 tbsp",
-                  "name": "honey",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "5 garlic cloves",
-                  "quantity": "5",
-                  "name": "garlic cloves",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "2 tbsp soy sauce",
-                  "quantity": "2 tbsp",
-                  "name": "soy sauce",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp smoked paprika",
-                  "quantity": "1 tsp",
-                  "name": "smoked paprika",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "½ tsp black pepper",
-                  "quantity": "1/2 tsp",
-                  "name": "black pepper",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "2 lbs chicken thighs (or shrimp/salmon)",
-                  "quantity": "2 lbs",
-                  "name": "chicken thighs",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                }
-              ]
-            },
-            {
-              "name": "Helper Task",
-              "ingredients": [
-                {
-                  "original": "Mince 5 garlic cloves",
-                  "quantity": null,
-                  "name": "Mince 5 garlic cloves",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Whisk marinade in bag or bowl",
-                  "quantity": null,
-                  "name": "Whisk marinade in bag",
-                  "notes": "bowl",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Add protein, toss to coat",
-                  "quantity": null,
-                  "name": "Add protein",
-                  "notes": "toss to coat",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Refrigerate 2-6 hours",
-                  "quantity": null,
-                  "name": "Refrigerate 2-6 hours",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                }
-              ]
-            }
-          ],
-          "paired_ingredients": []
-        },
-        {
-          "card_id": "6729905fd7e0ad24a142c5f7",
-          "name": "Baby Bok Choy - Steamed with Oyster Sauce",
-          "ingredients": [
-            {
-              "original": "1 pckg bok choy",
-              "quantity": "1",
-              "name": "pckg bok choy",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bok Choy"
-            },
-            {
-              "original": "Garlic",
-              "quantity": null,
-              "name": "Garlic",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bok Choy"
-            },
-            {
-              "original": "EVOO",
-              "quantity": null,
-              "name": "EVOO",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bok Choy"
-            },
-            {
-              "original": "2 tsp soy sauce",
-              "quantity": "2 tsp",
-              "name": "soy sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bok Choy"
-            },
-            {
-              "original": "1 tsp oyster sauce",
-              "quantity": "1 tsp",
-              "name": "oyster sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bok Choy"
-            },
-            {
-              "original": "water splash",
-              "quantity": null,
-              "name": "water splash",
-              "notes": "",
-              "checked": false,
-              "checklist": "Bok Choy"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "6a14edced66bb4f01661b2c7",
-          "name": "🍚 Rice (Simple)",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
-            {
-              "name": "Ingredients",
-              "ingredients": [
-                {
-                  "original": "4 cups rice (white/jasmine/basmati)",
-                  "quantity": "4 cups",
-                  "name": "rice",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "4 cups water",
-                  "quantity": "4 cups",
-                  "name": "water",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp salt",
-                  "quantity": "1 tsp",
-                  "name": "salt",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tbsp butter or olive oil",
-                  "quantity": "1 tbsp",
-                  "name": "butter",
-                  "notes": "olive oil",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                }
-              ]
-            },
-            {
-              "name": "Helper Task",
-              "ingredients": [
-                {
-                  "original": "Rinse rice in cold water until clear",
-                  "quantity": null,
-                  "name": "Rinse rice in cold water until clear",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Combine rice, water, salt, butter in pot",
-                  "quantity": null,
-                  "name": "Combine rice",
-                  "notes": "water, salt, butter in pot",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Bring to boil",
-                  "quantity": null,
-                  "name": "Bring to boil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Reduce to lowest simmer + cover",
-                  "quantity": null,
-                  "name": "Reduce to lowest simmer + cover",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Cook 18-20 min covered",
-                  "quantity": null,
-                  "name": "Cook 18-20 min covered",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                }
-              ]
-            }
-          ],
-          "paired_ingredients": []
-        },
-        {
-          "card_id": "66426b08cf38d05a1698769f",
-          "name": "Egg with Tomato",
-          "ingredients": [
-            {
-              "original": "5 large eggs",
-              "quantity": "5",
-              "name": "large eggs",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "3 medium tomatoes (cut into wedges)",
-              "quantity": "3",
-              "name": "medium tomatoes",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tablespoon EVOO",
-              "quantity": "1 tablespoon",
-              "name": "EVOO",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 teaspoon salt",
-              "quantity": "1/2 teaspoon",
-              "name": "salt",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 green onion, chopped (for garnish)",
-              "quantity": "1",
-              "name": "green onion",
-              "notes": "chopped (for garnish)",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        }
-      ],
-      "dish_count": 5
     },
     "Wednesday": {
       "dishes": [

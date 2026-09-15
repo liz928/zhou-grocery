@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:55:45.265759",
+  "generated_at": "2026-09-14T22:15:13.772246",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 141,
-    "unique_after_dedup": 62,
-    "skipped_staples": 56,
-    "routing_matched": 46,
-    "routing_unmatched": 16,
+    "raw_ingredient_count": 119,
+    "unique_after_dedup": 58,
+    "skipped_staples": 42,
+    "routing_matched": 43,
+    "routing_unmatched": 15,
     "multi_store": 4,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -25,7 +25,7 @@
         "norm": "avocado",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "2-3",
             "qty_parsed": [
@@ -62,7 +62,7 @@
         "user_routed": true,
         "use_count": 3,
         "days": [
-          "Monday",
+          "Tuesday",
           "Thursday",
           "Friday"
         ],
@@ -72,7 +72,7 @@
           "🌽 Southwest Pasta Salad"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)",
+          "Barbacoa Bowls (Tue)",
           "Mediterranean Bowl with Lemon-Herb Chicken (Thu)",
           "🌽 Southwest Pasta Salad (Fri)"
         ],
@@ -82,7 +82,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -411,61 +411,6 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Eggs",
-        "norm": "egg",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Egg with Tomato",
-            "qty_str": "5",
-            "qty_parsed": [
-              5.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Dairy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Egg with Tomato"
-        ],
-        "dishes_with_days": [
-          "Egg with Tomato (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Egg with Tomato"
-            ],
-            "qty_display": "5"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "5",
-        "math_mode": "multiplied"
-      },
-      {
         "canonical_name": "English cucumber",
         "norm": "english cucumber",
         "occurrences": [
@@ -521,27 +466,9 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Garlic cloves",
+        "canonical_name": "Garlic",
         "norm": "garlic",
         "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍯 Honey Garlic Grilled CHICKEN",
-            "qty_str": "5",
-            "qty_parsed": [
-              5.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
           {
             "day": "Wednesday",
             "dish": "Chicken lettuce Cups & Cucumber",
@@ -603,41 +530,33 @@
         "category": "Unknown",
         "type": "fresh",
         "matched_routing": true,
-        "is_countable": true,
+        "is_countable": false,
         "user_routed": true,
-        "use_count": 8,
+        "use_count": 6,
         "days": [
-          "Tuesday",
           "Wednesday",
           "Thursday"
         ],
         "dishes": [
-          "Baby Bok Choy - Steamed with Oyster Sauce",
           "Chicken lettuce Cups & Cucumber",
-          "Mediterranean Bowl with Lemon-Herb Chicken",
-          "🍯 Honey Garlic Grilled CHICKEN"
+          "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Baby Bok Choy - Steamed with Oyster Sauce (Tue)",
           "Chicken lettuce Cups & Cucumber (Wed)",
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)",
-          "🍯 Honey Garlic Grilled CHICKEN (Tue)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 6,
+            "uses": 4,
             "days": [
-              "Tuesday",
               "Wednesday"
             ],
             "dishes": [
-              "Baby Bok Choy - Steamed with Oyster Sauce",
-              "Chicken lettuce Cups & Cucumber",
-              "🍯 Honey Garlic Grilled CHICKEN"
+              "Chicken lettuce Cups & Cucumber"
             ],
-            "qty_display": "14"
+            "qty_display": "3 + 1 + 3"
           },
           "Wed": {
             "uses": 2,
@@ -650,22 +569,13 @@
             "qty_display": "4"
           }
         },
-        "total_qty_display": "18",
-        "math_mode": "multiplied"
+        "total_qty_display": "3 + 1 + 3 + 3 + 1",
+        "math_mode": "mixed"
       },
       {
-        "canonical_name": "Green onion",
+        "canonical_name": "Green Onion",
         "norm": "green onion",
         "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Egg with Tomato",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
           {
             "day": "Wednesday",
             "dish": "Chicken lettuce Cups & Cucumber",
@@ -684,33 +594,28 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Tuesday",
           "Wednesday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber",
-          "Egg with Tomato"
+          "Chicken lettuce Cups & Cucumber"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)",
-          "Egg with Tomato (Tue)"
+          "Chicken lettuce Cups & Cucumber (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Tuesday",
               "Wednesday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber",
-              "Egg with Tomato"
+              "Chicken lettuce Cups & Cucumber"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -719,7 +624,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       },
       {
@@ -915,7 +820,7 @@
         "norm": "orange pepper",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "1",
             "qty_parsed": [
@@ -934,13 +839,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥬",
@@ -948,7 +853,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -1165,7 +1070,7 @@
         "norm": "red pepper",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "3",
             "qty_parsed": [
@@ -1193,7 +1098,7 @@
         "user_routed": false,
         "use_count": 2,
         "days": [
-          "Monday",
+          "Tuesday",
           "Wednesday"
         ],
         "dishes": [
@@ -1201,7 +1106,7 @@
           "Chicken lettuce Cups & Cucumber"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)",
+          "Barbacoa Bowls (Tue)",
           "Chicken lettuce Cups & Cucumber (Wed)"
         ],
         "trip": "Mon",
@@ -1210,7 +1115,7 @@
           "Mon": {
             "uses": 2,
             "days": [
-              "Monday",
+              "Tuesday",
               "Wednesday"
             ],
             "dishes": [
@@ -1234,7 +1139,7 @@
         "norm": "salsa",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": null,
             "qty_parsed": [
@@ -1253,13 +1158,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥬",
@@ -1267,7 +1172,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -1344,20 +1249,11 @@
         "norm": "tomato",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "1-2",
             "qty_parsed": [
               1.5,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Egg with Tomato",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
               ""
             ]
           },
@@ -1379,36 +1275,31 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 3,
+        "use_count": 2,
         "days": [
-          "Monday",
           "Tuesday",
           "Weekend"
         ],
         "dishes": [
           "Barbacoa Bowls",
-          "Egg with Tomato",
           "Smoked Burgers"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)",
-          "Egg with Tomato (Tue)",
+          "Barbacoa Bowls (Tue)",
           "Smoked Burgers (Sat)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Monday",
               "Tuesday"
             ],
             "dishes": [
-              "Barbacoa Bowls",
-              "Egg with Tomato"
+              "Barbacoa Bowls"
             ],
-            "qty_display": "5"
+            "qty_display": "2"
           },
           "Wed": {
             "uses": 1,
@@ -1421,7 +1312,7 @@
             "qty_display": "1"
           }
         },
-        "total_qty_display": "6",
+        "total_qty_display": "3",
         "math_mode": "multiplied"
       },
       {
@@ -1429,7 +1320,7 @@
         "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "1",
             "qty_parsed": [
@@ -1466,7 +1357,7 @@
         "user_routed": true,
         "use_count": 3,
         "days": [
-          "Monday",
+          "Tuesday",
           "Wednesday",
           "Weekend"
         ],
@@ -1476,7 +1367,7 @@
           "Smoked Burgers"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)",
+          "Barbacoa Bowls (Tue)",
           "Chicken lettuce Cups & Cucumber (Wed)",
           "Smoked Burgers (Sat)"
         ],
@@ -1486,7 +1377,7 @@
           "Mon": {
             "uses": 2,
             "days": [
-              "Monday",
+              "Tuesday",
               "Wednesday"
             ],
             "dishes": [
@@ -1514,7 +1405,7 @@
         "norm": "yellow pepper",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "2",
             "qty_parsed": [
@@ -1533,13 +1424,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥬",
@@ -1547,7 +1438,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -1571,7 +1462,7 @@
         "norm": "beef broth",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "2 cup",
             "qty_parsed": [
@@ -1590,13 +1481,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -1604,7 +1495,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -1787,61 +1678,6 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Chicken thighs",
-        "norm": "chicken thigh",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍯 Honey Garlic Grilled CHICKEN",
-            "qty_str": "2 lbs",
-            "qty_parsed": [
-              2.0,
-              "lbs"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Poultry",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍯 Honey Garlic Grilled CHICKEN"
-        ],
-        "dishes_with_days": [
-          "🍯 Honey Garlic Grilled CHICKEN (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍯 Honey Garlic Grilled CHICKEN"
-            ],
-            "qty_display": "2 lbs"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 lbs",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Kalamata olives",
         "norm": "kalamata olive",
         "occurrences": [
@@ -2011,7 +1847,7 @@
         "norm": "splash of oil",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": null,
             "qty_parsed": [
@@ -2030,13 +1866,13 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "❓",
@@ -2044,7 +1880,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -2068,7 +1904,7 @@
         "norm": "black olive",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "1 can",
             "qty_parsed": [
@@ -2087,13 +1923,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -2101,7 +1937,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -2235,7 +2071,7 @@
         "norm": "rancher",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "1/2",
             "qty_parsed": [
@@ -2244,7 +2080,7 @@
             ]
           },
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": null,
             "qty_parsed": [
@@ -2263,13 +2099,13 @@
         "user_routed": true,
         "use_count": 2,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "❓",
@@ -2277,7 +2113,7 @@
           "Mon": {
             "uses": 2,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -2299,7 +2135,7 @@
         "norm": "taco seasoning",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "dish": "Barbacoa Bowls",
             "qty_str": "1/2",
             "qty_parsed": [
@@ -2318,13 +2154,13 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Tuesday"
         ],
         "dishes": [
           "Barbacoa Bowls"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Mon)"
+          "Barbacoa Bowls (Tue)"
         ],
         "trip": "Mon",
         "icon": "❓",
@@ -2332,7 +2168,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Monday"
+              "Tuesday"
             ],
             "dishes": [
               "Barbacoa Bowls"
@@ -2524,61 +2360,6 @@
         },
         "total_qty_display": "2",
         "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Rice",
-        "norm": "rice",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍚 Rice (Simple)",
-            "qty_str": "4 cups",
-            "qty_parsed": [
-              4.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍚 Rice (Simple)"
-        ],
-        "dishes_with_days": [
-          "🍚 Rice (Simple) (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍚 Rice (Simple)"
-            ],
-            "qty_display": "4 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4 cups",
-        "math_mode": "summed"
       },
       {
         "canonical_name": "Rice vermicelli noodles",
@@ -2811,7 +2592,7 @@
       "norm": "sour cream",
       "occurrences": [
         {
-          "day": "Monday",
+          "day": "Tuesday",
           "dish": "Barbacoa Bowls",
           "qty_str": null,
           "qty_parsed": [
@@ -2832,13 +2613,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
+        "Tuesday"
       ],
       "dishes": [
         "Barbacoa Bowls"
       ],
       "dishes_with_days": [
-        "Barbacoa Bowls (Mon)"
+        "Barbacoa Bowls (Tue)"
       ],
       "trip": "Mon",
       "icon": "🥬",
@@ -2846,7 +2627,7 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Monday"
+            "Tuesday"
           ],
           "dishes": [
             "Barbacoa Bowls"
@@ -2870,7 +2651,7 @@
       "norm": "adobo seasoning",
       "occurrences": [
         {
-          "day": "Monday",
+          "day": "Tuesday",
           "dish": "Barbacoa Bowls",
           "qty_str": "1/2",
           "qty_parsed": [
@@ -2887,13 +2668,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
+        "Tuesday"
       ],
       "dishes": [
         "Barbacoa Bowls"
       ],
       "dishes_with_days": [
-        "Barbacoa Bowls (Mon)"
+        "Barbacoa Bowls (Tue)"
       ],
       "trip": "Mon",
       "icon": "❓",
@@ -2901,7 +2682,7 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Monday"
+            "Tuesday"
           ],
           "dishes": [
             "Barbacoa Bowls"
@@ -2923,7 +2704,7 @@
       "norm": "beef chuck roast",
       "occurrences": [
         {
-          "day": "Monday",
+          "day": "Tuesday",
           "dish": "Barbacoa Bowls",
           "qty_str": "4 lbs",
           "qty_parsed": [
@@ -2940,13 +2721,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
+        "Tuesday"
       ],
       "dishes": [
         "Barbacoa Bowls"
       ],
       "dishes_with_days": [
-        "Barbacoa Bowls (Mon)"
+        "Barbacoa Bowls (Tue)"
       ],
       "trip": "Mon",
       "icon": "🥩",
@@ -2954,7 +2735,7 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Monday"
+            "Tuesday"
           ],
           "dishes": [
             "Barbacoa Bowls"
@@ -3188,7 +2969,7 @@
       "norm": "garlic galore",
       "occurrences": [
         {
-          "day": "Monday",
+          "day": "Tuesday",
           "dish": "Barbacoa Bowls",
           "qty_str": "1/2",
           "qty_parsed": [
@@ -3205,13 +2986,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
+        "Tuesday"
       ],
       "dishes": [
         "Barbacoa Bowls"
       ],
       "dishes_with_days": [
-        "Barbacoa Bowls (Mon)"
+        "Barbacoa Bowls (Tue)"
       ],
       "trip": "Mon",
       "icon": "🥬",
@@ -3219,7 +3000,7 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Monday"
+            "Tuesday"
           ],
           "dishes": [
             "Barbacoa Bowls"
@@ -3502,59 +3283,6 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "Pckg bok choy",
-      "norm": "pckg bok choy",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Baby Bok Choy - Steamed with Oyster Sauce"
-      ],
-      "dishes_with_days": [
-        "Baby Bok Choy - Steamed with Oyster Sauce (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Baby Bok Choy - Steamed with Oyster Sauce"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
       "canonical_name": "Rotini",
       "norm": "rotini",
       "occurrences": [
@@ -3716,151 +3444,53 @@
   ],
   "skipped_staples": [
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "cumin",
       "quantity": "1 tsp",
       "original": "1 tsp cumin"
     },
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "Tbs dried oregano",
       "quantity": "1/2",
       "original": "1/2 Tbs dried oregano"
     },
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "smoked paprika",
       "quantity": "1 tsp",
       "original": "1 tsp smoked paprika"
     },
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "salt",
       "quantity": "1 tsp",
       "original": "1 tsp salt"
     },
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "black pepper",
       "quantity": "1/2 teaspoon",
       "original": "1/2 teaspoon black pepper"
     },
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "bay leaves",
       "quantity": "2",
       "original": "2 bay leaves"
     },
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "dish": "Barbacoa Bowls",
       "name": "Salt",
       "quantity": null,
       "original": "Salt"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "olive oil",
-      "quantity": "1/4 cup",
-      "original": "¼ cup olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "honey",
-      "quantity": "3 tbsp",
-      "original": "3 tbsp honey"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "soy sauce",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp soy sauce"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "smoked paprika",
-      "quantity": "1 tsp",
-      "original": "1 tsp smoked paprika"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "black pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp black pepper"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "EVOO",
-      "quantity": null,
-      "original": "EVOO"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "soy sauce",
-      "quantity": "2 tsp",
-      "original": "2 tsp soy sauce"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "oyster sauce",
-      "quantity": "1 tsp",
-      "original": "1 tsp oyster sauce"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "water splash",
-      "quantity": null,
-      "original": "water splash"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "water",
-      "quantity": "4 cups",
-      "original": "4 cups water"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "butter",
-      "quantity": "1 tbsp",
-      "original": "1 tbsp butter or olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Egg with Tomato",
-      "name": "EVOO",
-      "quantity": "1 tablespoon",
-      "original": "1 tablespoon EVOO"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Egg with Tomato",
-      "name": "salt",
-      "quantity": "1/2 teaspoon",
-      "original": "1/2 teaspoon salt"
     },
     {
       "day": "Wednesday",
