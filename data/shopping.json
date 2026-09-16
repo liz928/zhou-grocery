@@ -12,14 +12,69 @@
     "raw_ingredient_count": 119,
     "unique_after_dedup": 58,
     "skipped_staples": 42,
-    "routing_matched": 43,
-    "routing_unmatched": 15,
+    "routing_matched": 58,
+    "routing_unmatched": 0,
     "multi_store": 4,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
     "Whole Foods": [
+      {
+        "canonical_name": "Adobo seasoning",
+        "norm": "adobo seasoning",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Barbacoa Bowls",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Barbacoa Bowls"
+        ],
+        "dishes_with_days": [
+          "Barbacoa Bowls (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Barbacoa Bowls"
+            ],
+            "qty_display": "1/2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1/2",
+        "math_mode": "single"
+      },
       {
         "canonical_name": "Avocado",
         "norm": "avocado",
@@ -356,6 +411,61 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Cups mixed greens for a lighter base",
+        "norm": "cup mixed green for a lighter base",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mediterranean Bowl with Lemon-Herb Chicken"
+        ],
+        "dishes_with_days": [
+          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mediterranean Bowl with Lemon-Herb Chicken"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
         "canonical_name": "Dried dill",
         "norm": "dill",
         "occurrences": [
@@ -466,6 +576,61 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Flax seeds",
+        "norm": "flax seed",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": "1 tsp",
+            "qty_parsed": [
+              1.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Overnight Oats"
+        ],
+        "dishes_with_days": [
+          "Overnight Oats (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Overnight Oats"
+            ],
+            "qty_display": "1 tsp"
+          }
+        },
+        "total_qty_display": "1 tsp",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Garlic",
         "norm": "garlic",
         "occurrences": [
@@ -573,6 +738,116 @@
         "math_mode": "mixed"
       },
       {
+        "canonical_name": "Garlic galore",
+        "norm": "garlic galore",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Barbacoa Bowls",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Barbacoa Bowls"
+        ],
+        "dishes_with_days": [
+          "Barbacoa Bowls (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Barbacoa Bowls"
+            ],
+            "qty_display": "1/2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1/2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Gouda cheese slices",
+        "norm": "gouda cheese slice",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Smoked Burgers",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Smoked Burgers"
+        ],
+        "dishes_with_days": [
+          "Smoked Burgers (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Smoked Burgers"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
         "canonical_name": "Green Onion",
         "norm": "green onion",
         "occurrences": [
@@ -626,6 +901,61 @@
         },
         "total_qty_display": "1",
         "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Hummus",
+        "norm": "hummus",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": "1/2-3/4 cup",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mediterranean Bowl with Lemon-Herb Chicken"
+        ],
+        "dishes_with_days": [
+          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mediterranean Bowl with Lemon-Herb Chicken"
+            ],
+            "qty_display": "1/2-3/4 cup"
+          }
+        },
+        "total_qty_display": "1/2-3/4 cup",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Ketchup",
@@ -750,6 +1080,116 @@
         },
         "total_qty_display": "3 tbsp",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Lemon juice + zest of 1 lemon",
+        "norm": "lemon juice zest of 1 lemon",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": "3 Tbsp",
+            "qty_parsed": [
+              3.0,
+              "tbsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mediterranean Bowl with Lemon-Herb Chicken"
+        ],
+        "dishes_with_days": [
+          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mediterranean Bowl with Lemon-Herb Chicken"
+            ],
+            "qty_display": "3 tbsp"
+          }
+        },
+        "total_qty_display": "3 tbsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Lettuce leaves",
+        "norm": "lettuce leaf",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Smoked Burgers",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Leafy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Smoked Burgers"
+        ],
+        "dishes_with_days": [
+          "Smoked Burgers (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Smoked Burgers"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Lime juice",
@@ -1190,6 +1630,116 @@
         "math_mode": "none"
       },
       {
+        "canonical_name": "Spoon dollop Yogurt Coconut",
+        "norm": "spoon dollop yogurt coconut",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Overnight Oats"
+        ],
+        "dishes_with_days": [
+          "Overnight Oats (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Overnight Oats"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Stevia drops 7",
+        "norm": "stevia drop 7",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Overnight Oats"
+        ],
+        "dishes_with_days": [
+          "Overnight Oats (Sat)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Overnight Oats"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
         "canonical_name": "Tahini",
         "norm": "tahini",
         "occurrences": [
@@ -1513,6 +2063,116 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Beef Chuck Roast",
+        "norm": "beef chuck roast",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Barbacoa Bowls",
+            "qty_str": "4 lbs",
+            "qty_parsed": [
+              4.0,
+              "lbs"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Barbacoa Bowls"
+        ],
+        "dishes_with_days": [
+          "Barbacoa Bowls (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Barbacoa Bowls"
+            ],
+            "qty_display": "4 lbs"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4 lbs",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Beef patties",
+        "norm": "beef patty",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Smoked Burgers",
+            "qty_str": "8",
+            "qty_parsed": [
+              8.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Smoked Burgers"
+        ],
+        "dishes_with_days": [
+          "Smoked Burgers (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Smoked Burgers"
+            ],
+            "qty_display": "8"
+          }
+        },
+        "total_qty_display": "8",
+        "math_mode": "single"
+      },
+      {
         "canonical_name": "Black beans",
         "norm": "black bean",
         "occurrences": [
@@ -1566,6 +2226,61 @@
         },
         "total_qty_display": "1 can",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Boneless skinless chicken breasts",
+        "norm": "boneless skinless chicken breast",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": "1.5-2 lb",
+            "qty_parsed": [
+              1.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mediterranean Bowl with Lemon-Herb Chicken"
+        ],
+        "dishes_with_days": [
+          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mediterranean Bowl with Lemon-Herb Chicken"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Chia seeds",
@@ -1788,6 +2503,61 @@
         "math_mode": "single"
       },
       {
+        "canonical_name": "Old Fashioned Oats",
+        "norm": "old fashioned oat",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": "1/2 C",
+            "qty_parsed": [
+              0.5,
+              "c"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Overnight Oats"
+        ],
+        "dishes_with_days": [
+          "Overnight Oats (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Overnight Oats"
+            ],
+            "qty_display": "1/2 C"
+          }
+        },
+        "total_qty_display": "1/2 C",
+        "math_mode": "single"
+      },
+      {
         "canonical_name": "Quinoa",
         "norm": "quinoa",
         "occurrences": [
@@ -1840,6 +2610,61 @@
           }
         },
         "total_qty_display": "1.5 cups",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Rotini",
+        "norm": "rotini",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "🌽 Southwest Pasta Salad",
+            "qty_str": "1 lb",
+            "qty_parsed": [
+              1.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "🌽 Southwest Pasta Salad"
+        ],
+        "dishes_with_days": [
+          "🌽 Southwest Pasta Salad (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "🌽 Southwest Pasta Salad"
+            ],
+            "qty_display": "1 lb"
+          }
+        },
+        "total_qty_display": "1 lb",
         "math_mode": "summed"
       },
       {
@@ -2645,803 +3470,7 @@
       "math_mode": "none"
     }
   ],
-  "no_store_match": [
-    {
-      "canonical_name": "Adobo seasoning",
-      "norm": "adobo seasoning",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Barbacoa Bowls",
-          "qty_str": "1/2",
-          "qty_parsed": [
-            0.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Barbacoa Bowls"
-      ],
-      "dishes_with_days": [
-        "Barbacoa Bowls (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Barbacoa Bowls"
-          ],
-          "qty_display": "1/2"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1/2",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Beef Chuck Roast",
-      "norm": "beef chuck roast",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Barbacoa Bowls",
-          "qty_str": "4 lbs",
-          "qty_parsed": [
-            4.0,
-            "lbs"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Barbacoa Bowls"
-      ],
-      "dishes_with_days": [
-        "Barbacoa Bowls (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Barbacoa Bowls"
-          ],
-          "qty_display": "4 lbs"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "4 lbs",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Beef patties",
-      "norm": "beef patty",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Smoked Burgers",
-          "qty_str": "8",
-          "qty_parsed": [
-            8.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Smoked Burgers"
-      ],
-      "dishes_with_days": [
-        "Smoked Burgers (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Smoked Burgers"
-          ],
-          "qty_display": "8"
-        }
-      },
-      "total_qty_display": "8",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Boneless skinless chicken breasts",
-      "norm": "boneless skinless chicken breast",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-          "qty_str": "1.5-2 lb",
-          "qty_parsed": [
-            1.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Mediterranean Bowl with Lemon-Herb Chicken"
-      ],
-      "dishes_with_days": [
-        "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Mediterranean Bowl with Lemon-Herb Chicken"
-          ],
-          "qty_display": "2"
-        }
-      },
-      "total_qty_display": "2",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Cups mixed greens for a lighter base",
-      "norm": "cup mixed green for a lighter base",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Mediterranean Bowl with Lemon-Herb Chicken"
-      ],
-      "dishes_with_days": [
-        "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Mediterranean Bowl with Lemon-Herb Chicken"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Flax seeds",
-      "norm": "flax seed",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Overnight Oats",
-          "qty_str": "1 tsp",
-          "qty_parsed": [
-            1.0,
-            "tsp"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Overnight Oats"
-      ],
-      "dishes_with_days": [
-        "Overnight Oats (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Overnight Oats"
-          ],
-          "qty_display": "1 tsp"
-        }
-      },
-      "total_qty_display": "1 tsp",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Garlic galore",
-      "norm": "garlic galore",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Barbacoa Bowls",
-          "qty_str": "1/2",
-          "qty_parsed": [
-            0.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Barbacoa Bowls"
-      ],
-      "dishes_with_days": [
-        "Barbacoa Bowls (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Barbacoa Bowls"
-          ],
-          "qty_display": "1/2"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1/2",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Gouda cheese slices",
-      "norm": "gouda cheese slice",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Smoked Burgers",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Smoked Burgers"
-      ],
-      "dishes_with_days": [
-        "Smoked Burgers (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Smoked Burgers"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Hummus",
-      "norm": "hummus",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-          "qty_str": "1/2-3/4 cup",
-          "qty_parsed": [
-            0.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Mediterranean Bowl with Lemon-Herb Chicken"
-      ],
-      "dishes_with_days": [
-        "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Mediterranean Bowl with Lemon-Herb Chicken"
-          ],
-          "qty_display": "1/2-3/4 cup"
-        }
-      },
-      "total_qty_display": "1/2-3/4 cup",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Lemon juice + zest of 1 lemon",
-      "norm": "lemon juice zest of 1 lemon",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-          "qty_str": "3 Tbsp",
-          "qty_parsed": [
-            3.0,
-            "tbsp"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Mediterranean Bowl with Lemon-Herb Chicken"
-      ],
-      "dishes_with_days": [
-        "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Mediterranean Bowl with Lemon-Herb Chicken"
-          ],
-          "qty_display": "3 tbsp"
-        }
-      },
-      "total_qty_display": "3 tbsp",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Lettuce leaves",
-      "norm": "lettuce leaf",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Smoked Burgers",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Smoked Burgers"
-      ],
-      "dishes_with_days": [
-        "Smoked Burgers (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Smoked Burgers"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Old Fashioned Oats",
-      "norm": "old fashioned oat",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Overnight Oats",
-          "qty_str": "1/2 C",
-          "qty_parsed": [
-            0.5,
-            "c"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Overnight Oats"
-      ],
-      "dishes_with_days": [
-        "Overnight Oats (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Overnight Oats"
-          ],
-          "qty_display": "1/2 C"
-        }
-      },
-      "total_qty_display": "1/2 C",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Rotini",
-      "norm": "rotini",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "🌽 Southwest Pasta Salad",
-          "qty_str": "1 lb",
-          "qty_parsed": [
-            1.0,
-            "lb"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Friday"
-      ],
-      "dishes": [
-        "🌽 Southwest Pasta Salad"
-      ],
-      "dishes_with_days": [
-        "🌽 Southwest Pasta Salad (Fri)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Friday"
-          ],
-          "dishes": [
-            "🌽 Southwest Pasta Salad"
-          ],
-          "qty_display": "1 lb"
-        }
-      },
-      "total_qty_display": "1 lb",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Spoon dollop Yogurt Coconut",
-      "norm": "spoon dollop yogurt coconut",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Overnight Oats",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Overnight Oats"
-      ],
-      "dishes_with_days": [
-        "Overnight Oats (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Overnight Oats"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Stevia drops 7",
-      "norm": "stevia drop 7",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Overnight Oats",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Overnight Oats"
-      ],
-      "dishes_with_days": [
-        "Overnight Oats (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Overnight Oats"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    }
-  ],
+  "no_store_match": [],
   "skipped_staples": [
     {
       "day": "Tuesday",
