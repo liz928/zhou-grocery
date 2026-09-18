@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:00:03.958425",
+  "generated_at": "2026-09-18T01:29:37.382691",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -251,7 +251,7 @@
               "quantity": "2-3",
               "name": "chicken breast",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -259,7 +259,7 @@
               "quantity": "3 T",
               "name": "Honey",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -267,7 +267,7 @@
               "quantity": "1/4 tsp",
               "name": "Salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -275,7 +275,7 @@
               "quantity": "2 T",
               "name": "Soy Sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -283,7 +283,7 @@
               "quantity": "1 T",
               "name": "Ketchup",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -291,7 +291,7 @@
               "quantity": "1 tsp",
               "name": "Chinese Vinegar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -299,7 +299,7 @@
               "quantity": "1 T",
               "name": "Hoisin Sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -307,7 +307,7 @@
               "quantity": "1 T",
               "name": "Oyster Sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -315,7 +315,7 @@
               "quantity": "1 tsp",
               "name": "Sugar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
