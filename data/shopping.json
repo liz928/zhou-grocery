@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T05:00:38.930172",
+  "generated_at": "2026-09-21T05:33:27.549409",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -12,8 +12,8 @@
     "raw_ingredient_count": 85,
     "unique_after_dedup": 42,
     "skipped_staples": 33,
-    "routing_matched": 38,
-    "routing_unmatched": 4,
+    "routing_matched": 42,
+    "routing_unmatched": 0,
     "multi_store": 2,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -1914,6 +1914,61 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Cooking wine",
+        "norm": "cooking wine",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "1 Tbsp",
+            "qty_parsed": [
+              1.0,
+              "tbsp"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Slow Cooker Beef Ramen"
+        ],
+        "dishes_with_days": [
+          "Slow Cooker Beef Ramen (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "1 tbsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 tbsp",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Lime",
         "norm": "lime",
         "occurrences": [
@@ -2095,6 +2150,116 @@
         "math_mode": "single"
       },
       {
+        "canonical_name": "Pckg bok choy",
+        "norm": "pckg bok choy",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Leafy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Baby Bok Choy - Steamed with Oyster Sauce"
+        ],
+        "dishes_with_days": [
+          "Baby Bok Choy - Steamed with Oyster Sauce (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Baby Bok Choy - Steamed with Oyster Sauce"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Ramen broth",
+        "norm": "ramen broth",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "4-6 cups",
+            "qty_parsed": [
+              5.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Slow Cooker Beef Ramen"
+        ],
+        "dishes_with_days": [
+          "Slow Cooker Beef Ramen (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "5 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "5 cups",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Rice",
         "norm": "rice",
         "occurrences": [
@@ -2148,6 +2313,61 @@
         },
         "total_qty_display": "4 cups",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Star anise",
+        "norm": "star anise",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Slow Cooker Beef Ramen"
+        ],
+        "dishes_with_days": [
+          "Slow Cooker Beef Ramen (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "single"
       }
     ]
   },
@@ -2265,220 +2485,7 @@
       "math_mode": "summed"
     }
   ],
-  "no_store_match": [
-    {
-      "canonical_name": "Cooking wine",
-      "norm": "cooking wine",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Slow Cooker Beef Ramen",
-          "qty_str": "1 Tbsp",
-          "qty_parsed": [
-            1.0,
-            "tbsp"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Slow Cooker Beef Ramen"
-      ],
-      "dishes_with_days": [
-        "Slow Cooker Beef Ramen (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Slow Cooker Beef Ramen"
-          ],
-          "qty_display": "1 tbsp"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1 tbsp",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Pckg bok choy",
-      "norm": "pckg bok choy",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Baby Bok Choy - Steamed with Oyster Sauce"
-      ],
-      "dishes_with_days": [
-        "Baby Bok Choy - Steamed with Oyster Sauce (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Baby Bok Choy - Steamed with Oyster Sauce"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Ramen broth",
-      "norm": "ramen broth",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Slow Cooker Beef Ramen",
-          "qty_str": "4-6 cups",
-          "qty_parsed": [
-            5.0,
-            "cups"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Slow Cooker Beef Ramen"
-      ],
-      "dishes_with_days": [
-        "Slow Cooker Beef Ramen (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Slow Cooker Beef Ramen"
-          ],
-          "qty_display": "5 cups"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "5 cups",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Star anise",
-      "norm": "star anise",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Slow Cooker Beef Ramen",
-          "qty_str": "3",
-          "qty_parsed": [
-            3.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Slow Cooker Beef Ramen"
-      ],
-      "dishes_with_days": [
-        "Slow Cooker Beef Ramen (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Slow Cooker Beef Ramen"
-          ],
-          "qty_display": "3"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "3",
-      "math_mode": "single"
-    }
-  ],
+  "no_store_match": [],
   "skipped_staples": [
     {
       "day": "Monday",
