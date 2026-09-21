@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:00:03.911134",
+  "generated_at": "2026-09-21T00:32:28.003274",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,87 +9,23 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 119,
-    "unique_after_dedup": 58,
-    "skipped_staples": 42,
-    "routing_matched": 58,
-    "routing_unmatched": 0,
-    "multi_store": 4,
+    "raw_ingredient_count": 85,
+    "unique_after_dedup": 42,
+    "skipped_staples": 33,
+    "routing_matched": 38,
+    "routing_unmatched": 4,
+    "multi_store": 2,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
     "Whole Foods": [
       {
-        "canonical_name": "Adobo seasoning",
-        "norm": "adobo seasoning",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1/2",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "1/2"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2",
-        "math_mode": "single"
-      },
-      {
         "canonical_name": "Avocado",
         "norm": "avocado",
         "occurrences": [
           {
             "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "2-3",
-            "qty_parsed": [
-              2.5,
-              ""
-            ]
-          },
-          {
-            "day": "Thursday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1",
             "qty_parsed": [
@@ -115,20 +51,17 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 3,
+        "use_count": 2,
         "days": [
           "Tuesday",
-          "Thursday",
           "Friday"
         ],
         "dishes": [
-          "Barbacoa Bowls",
           "Mediterranean Bowl with Lemon-Herb Chicken",
           "🌽 Southwest Pasta Salad"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Tue)",
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)",
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
           "🌽 Southwest Pasta Salad (Fri)"
         ],
         "trip": "Mon/Wed",
@@ -140,87 +73,30 @@
               "Tuesday"
             ],
             "dishes": [
-              "Barbacoa Bowls"
+              "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
-            "qty_display": "3"
+            "qty_display": "1"
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
               "Friday"
             ],
             "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken",
               "🌽 Southwest Pasta Salad"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "5",
+        "total_qty_display": "2",
         "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Boston lettuce cups",
-        "norm": "boston lettuce cup",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
       },
       {
         "canonical_name": "Cherry tomatoes",
         "norm": "cherry tomato",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1.5 cups",
             "qty_parsed": [
@@ -248,7 +124,7 @@
         "user_routed": false,
         "use_count": 2,
         "days": [
-          "Thursday",
+          "Tuesday",
           "Friday"
         ],
         "dishes": [
@@ -256,29 +132,31 @@
           "🌽 Southwest Pasta Salad"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)",
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
           "🌽 Southwest Pasta Salad (Fri)"
         ],
-        "trip": "Wed",
+        "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Mediterranean Bowl with Lemon-Herb Chicken"
+            ],
+            "qty_display": "1.5 cups"
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
               "Friday"
             ],
             "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken",
               "🌽 Southwest Pasta Salad"
             ],
-            "qty_display": "2.5 cups"
+            "qty_display": "1 cup"
           }
         },
         "total_qty_display": "2.5 cups",
@@ -289,12 +167,12 @@
         "norm": "cilantro",
         "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1",
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": null,
             "qty_parsed": [
-              1.0,
-              ""
+              null,
+              null
             ]
           },
           {
@@ -317,15 +195,15 @@
         "user_routed": true,
         "use_count": 2,
         "days": [
-          "Wednesday",
+          "Monday",
           "Friday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber",
+          "Slow Cooker Beef Ramen",
           "🌽 Southwest Pasta Salad"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)",
+          "Slow Cooker Beef Ramen (Mon)",
           "🌽 Southwest Pasta Salad (Fri)"
         ],
         "trip": "Mon/Wed",
@@ -334,12 +212,12 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Wednesday"
+              "Monday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber"
+              "Slow Cooker Beef Ramen"
             ],
-            "qty_display": "1"
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -352,70 +230,15 @@
             "qty_display": "0.5 cup"
           }
         },
-        "total_qty_display": "1.5 cup",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Mini cucumbers",
-        "norm": "cucumber",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1 lb",
-            "qty_parsed": [
-              1.0,
-              "lb"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "1 lb"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 lb",
-        "math_mode": "summed"
+        "total_qty_display": "1/2 cup",
+        "math_mode": "mixed"
       },
       {
         "canonical_name": "Cups mixed greens for a lighter base",
         "norm": "cup mixed green for a lighter base",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": null,
             "qty_parsed": [
@@ -434,31 +257,31 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "❓",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
             "qty_display": ""
           }
         },
@@ -466,36 +289,36 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Dried dill",
-        "norm": "dill",
+        "canonical_name": "Eggs",
+        "norm": "egg",
         "occurrences": [
           {
             "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1 tsp",
+            "dish": "Egg with Tomato",
+            "qty_str": "5",
             "qty_parsed": [
-              1.0,
-              "tsp"
+              5.0,
+              ""
             ]
           }
         ],
         "stores": [
           "Whole Foods"
         ],
-        "category": "Produce-Herb",
+        "category": "Dairy",
         "type": "fresh",
         "matched_routing": true,
-        "is_countable": false,
+        "is_countable": true,
         "user_routed": false,
         "use_count": 1,
         "days": [
           "Wednesday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber"
+          "Egg with Tomato"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
+          "Egg with Tomato (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥬",
@@ -506,9 +329,9 @@
               "Wednesday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber"
+              "Egg with Tomato"
             ],
-            "qty_display": "1 tsp"
+            "qty_display": "5"
           },
           "Wed": {
             "uses": 0,
@@ -517,15 +340,15 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
+        "total_qty_display": "5",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "English cucumber",
         "norm": "english cucumber",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1",
             "qty_parsed": [
@@ -544,32 +367,32 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "1",
@@ -631,229 +454,48 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Garlic",
+        "canonical_name": "Garlic cloves",
         "norm": "garlic",
         "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": null,
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "6",
             "qty_parsed": [
-              null,
-              null
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
+              6.0,
               ""
             ]
           },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 6,
-        "days": [
-          "Wednesday",
-          "Thursday"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber",
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)",
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 4,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "3 + 1 + 3"
-          },
-          "Wed": {
-            "uses": 2,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "4"
-          }
-        },
-        "total_qty_display": "3 + 1 + 3 + 3 + 1",
-        "math_mode": "mixed"
-      },
-      {
-        "canonical_name": "Garlic galore",
-        "norm": "garlic galore",
-        "occurrences": [
           {
             "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1/2",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": "3",
             "qty_parsed": [
-              0.5,
+              3.0,
               ""
             ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "1/2"
           },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Gouda cheese slices",
-        "norm": "gouda cheese slice",
-        "occurrences": [
           {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": null,
+            "day": "Tuesday",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": "1",
             "qty_parsed": [
-              null,
-              null
+              1.0,
+              ""
             ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Dairy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Smoked Burgers"
-        ],
-        "dishes_with_days": [
-          "Smoked Burgers (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
           },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Smoked Burgers"
-            ],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Green Onion",
-        "norm": "green onion",
-        "occurrences": [
           {
             "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
+            "dish": "🍯 Honey Garlic Grilled CHICKEN",
+            "qty_str": "5",
+            "qty_parsed": [
+              5.0,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
             "qty_str": null,
             "qty_parsed": [
               null,
@@ -869,28 +511,41 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 5,
         "days": [
+          "Monday",
+          "Tuesday",
           "Wednesday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber"
+          "Baby Bok Choy - Steamed with Oyster Sauce",
+          "Mediterranean Bowl with Lemon-Herb Chicken",
+          "Slow Cooker Beef Ramen",
+          "🍯 Honey Garlic Grilled CHICKEN"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
+          "Baby Bok Choy - Steamed with Oyster Sauce (Wed)",
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
+          "Slow Cooker Beef Ramen (Mon)",
+          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 5,
             "days": [
+              "Monday",
+              "Tuesday",
               "Wednesday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber"
+              "Baby Bok Choy - Steamed with Oyster Sauce",
+              "Mediterranean Bowl with Lemon-Herb Chicken",
+              "Slow Cooker Beef Ramen",
+              "🍯 Honey Garlic Grilled CHICKEN"
             ],
-            "qty_display": "1"
+            "qty_display": "16"
           },
           "Wed": {
             "uses": 0,
@@ -899,7 +554,76 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1",
+        "total_qty_display": "16",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Green onions",
+        "norm": "green onion",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "4-5",
+            "qty_parsed": [
+              4.5,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Egg with Tomato",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Monday",
+          "Wednesday"
+        ],
+        "dishes": [
+          "Egg with Tomato",
+          "Slow Cooker Beef Ramen"
+        ],
+        "dishes_with_days": [
+          "Egg with Tomato (Wed)",
+          "Slow Cooker Beef Ramen (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Egg with Tomato",
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "6"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "6",
         "math_mode": "multiplied"
       },
       {
@@ -907,7 +631,7 @@
         "norm": "hummus",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1/2-3/4 cup",
             "qty_parsed": [
@@ -926,95 +650,26 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "1/2-3/4 cup"
-          }
-        },
-        "total_qty_display": "1/2-3/4 cup",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Ketchup",
-        "norm": "ketchup",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1 T",
-            "qty_parsed": [
-              1.0,
-              "t"
-            ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Wednesday",
-          "Weekend"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber",
-          "Smoked Burgers"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)",
-          "Smoked Burgers (Sat)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Wednesday",
-              "Weekend"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber",
-              "Smoked Burgers"
-            ],
-            "qty_display": "1 T"
           },
           "Wed": {
             "uses": 0,
@@ -1023,7 +678,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1 T",
+        "total_qty_display": "1/2-3/4 cup",
         "math_mode": "single"
       },
       {
@@ -1031,7 +686,7 @@
         "norm": "lemon juice",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "3 Tbsp",
             "qty_parsed": [
@@ -1050,32 +705,32 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "3 tbsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "3 tbsp",
@@ -1086,186 +741,12 @@
         "norm": "lemon juice zest of 1 lemon",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "3 Tbsp",
             "qty_parsed": [
               3.0,
               "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "3 tbsp"
-          }
-        },
-        "total_qty_display": "3 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Lettuce leaves",
-        "norm": "lettuce leaf",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Leafy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Smoked Burgers"
-        ],
-        "dishes_with_days": [
-          "Smoked Burgers (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Smoked Burgers"
-            ],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Lime juice",
-        "norm": "lime juice",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1 T",
-            "qty_parsed": [
-              1.0,
-              "t"
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "2 T",
-            "qty_parsed": [
-              2.0,
-              "t"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "3"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Orange peppers",
-        "norm": "orange pepper",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
             ]
           }
         ],
@@ -1282,10 +763,10 @@
           "Tuesday"
         ],
         "dishes": [
-          "Barbacoa Bowls"
+          "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥬",
@@ -1296,9 +777,9 @@
               "Tuesday"
             ],
             "dishes": [
-              "Barbacoa Bowls"
+              "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
-            "qty_display": "1"
+            "qty_display": "3 tbsp"
           },
           "Wed": {
             "uses": 0,
@@ -1307,15 +788,15 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
+        "total_qty_display": "3 tbsp",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Parsley",
         "norm": "parsley",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1/4 cup",
             "qty_parsed": [
@@ -1334,32 +815,32 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "0.25 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "0.25 cup",
@@ -1421,20 +902,11 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Red Onion/Shallot",
+        "canonical_name": "Red onion",
         "norm": "red onion",
         "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1/2",
             "qty_parsed": [
@@ -1460,20 +932,17 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 3,
+        "use_count": 2,
         "days": [
-          "Wednesday",
-          "Thursday",
+          "Tuesday",
           "Friday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber",
           "Mediterranean Bowl with Lemon-Herb Chicken",
           "🌽 Southwest Pasta Salad"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)",
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)",
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
           "🌽 Southwest Pasta Salad (Fri)"
         ],
         "trip": "Mon/Wed",
@@ -1482,152 +951,26 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Wednesday"
+              "Tuesday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber"
+              "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "1"
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
               "Friday"
             ],
             "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken",
               "🌽 Southwest Pasta Salad"
             ],
             "qty_display": "1"
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Red peppers",
-        "norm": "red pepper",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1/2 tsp",
-            "qty_parsed": [
-              0.5,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Wednesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls",
-          "Chicken lettuce Cups & Cucumber"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)",
-          "Chicken lettuce Cups & Cucumber (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls",
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "3.5 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3.5 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Salsa",
-        "norm": "salsa",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
       },
       {
         "canonical_name": "Spoon dollop Yogurt Coconut",
@@ -1744,7 +1087,7 @@
         "norm": "tahini",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1/4 cup",
             "qty_parsed": [
@@ -1763,13 +1106,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -1777,7 +1120,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
@@ -1799,21 +1142,12 @@
         "norm": "tomato",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1-2",
+            "day": "Wednesday",
+            "dish": "Egg with Tomato",
+            "qty_str": "3",
             "qty_parsed": [
-              1.5,
+              3.0,
               ""
-            ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
             ]
           }
         ],
@@ -1825,75 +1159,50 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Tuesday",
-          "Weekend"
+          "Wednesday"
         ],
         "dishes": [
-          "Barbacoa Bowls",
-          "Smoked Burgers"
+          "Egg with Tomato"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Tue)",
-          "Smoked Burgers (Sat)"
+          "Egg with Tomato (Wed)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
             "uses": 1,
             "days": [
-              "Tuesday"
+              "Wednesday"
             ],
             "dishes": [
-              "Barbacoa Bowls"
+              "Egg with Tomato"
             ],
-            "qty_display": "2"
+            "qty_display": "3"
           },
           "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Smoked Burgers"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "3",
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Yellow onion",
+        "canonical_name": "Onion",
         "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
               ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
             ]
           }
         ],
@@ -1905,82 +1214,15 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 3,
-        "days": [
-          "Tuesday",
-          "Wednesday",
-          "Weekend"
-        ],
-        "dishes": [
-          "Barbacoa Bowls",
-          "Chicken lettuce Cups & Cucumber",
-          "Smoked Burgers"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)",
-          "Chicken lettuce Cups & Cucumber (Wed)",
-          "Smoked Burgers (Sat)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls",
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "2"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Smoked Burgers"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "3",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Yellow peppers",
-        "norm": "yellow pepper",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
         "use_count": 1,
         "days": [
-          "Tuesday"
+          "Monday"
         ],
         "dishes": [
-          "Barbacoa Bowls"
+          "Slow Cooker Beef Ramen"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
+          "Slow Cooker Beef Ramen (Mon)"
         ],
         "trip": "Mon",
         "icon": "🥬",
@@ -1988,12 +1230,12 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Tuesday"
+              "Monday"
             ],
             "dishes": [
-              "Barbacoa Bowls"
+              "Slow Cooker Beef Ramen"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -2002,176 +1244,11 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       }
     ],
     "Costco": [
-      {
-        "canonical_name": "Beef broth",
-        "norm": "beef broth",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "2 cup",
-            "qty_parsed": [
-              2.0,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "2 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 cup",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Beef Chuck Roast",
-        "norm": "beef chuck roast",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "4 lbs",
-            "qty_parsed": [
-              4.0,
-              "lbs"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "4 lbs"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4 lbs",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Beef patties",
-        "norm": "beef patty",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": "8",
-            "qty_parsed": [
-              8.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Smoked Burgers"
-        ],
-        "dishes_with_days": [
-          "Smoked Burgers (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Smoked Burgers"
-            ],
-            "qty_display": "8"
-          }
-        },
-        "total_qty_display": "8",
-        "math_mode": "single"
-      },
       {
         "canonical_name": "Black beans",
         "norm": "black bean",
@@ -2232,7 +1309,7 @@
         "norm": "boneless skinless chicken breast",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1.5-2 lb",
             "qty_parsed": [
@@ -2251,32 +1328,32 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "🥩",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "2",
@@ -2338,16 +1415,16 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Chicken breast",
-        "norm": "chicken breast",
+        "canonical_name": "Chicken thighs",
+        "norm": "chicken thigh",
         "occurrences": [
           {
             "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "2-3",
+            "dish": "🍯 Honey Garlic Grilled CHICKEN",
+            "qty_str": "2 lbs",
             "qty_parsed": [
-              2.5,
-              ""
+              2.0,
+              "lbs"
             ]
           }
         ],
@@ -2364,10 +1441,10 @@
           "Wednesday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber"
+          "🍯 Honey Garlic Grilled CHICKEN"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
+          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥩",
@@ -2378,9 +1455,9 @@
               "Wednesday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber"
+              "🍯 Honey Garlic Grilled CHICKEN"
             ],
-            "qty_display": "3"
+            "qty_display": "2 lbs"
           },
           "Wed": {
             "uses": 0,
@@ -2389,15 +1466,15 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "3",
-        "math_mode": "multiplied"
+        "total_qty_display": "2 lbs",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Kalamata olives",
         "norm": "kalamata olive",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1/2 cup",
             "qty_parsed": [
@@ -2416,32 +1493,32 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon",
         "icon": "❓",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
             ],
             "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "0.5 cup",
@@ -2562,7 +1639,7 @@
         "norm": "quinoa",
         "occurrences": [
           {
-            "day": "Thursday",
+            "day": "Tuesday",
             "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
             "qty_str": "1.5 cups",
             "qty_parsed": [
@@ -2581,13 +1658,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Tuesday"
         ],
         "dishes": [
           "Mediterranean Bowl with Lemon-Herb Chicken"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Thu)"
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -2595,7 +1672,7 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Tuesday"
             ],
             "dishes": [
               "Mediterranean Bowl with Lemon-Herb Chicken"
@@ -2668,16 +1745,16 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Splash of oil",
-        "norm": "splash of oil",
+        "canonical_name": "Sirloin",
+        "norm": "sirloin",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": null,
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "2-2 1/2 lb",
             "qty_parsed": [
-              null,
-              null
+              2.25,
+              "lb"
             ]
           }
         ],
@@ -2691,13 +1768,13 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Tuesday"
+          "Monday"
         ],
         "dishes": [
-          "Barbacoa Bowls"
+          "Slow Cooker Beef Ramen"
         ],
         "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
+          "Slow Cooker Beef Ramen (Mon)"
         ],
         "trip": "Mon",
         "icon": "❓",
@@ -2705,12 +1782,12 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Tuesday"
+              "Monday"
             ],
             "dishes": [
-              "Barbacoa Bowls"
+              "Slow Cooker Beef Ramen"
             ],
-            "qty_display": ""
+            "qty_display": "2.25 lb"
           },
           "Wed": {
             "uses": 0,
@@ -2719,120 +1796,8 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
-      }
-    ],
-    "Sam’s Club": [
-      {
-        "canonical_name": "Black Olives",
-        "norm": "black olive",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1 can",
-            "qty_parsed": [
-              1.0,
-              "can"
-            ]
-          }
-        ],
-        "stores": [
-          "Sam’s Club"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "1 can"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 can",
+        "total_qty_display": "2.25 lb",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Burger buns",
-        "norm": "burger bun",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Smoked Burgers",
-            "qty_str": "8",
-            "qty_parsed": [
-              8.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Sam’s Club"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Smoked Burgers"
-        ],
-        "dishes_with_days": [
-          "Smoked Burgers (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Smoked Burgers"
-            ],
-            "qty_display": "8"
-          }
-        },
-        "total_qty_display": "8",
-        "math_mode": "single"
       }
     ],
     "Amazon": [
@@ -2890,251 +1855,77 @@
         },
         "total_qty_display": "1 tsp",
         "math_mode": "summed"
-      },
+      }
+    ],
+    "888 Market / Pan Asia": [
       {
-        "canonical_name": "Ranchers",
-        "norm": "rancher",
+        "canonical_name": "Chinese five-spice",
+        "norm": "chinese five-spice",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1/2",
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "1 tsp",
             "qty_parsed": [
-              0.5,
-              ""
+              1.0,
+              "tsp"
             ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Slow Cooker Beef Ramen"
+        ],
+        "dishes_with_days": [
+          "Slow Cooker Beef Ramen (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "1 tsp"
           },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 tsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Lime",
+        "norm": "lime",
+        "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
             "qty_str": null,
             "qty_parsed": [
               null,
               null
             ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "1/2"
           },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Taco seasoning",
-        "norm": "taco seasoning",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Barbacoa Bowls",
-            "qty_str": "1/2",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Barbacoa Bowls"
-        ],
-        "dishes_with_days": [
-          "Barbacoa Bowls (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Barbacoa Bowls"
-            ],
-            "qty_display": "1/2"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2",
-        "math_mode": "single"
-      }
-    ],
-    "888 Market / Pan Asia": [
-      {
-        "canonical_name": "Chinese Vinegar",
-        "norm": "chinese vinegar",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "2 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Coconut cream",
-        "norm": "coconut cream",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": "1/2 C",
-            "qty_parsed": [
-              0.5,
-              "c"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Chicken lettuce Cups & Cucumber"
-        ],
-        "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Chicken lettuce Cups & Cucumber"
-            ],
-            "qty_display": "1/2 C"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2 C",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Limes",
-        "norm": "lime",
-        "occurrences": [
           {
             "day": "Friday",
             "dish": "🌽 Southwest Pasta Salad",
@@ -3153,24 +1944,31 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Monday",
           "Friday"
         ],
         "dishes": [
+          "Slow Cooker Beef Ramen",
           "🌽 Southwest Pasta Salad"
         ],
         "dishes_with_days": [
+          "Slow Cooker Beef Ramen (Mon)",
           "🌽 Southwest Pasta Salad (Fri)"
         ],
-        "trip": "Wed",
+        "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 1,
@@ -3183,53 +1981,53 @@
             "qty_display": "2"
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "3",
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Rice vermicelli noodles",
-        "norm": "rice vermicelli noodle",
+        "canonical_name": "Head napa cabbage",
+        "norm": "napa cabbage",
         "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "Chicken lettuce Cups & Cucumber",
-            "qty_str": null,
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "1",
             "qty_parsed": [
-              null,
-              null
+              1.0,
+              ""
             ]
           }
         ],
         "stores": [
           "888 Market / Pan Asia"
         ],
-        "category": "Unknown",
-        "type": "unknown",
+        "category": "Produce-Leafy",
+        "type": "fresh",
         "matched_routing": true,
         "is_countable": false,
-        "user_routed": true,
+        "user_routed": false,
         "use_count": 1,
         "days": [
-          "Wednesday"
+          "Monday"
         ],
         "dishes": [
-          "Chicken lettuce Cups & Cucumber"
+          "Slow Cooker Beef Ramen"
         ],
         "dishes_with_days": [
-          "Chicken lettuce Cups & Cucumber (Wed)"
+          "Slow Cooker Beef Ramen (Mon)"
         ],
         "trip": "Mon",
-        "icon": "❓",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
             "uses": 1,
             "days": [
-              "Wednesday"
+              "Monday"
             ],
             "dishes": [
-              "Chicken lettuce Cups & Cucumber"
+              "Slow Cooker Beef Ramen"
             ],
-            "qty_display": ""
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -3238,8 +2036,118 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Packs ramen noodles",
+        "norm": "pack ramen noodle",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Slow Cooker Beef Ramen",
+            "qty_str": "4-5",
+            "qty_parsed": [
+              4.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Slow Cooker Beef Ramen"
+        ],
+        "dishes_with_days": [
+          "Slow Cooker Beef Ramen (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Slow Cooker Beef Ramen"
+            ],
+            "qty_display": "4-5"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4-5",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Rice",
+        "norm": "rice",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "🍚 Rice (Simple)",
+            "qty_str": "4 cups",
+            "qty_parsed": [
+              4.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "🍚 Rice (Simple)"
+        ],
+        "dishes_with_days": [
+          "🍚 Rice (Simple) (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "🍚 Rice (Simple)"
+            ],
+            "qty_display": "4 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4 cups",
+        "math_mode": "summed"
       }
     ]
   },
@@ -3249,11 +2157,11 @@
       "norm": "carrot",
       "occurrences": [
         {
-          "day": "Wednesday",
-          "dish": "Chicken lettuce Cups & Cucumber",
-          "qty_str": "4-5",
+          "day": "Monday",
+          "dish": "Slow Cooker Beef Ramen",
+          "qty_str": "4",
           "qty_parsed": [
-            4.5,
+            4.0,
             ""
           ]
         }
@@ -3269,13 +2177,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Wednesday"
+        "Monday"
       ],
       "dishes": [
-        "Chicken lettuce Cups & Cucumber"
+        "Slow Cooker Beef Ramen"
       ],
       "dishes_with_days": [
-        "Chicken lettuce Cups & Cucumber (Wed)"
+        "Slow Cooker Beef Ramen (Mon)"
       ],
       "trip": "Mon",
       "icon": "🥬",
@@ -3283,12 +2191,12 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Wednesday"
+            "Monday"
           ],
           "dishes": [
-            "Chicken lettuce Cups & Cucumber"
+            "Slow Cooker Beef Ramen"
           ],
-          "qty_display": "4-5"
+          "qty_display": "4"
         },
         "Wed": {
           "uses": 0,
@@ -3297,7 +2205,7 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "4-5",
+      "total_qty_display": "4",
       "math_mode": "single"
     },
     {
@@ -3355,96 +2263,91 @@
       },
       "total_qty_display": "1 cup",
       "math_mode": "summed"
-    },
+    }
+  ],
+  "no_store_match": [
     {
-      "canonical_name": "Pickles",
-      "norm": "pickle",
+      "canonical_name": "Cooking wine",
+      "norm": "cooking wine",
       "occurrences": [
         {
-          "day": "Weekend",
-          "dish": "Smoked Burgers",
-          "qty_str": null,
+          "day": "Monday",
+          "dish": "Slow Cooker Beef Ramen",
+          "qty_str": "1 Tbsp",
           "qty_parsed": [
-            null,
-            null
+            1.0,
+            "tbsp"
           ]
         }
       ],
-      "stores": [
-        "Costco",
-        "Whole Foods"
-      ],
-      "category": "Dairy",
-      "type": "fresh",
-      "matched_routing": true,
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
       "is_countable": false,
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Weekend"
+        "Monday"
       ],
       "dishes": [
-        "Smoked Burgers"
+        "Slow Cooker Beef Ramen"
       ],
       "dishes_with_days": [
-        "Smoked Burgers (Sat)"
+        "Slow Cooker Beef Ramen (Mon)"
       ],
-      "trip": "Wed",
-      "icon": "🥬",
+      "trip": "Mon",
+      "icon": "❓",
       "per_trip": {
         "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Slow Cooker Beef Ramen"
+          ],
+          "qty_display": "1 tbsp"
+        },
+        "Wed": {
           "uses": 0,
           "days": [],
           "dishes": [],
           "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Smoked Burgers"
-          ],
-          "qty_display": ""
         }
       },
-      "total_qty_display": "",
-      "math_mode": "none"
+      "total_qty_display": "1 tbsp",
+      "math_mode": "summed"
     },
     {
-      "canonical_name": "Sour cream",
-      "norm": "sour cream",
+      "canonical_name": "Pckg bok choy",
+      "norm": "pckg bok choy",
       "occurrences": [
         {
-          "day": "Tuesday",
-          "dish": "Barbacoa Bowls",
-          "qty_str": null,
+          "day": "Wednesday",
+          "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+          "qty_str": "1",
           "qty_parsed": [
-            null,
-            null
+            1.0,
+            ""
           ]
         }
       ],
-      "stores": [
-        "Sam’s Club",
-        "Costco",
-        "Whole Foods"
-      ],
-      "category": "Dairy",
+      "stores": [],
+      "category": "Unknown",
       "type": "fresh",
-      "matched_routing": true,
+      "matched_routing": false,
       "is_countable": false,
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Tuesday"
+        "Wednesday"
       ],
       "dishes": [
-        "Barbacoa Bowls"
+        "Baby Bok Choy - Steamed with Oyster Sauce"
       ],
       "dishes_with_days": [
-        "Barbacoa Bowls (Tue)"
+        "Baby Bok Choy - Steamed with Oyster Sauce (Wed)"
       ],
       "trip": "Mon",
       "icon": "🥬",
@@ -3452,12 +2355,12 @@
         "Mon": {
           "uses": 1,
           "days": [
-            "Tuesday"
+            "Wednesday"
           ],
           "dishes": [
-            "Barbacoa Bowls"
+            "Baby Bok Choy - Steamed with Oyster Sauce"
           ],
-          "qty_display": ""
+          "qty_display": "1"
         },
         "Wed": {
           "uses": 0,
@@ -3466,263 +2369,305 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "",
-      "math_mode": "none"
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Ramen broth",
+      "norm": "ramen broth",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Slow Cooker Beef Ramen",
+          "qty_str": "4-6 cups",
+          "qty_parsed": [
+            5.0,
+            "cups"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Slow Cooker Beef Ramen"
+      ],
+      "dishes_with_days": [
+        "Slow Cooker Beef Ramen (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Slow Cooker Beef Ramen"
+          ],
+          "qty_display": "5 cups"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "5 cups",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Star anise",
+      "norm": "star anise",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Slow Cooker Beef Ramen",
+          "qty_str": "3",
+          "qty_parsed": [
+            3.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Slow Cooker Beef Ramen"
+      ],
+      "dishes_with_days": [
+        "Slow Cooker Beef Ramen (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Slow Cooker Beef Ramen"
+          ],
+          "qty_display": "3"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "3",
+      "math_mode": "single"
     }
   ],
-  "no_store_match": [],
   "skipped_staples": [
     {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "cumin",
-      "quantity": "1 tsp",
-      "original": "1 tsp cumin"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "Tbs dried oregano",
-      "quantity": "1/2",
-      "original": "1/2 Tbs dried oregano"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "smoked paprika",
-      "quantity": "1 tsp",
-      "original": "1 tsp smoked paprika"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "black pepper",
-      "quantity": "1/2 teaspoon",
-      "original": "1/2 teaspoon black pepper"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "bay leaves",
-      "quantity": "2",
-      "original": "2 bay leaves"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Barbacoa Bowls",
-      "name": "Salt",
-      "quantity": null,
-      "original": "Salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Honey",
-      "quantity": "3 T",
-      "original": "3 T Honey"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Salt",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp Salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Soy Sauce",
-      "quantity": "2 T",
-      "original": "2 T Soy Sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Hoisin Sauce",
-      "quantity": "1 T",
-      "original": "1 T Hoisin Sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Oyster Sauce",
-      "quantity": "1 T",
-      "original": "1 T Oyster Sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Sugar",
-      "quantity": "1 tsp",
-      "original": "1 tsp Sugar"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Rice Vinegar",
-      "quantity": "3 T",
-      "original": "3 T Rice Vinegar"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Sugar",
-      "quantity": "1 T",
-      "original": "1 T Sugar"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Ginger",
-      "quantity": null,
-      "original": "Ginger"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
+      "day": "Monday",
+      "dish": "Slow Cooker Beef Ramen",
       "name": "soy sauce",
-      "quantity": "1 T",
-      "original": "1 T soy sauce"
+      "quantity": "2 Tbsp",
+      "original": "2 Tbsp soy sauce"
     },
     {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Peanut Butter",
-      "quantity": "1/3 C",
-      "original": "1/3 C Peanut Butter"
+      "day": "Monday",
+      "dish": "Slow Cooker Beef Ramen",
+      "name": "squeeze ginger",
+      "quantity": "1 Tbsp",
+      "original": "1 Tbsp squeeze ginger"
     },
     {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Hoisin Sauce",
-      "quantity": "2 T",
-      "original": "2 T Hoisin Sauce"
+      "day": "Monday",
+      "dish": "Slow Cooker Beef Ramen",
+      "name": "cinnamon stick",
+      "quantity": "1",
+      "original": "1 cinnamon stick"
     },
     {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "warm Water to thin",
+      "day": "Monday",
+      "dish": "Slow Cooker Beef Ramen",
+      "name": "Salt and pepper",
       "quantity": null,
-      "original": "warm Water to thin"
+      "original": "Salt and pepper"
     },
     {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Sugar to taste",
-      "quantity": "2 tsp",
-      "original": "2 tsp Sugar to taste"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "EVOO",
-      "quantity": "2 T",
-      "original": "2 T EVOO"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "honey",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp honey"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "salt",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "pepper",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp pepper"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "EVOO",
-      "quantity": null,
-      "original": "EVOO"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Chicken lettuce Cups & Cucumber",
-      "name": "Ginger",
-      "quantity": "1.5 T",
-      "original": "1.5 T Ginger"
-    },
-    {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "extra-virgin olive oil",
       "quantity": "3 Tbsp",
       "original": "3 Tbsp extra-virgin olive oil"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "dried oregano",
       "quantity": "1 tsp",
       "original": "1 tsp dried oregano"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "dried thyme",
       "quantity": "1 tsp",
       "original": "1 tsp dried thyme or Italian seasoning"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "sea salt",
       "quantity": "1/2 tsp",
       "original": "1/2 tsp sea salt"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "black pepper",
       "quantity": "1/4 tsp",
       "original": "1/4 tsp black pepper"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "extra-virgin olive oil",
       "quantity": "2 Tbsp",
       "original": "2 Tbsp extra-virgin olive oil"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "water",
       "quantity": "2-4 Tbsp",
       "original": "2-4 Tbsp water (to thin)"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "sea salt",
       "quantity": "1/2 tsp",
       "original": "1/2 tsp sea salt"
     },
     {
-      "day": "Thursday",
+      "day": "Tuesday",
       "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
       "name": "Pinch black pepper",
       "quantity": null,
       "original": "Pinch black pepper"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "olive oil",
+      "quantity": "1/4 cup",
+      "original": "¼ cup olive oil"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "honey",
+      "quantity": "3 tbsp",
+      "original": "3 tbsp honey"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "soy sauce",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp soy sauce"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "smoked paprika",
+      "quantity": "1 tsp",
+      "original": "1 tsp smoked paprika"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "black pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp black pepper"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "EVOO",
+      "quantity": null,
+      "original": "EVOO"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "soy sauce",
+      "quantity": "2 tsp",
+      "original": "2 tsp soy sauce"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "oyster sauce",
+      "quantity": "1 tsp",
+      "original": "1 tsp oyster sauce"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "water splash",
+      "quantity": null,
+      "original": "water splash"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Egg with Tomato",
+      "name": "EVOO",
+      "quantity": "1 tablespoon",
+      "original": "1 tablespoon EVOO"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Egg with Tomato",
+      "name": "salt",
+      "quantity": "1/2 teaspoon",
+      "original": "1/2 teaspoon salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "water",
+      "quantity": "4 cups",
+      "original": "4 cups water"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "butter",
+      "quantity": "1 tbsp",
+      "original": "1 tbsp butter or olive oil"
     },
     {
       "day": "Friday",
