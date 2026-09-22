@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T05:33:27.549409",
+  "generated_at": "2026-09-22T05:00:03.477517",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -27,7 +27,7 @@
               "quantity": "4-6 cups",
               "name": "ramen broth",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -35,7 +35,7 @@
               "quantity": "2 Tbsp",
               "name": "soy sauce",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -43,7 +43,7 @@
               "quantity": "1 Tbsp",
               "name": "cooking wine",
               "notes": "rice vinegar",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -51,7 +51,7 @@
               "quantity": "1 Tbsp",
               "name": "squeeze ginger",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -59,7 +59,7 @@
               "quantity": "6",
               "name": "garlic cloves",
               "notes": "smashed",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -67,7 +67,7 @@
               "quantity": "1",
               "name": "onion",
               "notes": "sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -75,7 +75,7 @@
               "quantity": "1 tsp",
               "name": "Chinese five-spice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -83,7 +83,7 @@
               "quantity": "3",
               "name": "star anise",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -91,7 +91,7 @@
               "quantity": "1",
               "name": "cinnamon stick",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -99,7 +99,7 @@
               "quantity": null,
               "name": "Salt and pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Beef and Broth"
             },
             {
@@ -707,12 +707,6 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "6aa095c70b7b42784d07b0a7",
-          "name": "Food trucks - Andrew & Adalyn school movie night",
-          "ingredients": [],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "6a14e744b00ff8aa5c9633b0",
           "name": "🌽 Southwest Pasta Salad",
           "ingredients": [],
@@ -930,7 +924,7 @@
           "is_multi_variant": false
         }
       ],
-      "dish_count": 4
+      "dish_count": 3
     },
     "Weekend": {
       "dishes": [
@@ -996,15 +990,9 @@
             }
           ],
           "is_multi_variant": false
-        },
-        {
-          "card_id": "6a14f076f4791cdb51d9bc09",
-          "name": "Meal plan combo ideas",
-          "ingredients": [],
-          "is_multi_variant": false
         }
       ],
-      "dish_count": 2
+      "dish_count": 1
     }
   }
 }
