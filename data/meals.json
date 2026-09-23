@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:00:03.477517",
+  "generated_at": "2026-09-23T05:00:04.713552",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -174,11 +174,11 @@
           "name": "Mediterranean Bowl with Lemon-Herb Chicken",
           "ingredients": [
             {
-              "original": "1.5-2 lb boneless skinless chicken breasts (pounded to even 1/2-3/4 inch)",
-              "quantity": "1.5-2 lb",
+              "original": "3 boneless skinless chicken breasts (pounded to even 1/2-3/4 inch)",
+              "quantity": "3",
               "name": "boneless skinless chicken breasts",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -186,7 +186,7 @@
               "quantity": "3 Tbsp",
               "name": "extra-virgin olive oil",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -194,7 +194,7 @@
               "quantity": "3 Tbsp",
               "name": "fresh lemon juice + zest of 1 lemon",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -202,7 +202,7 @@
               "quantity": "3",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -210,7 +210,7 @@
               "quantity": "1 tsp",
               "name": "dried oregano",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -218,7 +218,7 @@
               "quantity": "1 tsp",
               "name": "dried thyme",
               "notes": "Italian seasoning",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -226,7 +226,7 @@
               "quantity": "1/2 tsp",
               "name": "sea salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -234,7 +234,7 @@
               "quantity": "1/4 tsp",
               "name": "black pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Lemon-Herb Chicken"
             },
             {
@@ -242,7 +242,7 @@
               "quantity": "1.5 cups",
               "name": "quinoa (or rice",
               "notes": "cooked in vegetable broth)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -250,7 +250,7 @@
               "quantity": null,
               "name": "OR 6-8 cups mixed greens for a lighter base",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -258,7 +258,7 @@
               "quantity": "1",
               "name": "English cucumber",
               "notes": "diced or sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -266,7 +266,7 @@
               "quantity": "1.5 cups",
               "name": "cherry tomatoes",
               "notes": "halved",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -274,7 +274,7 @@
               "quantity": "1/2",
               "name": "small red onion",
               "notes": "thinly sliced (soak in ice water 5 min to mellow)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -282,7 +282,7 @@
               "quantity": "1/2 cup",
               "name": "Kalamata olives",
               "notes": "pitted and halved (optional)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -298,7 +298,7 @@
               "quantity": "1/4 cup",
               "name": "fresh parsley",
               "notes": "cilantro, chopped",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -306,7 +306,15 @@
               "quantity": "1/2-3/4 cup",
               "name": "hummus (seed-oil-free: Ithaca",
               "notes": "Cedars, or Roots)",
-              "checked": false,
+              "checked": true,
+              "checklist": "Ingredients - Bowl Components"
+            },
+            {
+              "original": "1.5 cups white rice (kid-friendly base - make alongside the quinoa)",
+              "quantity": "1.5 cups",
+              "name": "white rice",
+              "notes": "",
+              "checked": true,
               "checklist": "Ingredients - Bowl Components"
             },
             {
@@ -314,7 +322,7 @@
               "quantity": "1/4 cup",
               "name": "tahini (pure sesame paste",
               "notes": "no added seed oils)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             },
             {
@@ -322,7 +330,7 @@
               "quantity": "3 Tbsp",
               "name": "fresh lemon juice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             },
             {
@@ -330,7 +338,7 @@
               "quantity": "2 Tbsp",
               "name": "extra-virgin olive oil",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             },
             {
@@ -338,7 +346,7 @@
               "quantity": "1",
               "name": "garlic clove",
               "notes": "grated",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             },
             {
@@ -346,7 +354,7 @@
               "quantity": "2-4 Tbsp",
               "name": "water",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             },
             {
@@ -354,7 +362,7 @@
               "quantity": "1/2 tsp",
               "name": "sea salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             },
             {
@@ -362,7 +370,7 @@
               "quantity": null,
               "name": "Pinch black pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tahini-Lemon Dressing"
             }
           ],
