@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:00:04.713552",
+  "generated_at": "2026-09-23T05:50:34.904892",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -12,8 +12,8 @@
     "raw_ingredient_count": 86,
     "unique_after_dedup": 43,
     "skipped_staples": 33,
-    "routing_matched": 42,
-    "routing_unmatched": 1,
+    "routing_matched": 43,
+    "routing_unmatched": 0,
     "multi_store": 2,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -2368,6 +2368,61 @@
         },
         "total_qty_display": "3",
         "math_mode": "single"
+      },
+      {
+        "canonical_name": "White rice",
+        "norm": "white rice",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
+            "qty_str": "1.5 cups",
+            "qty_parsed": [
+              1.5,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Mediterranean Bowl with Lemon-Herb Chicken"
+        ],
+        "dishes_with_days": [
+          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Mediterranean Bowl with Lemon-Herb Chicken"
+            ],
+            "qty_display": "1.5 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1.5 cups",
+        "math_mode": "summed"
       }
     ]
   },
@@ -2485,61 +2540,7 @@
       "math_mode": "summed"
     }
   ],
-  "no_store_match": [
-    {
-      "canonical_name": "White rice",
-      "norm": "white rice",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-          "qty_str": "1.5 cups",
-          "qty_parsed": [
-            1.5,
-            "cups"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Mediterranean Bowl with Lemon-Herb Chicken"
-      ],
-      "dishes_with_days": [
-        "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Mediterranean Bowl with Lemon-Herb Chicken"
-          ],
-          "qty_display": "1.5 cups"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1.5 cups",
-      "math_mode": "summed"
-    }
-  ],
+  "no_store_match": [],
   "skipped_staples": [
     {
       "day": "Monday",
