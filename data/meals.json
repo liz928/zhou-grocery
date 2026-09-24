@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:50:34.904892",
+  "generated_at": "2026-09-24T05:00:05.936618",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -406,7 +406,7 @@
                   "quantity": "1/4 cup",
                   "name": "olive oil",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Ingredients"
                 },
                 {
@@ -414,7 +414,7 @@
                   "quantity": "3 tbsp",
                   "name": "honey",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Ingredients"
                 },
                 {
@@ -422,7 +422,7 @@
                   "quantity": "5",
                   "name": "garlic cloves",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Ingredients"
                 },
                 {
@@ -430,7 +430,7 @@
                   "quantity": "2 tbsp",
                   "name": "soy sauce",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Ingredients"
                 },
                 {
@@ -438,7 +438,7 @@
                   "quantity": "1 tsp",
                   "name": "smoked paprika",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Ingredients"
                 },
                 {
@@ -446,7 +446,7 @@
                   "quantity": "1/2 tsp",
                   "name": "black pepper",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Ingredients"
                 },
                 {
@@ -467,7 +467,7 @@
                   "quantity": null,
                   "name": "Mince 5 garlic cloves",
                   "notes": "",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Helper Task"
                 },
                 {
@@ -475,7 +475,7 @@
                   "quantity": null,
                   "name": "Whisk marinade in bag",
                   "notes": "bowl",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Helper Task"
                 },
                 {
@@ -483,7 +483,7 @@
                   "quantity": null,
                   "name": "Add protein",
                   "notes": "toss to coat",
-                  "checked": false,
+                  "checked": true,
                   "checklist": "Helper Task"
                 },
                 {
