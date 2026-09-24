@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:00:05.936618",
+  "generated_at": "2026-09-24T18:28:26.785215",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,1265 +9,36 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 86,
-    "unique_after_dedup": 43,
-    "skipped_staples": 33,
-    "routing_matched": 43,
-    "routing_unmatched": 0,
-    "multi_store": 2,
+    "raw_ingredient_count": 26,
+    "unique_after_dedup": 17,
+    "skipped_staples": 7,
+    "routing_matched": 16,
+    "routing_unmatched": 1,
+    "multi_store": 1,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
-    "Whole Foods": [
-      {
-        "canonical_name": "Avocado",
-        "norm": "avocado",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Friday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken",
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Cherry tomatoes",
-        "norm": "cherry tomato",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1.5 cups",
-            "qty_parsed": [
-              1.5,
-              "cups"
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1 cup",
-            "qty_parsed": [
-              1.0,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Friday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken",
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1.5 cups"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "1 cup"
-          }
-        },
-        "total_qty_display": "2.5 cups",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Cilantro",
-        "norm": "cilantro",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Monday",
-          "Friday"
-        ],
-        "dishes": [
-          "Slow Cooker Beef Ramen",
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)",
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "0.5 cup"
-          }
-        },
-        "total_qty_display": "1/2 cup",
-        "math_mode": "mixed"
-      },
-      {
-        "canonical_name": "Cups mixed greens for a lighter base",
-        "norm": "cup mixed green for a lighter base",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Eggs",
-        "norm": "egg",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Egg with Tomato",
-            "qty_str": "5",
-            "qty_parsed": [
-              5.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Dairy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Egg with Tomato"
-        ],
-        "dishes_with_days": [
-          "Egg with Tomato (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Egg with Tomato"
-            ],
-            "qty_display": "5"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "5",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "English cucumber",
-        "norm": "english cucumber",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Flax seeds",
-        "norm": "flax seed",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": "1 tsp"
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Garlic cloves",
-        "norm": "garlic",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "6",
-            "qty_parsed": [
-              6.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "🍯 Honey Garlic Grilled CHICKEN",
-            "qty_str": "5",
-            "qty_parsed": [
-              5.0,
-              ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 5,
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday"
-        ],
-        "dishes": [
-          "Baby Bok Choy - Steamed with Oyster Sauce",
-          "Mediterranean Bowl with Lemon-Herb Chicken",
-          "Slow Cooker Beef Ramen",
-          "🍯 Honey Garlic Grilled CHICKEN"
-        ],
-        "dishes_with_days": [
-          "Baby Bok Choy - Steamed with Oyster Sauce (Wed)",
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
-          "Slow Cooker Beef Ramen (Mon)",
-          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 5,
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Baby Bok Choy - Steamed with Oyster Sauce",
-              "Mediterranean Bowl with Lemon-Herb Chicken",
-              "Slow Cooker Beef Ramen",
-              "🍯 Honey Garlic Grilled CHICKEN"
-            ],
-            "qty_display": "16"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "16",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Green onions",
-        "norm": "green onion",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "4-5",
-            "qty_parsed": [
-              4.5,
-              ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "Egg with Tomato",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Monday",
-          "Wednesday"
-        ],
-        "dishes": [
-          "Egg with Tomato",
-          "Slow Cooker Beef Ramen"
-        ],
-        "dishes_with_days": [
-          "Egg with Tomato (Wed)",
-          "Slow Cooker Beef Ramen (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Monday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Egg with Tomato",
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "6"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "6",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Hummus",
-        "norm": "hummus",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1/2-3/4 cup",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Dairy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1/2-3/4 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2-3/4 cup",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Lemon juice",
-        "norm": "lemon juice",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "3 Tbsp",
-            "qty_parsed": [
-              3.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "3 tbsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Lemon juice + zest of 1 lemon",
-        "norm": "lemon juice zest of 1 lemon",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "3 Tbsp",
-            "qty_parsed": [
-              3.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "3 tbsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Parsley",
-        "norm": "parsley",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1/4 cup",
-            "qty_parsed": [
-              0.25,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "0.25 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.25 cup",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Red bell pepper",
-        "norm": "red bell pepper",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Red onion",
-        "norm": "red onion",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1/2",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1/2",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Friday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken",
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)",
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Spoon dollop Yogurt Coconut",
-        "norm": "spoon dollop yogurt coconut",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Dairy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Stevia drops 7",
-        "norm": "stevia drop 7",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Tahini",
-        "norm": "tahini",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1/4 cup",
-            "qty_parsed": [
-              0.25,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "0.25 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.25 cup",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Tomatoes",
-        "norm": "tomato",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Egg with Tomato",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Egg with Tomato"
-        ],
-        "dishes_with_days": [
-          "Egg with Tomato (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Egg with Tomato"
-            ],
-            "qty_display": "3"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Onion",
-        "norm": "yellow onion",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Slow Cooker Beef Ramen"
-        ],
-        "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      }
-    ],
     "Costco": [
       {
-        "canonical_name": "Black beans",
-        "norm": "black bean",
+        "canonical_name": "Beef",
+        "norm": "beef",
         "occurrences": [
           {
             "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1 can",
+            "dish": "Egg Roll in a Bowl",
+            "qty_str": "1 lb",
             "qty_parsed": [
               1.0,
-              "can"
+              "lb"
             ]
           }
         ],
         "stores": [
           "Costco"
         ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
+        "category": "Meat-Beef",
+        "type": "meat",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
@@ -1276,88 +47,33 @@
           "Friday"
         ],
         "dishes": [
-          "🌽 Southwest Pasta Salad"
+          "Egg Roll in a Bowl"
         ],
         "dishes_with_days": [
-          "🌽 Southwest Pasta Salad (Fri)"
+          "Egg Roll in a Bowl (Fri)"
         ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "1 can"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 can",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Boneless skinless chicken breasts",
-        "norm": "boneless skinless chicken breast",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Poultry",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
+        "trip": "Wed",
         "icon": "🥩",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "3"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Egg Roll in a Bowl"
+            ],
+            "qty_display": "1 lb"
           }
         },
-        "total_qty_display": "3",
-        "math_mode": "multiplied"
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Chia seeds",
@@ -1412,116 +128,6 @@
           }
         },
         "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Chicken thighs",
-        "norm": "chicken thigh",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "🍯 Honey Garlic Grilled CHICKEN",
-            "qty_str": "2 lbs",
-            "qty_parsed": [
-              2.0,
-              "lbs"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Poultry",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "🍯 Honey Garlic Grilled CHICKEN"
-        ],
-        "dishes_with_days": [
-          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "🍯 Honey Garlic Grilled CHICKEN"
-            ],
-            "qty_display": "2 lbs"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 lbs",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Kalamata olives",
-        "norm": "kalamata olive",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "0.5 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.5 cup",
         "math_mode": "summed"
       },
       {
@@ -1635,16 +241,16 @@
         "math_mode": "single"
       },
       {
-        "canonical_name": "Quinoa",
-        "norm": "quinoa",
+        "canonical_name": "Packs Kevin's Teriyaki sauce",
+        "norm": "pack kevin s teriyaki sauce",
         "occurrences": [
           {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1.5 cups",
+            "day": "Friday",
+            "dish": "Egg Roll in a Bowl",
+            "qty_str": "2",
             "qty_parsed": [
-              1.5,
-              "cups"
+              2.0,
+              ""
             ]
           }
         ],
@@ -1658,13 +264,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Tuesday"
+          "Friday"
         ],
         "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
+          "Egg Roll in a Bowl"
         ],
         "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
+          "Egg Roll in a Bowl (Fri)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -1672,122 +278,12 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1.5 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1.5 cups",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Rotini",
-        "norm": "rotini",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1 lb",
-            "qty_parsed": [
-              1.0,
-              "lb"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
               "Friday"
             ],
             "dishes": [
-              "🌽 Southwest Pasta Salad"
+              "Egg Roll in a Bowl"
             ],
-            "qty_display": "1 lb"
-          }
-        },
-        "total_qty_display": "1 lb",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Sirloin",
-        "norm": "sirloin",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "2-2 1/2 lb",
-            "qty_parsed": [
-              2.25,
-              "lb"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Slow Cooker Beef Ramen"
-        ],
-        "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "2.25 lb"
+            "qty_display": "2"
           },
           "Wed": {
             "uses": 0,
@@ -1796,194 +292,18 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2.25 lb",
-        "math_mode": "summed"
-      }
-    ],
-    "Amazon": [
-      {
-        "canonical_name": "Chili powder",
-        "norm": "chili powder",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "🌽 Southwest Pasta Salad"
-        ],
-        "dishes_with_days": [
-          "🌽 Southwest Pasta Salad (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🌽 Southwest Pasta Salad"
-            ],
-            "qty_display": "1 tsp"
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
+        "total_qty_display": "2",
+        "math_mode": "single"
       }
     ],
     "888 Market / Pan Asia": [
       {
-        "canonical_name": "Chinese five-spice",
-        "norm": "chinese five-spice",
+        "canonical_name": "Chinese vinegar",
+        "norm": "chinese vinegar",
         "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Slow Cooker Beef Ramen"
-        ],
-        "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "1 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Cooking wine",
-        "norm": "cooking wine",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "1 Tbsp",
-            "qty_parsed": [
-              1.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Slow Cooker Beef Ramen"
-        ],
-        "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "1 tbsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Lime",
-        "norm": "lime",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
           {
             "day": "Friday",
-            "dish": "🌽 Southwest Pasta Salad",
+            "dish": "Scallion Pancakes",
             "qty_str": "2",
             "qty_parsed": [
               2.0,
@@ -1994,36 +314,29 @@
         "stores": [
           "888 Market / Pan Asia"
         ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
+        "category": "Unknown",
+        "type": "unknown",
         "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 2,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
         "days": [
-          "Monday",
           "Friday"
         ],
         "dishes": [
-          "Slow Cooker Beef Ramen",
-          "🌽 Southwest Pasta Salad"
+          "Scallion Pancakes"
         ],
         "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)",
-          "🌽 Southwest Pasta Salad (Fri)"
+          "Scallion Pancakes (Fri)"
         ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
+        "trip": "Wed",
+        "icon": "❓",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -2031,21 +344,200 @@
               "Friday"
             ],
             "dishes": [
-              "🌽 Southwest Pasta Salad"
+              "Scallion Pancakes"
             ],
             "qty_display": "2"
           }
         },
-        "total_qty_display": "3",
+        "total_qty_display": "2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Scallion Pancakes",
+        "norm": "scallion pancake",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Scallion Pancakes",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Frozen",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Scallion Pancakes"
+        ],
+        "dishes_with_days": [
+          "Scallion Pancakes (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Scallion Pancakes"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      }
+    ],
+    "Whole Foods": [
+      {
+        "canonical_name": "Flax seeds",
+        "norm": "flax seed",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": "1 tsp",
+            "qty_parsed": [
+              1.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Overnight Oats"
+        ],
+        "dishes_with_days": [
+          "Overnight Oats (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Overnight Oats"
+            ],
+            "qty_display": "1 tsp"
+          }
+        },
+        "total_qty_display": "1 tsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Garlic cloves",
+        "norm": "garlic",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Egg Roll in a Bowl",
+            "qty_str": "4",
+            "qty_parsed": [
+              4.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Scallion Pancakes",
+            "qty_str": "4",
+            "qty_parsed": [
+              4.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Egg Roll in a Bowl",
+          "Scallion Pancakes"
+        ],
+        "dishes_with_days": [
+          "Egg Roll in a Bowl (Fri)",
+          "Scallion Pancakes (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Egg Roll in a Bowl",
+              "Scallion Pancakes"
+            ],
+            "qty_display": "8"
+          }
+        },
+        "total_qty_display": "8",
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Head napa cabbage",
-        "norm": "napa cabbage",
+        "canonical_name": "Green cabbage",
+        "norm": "green cabbage",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
+            "day": "Friday",
+            "dish": "Egg Roll in a Bowl",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -2054,7 +546,7 @@
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Whole Foods"
         ],
         "category": "Produce-Leafy",
         "type": "fresh",
@@ -2063,99 +555,53 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Friday"
         ],
         "dishes": [
-          "Slow Cooker Beef Ramen"
+          "Egg Roll in a Bowl"
         ],
         "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
+          "Egg Roll in a Bowl (Fri)"
         ],
-        "trip": "Mon",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Egg Roll in a Bowl"
+            ],
+            "qty_display": "1"
           }
         },
         "total_qty_display": "1",
         "math_mode": "single"
       },
       {
-        "canonical_name": "Packs ramen noodles",
-        "norm": "pack ramen noodle",
+        "canonical_name": "Green onion",
+        "norm": "green onion",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "4-5",
+            "day": "Friday",
+            "dish": "Egg Roll in a Bowl",
+            "qty_str": "6 1/4 stalks",
             "qty_parsed": [
-              4.5,
-              ""
+              6.25,
+              "stalks"
             ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Slow Cooker Beef Ramen"
-        ],
-        "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "4-5"
           },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4-5",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Pckg bok choy",
-        "norm": "pckg bok choy",
-        "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+            "day": "Friday",
+            "dish": "Scallion Pancakes",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -2164,7 +610,65 @@
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Egg Roll in a Bowl",
+          "Scallion Pancakes"
+        ],
+        "dishes_with_days": [
+          "Egg Roll in a Bowl (Fri)",
+          "Scallion Pancakes (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Egg Roll in a Bowl",
+              "Scallion Pancakes"
+            ],
+            "qty_display": "8"
+          }
+        },
+        "total_qty_display": "8",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Purple cabbage",
+        "norm": "purple cabbage",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Egg Roll in a Bowl",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
         ],
         "category": "Produce-Leafy",
         "type": "fresh",
@@ -2173,108 +677,108 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Wednesday"
+          "Friday"
         ],
         "dishes": [
-          "Baby Bok Choy - Steamed with Oyster Sauce"
+          "Egg Roll in a Bowl"
         ],
         "dishes_with_days": [
-          "Baby Bok Choy - Steamed with Oyster Sauce (Wed)"
+          "Egg Roll in a Bowl (Fri)"
         ],
-        "trip": "Mon",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Baby Bok Choy - Steamed with Oyster Sauce"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Egg Roll in a Bowl"
+            ],
+            "qty_display": "1/2"
           }
         },
-        "total_qty_display": "1",
+        "total_qty_display": "1/2",
         "math_mode": "single"
       },
       {
-        "canonical_name": "Ramen broth",
-        "norm": "ramen broth",
+        "canonical_name": "Spoon dollop Yogurt Coconut",
+        "norm": "spoon dollop yogurt coconut",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "4-6 cups",
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": null,
             "qty_parsed": [
-              5.0,
-              "cups"
+              null,
+              null
             ]
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Whole Foods"
         ],
-        "category": "Pantry",
-        "type": "unknown",
+        "category": "Dairy",
+        "type": "fresh",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Weekend"
         ],
         "dishes": [
-          "Slow Cooker Beef Ramen"
+          "Overnight Oats"
         ],
         "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
+          "Overnight Oats (Sat)"
         ],
-        "trip": "Mon",
-        "icon": "❓",
+        "trip": "Wed",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "5 cups"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Overnight Oats"
+            ],
+            "qty_display": ""
           }
         },
-        "total_qty_display": "5 cups",
-        "math_mode": "summed"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
-        "canonical_name": "Rice",
-        "norm": "rice",
+        "canonical_name": "Stevia drops 7",
+        "norm": "stevia drop 7",
         "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "🍚 Rice (Simple)",
-            "qty_str": "4 cups",
+            "day": "Weekend",
+            "dish": "Overnight Oats",
+            "qty_str": null,
             "qty_parsed": [
-              4.0,
-              "cups"
+              null,
+              null
             ]
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Whole Foods"
         ],
         "category": "Pantry-Staple",
         "type": "shelf",
@@ -2283,13 +787,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Wednesday"
+          "Weekend"
         ],
         "dishes": [
-          "🍚 Rice (Simple)"
+          "Overnight Oats"
         ],
         "dishes_with_days": [
-          "🍚 Rice (Simple) (Wed)"
+          "Overnight Oats (Sat)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -2297,12 +801,12 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Wednesday"
+              "Weekend"
             ],
             "dishes": [
-              "🍚 Rice (Simple)"
+              "Overnight Oats"
             ],
-            "qty_display": "4 cups"
+            "qty_display": ""
           },
           "Wed": {
             "uses": 0,
@@ -2311,118 +815,63 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "4 cups",
-        "math_mode": "summed"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
-        "canonical_name": "Star anise",
-        "norm": "star anise",
+        "canonical_name": "Yellow onion",
+        "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Slow Cooker Beef Ramen",
-            "qty_str": "3",
+            "day": "Friday",
+            "dish": "Egg Roll in a Bowl",
+            "qty_str": "1",
             "qty_parsed": [
-              3.0,
+              1.0,
               ""
             ]
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Whole Foods"
         ],
-        "category": "Pantry",
-        "type": "unknown",
+        "category": "Unknown",
+        "type": "fresh",
         "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
+        "is_countable": true,
+        "user_routed": true,
         "use_count": 1,
         "days": [
-          "Monday"
+          "Friday"
         ],
         "dishes": [
-          "Slow Cooker Beef Ramen"
+          "Egg Roll in a Bowl"
         ],
         "dishes_with_days": [
-          "Slow Cooker Beef Ramen (Mon)"
+          "Egg Roll in a Bowl (Fri)"
         ],
-        "trip": "Mon",
-        "icon": "❓",
+        "trip": "Wed",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Slow Cooker Beef Ramen"
-            ],
-            "qty_display": "3"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
-          }
-        },
-        "total_qty_display": "3",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "White rice",
-        "norm": "white rice",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-            "qty_str": "1.5 cups",
-            "qty_parsed": [
-              1.5,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mediterranean Bowl with Lemon-Herb Chicken"
-        ],
-        "dishes_with_days": [
-          "Mediterranean Bowl with Lemon-Herb Chicken (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mediterranean Bowl with Lemon-Herb Chicken"
-            ],
-            "qty_display": "1.5 cups"
           },
           "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Egg Roll in a Bowl"
+            ],
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "1.5 cups",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       }
     ]
   },
@@ -2432,8 +881,8 @@
       "norm": "carrot",
       "occurrences": [
         {
-          "day": "Monday",
-          "dish": "Slow Cooker Beef Ramen",
+          "day": "Friday",
+          "dish": "Egg Roll in a Bowl",
           "qty_str": "4",
           "qty_parsed": [
             4.0,
@@ -2452,69 +901,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Slow Cooker Beef Ramen"
-      ],
-      "dishes_with_days": [
-        "Slow Cooker Beef Ramen (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Slow Cooker Beef Ramen"
-          ],
-          "qty_display": "4"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "4",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Corn",
-      "norm": "corn",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "🌽 Southwest Pasta Salad",
-          "qty_str": "1 cup",
-          "qty_parsed": [
-            1.0,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [
-        "Sam’s Club",
-        "Whole Foods"
-      ],
-      "category": "Produce-Vegetable",
-      "type": "fresh",
-      "matched_routing": true,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
         "Friday"
       ],
       "dishes": [
-        "🌽 Southwest Pasta Salad"
+        "Egg Roll in a Bowl"
       ],
       "dishes_with_days": [
-        "🌽 Southwest Pasta Salad (Fri)"
+        "Egg Roll in a Bowl (Fri)"
       ],
       "trip": "Wed",
       "icon": "🥬",
@@ -2531,240 +924,112 @@
             "Friday"
           ],
           "dishes": [
-            "🌽 Southwest Pasta Salad"
+            "Egg Roll in a Bowl"
           ],
-          "qty_display": "1 cup"
+          "qty_display": "4"
         }
       },
-      "total_qty_display": "1 cup",
-      "math_mode": "summed"
+      "total_qty_display": "4",
+      "math_mode": "single"
     }
   ],
-  "no_store_match": [],
+  "no_store_match": [
+    {
+      "canonical_name": "Glass Noodles",
+      "norm": "glass noodle",
+      "occurrences": [
+        {
+          "day": "Friday",
+          "dish": "Egg Roll in a Bowl",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Friday"
+      ],
+      "dishes": [
+        "Egg Roll in a Bowl"
+      ],
+      "dishes_with_days": [
+        "Egg Roll in a Bowl (Fri)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Friday"
+          ],
+          "dishes": [
+            "Egg Roll in a Bowl"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    }
+  ],
   "skipped_staples": [
     {
-      "day": "Monday",
-      "dish": "Slow Cooker Beef Ramen",
-      "name": "soy sauce",
-      "quantity": "2 Tbsp",
-      "original": "2 Tbsp soy sauce"
+      "day": "Friday",
+      "dish": "Egg Roll in a Bowl",
+      "name": "olive oil",
+      "quantity": "2 1/2 Tbsp",
+      "original": "2 1/2 Tbsp olive oil"
     },
     {
-      "day": "Monday",
-      "dish": "Slow Cooker Beef Ramen",
-      "name": "squeeze ginger",
-      "quantity": "1 Tbsp",
-      "original": "1 Tbsp squeeze ginger"
+      "day": "Friday",
+      "dish": "Egg Roll in a Bowl",
+      "name": "ginger",
+      "quantity": "1 1/4 Tbsp",
+      "original": "1 1/4 Tbsp ginger (peeled & grated)"
     },
     {
-      "day": "Monday",
-      "dish": "Slow Cooker Beef Ramen",
-      "name": "cinnamon stick",
+      "day": "Friday",
+      "dish": "Scallion Pancakes",
+      "name": "Tbs Light Soy sauce",
+      "quantity": "4",
+      "original": "4 Tbs Light Soy sauce"
+    },
+    {
+      "day": "Friday",
+      "dish": "Scallion Pancakes",
+      "name": "sesame oil",
+      "quantity": "1 tsp",
+      "original": "1 tsp sesame oil"
+    },
+    {
+      "day": "Friday",
+      "dish": "Scallion Pancakes",
+      "name": "Tbs Sugar (taste first",
       "quantity": "1",
-      "original": "1 cinnamon stick"
-    },
-    {
-      "day": "Monday",
-      "dish": "Slow Cooker Beef Ramen",
-      "name": "Salt and pepper",
-      "quantity": null,
-      "original": "Salt and pepper"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "extra-virgin olive oil",
-      "quantity": "3 Tbsp",
-      "original": "3 Tbsp extra-virgin olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "dried oregano",
-      "quantity": "1 tsp",
-      "original": "1 tsp dried oregano"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "dried thyme",
-      "quantity": "1 tsp",
-      "original": "1 tsp dried thyme or Italian seasoning"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "sea salt",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp sea salt"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "black pepper",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp black pepper"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "extra-virgin olive oil",
-      "quantity": "2 Tbsp",
-      "original": "2 Tbsp extra-virgin olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "water",
-      "quantity": "2-4 Tbsp",
-      "original": "2-4 Tbsp water (to thin)"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "sea salt",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp sea salt"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mediterranean Bowl with Lemon-Herb Chicken",
-      "name": "Pinch black pepper",
-      "quantity": null,
-      "original": "Pinch black pepper"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "olive oil",
-      "quantity": "1/4 cup",
-      "original": "¼ cup olive oil"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "honey",
-      "quantity": "3 tbsp",
-      "original": "3 tbsp honey"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "soy sauce",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp soy sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "smoked paprika",
-      "quantity": "1 tsp",
-      "original": "1 tsp smoked paprika"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "black pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp black pepper"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "EVOO",
-      "quantity": null,
-      "original": "EVOO"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "soy sauce",
-      "quantity": "2 tsp",
-      "original": "2 tsp soy sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "oyster sauce",
-      "quantity": "1 tsp",
-      "original": "1 tsp oyster sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
-      "name": "water splash",
-      "quantity": null,
-      "original": "water splash"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Egg with Tomato",
-      "name": "EVOO",
-      "quantity": "1 tablespoon",
-      "original": "1 tablespoon EVOO"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Egg with Tomato",
-      "name": "salt",
-      "quantity": "1/2 teaspoon",
-      "original": "1/2 teaspoon salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "water",
-      "quantity": "4 cups",
-      "original": "4 cups water"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "butter",
-      "quantity": "1 tbsp",
-      "original": "1 tbsp butter or olive oil"
+      "original": "1 Tbs Sugar (taste first, can add up to 1.5 more)"
     },
     {
       "day": "Friday",
-      "dish": "🌽 Southwest Pasta Salad",
-      "name": "olive oil",
-      "quantity": "1/3 cup",
-      "original": "⅓ cup olive oil (dressing)"
-    },
-    {
-      "day": "Friday",
-      "dish": "🌽 Southwest Pasta Salad",
-      "name": "honey",
-      "quantity": "1 tbsp",
-      "original": "1 tbsp honey (dressing)"
-    },
-    {
-      "day": "Friday",
-      "dish": "🌽 Southwest Pasta Salad",
-      "name": "cumin",
-      "quantity": "2 tsp",
-      "original": "2 tsp cumin (dressing)"
-    },
-    {
-      "day": "Friday",
-      "dish": "🌽 Southwest Pasta Salad",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt (dressing)"
-    },
-    {
-      "day": "Friday",
-      "dish": "🌽 Southwest Pasta Salad",
-      "name": "black pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp black pepper (dressing)"
+      "dish": "Scallion Pancakes",
+      "name": "Tbs Water",
+      "quantity": "1",
+      "original": "1 Tbs Water"
     },
     {
       "day": "Weekend",
