@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:13:22.488072",
+  "generated_at": "2026-09-28T00:13:52.909834",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -439,9 +439,84 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "6a14edfbecabc736cc7eed69",
+          "name": "🥦 Grilled Broccolini",
+          "ingredients": [],
+          "is_multi_variant": true,
+          "variants": [
+            {
+              "name": "Ingredients",
+              "ingredients": [
+                {
+                  "original": "2 lbs broccolini",
+                  "quantity": "2 lbs",
+                  "name": "broccolini",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "3 tbsp olive oil",
+                  "quantity": "3 tbsp",
+                  "name": "olive oil",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 tsp salt",
+                  "quantity": "1 tsp",
+                  "name": "salt",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "½ tsp pepper",
+                  "quantity": "1/2 tsp",
+                  "name": "pepper",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "1 lemon (juice + zest)",
+                  "quantity": "1",
+                  "name": "lemon",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                },
+                {
+                  "original": "¼ cup parmesan (optional, omit for DF)",
+                  "quantity": "1/4 cup",
+                  "name": "parmesan (optional",
+                  "notes": "omit for DF)",
+                  "checked": false,
+                  "checklist": "Ingredients"
+                }
+              ]
+            },
+            {
+              "name": "Helper Task",
+              "ingredients": [
+                {
+                  "original": "Wash broccolini",
+                  "quantity": null,
+                  "name": "Wash broccolini",
+                  "notes": "",
+                  "checked": false,
+                  "checklist": "Helper Task"
+                }
+              ]
+            }
+          ],
+          "paired_ingredients": []
         }
       ],
-      "dish_count": 4
+      "dish_count": 5
     },
     "Wednesday": {
       "dishes": [

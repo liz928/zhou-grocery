@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:13:22.488072",
+  "generated_at": "2026-09-28T00:13:52.909834",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,10 +9,10 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 119,
-    "unique_after_dedup": 59,
-    "skipped_staples": 48,
-    "routing_matched": 43,
+    "raw_ingredient_count": 125,
+    "unique_after_dedup": 62,
+    "skipped_staples": 51,
+    "routing_matched": 46,
     "routing_unmatched": 16,
     "multi_store": 3,
     "unresolved_variants": 0,
@@ -74,6 +74,61 @@
         },
         "total_qty_display": "2",
         "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Broccolini",
+        "norm": "broccolini",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🥦 Grilled Broccolini",
+            "qty_str": "2 lbs",
+            "qty_parsed": [
+              2.0,
+              "lbs"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🥦 Grilled Broccolini"
+        ],
+        "dishes_with_days": [
+          "🥦 Grilled Broccolini (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🥦 Grilled Broccolini"
+            ],
+            "qty_display": "2 lbs"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 lbs",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Celery Ribs",
@@ -606,6 +661,61 @@
               "Pho"
             ],
             "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Lemon",
+        "norm": "lemon",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🥦 Grilled Broccolini",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🥦 Grilled Broccolini"
+        ],
+        "dishes_with_days": [
+          "🥦 Grilled Broccolini (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🥦 Grilled Broccolini"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "1",
@@ -1979,6 +2089,61 @@
           }
         },
         "total_qty_display": "2 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Parmesan",
+        "norm": "parmesan",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🥦 Grilled Broccolini",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🥦 Grilled Broccolini"
+        ],
+        "dishes_with_days": [
+          "🥦 Grilled Broccolini (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🥦 Grilled Broccolini"
+            ],
+            "qty_display": "0.25 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.25 cup",
         "math_mode": "summed"
       },
       {
@@ -3574,6 +3739,27 @@
       "name": "pepper",
       "quantity": "1/4 tsp",
       "original": "1/4 tsp pepper"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🥦 Grilled Broccolini",
+      "name": "olive oil",
+      "quantity": "3 tbsp",
+      "original": "3 tbsp olive oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🥦 Grilled Broccolini",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🥦 Grilled Broccolini",
+      "name": "pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp pepper"
     },
     {
       "day": "Thursday",
