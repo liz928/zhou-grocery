@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:09:07.675807",
+  "generated_at": "2026-09-28T00:13:22.488072",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -35,7 +35,7 @@
               "quantity": "1",
               "name": "medium sweet potato",
               "notes": "peeled and cubed (about 2 cups)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -43,7 +43,7 @@
               "quantity": "2",
               "name": "medium carrots",
               "notes": "thinly sliced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -51,7 +51,7 @@
               "quantity": "1",
               "name": "large red bell pepper",
               "notes": "chopped",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -59,7 +59,7 @@
               "quantity": "1",
               "name": "bunch dino kale",
               "notes": "stems removed, leaves chopped or torn into ribbons (about 4-5 cups)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -67,7 +67,7 @@
               "quantity": "1",
               "name": "medium onion",
               "notes": "diced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -83,7 +83,7 @@
               "quantity": null,
               "name": "Salt",
               "notes": "pepper",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -107,7 +107,7 @@
               "quantity": null,
               "name": "salt",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Chicken"
             },
             {
@@ -115,7 +115,7 @@
               "quantity": null,
               "name": "pepper",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Chicken"
             },
             {
@@ -123,7 +123,7 @@
               "quantity": null,
               "name": "garlic salt",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Chicken"
             },
             {
@@ -131,7 +131,7 @@
               "quantity": null,
               "name": "ground ginger",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Chicken"
             },
             {
@@ -139,7 +139,7 @@
               "quantity": null,
               "name": "curry powder",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Chicken"
             },
             {
@@ -147,7 +147,7 @@
               "quantity": null,
               "name": "ground coriander",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Chicken"
             }
           ],
@@ -317,256 +317,49 @@
         {
           "card_id": "6a14ee118891262244704b99",
           "name": "🌽 Grilled Corn",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
+          "ingredients": [
             {
-              "name": "Ingredients",
-              "ingredients": [
-                {
-                  "original": "6 ears of corn",
-                  "quantity": "6",
-                  "name": "ears of corn",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "2 tbsp olive oil",
-                  "quantity": "2 tbsp",
-                  "name": "olive oil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp salt",
-                  "quantity": "1 tsp",
-                  "name": "salt",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "½ tsp pepper",
-                  "quantity": "1/2 tsp",
-                  "name": "pepper",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "2 tbsp butter (optional)",
-                  "quantity": "2 tbsp",
-                  "name": "butter",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 lime (zest)",
-                  "quantity": "1",
-                  "name": "lime",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp chili powder (optional)",
-                  "quantity": "1 tsp",
-                  "name": "chili powder",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                }
-              ]
+              "original": "6 ears of corn",
+              "quantity": "6",
+              "name": "ears of corn",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             },
             {
-              "name": "Helper Task",
-              "ingredients": [
-                {
-                  "original": "Shuck corn + remove silks",
-                  "quantity": null,
-                  "name": "Shuck corn + remove silks",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Brush with olive oil + salt + pepper",
-                  "quantity": null,
-                  "name": "Brush with olive oil + salt + pepper",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Mix butter + lime zest + chili powder (optional finish)",
-                  "quantity": null,
-                  "name": "Mix butter + lime zest + chili powder",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                }
-              ]
-            }
-          ],
-          "paired_ingredients": []
-        },
-        {
-          "card_id": "6a14ee25884bbd6cb190a905",
-          "name": "🍅 Tomato-Cucumber Salad",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
-            {
-              "name": "Ingredients",
-              "ingredients": [
-                {
-                  "original": "2 cups cherry tomatoes",
-                  "quantity": "2 cups",
-                  "name": "cherry tomatoes",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "2 English cucumbers",
-                  "quantity": "2",
-                  "name": "English cucumbers",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "½ red onion",
-                  "quantity": "1/2",
-                  "name": "red onion",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "¼ cup fresh parsley",
-                  "quantity": "1/4 cup",
-                  "name": "fresh parsley",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "2 tbsp fresh mint",
-                  "quantity": "2 tbsp",
-                  "name": "fresh mint",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "3 tbsp olive oil",
-                  "quantity": "3 tbsp",
-                  "name": "olive oil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "Juice of 1 lemon",
-                  "quantity": null,
-                  "name": "Juice of 1 lemon",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp salt",
-                  "quantity": "1 tsp",
-                  "name": "salt",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "½ tsp pepper",
-                  "quantity": "1/2 tsp",
-                  "name": "pepper",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "Pinch of sumac (optional)",
-                  "quantity": null,
-                  "name": "Pinch of sumac",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                }
-              ]
+              "original": "2 tbsp olive oil",
+              "quantity": "2 tbsp",
+              "name": "olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             },
             {
-              "name": "Helper Task",
-              "ingredients": [
-                {
-                  "original": "Halve cherry tomatoes",
-                  "quantity": null,
-                  "name": "Halve cherry tomatoes",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Dice cucumbers",
-                  "quantity": null,
-                  "name": "Dice cucumbers",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Thinly slice red onion",
-                  "quantity": null,
-                  "name": "Thinly slice red onion",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Chop parsley + mint",
-                  "quantity": null,
-                  "name": "Chop parsley + mint",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Whisk dressing",
-                  "quantity": null,
-                  "name": "Whisk dressing",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Toss in bowl",
-                  "quantity": null,
-                  "name": "Toss in bowl",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Refrigerate 15 min+",
-                  "quantity": null,
-                  "name": "Refrigerate 15 min+",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                }
-              ]
+              "original": "1 tsp salt",
+              "quantity": "1 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "½ tsp pepper",
+              "quantity": "1/2 tsp",
+              "name": "pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 tbsp butter (optional)",
+              "quantity": "2 tbsp",
+              "name": "butter",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             }
           ],
-          "paired_ingredients": []
+          "is_multi_variant": false
         },
         {
           "card_id": "66291cdc1b002ed31f577aa5",
@@ -648,7 +441,7 @@
           "is_multi_variant": false
         }
       ],
-      "dish_count": 5
+      "dish_count": 4
     },
     "Wednesday": {
       "dishes": [
@@ -954,7 +747,7 @@
               "quantity": "2-3 lb",
               "name": "salmon fillet",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -970,7 +763,7 @@
               "quantity": "1 tbsp",
               "name": "fresh lemon juice",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -978,7 +771,7 @@
               "quantity": "2 tsp",
               "name": "fresh dill",
               "notes": "finely chopped (or 1 tsp dried)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -986,7 +779,7 @@
               "quantity": "1 tsp",
               "name": "fresh thyme leaves",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -994,7 +787,7 @@
               "quantity": "2",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -1002,7 +795,7 @@
               "quantity": "1/2 tsp",
               "name": "sea salt",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -1010,7 +803,7 @@
               "quantity": "1/4 tsp",
               "name": "black pepper",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -1018,7 +811,7 @@
               "quantity": null,
               "name": "Lemon wedges",
               "notes": "for serving",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             }
           ],
@@ -1085,7 +878,7 @@
               "quantity": "1/4 cup",
               "name": "fish sauce",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Marinade (Nuoc-Cham- Inspired)"
             },
             {
@@ -1109,7 +902,7 @@
               "quantity": "1",
               "name": "red jalapeños",
               "notes": "seeded & cut into disk and discard after marinated (keep seeds for heat)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Marinade (Nuoc-Cham- Inspired)"
             },
             {
@@ -1133,7 +926,7 @@
               "quantity": "2 lb",
               "name": "Chicken Wings",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Marinade (Nuoc-Cham- Inspired)"
             },
             {
@@ -1141,7 +934,7 @@
               "quantity": "1/4 cup",
               "name": "green onions",
               "notes": "thinly sliced (white + green)",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Finishing Herb Mix"
             },
             {
@@ -1149,7 +942,7 @@
               "quantity": "1/4 cup",
               "name": "cilantro",
               "notes": "finely chopped",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients - Finishing Herb Mix"
             }
           ],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:09:07.675807",
+  "generated_at": "2026-09-28T00:13:22.488072",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 131,
-    "unique_after_dedup": 67,
-    "skipped_staples": 51,
-    "routing_matched": 49,
-    "routing_unmatched": 18,
+    "raw_ingredient_count": 119,
+    "unique_after_dedup": 59,
+    "skipped_staples": 48,
+    "routing_matched": 43,
+    "routing_unmatched": 16,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -186,61 +186,6 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Cherry tomatoes",
-        "norm": "cherry tomato",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍅 Tomato-Cucumber Salad",
-            "qty_str": "2 cups",
-            "qty_parsed": [
-              2.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍅 Tomato-Cucumber Salad"
-        ],
-        "dishes_with_days": [
-          "🍅 Tomato-Cucumber Salad (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍅 Tomato-Cucumber Salad"
-            ],
-            "qty_display": "2 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 cups",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Cilantro",
         "norm": "cilantro",
         "occurrences": [
@@ -365,61 +310,6 @@
         },
         "total_qty_display": "2 tsp",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "English cucumbers",
-        "norm": "english cucumber",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍅 Tomato-Cucumber Salad",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍅 Tomato-Cucumber Salad"
-        ],
-        "dishes_with_days": [
-          "🍅 Tomato-Cucumber Salad (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍅 Tomato-Cucumber Salad"
-            ],
-            "qty_display": "2"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Garlic cloves",
@@ -777,116 +667,6 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Mint",
-        "norm": "mint",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍅 Tomato-Cucumber Salad",
-            "qty_str": "2 tbsp",
-            "qty_parsed": [
-              2.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Herb",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍅 Tomato-Cucumber Salad"
-        ],
-        "dishes_with_days": [
-          "🍅 Tomato-Cucumber Salad (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍅 Tomato-Cucumber Salad"
-            ],
-            "qty_display": "2 tbsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Parsley",
-        "norm": "parsley",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍅 Tomato-Cucumber Salad",
-            "qty_str": "1/4 cup",
-            "qty_parsed": [
-              0.25,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍅 Tomato-Cucumber Salad"
-        ],
-        "dishes_with_days": [
-          "🍅 Tomato-Cucumber Salad (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍅 Tomato-Cucumber Salad"
-            ],
-            "qty_display": "0.25 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.25 cup",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Sweet potato",
         "norm": "potato",
         "occurrences": [
@@ -983,61 +763,6 @@
             ],
             "dishes": [
               "Chicken Curry - Kevin"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Red onion",
-        "norm": "red onion",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🍅 Tomato-Cucumber Salad",
-            "qty_str": "1/2",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🍅 Tomato-Cucumber Salad"
-        ],
-        "dishes_with_days": [
-          "🍅 Tomato-Cucumber Salad (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🍅 Tomato-Cucumber Salad"
             ],
             "qty_display": "1"
           },
@@ -1689,18 +1414,9 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Lime",
+        "canonical_name": "Limes",
         "norm": "lime",
         "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🌽 Grilled Corn",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Pho",
@@ -1719,31 +1435,24 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Tuesday",
           "Weekend"
         ],
         "dishes": [
-          "Pho",
-          "🌽 Grilled Corn"
+          "Pho"
         ],
         "dishes_with_days": [
-          "Pho (Sat)",
-          "🌽 Grilled Corn (Tue)"
+          "Pho (Sat)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🌽 Grilled Corn"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -1756,7 +1465,7 @@
             "qty_display": "2"
           }
         },
-        "total_qty_display": "3",
+        "total_qty_display": "2",
         "math_mode": "multiplied"
       },
       {
@@ -2495,118 +2204,6 @@
         "math_mode": "summed"
       }
     ],
-    "Amazon": [
-      {
-        "canonical_name": "Chili powder",
-        "norm": "chili powder",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "🌽 Grilled Corn",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "🌽 Grilled Corn"
-        ],
-        "dishes_with_days": [
-          "🌽 Grilled Corn (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "🌽 Grilled Corn"
-            ],
-            "qty_display": "1 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Taco Seasoning",
-        "norm": "taco seasoning",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Tacos",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Tacos"
-        ],
-        "dishes_with_days": [
-          "Tacos (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Tacos"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      }
-    ],
     "Walmart": [
       {
         "canonical_name": "Curry powder",
@@ -2717,6 +2314,63 @@
         },
         "total_qty_display": "1",
         "math_mode": "multiplied"
+      }
+    ],
+    "Amazon": [
+      {
+        "canonical_name": "Taco Seasoning",
+        "norm": "taco seasoning",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Amazon"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
       }
     ]
   },
@@ -3296,59 +2950,6 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "Juice of 1 lemon",
-      "norm": "juice of 1 lemon",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "🍅 Tomato-Cucumber Salad",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "🍅 Tomato-Cucumber Salad"
-      ],
-      "dishes_with_days": [
-        "🍅 Tomato-Cucumber Salad (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "🍅 Tomato-Cucumber Salad"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
-    },
-    {
       "canonical_name": "Kevin's Thai Coconut Sauce",
       "norm": "kevin s thai coconut sauce",
       "occurrences": [
@@ -3824,59 +3425,6 @@
       },
       "total_qty_display": "2.25 lb",
       "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Sumac",
-      "norm": "sumac",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "🍅 Tomato-Cucumber Salad",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "🍅 Tomato-Cucumber Salad"
-      ],
-      "dishes_with_days": [
-        "🍅 Tomato-Cucumber Salad (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "🍅 Tomato-Cucumber Salad"
-          ],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
     }
   ],
   "skipped_staples": [
@@ -3991,27 +3539,6 @@
       "name": "butter",
       "quantity": "2 tbsp",
       "original": "2 tbsp butter (optional)"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍅 Tomato-Cucumber Salad",
-      "name": "olive oil",
-      "quantity": "3 tbsp",
-      "original": "3 tbsp olive oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍅 Tomato-Cucumber Salad",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "🍅 Tomato-Cucumber Salad",
-      "name": "pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp pepper"
     },
     {
       "day": "Tuesday",
