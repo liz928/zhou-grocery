@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:17:29.483679",
+  "generated_at": "2026-09-28T00:20:36.453208",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -375,77 +375,57 @@
         {
           "card_id": "6a14edfbecabc736cc7eed69",
           "name": "🥦 Grilled Broccolini",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
+          "ingredients": [
             {
-              "name": "Ingredients",
-              "ingredients": [
-                {
-                  "original": "2 lbs broccolini",
-                  "quantity": "2 lbs",
-                  "name": "broccolini",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "3 tbsp olive oil",
-                  "quantity": "3 tbsp",
-                  "name": "olive oil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp salt",
-                  "quantity": "1 tsp",
-                  "name": "salt",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "½ tsp pepper",
-                  "quantity": "1/2 tsp",
-                  "name": "pepper",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 lemon (juice + zest)",
-                  "quantity": "1",
-                  "name": "lemon",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "¼ cup parmesan (optional, omit for DF)",
-                  "quantity": "1/4 cup",
-                  "name": "parmesan (optional",
-                  "notes": "omit for DF)",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                }
-              ]
+              "original": "2 lbs broccolini",
+              "quantity": "2 lbs",
+              "name": "broccolini",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             },
             {
-              "name": "Helper Task",
-              "ingredients": [
-                {
-                  "original": "Wash broccolini",
-                  "quantity": null,
-                  "name": "Wash broccolini",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                }
-              ]
+              "original": "3 tbsp olive oil",
+              "quantity": "3 tbsp",
+              "name": "olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp salt",
+              "quantity": "1 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "½ tsp pepper",
+              "quantity": "1/2 tsp",
+              "name": "pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 lemon (juice + zest)",
+              "quantity": "1",
+              "name": "lemon",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "¼ cup parmesan (optional, omit for DF)",
+              "quantity": "1/4 cup",
+              "name": "parmesan (optional",
+              "notes": "omit for DF)",
+              "checked": false,
+              "checklist": "Ingredients"
             }
           ],
-          "paired_ingredients": []
+          "is_multi_variant": false
         },
         {
           "card_id": "673fc8a4af597d2c702250bd",
