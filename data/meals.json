@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:20:54.754897",
+  "generated_at": "2026-09-28T00:25:35.296282",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -95,8 +95,8 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "3 chicken breast, cubed into small bite size pieces",
-              "quantity": "3",
+              "original": "3-4 chicken breast, cubed into small bite size pieces",
+              "quantity": "3-4",
               "name": "chicken breast",
               "notes": "cubed into small bite size pieces",
               "checked": false,
@@ -877,7 +877,7 @@
               "name": "extra virgin olive oil",
               "notes": "",
               "checked": false,
-              "checklist": "Garlicky Green Beans"
+              "checklist": "Ingredients"
             },
             {
               "original": "2 cloves garlic, minced (or more to taste)",
@@ -885,7 +885,7 @@
               "name": "garlic",
               "notes": "minced (or more to taste)",
               "checked": false,
-              "checklist": "Garlicky Green Beans"
+              "checklist": "Ingredients"
             },
             {
               "original": "12 ounces fresh green beans, cut into 1 inch pieces",
@@ -893,7 +893,7 @@
               "name": "fresh green beans",
               "notes": "cut into 1 inch pieces",
               "checked": false,
-              "checklist": "Garlicky Green Beans"
+              "checklist": "Ingredients"
             },
             {
               "original": "1/2 teaspoon fine sea salt",
@@ -901,7 +901,7 @@
               "name": "fine sea salt",
               "notes": "",
               "checked": false,
-              "checklist": "Garlicky Green Beans"
+              "checklist": "Ingredients"
             },
             {
               "original": "1/4 cup water",
@@ -909,7 +909,7 @@
               "name": "water",
               "notes": "",
               "checked": false,
-              "checklist": "Garlicky Green Beans"
+              "checklist": "Ingredients"
             }
           ],
           "is_multi_variant": false
