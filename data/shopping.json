@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:25:35.296282",
+  "generated_at": "2026-09-28T00:46:42.645562",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,9 +9,9 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 130,
+    "raw_ingredient_count": 132,
     "unique_after_dedup": 64,
-    "skipped_staples": 53,
+    "skipped_staples": 54,
     "routing_matched": 46,
     "routing_unmatched": 18,
     "multi_store": 3,
@@ -3615,6 +3615,15 @@
             6.0,
             ""
           ]
+        },
+        {
+          "day": "Friday",
+          "dish": "White Rice",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
         }
       ],
       "stores": [],
@@ -3623,17 +3632,18 @@
       "matched_routing": false,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 1,
+      "use_count": 2,
       "days": [
-        "Monday"
+        "Monday",
+        "Friday"
       ],
       "dishes": [
         "White Rice"
       ],
       "dishes_with_days": [
-        "White Rice (Mon)"
+        "White Rice (Mon, Fri)"
       ],
-      "trip": "Mon",
+      "trip": "Mon/Wed",
       "icon": "❓",
       "per_trip": {
         "Mon": {
@@ -3647,14 +3657,18 @@
           "qty_display": "6"
         },
         "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
+          "uses": 1,
+          "days": [
+            "Friday"
+          ],
+          "dishes": [
+            "White Rice"
+          ],
+          "qty_display": "6"
         }
       },
-      "total_qty_display": "6",
-      "math_mode": "single"
+      "total_qty_display": "12",
+      "math_mode": "summed"
     },
     {
       "canonical_name": "Skirt steak",
@@ -3997,6 +4011,13 @@
       "name": "water",
       "quantity": "1/4 cup",
       "original": "1/4 cup water"
+    },
+    {
+      "day": "Friday",
+      "dish": "White Rice",
+      "name": "Water",
+      "quantity": null,
+      "original": "Water"
     },
     {
       "day": "Weekend",

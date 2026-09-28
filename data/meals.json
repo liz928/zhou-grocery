@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:25:35.296282",
+  "generated_at": "2026-09-28T00:46:42.645562",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -913,9 +913,32 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "67ad07a58c10a4035aab961b",
+          "name": "White Rice",
+          "ingredients": [
+            {
+              "original": "6 Scoops of Rice",
+              "quantity": "6",
+              "name": "Scoops of Rice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Water",
+              "quantity": null,
+              "name": "Water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 3
+      "dish_count": 4
     },
     "Weekend": {
       "dishes": [
