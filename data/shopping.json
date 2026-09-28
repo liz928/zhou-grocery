@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:05:20.494563",
+  "generated_at": "2026-09-28T00:09:07.675807",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 122,
-    "unique_after_dedup": 64,
-    "skipped_staples": 46,
-    "routing_matched": 47,
-    "routing_unmatched": 17,
+    "raw_ingredient_count": 131,
+    "unique_after_dedup": 67,
+    "skipped_staples": 51,
+    "routing_matched": 49,
+    "routing_unmatched": 18,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -435,6 +435,15 @@
             ]
           },
           {
+            "day": "Tuesday",
+            "dish": "Chimichurri",
+            "qty_str": "3-4",
+            "qty_parsed": [
+              3.5,
+              ""
+            ]
+          },
+          {
             "day": "Thursday",
             "dish": "Chicken Noodle Soup",
             "qty_str": "4",
@@ -479,7 +488,7 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 5,
+        "use_count": 6,
         "days": [
           "Tuesday",
           "Thursday",
@@ -489,6 +498,7 @@
         "dishes": [
           "Chicken Noodle Soup",
           "Chicken Wings",
+          "Chimichurri",
           "Green Beans (Garlicky)",
           "Salmon with Lemon-Herb Butter",
           "Skirt steak grilled with chimichurri"
@@ -496,6 +506,7 @@
         "dishes_with_days": [
           "Chicken Noodle Soup (Thu)",
           "Chicken Wings (Sat)",
+          "Chimichurri (Tue)",
           "Green Beans (Garlicky) (Fri)",
           "Salmon with Lemon-Herb Butter (Fri)",
           "Skirt steak grilled with chimichurri (Tue)"
@@ -504,14 +515,15 @@
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 2,
             "days": [
               "Tuesday"
             ],
             "dishes": [
+              "Chimichurri",
               "Skirt steak grilled with chimichurri"
             ],
-            "qty_display": "3"
+            "qty_display": "7"
           },
           "Wed": {
             "uses": 4,
@@ -529,7 +541,7 @@
             "qty_display": "11 cloves"
           }
         },
-        "total_qty_display": "14 cloves",
+        "total_qty_display": "17.5 cloves",
         "math_mode": "summed"
       },
       {
@@ -1040,11 +1052,66 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Red pepper flakes",
+        "norm": "red pepper flake",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chimichurri",
+            "qty_str": "1/4 tsp",
+            "qty_parsed": [
+              0.25,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chimichurri"
+        ],
+        "dishes_with_days": [
+          "Chimichurri (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chimichurri"
+            ],
+            "qty_display": "0.25 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.25 tsp",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Russet",
         "norm": "russet",
         "occurrences": [
           {
-            "day": "Friday",
+            "day": "Thursday",
             "dish": "Potatoes - Mashed",
             "qty_str": "10",
             "qty_parsed": [
@@ -1063,13 +1130,13 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Friday"
+          "Thursday"
         ],
         "dishes": [
           "Potatoes - Mashed"
         ],
         "dishes_with_days": [
-          "Potatoes - Mashed (Fri)"
+          "Potatoes - Mashed (Thu)"
         ],
         "trip": "Wed",
         "icon": "❓",
@@ -1083,7 +1150,7 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Friday"
+              "Thursday"
             ],
             "dishes": [
               "Potatoes - Mashed"
@@ -1203,6 +1270,61 @@
         },
         "total_qty_display": "1/2-1 teaspoon",
         "math_mode": "single"
+      },
+      {
+        "canonical_name": "Shallot",
+        "norm": "shallot",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chimichurri",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chimichurri"
+        ],
+        "dishes_with_days": [
+          "Chimichurri (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chimichurri"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Taco Shells",
@@ -2741,7 +2863,7 @@
           ]
         },
         {
-          "day": "Friday",
+          "day": "Thursday",
           "dish": "Potatoes - Mashed",
           "qty_str": "1/2 cup",
           "qty_parsed": [
@@ -2763,14 +2885,14 @@
       "use_count": 2,
       "days": [
         "Wednesday",
-        "Friday"
+        "Thursday"
       ],
       "dishes": [
         "Potatoes - Mashed",
         "Tacos"
       ],
       "dishes_with_days": [
-        "Potatoes - Mashed (Fri)",
+        "Potatoes - Mashed (Thu)",
         "Tacos (Wed)"
       ],
       "trip": "Mon/Wed",
@@ -2789,7 +2911,7 @@
         "Wed": {
           "uses": 1,
           "days": [
-            "Friday"
+            "Thursday"
           ],
           "dishes": [
             "Potatoes - Mashed"
@@ -3019,7 +3141,7 @@
       "norm": "evaporated milk",
       "occurrences": [
         {
-          "day": "Friday",
+          "day": "Thursday",
           "dish": "Potatoes - Mashed",
           "qty_str": "1-1.3 cups",
           "qty_parsed": [
@@ -3036,13 +3158,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Friday"
+        "Thursday"
       ],
       "dishes": [
         "Potatoes - Mashed"
       ],
       "dishes_with_days": [
-        "Potatoes - Mashed (Fri)"
+        "Potatoes - Mashed (Thu)"
       ],
       "trip": "Wed",
       "icon": "🥬",
@@ -3056,7 +3178,7 @@
         "Wed": {
           "uses": 1,
           "days": [
-            "Friday"
+            "Thursday"
           ],
           "dishes": [
             "Potatoes - Mashed"
@@ -3066,6 +3188,59 @@
       },
       "total_qty_display": "1-1.3 cups",
       "math_mode": "single"
+    },
+    {
+      "canonical_name": "Flat-leaf parsley",
+      "norm": "flat-leaf parsley",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Chimichurri",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Chimichurri"
+      ],
+      "dishes_with_days": [
+        "Chimichurri (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Chimichurri"
+          ],
+          "qty_display": "1 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
     },
     {
       "canonical_name": "Japanese sweet potatoes",
@@ -3839,6 +4014,41 @@
       "original": "½ tsp pepper"
     },
     {
+      "day": "Tuesday",
+      "dish": "Chimichurri",
+      "name": "fresh oregano leaves",
+      "quantity": "2 Tbsp",
+      "original": "2 Tbsp fresh oregano leaves, finely chopped"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chimichurri",
+      "name": "EVOO",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup EVOO"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chimichurri",
+      "name": "red wine vinegar",
+      "quantity": "2 Tbsp",
+      "original": "2 Tbsp red wine vinegar"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chimichurri",
+      "name": "salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp salt"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chimichurri",
+      "name": "pepper",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp pepper"
+    },
+    {
       "day": "Thursday",
       "dish": "Chicken Noodle Soup",
       "name": "Salt",
@@ -3874,6 +4084,27 @@
       "original": "4 tsp Better than bouillon"
     },
     {
+      "day": "Thursday",
+      "dish": "Potatoes - Mashed",
+      "name": "butter",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup butter"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Potatoes - Mashed",
+      "name": "chicken bouillon paste",
+      "quantity": "2 tsp",
+      "original": "2 tsp chicken bouillon paste"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Potatoes - Mashed",
+      "name": "Salt and pepper to taste",
+      "quantity": null,
+      "original": "Salt and pepper to taste"
+    },
+    {
       "day": "Friday",
       "dish": "Salmon with Lemon-Herb Butter",
       "name": "unsalted butter",
@@ -3900,27 +4131,6 @@
       "name": "black pepper",
       "quantity": "1/4 tsp",
       "original": "1/4 tsp black pepper"
-    },
-    {
-      "day": "Friday",
-      "dish": "Potatoes - Mashed",
-      "name": "butter",
-      "quantity": "1/2 cup",
-      "original": "1/2 cup butter"
-    },
-    {
-      "day": "Friday",
-      "dish": "Potatoes - Mashed",
-      "name": "chicken bouillon paste",
-      "quantity": "2 tsp",
-      "original": "2 tsp chicken bouillon paste"
-    },
-    {
-      "day": "Friday",
-      "dish": "Potatoes - Mashed",
-      "name": "Salt and pepper to taste",
-      "quantity": null,
-      "original": "Salt and pepper to taste"
     },
     {
       "day": "Friday",

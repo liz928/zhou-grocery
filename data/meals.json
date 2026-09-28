@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:05:20.494563",
+  "generated_at": "2026-09-28T00:09:07.675807",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -567,9 +567,88 @@
             }
           ],
           "paired_ingredients": []
+        },
+        {
+          "card_id": "66291cdc1b002ed31f577aa5",
+          "name": "Chimichurri",
+          "ingredients": [
+            {
+              "original": "1 cup flat-leaf parsley, finely chopped",
+              "quantity": "1 cup",
+              "name": "flat-leaf parsley",
+              "notes": "finely chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3-4 garlic cloves, minced",
+              "quantity": "3-4",
+              "name": "garlic cloves",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 Tbsp fresh oregano leaves, finely chopped",
+              "quantity": "2 Tbsp",
+              "name": "fresh oregano leaves",
+              "notes": "finely chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup EVOO",
+              "quantity": "1/2 cup",
+              "name": "EVOO",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 Tbsp red wine vinegar",
+              "quantity": "2 Tbsp",
+              "name": "red wine vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp salt",
+              "quantity": "1/2 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 tsp pepper",
+              "quantity": "1/4 tsp",
+              "name": "pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 tsp red pepper flakes (optional)",
+              "quantity": "1/4 tsp",
+              "name": "red pepper flakes",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 small shallot, finely minced",
+              "quantity": "1",
+              "name": "small shallot",
+              "notes": "finely minced",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 4
+      "dish_count": 5
     },
     "Wednesday": {
       "dishes": [
@@ -799,9 +878,64 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "6630fd5ad85bfd5ebdc0178b",
+          "name": "Potatoes - Mashed",
+          "ingredients": [
+            {
+              "original": "10 medium Russet or Yukon gold potatoes",
+              "quantity": "10",
+              "name": "medium Russet",
+              "notes": "Yukon gold potatoes",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup butter",
+              "quantity": "1/2 cup",
+              "name": "butter",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 tsp chicken bouillon paste",
+              "quantity": "2 tsp",
+              "name": "chicken bouillon paste",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1-1.3 cups evaporated milk",
+              "quantity": "1-1.3 cups",
+              "name": "evaporated milk",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup sour cream",
+              "quantity": "1/2 cup",
+              "name": "sour cream",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Salt and pepper to taste",
+              "quantity": null,
+              "name": "Salt and pepper to taste",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 2
+      "dish_count": 3
     },
     "Friday": {
       "dishes": [
@@ -891,61 +1025,6 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "6630fd5ad85bfd5ebdc0178b",
-          "name": "Potatoes - Mashed",
-          "ingredients": [
-            {
-              "original": "10 medium Russet or Yukon gold potatoes",
-              "quantity": "10",
-              "name": "medium Russet",
-              "notes": "Yukon gold potatoes",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 cup butter",
-              "quantity": "1/2 cup",
-              "name": "butter",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 tsp chicken bouillon paste",
-              "quantity": "2 tsp",
-              "name": "chicken bouillon paste",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1-1.3 cups evaporated milk",
-              "quantity": "1-1.3 cups",
-              "name": "evaporated milk",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 cup sour cream",
-              "quantity": "1/2 cup",
-              "name": "sour cream",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Salt and pepper to taste",
-              "quantity": null,
-              "name": "Salt and pepper to taste",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "673174706d79e0bacf0490d5",
           "name": "Green Beans (Garlicky)",
           "ingredients": [
@@ -993,7 +1072,7 @@
           "is_multi_variant": false
         }
       ],
-      "dish_count": 4
+      "dish_count": 3
     },
     "Weekend": {
       "dishes": [
