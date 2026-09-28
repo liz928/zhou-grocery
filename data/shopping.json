@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T05:00:11.939689",
+  "generated_at": "2026-09-28T00:05:20.494563",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,48 +9,103 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 26,
-    "unique_after_dedup": 17,
-    "skipped_staples": 7,
-    "routing_matched": 16,
-    "routing_unmatched": 1,
-    "multi_store": 1,
+    "raw_ingredient_count": 122,
+    "unique_after_dedup": 64,
+    "skipped_staples": 46,
+    "routing_matched": 47,
+    "routing_unmatched": 17,
+    "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
-    "Costco": [
+    "Whole Foods": [
       {
-        "canonical_name": "Beef",
-        "norm": "beef",
+        "canonical_name": "Avocado",
+        "norm": "avocado",
         "occurrences": [
           {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
-            "qty_str": "1 lb",
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": "2",
             "qty_parsed": [
-              1.0,
-              "lb"
+              2.0,
+              ""
             ]
           }
         ],
         "stores": [
-          "Costco"
+          "Whole Foods"
         ],
-        "category": "Meat-Beef",
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Celery Ribs",
+        "norm": "celery rib",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chicken Noodle Soup",
+            "qty_str": "4",
+            "qty_parsed": [
+              4.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
         "type": "meat",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Friday"
+          "Thursday"
         ],
         "dishes": [
-          "Egg Roll in a Bowl"
+          "Chicken Noodle Soup"
         ],
         "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)"
+          "Chicken Noodle Soup (Thu)"
         ],
         "trip": "Wed",
         "icon": "🥩",
@@ -64,657 +119,24 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Friday"
+              "Thursday"
             ],
             "dishes": [
-              "Egg Roll in a Bowl"
+              "Chicken Noodle Soup"
             ],
-            "qty_display": "1 lb"
+            "qty_display": "4"
           }
         },
-        "total_qty_display": "1 lb",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Chia seeds",
-        "norm": "chia seed",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": "1 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Oat milk",
-        "norm": "oat milk",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": "1/2 C",
-            "qty_parsed": [
-              0.5,
-              "c"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": "1/2 C"
-          }
-        },
-        "total_qty_display": "1/2 C",
+        "total_qty_display": "4",
         "math_mode": "single"
       },
       {
-        "canonical_name": "Old Fashioned Oats",
-        "norm": "old fashioned oat",
+        "canonical_name": "Cheese",
+        "norm": "cheese",
         "occurrences": [
           {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": "1/2 C",
-            "qty_parsed": [
-              0.5,
-              "c"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": "1/2 C"
-          }
-        },
-        "total_qty_display": "1/2 C",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Packs Kevin's Teriyaki sauce",
-        "norm": "pack kevin s teriyaki sauce",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Egg Roll in a Bowl"
-        ],
-        "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Egg Roll in a Bowl"
-            ],
-            "qty_display": "2"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "single"
-      }
-    ],
-    "888 Market / Pan Asia": [
-      {
-        "canonical_name": "Chinese vinegar",
-        "norm": "chinese vinegar",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Scallion Pancakes",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Scallion Pancakes"
-        ],
-        "dishes_with_days": [
-          "Scallion Pancakes (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Scallion Pancakes"
-            ],
-            "qty_display": "2"
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Scallion Pancakes",
-        "norm": "scallion pancake",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Scallion Pancakes",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Frozen",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Scallion Pancakes"
-        ],
-        "dishes_with_days": [
-          "Scallion Pancakes (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Scallion Pancakes"
-            ],
-            "qty_display": "2"
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "multiplied"
-      }
-    ],
-    "Whole Foods": [
-      {
-        "canonical_name": "Flax seeds",
-        "norm": "flax seed",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Overnight Oats"
-        ],
-        "dishes_with_days": [
-          "Overnight Oats (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Overnight Oats"
-            ],
-            "qty_display": "1 tsp"
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Garlic cloves",
-        "norm": "garlic",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
-            "qty_str": "4",
-            "qty_parsed": [
-              4.0,
-              ""
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "Scallion Pancakes",
-            "qty_str": "4",
-            "qty_parsed": [
-              4.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Egg Roll in a Bowl",
-          "Scallion Pancakes"
-        ],
-        "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)",
-          "Scallion Pancakes (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 2,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Egg Roll in a Bowl",
-              "Scallion Pancakes"
-            ],
-            "qty_display": "8"
-          }
-        },
-        "total_qty_display": "8",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Green cabbage",
-        "norm": "green cabbage",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Leafy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Egg Roll in a Bowl"
-        ],
-        "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Egg Roll in a Bowl"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Green onion",
-        "norm": "green onion",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
-            "qty_str": "6 1/4 stalks",
-            "qty_parsed": [
-              6.25,
-              "stalks"
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "Scallion Pancakes",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Egg Roll in a Bowl",
-          "Scallion Pancakes"
-        ],
-        "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)",
-          "Scallion Pancakes (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 2,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Egg Roll in a Bowl",
-              "Scallion Pancakes"
-            ],
-            "qty_display": "8"
-          }
-        },
-        "total_qty_display": "8",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Purple cabbage",
-        "norm": "purple cabbage",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
-            "qty_str": "1/2",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Leafy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Egg Roll in a Bowl"
-        ],
-        "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Egg Roll in a Bowl"
-            ],
-            "qty_display": "1/2"
-          }
-        },
-        "total_qty_display": "1/2",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Spoon dollop Yogurt Coconut",
-        "norm": "spoon dollop yogurt coconut",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Overnight Oats",
+            "day": "Wednesday",
+            "dish": "Tacos",
             "qty_str": null,
             "qty_parsed": [
               null,
@@ -732,13 +154,537 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Cherry tomatoes",
+        "norm": "cherry tomato",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🍅 Tomato-Cucumber Salad",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🍅 Tomato-Cucumber Salad"
+        ],
+        "dishes_with_days": [
+          "🍅 Tomato-Cucumber Salad (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🍅 Tomato-Cucumber Salad"
+            ],
+            "qty_display": "2 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 cups",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Cilantro",
+        "norm": "cilantro",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Chicken Wings",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Monday",
           "Weekend"
         ],
         "dishes": [
-          "Overnight Oats"
+          "Chicken Curry - Kevin",
+          "Chicken Wings"
         ],
         "dishes_with_days": [
-          "Overnight Oats (Sat)"
+          "Chicken Curry - Kevin (Mon)",
+          "Chicken Wings (Sat)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Chicken Wings"
+            ],
+            "qty_display": "0.25 cup"
+          }
+        },
+        "total_qty_display": "1/4 cup",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "Dill",
+        "norm": "dill",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Salmon with Lemon-Herb Butter",
+            "qty_str": "2 tsp",
+            "qty_parsed": [
+              2.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Salmon with Lemon-Herb Butter"
+        ],
+        "dishes_with_days": [
+          "Salmon with Lemon-Herb Butter (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Salmon with Lemon-Herb Butter"
+            ],
+            "qty_display": "2 tsp"
+          }
+        },
+        "total_qty_display": "2 tsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "English cucumbers",
+        "norm": "english cucumber",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🍅 Tomato-Cucumber Salad",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🍅 Tomato-Cucumber Salad"
+        ],
+        "dishes_with_days": [
+          "🍅 Tomato-Cucumber Salad (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🍅 Tomato-Cucumber Salad"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Garlic cloves",
+        "norm": "garlic",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Skirt steak grilled with chimichurri",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Noodle Soup",
+            "qty_str": "4",
+            "qty_parsed": [
+              4.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Salmon with Lemon-Herb Butter",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "2 cloves",
+            "qty_parsed": [
+              2.0,
+              "cloves"
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Chicken Wings",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 5,
+        "days": [
+          "Tuesday",
+          "Thursday",
+          "Friday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Chicken Noodle Soup",
+          "Chicken Wings",
+          "Green Beans (Garlicky)",
+          "Salmon with Lemon-Herb Butter",
+          "Skirt steak grilled with chimichurri"
+        ],
+        "dishes_with_days": [
+          "Chicken Noodle Soup (Thu)",
+          "Chicken Wings (Sat)",
+          "Green Beans (Garlicky) (Fri)",
+          "Salmon with Lemon-Herb Butter (Fri)",
+          "Skirt steak grilled with chimichurri (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Skirt steak grilled with chimichurri"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 4,
+            "days": [
+              "Thursday",
+              "Friday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Chicken Noodle Soup",
+              "Chicken Wings",
+              "Green Beans (Garlicky)",
+              "Salmon with Lemon-Herb Butter"
+            ],
+            "qty_display": "11 cloves"
+          }
+        },
+        "total_qty_display": "14 cloves",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Green beans",
+        "norm": "green bean",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "12 ounces",
+            "qty_parsed": [
+              12.0,
+              "ounces"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Green Beans (Garlicky)"
+        ],
+        "dishes_with_days": [
+          "Green Beans (Garlicky) (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Green Beans (Garlicky)"
+            ],
+            "qty_display": "12 ounces"
+          }
+        },
+        "total_qty_display": "12 ounces",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Green onions",
+        "norm": "green onion",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Chicken Wings",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Chicken Wings",
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Chicken Wings (Sat)",
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Chicken Wings",
+              "Pho"
+            ],
+            "qty_display": "3.25 cup"
+          }
+        },
+        "total_qty_display": "3.25 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Green onion and Cilantro",
+        "norm": "green onion and cilantro",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -755,8 +701,448 @@
               "Weekend"
             ],
             "dishes": [
-              "Overnight Oats"
+              "Pho"
             ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Lemon juice",
+        "norm": "lemon juice",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Salmon with Lemon-Herb Butter",
+            "qty_str": "1 tbsp",
+            "qty_parsed": [
+              1.0,
+              "tbsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Salmon with Lemon-Herb Butter"
+        ],
+        "dishes_with_days": [
+          "Salmon with Lemon-Herb Butter (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Salmon with Lemon-Herb Butter"
+            ],
+            "qty_display": "1 tbsp"
+          }
+        },
+        "total_qty_display": "1 tbsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Mint",
+        "norm": "mint",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🍅 Tomato-Cucumber Salad",
+            "qty_str": "2 tbsp",
+            "qty_parsed": [
+              2.0,
+              "tbsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🍅 Tomato-Cucumber Salad"
+        ],
+        "dishes_with_days": [
+          "🍅 Tomato-Cucumber Salad (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🍅 Tomato-Cucumber Salad"
+            ],
+            "qty_display": "2 tbsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 tbsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Parsley",
+        "norm": "parsley",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🍅 Tomato-Cucumber Salad",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🍅 Tomato-Cucumber Salad"
+        ],
+        "dishes_with_days": [
+          "🍅 Tomato-Cucumber Salad (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🍅 Tomato-Cucumber Salad"
+            ],
+            "qty_display": "0.25 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.25 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Sweet potato",
+        "norm": "potato",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Chicken Curry - Kevin"
+        ],
+        "dishes_with_days": [
+          "Chicken Curry - Kevin (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Red bell pepper",
+        "norm": "red bell pepper",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Chicken Curry - Kevin"
+        ],
+        "dishes_with_days": [
+          "Chicken Curry - Kevin (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Red onion",
+        "norm": "red onion",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🍅 Tomato-Cucumber Salad",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🍅 Tomato-Cucumber Salad"
+        ],
+        "dishes_with_days": [
+          "🍅 Tomato-Cucumber Salad (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🍅 Tomato-Cucumber Salad"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Russet",
+        "norm": "russet",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Potatoes - Mashed",
+            "qty_str": "10",
+            "qty_parsed": [
+              10.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Potatoes - Mashed"
+        ],
+        "dishes_with_days": [
+          "Potatoes - Mashed (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Potatoes - Mashed"
+            ],
+            "qty_display": "10"
+          }
+        },
+        "total_qty_display": "10",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Salsa",
+        "norm": "salsa",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
             "qty_display": ""
           }
         },
@@ -764,12 +1150,67 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Stevia drops 7",
-        "norm": "stevia drop 7",
+        "canonical_name": "Seasoning",
+        "norm": "seasoning",
         "occurrences": [
           {
             "day": "Weekend",
-            "dish": "Overnight Oats",
+            "dish": "Japanese Sweet Potato Fries",
+            "qty_str": "1/2-1 teaspoon",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Japanese Sweet Potato Fries"
+        ],
+        "dishes_with_days": [
+          "Japanese Sweet Potato Fries (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Japanese Sweet Potato Fries"
+            ],
+            "qty_display": "1/2-1 teaspoon"
+          }
+        },
+        "total_qty_display": "1/2-1 teaspoon",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Taco Shells",
+        "norm": "taco shell",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
             "qty_str": null,
             "qty_parsed": [
               null,
@@ -787,13 +1228,13 @@
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Weekend"
+          "Wednesday"
         ],
         "dishes": [
-          "Overnight Oats"
+          "Tacos"
         ],
         "dishes_with_days": [
-          "Overnight Oats (Sat)"
+          "Tacos (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥫",
@@ -801,10 +1242,10 @@
           "Mon": {
             "uses": 1,
             "days": [
-              "Weekend"
+              "Wednesday"
             ],
             "dishes": [
-              "Overnight Oats"
+              "Tacos"
             ],
             "qty_display": ""
           },
@@ -819,12 +1260,85 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Yellow onion",
+        "canonical_name": "Tomato",
+        "norm": "tomato",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Onion",
         "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Friday",
-            "dish": "Egg Roll in a Bowl",
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Pho",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -840,15 +1354,84 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 3,
         "days": [
-          "Friday"
+          "Monday",
+          "Wednesday",
+          "Weekend"
         ],
         "dishes": [
-          "Egg Roll in a Bowl"
+          "Chicken Curry - Kevin",
+          "Pho",
+          "Tacos"
         ],
         "dishes_with_days": [
-          "Egg Roll in a Bowl (Fri)"
+          "Chicken Curry - Kevin (Mon)",
+          "Pho (Sat)",
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin",
+              "Tacos"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "multiplied"
+      }
+    ],
+    "888 Market / Pan Asia": [
+      {
+        "canonical_name": "Basil and Cilantro",
+        "norm": "basil and cilantro",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -862,12 +1445,1152 @@
           "Wed": {
             "uses": 1,
             "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Bean sprout",
+        "norm": "bean sprout",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Daikon",
+        "norm": "daikon",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "1/2 lb",
+            "qty_parsed": [
+              0.5,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": "0.5 lb"
+          }
+        },
+        "total_qty_display": "0.5 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Lime",
+        "norm": "lime",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🌽 Grilled Corn",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Tuesday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho",
+          "🌽 Grilled Corn"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)",
+          "🌽 Grilled Corn (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🌽 Grilled Corn"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Pho noodles",
+        "norm": "pho noodle",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "2 bags",
+            "qty_parsed": [
+              2.0,
+              "bags"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": "2 bags"
+          }
+        },
+        "total_qty_display": "2 bags",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Rice",
+        "norm": "rice",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "🍚 Rice (Simple)",
+            "qty_str": "4 cups",
+            "qty_parsed": [
+              4.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "🍚 Rice (Simple)"
+        ],
+        "dishes_with_days": [
+          "🍚 Rice (Simple) (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "🍚 Rice (Simple)"
+            ],
+            "qty_display": "4 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4 cups",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Spice Pho Seasoning",
+        "norm": "spice pho seasoning",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "1 bag",
+            "qty_parsed": [
+              1.0,
+              "bag"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": "1 bag"
+          }
+        },
+        "total_qty_display": "1 bag",
+        "math_mode": "summed"
+      }
+    ],
+    "Costco": [
+      {
+        "canonical_name": "Beef marrow bones",
+        "norm": "beef marrow bones",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "3 lbs",
+            "qty_parsed": [
+              3.0,
+              "lbs"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": "3 lbs"
+          }
+        },
+        "total_qty_display": "3 lbs",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Boneless chicken breasts",
+        "norm": "boneless chicken breast",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Chicken Curry - Kevin"
+        ],
+        "dishes_with_days": [
+          "Chicken Curry - Kevin (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Chicken breast",
+        "norm": "chicken breast",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chicken Noodle Soup",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Monday",
+          "Thursday"
+        ],
+        "dishes": [
+          "Chicken Curry - Kevin",
+          "Chicken Noodle Soup"
+        ],
+        "dishes_with_days": [
+          "Chicken Curry - Kevin (Mon)",
+          "Chicken Noodle Soup (Thu)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chicken Noodle Soup"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "5",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Chicken Wings",
+        "norm": "chicken wing",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Chicken Wings",
+            "qty_str": "2 lb",
+            "qty_parsed": [
+              2.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Chicken Wings"
+        ],
+        "dishes_with_days": [
+          "Chicken Wings (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Chicken Wings"
+            ],
+            "qty_display": "2 lb"
+          }
+        },
+        "total_qty_display": "2 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Green Chili Salsa",
+        "norm": "green chili salsa",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Hamburger",
+        "norm": "hamburger",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": "2 lb",
+            "qty_parsed": [
+              2.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "2 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Salmon fillet",
+        "norm": "salmon fillet",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Salmon with Lemon-Herb Butter",
+            "qty_str": "2-3 lb",
+            "qty_parsed": [
+              2.5,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Salmon with Lemon-Herb Butter"
+        ],
+        "dishes_with_days": [
+          "Salmon with Lemon-Herb Butter (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
               "Friday"
             ],
             "dishes": [
-              "Egg Roll in a Bowl"
+              "Salmon with Lemon-Herb Butter"
+            ],
+            "qty_display": "2.5 lb"
+          }
+        },
+        "total_qty_display": "2.5 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Sirloin",
+        "norm": "sirloin",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "White",
+        "norm": "white",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Pho",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Pho"
+        ],
+        "dishes_with_days": [
+          "Pho (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Pho"
             ],
             "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      }
+    ],
+    "Sam’s Club": [
+      {
+        "canonical_name": "Black Olives",
+        "norm": "black olive",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          }
+        ],
+        "stores": [
+          "Sam’s Club"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1 can"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 can",
+        "math_mode": "summed"
+      }
+    ],
+    "Amazon": [
+      {
+        "canonical_name": "Chili powder",
+        "norm": "chili powder",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "🌽 Grilled Corn",
+            "qty_str": "1 tsp",
+            "qty_parsed": [
+              1.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Amazon"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "🌽 Grilled Corn"
+        ],
+        "dishes_with_days": [
+          "🌽 Grilled Corn (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "🌽 Grilled Corn"
+            ],
+            "qty_display": "1 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 tsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Taco Seasoning",
+        "norm": "taco seasoning",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Amazon"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      }
+    ],
+    "Walmart": [
+      {
+        "canonical_name": "Curry powder",
+        "norm": "curry powder",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Chicken Curry - Kevin",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Walmart"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Chicken Curry - Kevin"
+        ],
+        "dishes_with_days": [
+          "Chicken Curry - Kevin (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Chicken Curry - Kevin"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Mi Rancho Organic Yellow Corn Tortilla",
+        "norm": "mi rancho yellow corn tortilla",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Tacos",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Walmart"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Tacos"
+        ],
+        "dishes_with_days": [
+          "Tacos (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Tacos"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "1",
@@ -881,11 +2604,20 @@
       "norm": "carrot",
       "occurrences": [
         {
-          "day": "Friday",
-          "dish": "Egg Roll in a Bowl",
-          "qty_str": "4",
+          "day": "Monday",
+          "dish": "Chicken Curry - Kevin",
+          "qty_str": "2",
           "qty_parsed": [
-            4.0,
+            2.0,
+            ""
+          ]
+        },
+        {
+          "day": "Thursday",
+          "dish": "Chicken Noodle Soup",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
             ""
           ]
         }
@@ -899,15 +2631,418 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
+      "use_count": 2,
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "dishes": [
+        "Chicken Curry - Kevin",
+        "Chicken Noodle Soup"
+      ],
+      "dishes_with_days": [
+        "Chicken Curry - Kevin (Mon)",
+        "Chicken Noodle Soup (Thu)"
+      ],
+      "trip": "Mon/Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Chicken Curry - Kevin"
+          ],
+          "qty_display": "2"
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chicken Noodle Soup"
+          ],
+          "qty_display": "6"
+        }
+      },
+      "total_qty_display": "8",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Coconut oil",
+      "norm": "coconut oil",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Japanese Sweet Potato Fries",
+          "qty_str": "1-2 tablespoons",
+          "qty_parsed": [
+            1.5,
+            "tablespoons"
+          ]
+        }
+      ],
+      "stores": [
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Pantry-Staple",
+      "type": "shelf",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Japanese Sweet Potato Fries"
+      ],
+      "dishes_with_days": [
+        "Japanese Sweet Potato Fries (Sat)"
+      ],
+      "trip": "Mon",
+      "icon": "🥫",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Japanese Sweet Potato Fries"
+          ],
+          "qty_display": "1.5 tablespoons"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1.5 tablespoons",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Sour Cream",
+      "norm": "sour cream",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Tacos",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "day": "Friday",
+          "dish": "Potatoes - Mashed",
+          "qty_str": "1/2 cup",
+          "qty_parsed": [
+            0.5,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [
+        "Sam’s Club",
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Dairy",
+      "type": "fresh",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 2,
+      "days": [
+        "Wednesday",
+        "Friday"
+      ],
+      "dishes": [
+        "Potatoes - Mashed",
+        "Tacos"
+      ],
+      "dishes_with_days": [
+        "Potatoes - Mashed (Fri)",
+        "Tacos (Wed)"
+      ],
+      "trip": "Mon/Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Tacos"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Friday"
+          ],
+          "dishes": [
+            "Potatoes - Mashed"
+          ],
+          "qty_display": "0.5 cup"
+        }
+      },
+      "total_qty_display": "1/2 cup",
+      "math_mode": "mixed"
+    }
+  ],
+  "no_store_match": [
+    {
+      "canonical_name": "Chicken Stock",
+      "norm": "chicken stock",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chicken Noodle Soup",
+          "qty_str": "32 oz",
+          "qty_parsed": [
+            32.0,
+            "oz"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chicken Noodle Soup"
+      ],
+      "dishes_with_days": [
+        "Chicken Noodle Soup (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chicken Noodle Soup"
+          ],
+          "qty_display": "32 oz"
+        }
+      },
+      "total_qty_display": "32 oz",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Chimichurri",
+      "norm": "chimichurri",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Skirt steak grilled with chimichurri",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Skirt steak grilled with chimichurri"
+      ],
+      "dishes_with_days": [
+        "Skirt steak grilled with chimichurri (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Skirt steak grilled with chimichurri"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Dino kale",
+      "norm": "dino kale",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Chicken Curry - Kevin",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Chicken Curry - Kevin"
+      ],
+      "dishes_with_days": [
+        "Chicken Curry - Kevin (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Chicken Curry - Kevin"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Ears of corn",
+      "norm": "ear of corn",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "🌽 Grilled Corn",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "🌽 Grilled Corn"
+      ],
+      "dishes_with_days": [
+        "🌽 Grilled Corn (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "🌽 Grilled Corn"
+          ],
+          "qty_display": "6"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "6",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Evaporated milk",
+      "norm": "evaporated milk",
+      "occurrences": [
+        {
+          "day": "Friday",
+          "dish": "Potatoes - Mashed",
+          "qty_str": "1-1.3 cups",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
       "use_count": 1,
       "days": [
         "Friday"
       ],
       "dishes": [
-        "Egg Roll in a Bowl"
+        "Potatoes - Mashed"
       ],
       "dishes_with_days": [
-        "Egg Roll in a Bowl (Fri)"
+        "Potatoes - Mashed (Fri)"
       ],
       "trip": "Wed",
       "icon": "🥬",
@@ -924,23 +3059,233 @@
             "Friday"
           ],
           "dishes": [
-            "Egg Roll in a Bowl"
+            "Potatoes - Mashed"
           ],
-          "qty_display": "4"
+          "qty_display": "1-1.3 cups"
         }
       },
-      "total_qty_display": "4",
+      "total_qty_display": "1-1.3 cups",
       "math_mode": "single"
-    }
-  ],
-  "no_store_match": [
+    },
     {
-      "canonical_name": "Glass Noodles",
-      "norm": "glass noodle",
+      "canonical_name": "Japanese sweet potatoes",
+      "norm": "japanese potato",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Japanese Sweet Potato Fries",
+          "qty_str": "4-5",
+          "qty_parsed": [
+            4.5,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Japanese Sweet Potato Fries"
+      ],
+      "dishes_with_days": [
+        "Japanese Sweet Potato Fries (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Japanese Sweet Potato Fries"
+          ],
+          "qty_display": "4-5"
+        }
+      },
+      "total_qty_display": "4-5",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Juice of 1 lemon",
+      "norm": "juice of 1 lemon",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "🍅 Tomato-Cucumber Salad",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "🍅 Tomato-Cucumber Salad"
+      ],
+      "dishes_with_days": [
+        "🍅 Tomato-Cucumber Salad (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "🍅 Tomato-Cucumber Salad"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Kevin's Thai Coconut Sauce",
+      "norm": "kevin s thai coconut sauce",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Chicken Curry - Kevin",
+          "qty_str": "3",
+          "qty_parsed": [
+            3.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Chicken Curry - Kevin"
+      ],
+      "dishes_with_days": [
+        "Chicken Curry - Kevin (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Chicken Curry - Kevin"
+          ],
+          "qty_display": "3"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "3",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Lemon wedges",
+      "norm": "lemon wedge",
       "occurrences": [
         {
           "day": "Friday",
-          "dish": "Egg Roll in a Bowl",
+          "dish": "Salmon with Lemon-Herb Butter",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Friday"
+      ],
+      "dishes": [
+        "Salmon with Lemon-Herb Butter"
+      ],
+      "dishes_with_days": [
+        "Salmon with Lemon-Herb Butter (Fri)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Friday"
+          ],
+          "dishes": [
+            "Salmon with Lemon-Herb Butter"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Noodle",
+      "norm": "noodle",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chicken Noodle Soup",
           "qty_str": null,
           "qty_parsed": [
             null,
@@ -956,13 +3301,13 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Friday"
+        "Thursday"
       ],
       "dishes": [
-        "Egg Roll in a Bowl"
+        "Chicken Noodle Soup"
       ],
       "dishes_with_days": [
-        "Egg Roll in a Bowl (Fri)"
+        "Chicken Noodle Soup (Thu)"
       ],
       "trip": "Wed",
       "icon": "❓",
@@ -976,11 +3321,382 @@
         "Wed": {
           "uses": 1,
           "days": [
-            "Friday"
+            "Thursday"
           ],
           "dishes": [
-            "Egg Roll in a Bowl"
+            "Chicken Noodle Soup"
           ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Oil",
+      "norm": "oil",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Chicken Curry - Kevin",
+          "qty_str": "1-2 Tbsp",
+          "qty_parsed": [
+            1.5,
+            "tbsp"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Chicken Curry - Kevin"
+      ],
+      "dishes_with_days": [
+        "Chicken Curry - Kevin (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Chicken Curry - Kevin"
+          ],
+          "qty_display": "1.5 tbsp"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1.5 tbsp",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Potato starch",
+      "norm": "potato starch",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Japanese Sweet Potato Fries",
+          "qty_str": "1-2 tablespoons",
+          "qty_parsed": [
+            1.5,
+            "tablespoons"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Japanese Sweet Potato Fries"
+      ],
+      "dishes_with_days": [
+        "Japanese Sweet Potato Fries (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Japanese Sweet Potato Fries"
+          ],
+          "qty_display": "1.5 tablespoons"
+        }
+      },
+      "total_qty_display": "1.5 tablespoons",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Quốc Việt Beef Pho Soup Base",
+      "norm": "quốc việt beef pho soup base",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Pho",
+          "qty_str": "6.5 tbsp",
+          "qty_parsed": [
+            6.5,
+            "tbsp"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "meat",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Pho"
+      ],
+      "dishes_with_days": [
+        "Pho (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "🥩",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Pho"
+          ],
+          "qty_display": "6.5 tbsp"
+        }
+      },
+      "total_qty_display": "6.5 tbsp",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Red jalapeños",
+      "norm": "red jalapeño",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Chicken Wings",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Chicken Wings"
+      ],
+      "dishes_with_days": [
+        "Chicken Wings (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Chicken Wings"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Sage",
+      "norm": "sage",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chicken Noodle Soup",
+          "qty_str": "1/2 tsp",
+          "qty_parsed": [
+            0.5,
+            "tsp"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chicken Noodle Soup"
+      ],
+      "dishes_with_days": [
+        "Chicken Noodle Soup (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chicken Noodle Soup"
+          ],
+          "qty_display": "0.5 tsp"
+        }
+      },
+      "total_qty_display": "0.5 tsp",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Skirt steak",
+      "norm": "skirt steak",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Skirt steak grilled with chimichurri",
+          "qty_str": "2-2 1/2 lb",
+          "qty_parsed": [
+            2.25,
+            "lb"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "meat",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Skirt steak grilled with chimichurri"
+      ],
+      "dishes_with_days": [
+        "Skirt steak grilled with chimichurri (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥩",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Skirt steak grilled with chimichurri"
+          ],
+          "qty_display": "2.25 lb"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2.25 lb",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Sumac",
+      "norm": "sumac",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "🍅 Tomato-Cucumber Salad",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "🍅 Tomato-Cucumber Salad"
+      ],
+      "dishes_with_days": [
+        "🍅 Tomato-Cucumber Salad (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "🍅 Tomato-Cucumber Salad"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
           "qty_display": ""
         }
       },
@@ -990,53 +3706,326 @@
   ],
   "skipped_staples": [
     {
-      "day": "Friday",
-      "dish": "Egg Roll in a Bowl",
-      "name": "olive oil",
-      "quantity": "2 1/2 Tbsp",
-      "original": "2 1/2 Tbsp olive oil"
+      "day": "Monday",
+      "dish": "Chicken Curry - Kevin",
+      "name": "Salt",
+      "quantity": null,
+      "original": "Salt, pepper"
     },
     {
-      "day": "Friday",
-      "dish": "Egg Roll in a Bowl",
-      "name": "ginger",
-      "quantity": "1 1/4 Tbsp",
-      "original": "1 1/4 Tbsp ginger (peeled & grated)"
+      "day": "Monday",
+      "dish": "Chicken Curry - Kevin",
+      "name": "salt",
+      "quantity": null,
+      "original": "salt"
     },
     {
-      "day": "Friday",
-      "dish": "Scallion Pancakes",
-      "name": "Tbs Light Soy sauce",
-      "quantity": "4",
-      "original": "4 Tbs Light Soy sauce"
+      "day": "Monday",
+      "dish": "Chicken Curry - Kevin",
+      "name": "pepper",
+      "quantity": null,
+      "original": "pepper (WT Ranchers)"
     },
     {
-      "day": "Friday",
-      "dish": "Scallion Pancakes",
-      "name": "sesame oil",
+      "day": "Monday",
+      "dish": "Chicken Curry - Kevin",
+      "name": "garlic salt",
+      "quantity": null,
+      "original": "garlic salt"
+    },
+    {
+      "day": "Monday",
+      "dish": "Chicken Curry - Kevin",
+      "name": "ground ginger",
+      "quantity": null,
+      "original": "ground ginger"
+    },
+    {
+      "day": "Monday",
+      "dish": "Chicken Curry - Kevin",
+      "name": "ground coriander",
+      "quantity": null,
+      "original": "ground coriander"
+    },
+    {
+      "day": "Monday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "water",
+      "quantity": "4 cups",
+      "original": "4 cups water"
+    },
+    {
+      "day": "Monday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "salt",
       "quantity": "1 tsp",
-      "original": "1 tsp sesame oil"
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Monday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "butter",
+      "quantity": "1 tbsp",
+      "original": "1 tbsp butter or olive oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Skirt steak grilled with chimichurri",
+      "name": "olive oil",
+      "quantity": "2 Tbsp",
+      "original": "2 Tbsp olive oil or avocado oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Skirt steak grilled with chimichurri",
+      "name": "kosher salt",
+      "quantity": "2 tsp",
+      "original": "2 tsp kosher salt"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Skirt steak grilled with chimichurri",
+      "name": "black pepper",
+      "quantity": "1 tsp",
+      "original": "1 tsp black pepper"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🌽 Grilled Corn",
+      "name": "olive oil",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp olive oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🌽 Grilled Corn",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🌽 Grilled Corn",
+      "name": "pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp pepper"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🌽 Grilled Corn",
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp butter (optional)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🍅 Tomato-Cucumber Salad",
+      "name": "olive oil",
+      "quantity": "3 tbsp",
+      "original": "3 tbsp olive oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🍅 Tomato-Cucumber Salad",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "🍅 Tomato-Cucumber Salad",
+      "name": "pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp pepper"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Noodle Soup",
+      "name": "Salt",
+      "quantity": "4 tsp",
+      "original": "4 tsp Salt"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Noodle Soup",
+      "name": "Black Pepper",
+      "quantity": "2 tsp",
+      "original": "2 tsp Black Pepper"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Noodle Soup",
+      "name": "butter",
+      "quantity": "2 T",
+      "original": "2 T butter"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Noodle Soup",
+      "name": "Rosemary",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp Rosemary"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chicken Noodle Soup",
+      "name": "Better than bouillon",
+      "quantity": "4 tsp",
+      "original": "4 tsp Better than bouillon"
     },
     {
       "day": "Friday",
-      "dish": "Scallion Pancakes",
-      "name": "Tbs Sugar (taste first",
-      "quantity": "1",
-      "original": "1 Tbs Sugar (taste first, can add up to 1.5 more)"
+      "dish": "Salmon with Lemon-Herb Butter",
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp unsalted butter, softened (room temp)"
     },
     {
       "day": "Friday",
-      "dish": "Scallion Pancakes",
-      "name": "Tbs Water",
-      "quantity": "1",
-      "original": "1 Tbs Water"
+      "dish": "Salmon with Lemon-Herb Butter",
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "original": "1 tsp fresh thyme leaves (or 1/2 tsp dried)"
+    },
+    {
+      "day": "Friday",
+      "dish": "Salmon with Lemon-Herb Butter",
+      "name": "sea salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp sea salt"
+    },
+    {
+      "day": "Friday",
+      "dish": "Salmon with Lemon-Herb Butter",
+      "name": "black pepper",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp black pepper"
+    },
+    {
+      "day": "Friday",
+      "dish": "Potatoes - Mashed",
+      "name": "butter",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup butter"
+    },
+    {
+      "day": "Friday",
+      "dish": "Potatoes - Mashed",
+      "name": "chicken bouillon paste",
+      "quantity": "2 tsp",
+      "original": "2 tsp chicken bouillon paste"
+    },
+    {
+      "day": "Friday",
+      "dish": "Potatoes - Mashed",
+      "name": "Salt and pepper to taste",
+      "quantity": null,
+      "original": "Salt and pepper to taste"
+    },
+    {
+      "day": "Friday",
+      "dish": "Green Beans (Garlicky)",
+      "name": "extra virgin olive oil",
+      "quantity": "1 tablespoon",
+      "original": "1 tablespoon extra virgin olive oil"
+    },
+    {
+      "day": "Friday",
+      "dish": "Green Beans (Garlicky)",
+      "name": "fine sea salt",
+      "quantity": "1/2 teaspoon",
+      "original": "1/2 teaspoon fine sea salt"
+    },
+    {
+      "day": "Friday",
+      "dish": "Green Beans (Garlicky)",
+      "name": "water",
+      "quantity": "1/4 cup",
+      "original": "1/4 cup water"
     },
     {
       "day": "Weekend",
-      "dish": "Overnight Oats",
-      "name": "Vanilla",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp Vanilla"
+      "dish": "Chicken Wings",
+      "name": "fish sauce",
+      "quantity": "1/4 cup",
+      "original": "1/4 cup fish sauce"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Chicken Wings",
+      "name": "cane sugar",
+      "quantity": "3 tbsp",
+      "original": "3 tbsp cane sugar"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Chicken Wings",
+      "name": "warm water",
+      "quantity": "2 tbsp",
+      "original": "2 tbsp warm water"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Chicken Wings",
+      "name": "freshly ground black pepper",
+      "quantity": "1 tsp",
+      "original": "1 tsp freshly ground black pepper"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Japanese Sweet Potato Fries",
+      "name": "Salt",
+      "quantity": null,
+      "original": "Salt, to taste"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "large knob of ginger",
+      "quantity": "1",
+      "original": "1 large knob of ginger, about 1/4 lb, peeled and toasted to slightly charred"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "size of rock sugar",
+      "quantity": "2 tbsp",
+      "original": "about 2 tbsp size of rock sugar, roughly 16 grams"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "boiling water",
+      "quantity": "18 cups",
+      "original": "18 cups of boiling water, using boiling water will help speed up pressure building time"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "mushroom seasoning",
+      "quantity": null,
+      "original": "mushroom seasoning"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "jalapeño pepper",
+      "quantity": null,
+      "original": "jalapeño pepper or your favorite fresh chili pepper, thinly sliced"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "black pepper",
+      "quantity": null,
+      "original": "black pepper, optional"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pho",
+      "name": "Hoisin sauce",
+      "quantity": null,
+      "original": "Hoisin sauce"
     }
   ],
   "unresolved_variants": [],
