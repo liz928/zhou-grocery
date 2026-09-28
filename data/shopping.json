@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:16:07.759666",
+  "generated_at": "2026-09-28T00:17:29.483679",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 132,
+    "raw_ingredient_count": 130,
     "unique_after_dedup": 64,
-    "skipped_staples": 55,
-    "routing_matched": 47,
-    "routing_unmatched": 17,
+    "skipped_staples": 53,
+    "routing_matched": 46,
+    "routing_unmatched": 18,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -1698,61 +1698,6 @@
           }
         },
         "total_qty_display": "2 bags",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Rice",
-        "norm": "rice",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "🍚 Rice (Simple)",
-            "qty_str": "4 cups",
-            "qty_parsed": [
-              4.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "🍚 Rice (Simple)"
-        ],
-        "dishes_with_days": [
-          "🍚 Rice (Simple) (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "🍚 Rice (Simple)"
-            ],
-            "qty_display": "4 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4 cups",
         "math_mode": "summed"
       },
       {
@@ -3659,6 +3604,59 @@
       "math_mode": "summed"
     },
     {
+      "canonical_name": "Scoops of Rice",
+      "norm": "scoop of rice",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "White Rice",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "White Rice"
+      ],
+      "dishes_with_days": [
+        "White Rice (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "White Rice"
+          ],
+          "qty_display": "6"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "6",
+      "math_mode": "single"
+    },
+    {
       "canonical_name": "Skirt steak",
       "norm": "skirt steak",
       "occurrences": [
@@ -3757,24 +3755,10 @@
     },
     {
       "day": "Monday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "water",
-      "quantity": "4 cups",
-      "original": "4 cups water"
-    },
-    {
-      "day": "Monday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Monday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "butter",
-      "quantity": "1 tbsp",
-      "original": "1 tbsp butter or olive oil"
+      "dish": "White Rice",
+      "name": "Water",
+      "quantity": null,
+      "original": "Water"
     },
     {
       "day": "Tuesday",

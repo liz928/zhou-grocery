@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:16:07.759666",
+  "generated_at": "2026-09-28T00:17:29.483679",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -158,95 +158,27 @@
           ]
         },
         {
-          "card_id": "6a14edced66bb4f01661b2c7",
-          "name": "🍚 Rice (Simple)",
-          "ingredients": [],
-          "is_multi_variant": true,
-          "variants": [
+          "card_id": "67d47f946f0060d9af38d80d",
+          "name": "White Rice",
+          "ingredients": [
             {
-              "name": "Ingredients",
-              "ingredients": [
-                {
-                  "original": "4 cups rice (white/jasmine/basmati)",
-                  "quantity": "4 cups",
-                  "name": "rice",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "4 cups water",
-                  "quantity": "4 cups",
-                  "name": "water",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tsp salt",
-                  "quantity": "1 tsp",
-                  "name": "salt",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                },
-                {
-                  "original": "1 tbsp butter or olive oil",
-                  "quantity": "1 tbsp",
-                  "name": "butter",
-                  "notes": "olive oil",
-                  "checked": false,
-                  "checklist": "Ingredients"
-                }
-              ]
+              "original": "6 Scoops of Rice",
+              "quantity": "6",
+              "name": "Scoops of Rice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             },
             {
-              "name": "Helper Task",
-              "ingredients": [
-                {
-                  "original": "Rinse rice in cold water until clear",
-                  "quantity": null,
-                  "name": "Rinse rice in cold water until clear",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Combine rice, water, salt, butter in pot",
-                  "quantity": null,
-                  "name": "Combine rice",
-                  "notes": "water, salt, butter in pot",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Bring to boil",
-                  "quantity": null,
-                  "name": "Bring to boil",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Reduce to lowest simmer + cover",
-                  "quantity": null,
-                  "name": "Reduce to lowest simmer + cover",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                },
-                {
-                  "original": "Cook 18-20 min covered",
-                  "quantity": null,
-                  "name": "Cook 18-20 min covered",
-                  "notes": "",
-                  "checked": false,
-                  "checklist": "Helper Task"
-                }
-              ]
+              "original": "Water",
+              "quantity": null,
+              "name": "Water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             }
           ],
-          "paired_ingredients": []
+          "is_multi_variant": false
         }
       ],
       "dish_count": 3
