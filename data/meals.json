@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:13:52.909834",
+  "generated_at": "2026-09-28T00:16:07.759666",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -23,8 +23,8 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "3 boneless chicken breasts, cut into bite-size pieces",
-              "quantity": "3",
+              "original": "3-4 boneless chicken breasts, cut into bite-size pieces",
+              "quantity": "3-4",
               "name": "boneless chicken breasts",
               "notes": "cut into bite-size pieces",
               "checked": false,
@@ -514,9 +514,72 @@
             }
           ],
           "paired_ingredients": []
+        },
+        {
+          "card_id": "673fc8a4af597d2c702250bd",
+          "name": "Potatoes - Smashed",
+          "ingredients": [
+            {
+              "original": "2-2.5 lbs mixed baby potatoes (Yukon gold, red, purple, or fingerlings—variety gives color)",
+              "quantity": "2-2.5 lbs",
+              "name": "mixed baby potatoes (Yukon gold",
+              "notes": "red, purple, or fingerlings-variety gives color)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3-4 tbsp extra-virgin olive oil (divided)",
+              "quantity": "3-4 tbsp",
+              "name": "extra-virgin olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3-4 garlic cloves, minced",
+              "quantity": "3-4",
+              "name": "garlic cloves",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp sea salt (plus more for boiling and finishing)",
+              "quantity": "1 tsp",
+              "name": "sea salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp black pepper",
+              "quantity": "1/2 tsp",
+              "name": "black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp smoked paprika (optional, for smoky depth)",
+              "quantity": "1/2 tsp",
+              "name": "smoked paprika (optional",
+              "notes": "for smoky depth)",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 cup fresh parsley, finely chopped",
+              "quantity": "1/4 cup",
+              "name": "fresh parsley",
+              "notes": "finely chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 5
+      "dish_count": 6
     },
     "Wednesday": {
       "dishes": [
