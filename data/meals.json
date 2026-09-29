@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:00:11.915623",
+  "generated_at": "2026-09-29T05:00:14.772812",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -1245,6 +1245,28 @@
         }
       ],
       "dish_count": 3
+    },
+    "Next Monday": {
+      "dishes": [
+        {
+          "card_id": "6abb1306ef168f86172f8d2d",
+          "name": "Abby b-day (crockpot)",
+          "ingredients": [],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 1
+    },
+    "Next Tuesday": {
+      "dishes": [
+        {
+          "card_id": "6abb12f9e0a36a0d463a834d",
+          "name": "Zoo",
+          "ingredients": [],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 1
     }
   }
 }
