@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:00:14.772812",
+  "generated_at": "2026-09-30T05:00:12.391785",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -200,7 +200,7 @@
               "quantity": "2-2 1/2 lb",
               "name": "skirt steak",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -208,7 +208,7 @@
               "quantity": "2 Tbsp",
               "name": "olive oil",
               "notes": "avocado oil",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -216,7 +216,7 @@
               "quantity": "2 tsp",
               "name": "kosher salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -224,7 +224,7 @@
               "quantity": "1 tsp",
               "name": "black pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -232,7 +232,7 @@
               "quantity": "3",
               "name": "garlic cloves",
               "notes": "minced or grated",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -302,7 +302,7 @@
               "quantity": "1 cup",
               "name": "flat-leaf parsley",
               "notes": "finely chopped",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -310,7 +310,7 @@
               "quantity": "3-4",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -318,7 +318,7 @@
               "quantity": "2 Tbsp",
               "name": "fresh oregano leaves",
               "notes": "finely chopped",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -334,7 +334,7 @@
               "quantity": "2 Tbsp",
               "name": "red wine vinegar",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -342,7 +342,7 @@
               "quantity": "1/2 tsp",
               "name": "salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -350,7 +350,7 @@
               "quantity": "1/4 tsp",
               "name": "pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -358,7 +358,7 @@
               "quantity": "1/4 tsp",
               "name": "red pepper flakes",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -366,7 +366,7 @@
               "quantity": "1",
               "name": "small shallot",
               "notes": "finely minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             }
           ],
@@ -436,7 +436,7 @@
               "quantity": "2-2.5 lbs",
               "name": "mixed baby potatoes (Yukon gold",
               "notes": "red, purple, or fingerlings-variety gives color)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -444,7 +444,7 @@
               "quantity": "3-4 tbsp",
               "name": "extra-virgin olive oil",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -452,7 +452,7 @@
               "quantity": "3-4",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
