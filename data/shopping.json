@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:00:12.446214",
+  "generated_at": "2026-10-02T05:00:12.177504",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 132,
-    "unique_after_dedup": 64,
-    "skipped_staples": 54,
+    "raw_ingredient_count": 138,
+    "unique_after_dedup": 66,
+    "skipped_staples": 57,
     "routing_matched": 46,
-    "routing_unmatched": 18,
+    "routing_unmatched": 20,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -740,10 +740,10 @@
           {
             "day": "Friday",
             "dish": "Salmon with Lemon-Herb Butter",
-            "qty_str": "1 tbsp",
+            "qty_str": "2",
             "qty_parsed": [
-              1.0,
-              "tbsp"
+              2.0,
+              ""
             ]
           }
         ],
@@ -782,11 +782,11 @@
             "dishes": [
               "Salmon with Lemon-Herb Butter"
             ],
-            "qty_display": "1 tbsp"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "1 tbsp",
-        "math_mode": "summed"
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Parsley",
@@ -1020,6 +1020,15 @@
               10.0,
               ""
             ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Potatoes - Mashed",
+            "qty_str": "10",
+            "qty_parsed": [
+              10.0,
+              ""
+            ]
           }
         ],
         "stores": [
@@ -1030,7 +1039,7 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
           "Thursday"
         ],
@@ -1050,18 +1059,18 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 1,
+            "uses": 2,
             "days": [
               "Thursday"
             ],
             "dishes": [
               "Potatoes - Mashed"
             ],
-            "qty_display": "10"
+            "qty_display": "20"
           }
         },
-        "total_qty_display": "10",
-        "math_mode": "single"
+        "total_qty_display": "20",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Salsa",
@@ -1125,7 +1134,7 @@
           {
             "day": "Weekend",
             "dish": "Japanese Sweet Potato Fries",
-            "qty_str": "1/2-1 teaspoon",
+            "qty_str": "1/2-1 tsp",
             "qty_parsed": [
               0.5,
               ""
@@ -1167,10 +1176,10 @@
             "dishes": [
               "Japanese Sweet Potato Fries"
             ],
-            "qty_display": "1/2-1 teaspoon"
+            "qty_display": "1/2-1 tsp"
           }
         },
-        "total_qty_display": "1/2-1 teaspoon",
+        "total_qty_display": "1/2-1 tsp",
         "math_mode": "single"
       },
       {
@@ -2631,10 +2640,10 @@
         {
           "day": "Weekend",
           "dish": "Japanese Sweet Potato Fries",
-          "qty_str": "1-2 tablespoons",
+          "qty_str": "1-2",
           "qty_parsed": [
             1.5,
-            "tablespoons"
+            ""
           ]
         }
       ],
@@ -2668,7 +2677,7 @@
           "dishes": [
             "Japanese Sweet Potato Fries"
           ],
-          "qty_display": "1.5 tablespoons"
+          "qty_display": "1-2"
         },
         "Wed": {
           "uses": 0,
@@ -2677,8 +2686,8 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "1.5 tablespoons",
-      "math_mode": "summed"
+      "total_qty_display": "1-2",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Sour Cream",
@@ -3074,6 +3083,59 @@
       "math_mode": "summed"
     },
     {
+      "canonical_name": "Foager plain cashew yogurt",
+      "norm": "foager plain cashew yogurt",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Potatoes - Mashed",
+          "qty_str": "1/4 cup",
+          "qty_parsed": [
+            0.25,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Potatoes - Mashed"
+      ],
+      "dishes_with_days": [
+        "Potatoes - Mashed (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Potatoes - Mashed"
+          ],
+          "qty_display": "0.25 cup"
+        }
+      },
+      "total_qty_display": "0.25 cup",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Japanese sweet potatoes",
       "norm": "japanese potato",
       "occurrences": [
@@ -3345,10 +3407,10 @@
         {
           "day": "Monday",
           "dish": "Chicken Curry - Kevin",
-          "qty_str": "1-2 Tbsp",
+          "qty_str": "1-2",
           "qty_parsed": [
             1.5,
-            "tbsp"
+            ""
           ]
         }
       ],
@@ -3379,7 +3441,7 @@
           "dishes": [
             "Chicken Curry - Kevin"
           ],
-          "qty_display": "1.5 tbsp"
+          "qty_display": "2"
         },
         "Wed": {
           "uses": 0,
@@ -3388,8 +3450,8 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "1.5 tbsp",
-      "math_mode": "summed"
+      "total_qty_display": "2",
+      "math_mode": "multiplied"
     },
     {
       "canonical_name": "Potato starch",
@@ -3398,10 +3460,10 @@
         {
           "day": "Weekend",
           "dish": "Japanese Sweet Potato Fries",
-          "qty_str": "1-2 tablespoons",
+          "qty_str": "1-2",
           "qty_parsed": [
             1.5,
-            "tablespoons"
+            ""
           ]
         }
       ],
@@ -3438,11 +3500,11 @@
           "dishes": [
             "Japanese Sweet Potato Fries"
           ],
-          "qty_display": "1.5 tablespoons"
+          "qty_display": "1-2"
         }
       },
-      "total_qty_display": "1.5 tablespoons",
-      "math_mode": "summed"
+      "total_qty_display": "1-2",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Quốc Việt Beef Pho Soup Base",
@@ -3451,10 +3513,10 @@
         {
           "day": "Weekend",
           "dish": "Pho",
-          "qty_str": "6.5 tbsp",
+          "qty_str": "6.5",
           "qty_parsed": [
             6.5,
-            "tbsp"
+            ""
           ]
         }
       ],
@@ -3491,11 +3553,11 @@
           "dishes": [
             "Pho"
           ],
-          "qty_display": "6.5 tbsp"
+          "qty_display": "6.5"
         }
       },
-      "total_qty_display": "6.5 tbsp",
-      "math_mode": "summed"
+      "total_qty_display": "6.5",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Red jalapeños",
@@ -3549,6 +3611,59 @@
       },
       "total_qty_display": "1",
       "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Ripple plant based milk",
+      "norm": "ripple plant based milk",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Potatoes - Mashed",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Potatoes - Mashed"
+      ],
+      "dishes_with_days": [
+        "Potatoes - Mashed (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Potatoes - Mashed"
+          ],
+          "qty_display": "1 cup"
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
     },
     {
       "canonical_name": "Sage",
@@ -3777,9 +3892,9 @@
     {
       "day": "Tuesday",
       "dish": "Skirt steak grilled with chimichurri",
-      "name": "olive oil",
-      "quantity": "2 Tbsp",
-      "original": "2 Tbsp olive oil or avocado oil"
+      "name": "Tbs olive oil",
+      "quantity": "2",
+      "original": "2 Tbs olive oil or avocado oil"
     },
     {
       "day": "Tuesday",
@@ -3798,9 +3913,9 @@
     {
       "day": "Tuesday",
       "dish": "🌽 Grilled Corn",
-      "name": "olive oil",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp olive oil"
+      "name": "Tbs olive oil",
+      "quantity": "2",
+      "original": "2 Tbs olive oil"
     },
     {
       "day": "Tuesday",
@@ -3819,16 +3934,16 @@
     {
       "day": "Tuesday",
       "dish": "🌽 Grilled Corn",
-      "name": "butter",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp butter (optional)"
+      "name": "Tbs butter",
+      "quantity": "2",
+      "original": "2 Tbs butter (optional)"
     },
     {
       "day": "Tuesday",
       "dish": "Chimichurri",
-      "name": "fresh oregano leaves",
-      "quantity": "2 Tbsp",
-      "original": "2 Tbsp fresh oregano leaves, finely chopped"
+      "name": "Tbs fresh oregano leaves",
+      "quantity": "2",
+      "original": "2 Tbs fresh oregano leaves, finely chopped"
     },
     {
       "day": "Tuesday",
@@ -3840,9 +3955,9 @@
     {
       "day": "Tuesday",
       "dish": "Chimichurri",
-      "name": "red wine vinegar",
-      "quantity": "2 Tbsp",
-      "original": "2 Tbsp red wine vinegar"
+      "name": "Tbs red wine vinegar",
+      "quantity": "2",
+      "original": "2 Tbs red wine vinegar"
     },
     {
       "day": "Tuesday",
@@ -3861,9 +3976,9 @@
     {
       "day": "Tuesday",
       "dish": "🥦 Grilled Broccolini",
-      "name": "olive oil",
-      "quantity": "3 tbsp",
-      "original": "3 tbsp olive oil"
+      "name": "Tbs olive oil",
+      "quantity": "3",
+      "original": "3 Tbs olive oil"
     },
     {
       "day": "Tuesday",
@@ -3882,9 +3997,9 @@
     {
       "day": "Tuesday",
       "dish": "Potatoes - Smashed",
-      "name": "extra-virgin olive oil",
-      "quantity": "3-4 tbsp",
-      "original": "3-4 tbsp extra-virgin olive oil (divided)"
+      "name": "Tbs extra-virgin olive oil",
+      "quantity": "3-4",
+      "original": "3-4 Tbs extra-virgin olive oil (divided)"
     },
     {
       "day": "Tuesday",
@@ -3924,9 +4039,9 @@
     {
       "day": "Thursday",
       "dish": "Chicken Noodle Soup",
-      "name": "butter",
-      "quantity": "2 T",
-      "original": "2 T butter"
+      "name": "Tbs butter",
+      "quantity": "2",
+      "original": "2 Tbs butter"
     },
     {
       "day": "Thursday",
@@ -3964,11 +4079,32 @@
       "original": "Salt and pepper to taste"
     },
     {
+      "day": "Thursday",
+      "dish": "Potatoes - Mashed",
+      "name": "butter",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup butter"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Potatoes - Mashed",
+      "name": "chicken bouillon paste",
+      "quantity": "2 tsp",
+      "original": "2 tsp chicken bouillon paste"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Potatoes - Mashed",
+      "name": "Salt and pepper to taste",
+      "quantity": null,
+      "original": "Salt and pepper to taste"
+    },
+    {
       "day": "Friday",
       "dish": "Salmon with Lemon-Herb Butter",
-      "name": "unsalted butter",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp unsalted butter, softened (room temp)"
+      "name": "Tbs unsalted butter",
+      "quantity": "2",
+      "original": "2 Tbs unsalted butter, softened (room temp)"
     },
     {
       "day": "Friday",
@@ -3994,16 +4130,16 @@
     {
       "day": "Friday",
       "dish": "Green Beans (Garlicky)",
-      "name": "extra virgin olive oil",
-      "quantity": "1 tablespoon",
-      "original": "1 tablespoon extra virgin olive oil"
+      "name": "Tbs extra virgin olive oil",
+      "quantity": "1",
+      "original": "1 Tbs extra virgin olive oil"
     },
     {
       "day": "Friday",
       "dish": "Green Beans (Garlicky)",
       "name": "fine sea salt",
-      "quantity": "1/2 teaspoon",
-      "original": "1/2 teaspoon fine sea salt"
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp fine sea salt"
     },
     {
       "day": "Friday",
@@ -4029,16 +4165,16 @@
     {
       "day": "Weekend",
       "dish": "Chicken Wings",
-      "name": "cane sugar",
-      "quantity": "3 tbsp",
-      "original": "3 tbsp cane sugar"
+      "name": "Tbs cane sugar",
+      "quantity": "3",
+      "original": "3 Tbs cane sugar"
     },
     {
       "day": "Weekend",
       "dish": "Chicken Wings",
-      "name": "warm water",
-      "quantity": "2 tbsp",
-      "original": "2 tbsp warm water"
+      "name": "Tbs warm water",
+      "quantity": "2",
+      "original": "2 Tbs warm water"
     },
     {
       "day": "Weekend",
@@ -4064,9 +4200,9 @@
     {
       "day": "Weekend",
       "dish": "Pho",
-      "name": "size of rock sugar",
-      "quantity": "2 tbsp",
-      "original": "about 2 tbsp size of rock sugar, roughly 16 grams"
+      "name": "Tbs size of rock sugar",
+      "quantity": "2",
+      "original": "about 2 Tbs size of rock sugar, roughly 16 grams"
     },
     {
       "day": "Weekend",
