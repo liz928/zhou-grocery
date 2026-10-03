@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:00:12.177504",
+  "generated_at": "2026-10-03T05:00:12.279622",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -857,7 +857,7 @@
               "quantity": "2",
               "name": "Tbs unsalted butter",
               "notes": "softened (room temp)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -865,7 +865,7 @@
               "quantity": "2",
               "name": "Tbs fresh lemon juice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -873,7 +873,7 @@
               "quantity": "2 tsp",
               "name": "fresh dill",
               "notes": "finely chopped (or 1 tsp dried)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -889,7 +889,7 @@
               "quantity": "2",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
