@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:41:49.398441",
+  "generated_at": "2026-11-02T05:00:24.963561",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Tuesday": {
@@ -521,38 +521,62 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "69680f361e38cc188c2afb27",
-          "name": "Homemade Socca Bread",
+          "card_id": "679022c1d8a16d7eefe3c324",
+          "name": "Loaf - Garlic bread",
           "ingredients": [
             {
-              "original": "1 cup chickpea flour (108 g)",
-              "quantity": "1 cup",
-              "name": "chickpea flour",
-              "notes": "",
+              "original": "1 loaf sturdy bread, sliced thick",
+              "quantity": "1",
+              "name": "loaf sturdy bread",
+              "notes": "sliced thick",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1 cup water (8 oz)",
-              "quantity": "1 cup",
-              "name": "water",
-              "notes": "",
+              "original": "6 Tbs unsalted butter, softened",
+              "quantity": "6",
+              "name": "Tbs unsalted butter",
+              "notes": "softened",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1.5 Tbs olive oil (18 g), plus more for the pan",
-              "quantity": "1.5",
+              "original": "3-4 garlic cloves, minced or grated",
+              "quantity": "3-4",
+              "name": "garlic cloves",
+              "notes": "minced or grated",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 Tbs olive oil",
+              "quantity": "2",
               "name": "Tbs olive oil",
-              "notes": "plus more for the pan",
+              "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "3/4 tsp fine sea salt (5 g)",
-              "quantity": "3/4 tsp",
-              "name": "fine sea salt",
+              "original": "2 Tbs parsley, minced",
+              "quantity": "2",
+              "name": "Tbs parsley",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 tsp salt",
+              "quantity": "1/4 tsp",
+              "name": "salt",
               "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Optional topping: nutritional yeast or dairy-free Parmesan (skip regular Parmesan for the family)",
+              "quantity": null,
+              "name": "Optional topping: nutritional yeast",
+              "notes": "dairy-free Parmesan (skip regular Parmesan for the family)",
               "checked": false,
               "checklist": "Ingredients"
             }

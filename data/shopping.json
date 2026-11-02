@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:41:49.398441",
+  "generated_at": "2026-11-02T05:00:24.963561",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 96,
-    "unique_after_dedup": 47,
+    "raw_ingredient_count": 99,
+    "unique_after_dedup": 49,
     "skipped_staples": 35,
-    "routing_matched": 35,
-    "routing_unmatched": 12,
+    "routing_matched": 36,
+    "routing_unmatched": 13,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -208,6 +208,15 @@
             ]
           },
           {
+            "day": "Monday",
+            "dish": "Loaf - Garlic bread",
+            "qty_str": "3-4",
+            "qty_parsed": [
+              3.5,
+              ""
+            ]
+          },
+          {
             "day": "Wednesday",
             "dish": "Egg Roll in a Bowl",
             "qty_str": "4",
@@ -234,8 +243,9 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 4,
+        "use_count": 5,
         "days": [
+          "Monday",
           "Tuesday",
           "Wednesday",
           "Friday"
@@ -244,29 +254,33 @@
           "Chicken Noodle Soup",
           "Egg Roll in a Bowl",
           "Green Beans (Garlicky)",
+          "Loaf - Garlic bread",
           "Scallion Pancakes"
         ],
         "dishes_with_days": [
           "Chicken Noodle Soup (Tue)",
           "Egg Roll in a Bowl (Wed)",
           "Green Beans (Garlicky) (Fri)",
+          "Loaf - Garlic bread (Mon)",
           "Scallion Pancakes (Wed)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 3,
+            "uses": 4,
             "days": [
+              "Monday",
               "Tuesday",
               "Wednesday"
             ],
             "dishes": [
               "Chicken Noodle Soup",
               "Egg Roll in a Bowl",
+              "Loaf - Garlic bread",
               "Scallion Pancakes"
             ],
-            "qty_display": "12 cloves"
+            "qty_display": "15.5 cloves"
           },
           "Wed": {
             "uses": 1,
@@ -279,7 +293,7 @@
             "qty_display": "2 cloves"
           }
         },
-        "total_qty_display": "14 cloves",
+        "total_qty_display": "17.5 cloves",
         "math_mode": "summed"
       },
       {
@@ -671,6 +685,61 @@
         },
         "total_qty_display": "1",
         "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Parsley",
+        "norm": "parsley",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Loaf - Garlic bread",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Loaf - Garlic bread"
+        ],
+        "dishes_with_days": [
+          "Loaf - Garlic bread (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Loaf - Garlic bread"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Frozen peas",
@@ -2581,6 +2650,59 @@
       "math_mode": "none"
     },
     {
+      "canonical_name": "Loaf sturdy bread",
+      "norm": "loaf sturdy bread",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Loaf - Garlic bread",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Loaf - Garlic bread"
+      ],
+      "dishes_with_days": [
+        "Loaf - Garlic bread (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Loaf - Garlic bread"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
       "canonical_name": "Noodle",
       "norm": "noodle",
       "occurrences": [
@@ -2922,31 +3044,31 @@
     },
     {
       "day": "Monday",
-      "dish": "Homemade Socca Bread",
-      "name": "chickpea flour",
-      "quantity": "1 cup",
-      "original": "1 cup chickpea flour (108 g)"
+      "dish": "Loaf - Garlic bread",
+      "name": "Tbs unsalted butter",
+      "quantity": "6",
+      "original": "6 Tbs unsalted butter, softened"
     },
     {
       "day": "Monday",
-      "dish": "Homemade Socca Bread",
-      "name": "water",
-      "quantity": "1 cup",
-      "original": "1 cup water (8 oz)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Homemade Socca Bread",
+      "dish": "Loaf - Garlic bread",
       "name": "Tbs olive oil",
-      "quantity": "1.5",
-      "original": "1.5 Tbs olive oil (18 g), plus more for the pan"
+      "quantity": "2",
+      "original": "2 Tbs olive oil"
     },
     {
       "day": "Monday",
-      "dish": "Homemade Socca Bread",
-      "name": "fine sea salt",
-      "quantity": "3/4 tsp",
-      "original": "3/4 tsp fine sea salt (5 g)"
+      "dish": "Loaf - Garlic bread",
+      "name": "salt",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp salt"
+    },
+    {
+      "day": "Monday",
+      "dish": "Loaf - Garlic bread",
+      "name": "Optional topping: nutritional yeast",
+      "quantity": null,
+      "original": "Optional topping: nutritional yeast or dairy-free Parmesan (skip regular Parmesan for the family)"
     },
     {
       "day": "Wednesday",
