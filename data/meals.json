@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:00:24.963561",
+  "generated_at": "2026-11-03T05:00:24.686412",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Tuesday": {
@@ -402,7 +402,7 @@
               "quantity": "2 lb",
               "name": "sirloin",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -410,7 +410,7 @@
               "quantity": "4",
               "name": "russet potatoes",
               "notes": "peeled, but into 1/2 in cubes",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -418,7 +418,7 @@
               "quantity": "4",
               "name": "carrots",
               "notes": "peeled, sliced into disk",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -426,7 +426,7 @@
               "quantity": "1 lb",
               "name": "fresh green beans",
               "notes": "trimmed, but into 1-inch pieces",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -450,7 +450,7 @@
               "quantity": "1",
               "name": "box bone broth",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -458,7 +458,7 @@
               "quantity": "32 oz",
               "name": "beef stock",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -490,7 +490,7 @@
               "quantity": "1",
               "name": "Tbs garlic galore",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -498,7 +498,7 @@
               "quantity": "2 tsp",
               "name": "Italian seasoning",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -506,7 +506,7 @@
               "quantity": null,
               "name": "onion",
               "notes": "diced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
