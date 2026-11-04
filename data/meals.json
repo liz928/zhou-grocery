@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:00:24.686412",
+  "generated_at": "2026-11-04T05:00:27.599163",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Tuesday": {
@@ -13,7 +13,7 @@
               "quantity": "2",
               "name": "Chicken breast",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -21,7 +21,7 @@
               "quantity": "6",
               "name": "Carrots",
               "notes": "diced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -29,7 +29,7 @@
               "quantity": "4",
               "name": "Celery Ribs",
               "notes": "diced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -37,7 +37,7 @@
               "quantity": "4",
               "name": "Garlic Cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -45,7 +45,7 @@
               "quantity": "32 oz",
               "name": "Chicken Stock",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -53,7 +53,7 @@
               "quantity": "4 tsp",
               "name": "Salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -61,7 +61,7 @@
               "quantity": "2 tsp",
               "name": "Black Pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -77,7 +77,7 @@
               "quantity": "1/2 tsp",
               "name": "Rosemary",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -85,7 +85,7 @@
               "quantity": "1/2 tsp",
               "name": "Sage",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -93,7 +93,7 @@
               "quantity": "4 tsp",
               "name": "Better than bouillon",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
