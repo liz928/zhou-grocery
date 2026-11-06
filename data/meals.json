@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:00:27.383032",
+  "generated_at": "2026-11-06T05:00:30.486670",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Tuesday": {
@@ -868,7 +868,7 @@
               "quantity": "3",
               "name": "red peppers",
               "notes": "sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -876,7 +876,7 @@
               "quantity": "1",
               "name": "orange peppers",
               "notes": "sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Veggies"
             },
             {
@@ -884,7 +884,7 @@
               "quantity": "2",
               "name": "yellow peppers",
               "notes": "sliced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Veggies"
             },
             {
