@@ -806,6 +806,13 @@ async function apiPost(path, body) {
   return await r.json();
 }
 
+async function liveGeneratedAt() {
+  try {
+    const r = await fetch(MEALS_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    return (await r.json()).generated_at || null;
+  } catch (e) { return null; }
+}
+
 // Pull the latest meal plan from Trello, rebuild the shopping list, and push it
 // live. Use this after changing cards in the Trello meal plan board.
 async function rebuildDashboard() {
@@ -814,14 +821,23 @@ async function rebuildDashboard() {
   btn.disabled = true;
   btn.textContent = '⏳ Grabbing from Trello...';
   try {
+    const before = await liveGeneratedAt();
     const result = await apiPost('/api/rebuild-dashboard', {});
     if (!result.ok && result.error) throw new Error(result.error);
     let msg = '✅ Got it';
     if (result.items != null) msg += ' - ' + result.items + ' items across ' + result.stores + ' stores';
-    showToast(msg + '. Reloading...');
+    showToast(msg + '. Publishing (about a minute)...');
+    btn.textContent = '⏳ Publishing...';
+    // GitHub Pages takes 30-90s to rebuild. Reloading too early shows the old
+    // list, so wait until the live meals.json is newer than before the push.
+    const started = Date.now();
+    while (Date.now() - started < 180000) {
+      await new Promise(r => setTimeout(r, 5000));
+      const now = await liveGeneratedAt();
+      if (now && now !== before) break;
+    }
     btn.textContent = '✅ Updated!';
-    // GitHub Pages needs a moment to rebuild, then hard-reload past the CDN cache.
-    setTimeout(() => { location.href = location.pathname + '?t=' + Date.now(); }, 4000);
+    location.href = location.pathname + '?t=' + Date.now();
   } catch (e) {
     showToast('❌ Refresh failed: ' + e.message);
     btn.textContent = original;
