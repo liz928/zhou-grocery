@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:00:27.168471",
+  "generated_at": "2026-11-09T11:36:12.723169",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,48 +9,103 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 10,
-    "unique_after_dedup": 6,
-    "skipped_staples": 4,
-    "routing_matched": 5,
-    "routing_unmatched": 1,
-    "multi_store": 0,
+    "raw_ingredient_count": 162,
+    "unique_after_dedup": 69,
+    "skipped_staples": 65,
+    "routing_matched": 43,
+    "routing_unmatched": 26,
+    "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
-    "Whole Foods": [
+    "Costco": [
       {
-        "canonical_name": "Garlic",
-        "norm": "garlic",
+        "canonical_name": "Dried apricots",
+        "norm": "apricot",
         "occurrences": [
           {
             "day": "Weekend",
-            "dish": "Green Beans (Garlicky)",
-            "qty_str": "2 cloves",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "1/2 cup",
             "qty_parsed": [
-              2.0,
-              "cloves"
+              0.5,
+              "cup"
             ]
           }
         ],
         "stores": [
-          "Whole Foods"
+          "Costco"
         ],
-        "category": "Unknown",
-        "type": "fresh",
+        "category": "Snack",
+        "type": "shelf",
         "matched_routing": true,
         "is_countable": false,
-        "user_routed": true,
+        "user_routed": false,
         "use_count": 1,
         "days": [
           "Weekend"
         ],
         "dishes": [
-          "Green Beans (Garlicky)"
+          "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
-          "Green Beans (Garlicky) (Sat)"
+          "Moroccan Chicken w/ Root Vegs (Sat)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Chicken w/ Root Vegs"
+            ],
+            "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Bananas",
+        "norm": "banana",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Banana Bread",
+            "qty_str": "3-4",
+            "qty_parsed": [
+              3.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Banana Bread"
+        ],
+        "dishes_with_days": [
+          "Banana Bread (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -67,25 +122,1464 @@
               "Weekend"
             ],
             "dishes": [
-              "Green Beans (Garlicky)"
+              "Banana Bread"
             ],
-            "qty_display": "2 cloves"
+            "qty_display": "4"
           }
         },
-        "total_qty_display": "2 cloves",
+        "total_qty_display": "4",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Black beans",
+        "norm": "black bean",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+        ],
+        "dishes_with_days": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Chicken",
+        "norm": "chicken",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+            "qty_str": "2 lbs",
+            "qty_parsed": [
+              2.0,
+              "lbs"
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Friday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night",
+          "🍊 Teriyaki Orange Ginger Grilled Chicken"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)",
+          "🍊 Teriyaki Orange Ginger Grilled Chicken (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Friday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night",
+              "🍊 Teriyaki Orange Ginger Grilled Chicken"
+            ],
+            "qty_display": "3 lb"
+          }
+        },
+        "total_qty_display": "3 lb",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Chicken thighs",
+        "norm": "chicken thigh",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "🍯 Honey Garlic Grilled CHICKEN",
+            "qty_str": "2 lbs",
+            "qty_parsed": [
+              2.0,
+              "lbs"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Poultry",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "🍯 Honey Garlic Grilled CHICKEN"
+        ],
+        "dishes_with_days": [
+          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "🍯 Honey Garlic Grilled CHICKEN"
+            ],
+            "qty_display": "2 lbs"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 lbs",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Chinese sausage",
+        "norm": "chinese sausage",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "6-8",
+            "qty_parsed": [
+              7.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Fried Rice"
+            ],
+            "qty_display": "6-8"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "6-8",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Hamburger",
+        "norm": "hamburger",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "2 lb",
+            "qty_parsed": [
+              2.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili"
+        ],
+        "dishes_with_days": [
+          "Chili (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili"
+            ],
+            "qty_display": "2 lb"
+          }
+        },
+        "total_qty_display": "2 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Parmesan",
+        "norm": "parmesan",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "🥦 Grilled Broccolini",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Wednesday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night",
+          "🥦 Grilled Broccolini"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)",
+          "🥦 Grilled Broccolini (Wed)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "🥦 Grilled Broccolini"
+            ],
+            "qty_display": "0.25 cup"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1/4 cup",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "Dry quinoa",
+        "norm": "quinoa",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Quinoa",
+            "qty_str": "180 g",
+            "qty_parsed": [
+              180.0,
+              "g"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Quinoa"
+        ],
+        "dishes_with_days": [
+          "Moroccan Quinoa (Sat)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "180 g"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "180 g",
+        "math_mode": "summed"
+      }
+    ],
+    "Whole Foods": [
+      {
+        "canonical_name": "Avocados",
+        "norm": "avocado",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+        ],
+        "dishes_with_days": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Baby greens",
+        "norm": "baby green",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Quinoa",
+            "qty_str": "50 g",
+            "qty_parsed": [
+              50.0,
+              "g"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Leafy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Quinoa"
+        ],
+        "dishes_with_days": [
+          "Moroccan Quinoa (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "50 g"
+          }
+        },
+        "total_qty_display": "50 g",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Basil",
+        "norm": "basil",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "🥒 Grilled Zucchini & Yellow Squash",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Friday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night",
+          "🥒 Grilled Zucchini & Yellow Squash"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)",
+          "🥒 Grilled Zucchini & Yellow Squash (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Friday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night",
+              "🥒 Grilled Zucchini & Yellow Squash"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Broccolini",
+        "norm": "broccolini",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "🥦 Grilled Broccolini",
+            "qty_str": "2 lbs",
+            "qty_parsed": [
+              2.0,
+              "lbs"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "🥦 Grilled Broccolini"
+        ],
+        "dishes_with_days": [
+          "🥦 Grilled Broccolini (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "🥦 Grilled Broccolini"
+            ],
+            "qty_display": "2 lbs"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 lbs",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Cherry tomatoes",
+        "norm": "cherry tomato",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+        ],
+        "dishes_with_days": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "2 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 cups",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Cilantro",
+        "norm": "cilantro",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Pico",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 3,
+        "days": [
+          "Tuesday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Chicken w/ Root Vegs",
+          "Pico",
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+        ],
+        "dishes_with_days": [
+          "Moroccan Chicken w/ Root Vegs (Sat)",
+          "Pico (Tue)",
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Pico",
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "1/2 cup"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Chicken w/ Root Vegs"
+            ],
+            "qty_display": "0.25 cup"
+          }
+        },
+        "total_qty_display": "12 tbsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Corn kernels",
+        "norm": "corn kernel",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Fried Rice"
+            ],
+            "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Eggs",
+        "norm": "egg",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "5-6",
+            "qty_parsed": [
+              5.5,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Banana Bread",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Monday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Banana Bread",
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Banana Bread (Sat)",
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Fried Rice"
+            ],
+            "qty_display": "6"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Banana Bread"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "8",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Garlic",
+        "norm": "garlic",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "3-4 cloves",
+            "qty_parsed": [
+              3.5,
+              "cloves"
+            ]
+          },
+          {
+            "day": "Monday",
+            "dish": "Cucumber - Smashed",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "🍯 Honey Garlic Grilled CHICKEN",
+            "qty_str": "5",
+            "qty_parsed": [
+              5.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Quinoa",
+            "qty_str": "1 clove",
+            "qty_parsed": [
+              1.0,
+              "clove"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 6,
+        "days": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Cucumber - Smashed",
+          "Fried Rice",
+          "Moroccan Chicken w/ Root Vegs",
+          "Moroccan Quinoa",
+          "🍊 Teriyaki Orange Ginger Grilled Chicken",
+          "🍯 Honey Garlic Grilled CHICKEN"
+        ],
+        "dishes_with_days": [
+          "Cucumber - Smashed (Mon)",
+          "Fried Rice (Mon)",
+          "Moroccan Chicken w/ Root Vegs (Sat)",
+          "Moroccan Quinoa (Sat)",
+          "🍊 Teriyaki Orange Ginger Grilled Chicken (Fri)",
+          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 3,
+            "days": [
+              "Monday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Cucumber - Smashed",
+              "Fried Rice",
+              "🍯 Honey Garlic Grilled CHICKEN"
+            ],
+            "qty_display": "11 cloves"
+          },
+          "Wed": {
+            "uses": 3,
+            "days": [
+              "Friday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Chicken w/ Root Vegs",
+              "Moroccan Quinoa",
+              "🍊 Teriyaki Orange Ginger Grilled Chicken"
+            ],
+            "qty_display": "7 clove"
+          }
+        },
+        "total_qty_display": "3-4 cloves + 2-3 + 5 + 3 + 3 + 1 clove",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "Garlic Galore",
+        "norm": "garlic galore",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili"
+        ],
+        "dishes_with_days": [
+          "Chili (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Green beans",
         "norm": "green bean",
         "occurrences": [
           {
-            "day": "Weekend",
-            "dish": "Green Beans (Garlicky)",
-            "qty_str": "12 ounces",
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "1/2 cup",
             "qty_parsed": [
-              12.0,
-              "ounces"
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Fried Rice"
+            ],
+            "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Green onions",
+        "norm": "green onion",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "3-4",
+            "qty_parsed": [
+              3.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Fried Rice"
+            ],
+            "qty_display": "4"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Ketchup",
+        "norm": "ketchup",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "1/8 c",
+            "qty_parsed": [
+              0.125,
+              "c"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili"
+        ],
+        "dishes_with_days": [
+          "Chili (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili"
+            ],
+            "qty_display": "1/8 c"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1/8 c",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Lemon",
+        "norm": "lemon",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "🥦 Grilled Broccolini",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "🥒 Grilled Zucchini & Yellow Squash",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Wednesday",
+          "Friday"
+        ],
+        "dishes": [
+          "🥒 Grilled Zucchini & Yellow Squash",
+          "🥦 Grilled Broccolini"
+        ],
+        "dishes_with_days": [
+          "🥒 Grilled Zucchini & Yellow Squash (Fri)",
+          "🥦 Grilled Broccolini (Wed)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "🥦 Grilled Broccolini"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "🥒 Grilled Zucchini & Yellow Squash"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Lime juice",
+        "norm": "lime juice",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Pico",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Pico"
+        ],
+        "dishes_with_days": [
+          "Pico (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Pico"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Mushrooms",
+        "norm": "mushroom",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": "8 oz",
+            "qty_parsed": [
+              8.0,
+              "oz"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night"
+            ],
+            "qty_display": "8 oz"
+          }
+        },
+        "total_qty_display": "8 oz",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Parsnips",
+        "norm": "parsnip",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
             ]
           }
         ],
@@ -102,10 +1596,10 @@
           "Weekend"
         ],
         "dishes": [
-          "Green Beans (Garlicky)"
+          "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
-          "Green Beans (Garlicky) (Sat)"
+          "Moroccan Chicken w/ Root Vegs (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -122,24 +1616,203 @@
               "Weekend"
             ],
             "dishes": [
-              "Green Beans (Garlicky)"
+              "Moroccan Chicken w/ Root Vegs"
             ],
-            "qty_display": "12 ounces"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "12 ounces",
+        "total_qty_display": "2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Peas",
+        "norm": "pea",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Frozen",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Fried Rice"
+            ],
+            "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.5 cup",
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Green onion",
-        "norm": "green onion",
+        "canonical_name": "Sweet potato",
+        "norm": "potato",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Thursday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Chili",
+          "Moroccan Chicken w/ Root Vegs"
+        ],
+        "dishes_with_days": [
+          "Chili (Thu)",
+          "Moroccan Chicken w/ Root Vegs (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Thursday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Chili",
+              "Moroccan Chicken w/ Root Vegs"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Red",
+        "norm": "red",
         "occurrences": [
           {
             "day": "Weekend",
-            "dish": "Miso Salmon",
-            "qty_str": "2-4",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": "1",
             "qty_parsed": [
-              3.0,
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Red onion",
+        "norm": "red onion",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
               ""
             ]
           }
@@ -157,10 +1830,10 @@
           "Weekend"
         ],
         "dishes": [
-          "Miso Salmon"
+          "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
-          "Miso Salmon (Sat)"
+          "Moroccan Chicken w/ Root Vegs (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -177,21 +1850,280 @@
               "Weekend"
             ],
             "dishes": [
-              "Miso Salmon"
+              "Moroccan Chicken w/ Root Vegs"
             ],
-            "qty_display": "3"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "3",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Miso sauce",
-        "norm": "miso sauce",
+        "canonical_name": "Lettuce",
+        "norm": "romaine lettuce",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+        ],
+        "dishes_with_days": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Seasoning",
+        "norm": "seasoning",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Japanese Sweet Potato Fries",
+            "qty_str": "1/2-1 tsp",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Japanese Sweet Potato Fries"
+        ],
+        "dishes_with_days": [
+          "Japanese Sweet Potato Fries (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Japanese Sweet Potato Fries"
+            ],
+            "qty_display": "1/2-1 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1/2-1 tsp",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Sunflower seeds",
+        "norm": "sunflower seed",
         "occurrences": [
           {
             "day": "Weekend",
-            "dish": "Miso Salmon",
+            "dish": "Moroccan Quinoa",
+            "qty_str": "40 g",
+            "qty_parsed": [
+              40.0,
+              "g"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Quinoa"
+        ],
+        "dishes_with_days": [
+          "Moroccan Quinoa (Sat)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "40 g"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "40 g",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Tomato",
+        "norm": "tomato",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Pico",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "14.5 oz",
+            "qty_parsed": [
+              14.5,
+              "oz"
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 3,
+        "days": [
+          "Tuesday",
+          "Thursday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night",
+          "Chili",
+          "Pico"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)",
+          "Chili (Thu)",
+          "Pico (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Pico"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Thursday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night",
+              "Chili"
+            ],
+            "qty_display": "16.5 oz"
+          }
+        },
+        "total_qty_display": "14.5 oz + 2",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "Tomato sauce",
+        "norm": "tomato sauce",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "15 oz",
+            "qty_parsed": [
+              15.0,
+              "oz"
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
             "qty_str": null,
             "qty_parsed": [
               null,
@@ -202,23 +2134,26 @@
         "stores": [
           "Whole Foods"
         ],
-        "category": "Unknown",
-        "type": "unknown",
+        "category": "Pantry-Staple",
+        "type": "fresh",
         "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
         "days": [
+          "Thursday",
           "Weekend"
         ],
         "dishes": [
-          "Miso Salmon"
+          "Build-Your-Own Pizza Night",
+          "Chili"
         ],
         "dishes_with_days": [
-          "Miso Salmon (Sat)"
+          "Build-Your-Own Pizza Night (Sat)",
+          "Chili (Thu)"
         ],
         "trip": "Wed",
-        "icon": "❓",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
             "uses": 0,
@@ -227,55 +2162,335 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 1,
+            "uses": 2,
             "days": [
+              "Thursday",
               "Weekend"
             ],
             "dishes": [
-              "Miso Salmon"
+              "Build-Your-Own Pizza Night",
+              "Chili"
             ],
-            "qty_display": ""
+            "qty_display": "15 oz"
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
-      }
-    ],
-    "Costco": [
+        "total_qty_display": "15 oz",
+        "math_mode": "mixed"
+      },
       {
-        "canonical_name": "Salmon",
-        "norm": "salmon",
+        "canonical_name": "Onion",
+        "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Weekend",
-            "dish": "Miso Salmon",
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Pico",
             "qty_str": null,
             "qty_parsed": [
               null,
               null
             ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chili",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Build-Your-Own Pizza Night",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
           }
         ],
         "stores": [
-          "Costco"
+          "Whole Foods"
         ],
-        "category": "Meat-Seafood",
-        "type": "meat",
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 4,
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Thursday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Build-Your-Own Pizza Night",
+          "Chili",
+          "Fried Rice",
+          "Pico"
+        ],
+        "dishes_with_days": [
+          "Build-Your-Own Pizza Night (Sat)",
+          "Chili (Thu)",
+          "Fried Rice (Mon)",
+          "Pico (Tue)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday",
+              "Tuesday"
+            ],
+            "dishes": [
+              "Fried Rice",
+              "Pico"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Thursday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night",
+              "Chili"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "4",
+        "math_mode": "multiplied"
+      }
+    ],
+    "888 Market / Pan Asia": [
+      {
+        "canonical_name": "Chinese Vinegar",
+        "norm": "chinese vinegar",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Monday",
+            "dish": "Cucumber - Smashed",
+            "qty_str": "1.5",
+            "qty_parsed": [
+              1.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 2,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Cucumber - Smashed",
+          "Fried Rice"
+        ],
+        "dishes_with_days": [
+          "Cucumber - Smashed (Mon)",
+          "Fried Rice (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Cucumber - Smashed",
+              "Fried Rice"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Limes",
+        "norm": "lime",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+        ],
+        "dishes_with_days": [
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Dry rice",
+        "norm": "rice",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Weekend"
+          "Tuesday"
         ],
         "dishes": [
-          "Miso Salmon"
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
         ],
         "dishes_with_days": [
-          "Miso Salmon (Sat)"
+          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+            ],
+            "qty_display": "2 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 cups",
+        "math_mode": "summed"
+      }
+    ],
+    "Sam’s Club": [
+      {
+        "canonical_name": "Orange",
+        "norm": "orange",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Sam’s Club"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "🍊 Teriyaki Orange Ginger Grilled Chicken"
+        ],
+        "dishes_with_days": [
+          "🍊 Teriyaki Orange Ginger Grilled Chicken (Fri)"
         ],
         "trip": "Wed",
-        "icon": "🥩",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
             "uses": 0,
@@ -286,32 +2501,349 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Weekend"
+              "Friday"
             ],
             "dishes": [
-              "Miso Salmon"
+              "🍊 Teriyaki Orange Ginger Grilled Chicken"
             ],
-            "qty_display": ""
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "",
-        "math_mode": "none"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       }
     ]
   },
-  "multi_store": [],
-  "no_store_match": [
+  "multi_store": [
     {
-      "canonical_name": "Rice cups Scoops of Rice",
-      "norm": "rice cup scoop of rice",
+      "canonical_name": "Carrot",
+      "norm": "carrot",
       "occurrences": [
         {
+          "day": "Monday",
+          "dish": "Fried Rice",
+          "qty_str": "2",
+          "qty_parsed": [
+            2.0,
+            ""
+          ]
+        },
+        {
           "day": "Weekend",
-          "dish": "White Rice",
+          "dish": "Moroccan Chicken w/ Root Vegs",
           "qty_str": "3",
           "qty_parsed": [
             3.0,
             ""
+          ]
+        },
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Quinoa",
+          "qty_str": "200 g",
+          "qty_parsed": [
+            200.0,
+            "g"
+          ]
+        }
+      ],
+      "stores": [
+        "Sam’s Club",
+        "Costco"
+      ],
+      "category": "Produce-Vegetable",
+      "type": "fresh",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 3,
+      "days": [
+        "Monday",
+        "Weekend"
+      ],
+      "dishes": [
+        "Fried Rice",
+        "Moroccan Chicken w/ Root Vegs",
+        "Moroccan Quinoa"
+      ],
+      "dishes_with_days": [
+        "Fried Rice (Mon)",
+        "Moroccan Chicken w/ Root Vegs (Sat)",
+        "Moroccan Quinoa (Sat)"
+      ],
+      "trip": "Mon/Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Fried Rice"
+          ],
+          "qty_display": "2"
+        },
+        "Wed": {
+          "uses": 2,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Moroccan Chicken w/ Root Vegs",
+            "Moroccan Quinoa"
+          ],
+          "qty_display": "203 g"
+        }
+      },
+      "total_qty_display": "205 g",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Chickpeas",
+      "norm": "chickpea",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Chicken w/ Root Vegs",
+          "qty_str": "1 can",
+          "qty_parsed": [
+            1.0,
+            "can"
+          ]
+        }
+      ],
+      "stores": [
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Pantry-Staple",
+      "type": "shelf",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Moroccan Chicken w/ Root Vegs"
+      ],
+      "dishes_with_days": [
+        "Moroccan Chicken w/ Root Vegs (Sat)"
+      ],
+      "trip": "Mon",
+      "icon": "🥫",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Moroccan Chicken w/ Root Vegs"
+          ],
+          "qty_display": "1 can"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 can",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Coconut oil",
+      "norm": "coconut oil",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Japanese Sweet Potato Fries",
+          "qty_str": "1-2",
+          "qty_parsed": [
+            1.5,
+            ""
+          ]
+        },
+        {
+          "day": "Weekend",
+          "dish": "Pumpkin Bread",
+          "qty_str": "1/4 cup",
+          "qty_parsed": [
+            0.25,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Pantry-Staple",
+      "type": "shelf",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 2,
+      "days": [
+        "Wednesday",
+        "Weekend"
+      ],
+      "dishes": [
+        "Japanese Sweet Potato Fries",
+        "Pumpkin Bread"
+      ],
+      "dishes_with_days": [
+        "Japanese Sweet Potato Fries (Wed)",
+        "Pumpkin Bread (Sat)"
+      ],
+      "trip": "Mon",
+      "icon": "🥫",
+      "per_trip": {
+        "Mon": {
+          "uses": 2,
+          "days": [
+            "Wednesday",
+            "Weekend"
+          ],
+          "dishes": [
+            "Japanese Sweet Potato Fries",
+            "Pumpkin Bread"
+          ],
+          "qty_display": "1.75 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1.75 cup",
+      "math_mode": "summed"
+    }
+  ],
+  "no_store_match": [
+    {
+      "canonical_name": "Beef stock",
+      "norm": "beef stock",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili",
+          "qty_str": "20 oz",
+          "qty_parsed": [
+            20.0,
+            "oz"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili"
+      ],
+      "dishes_with_days": [
+        "Chili (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili"
+          ],
+          "qty_display": "20 oz"
+        }
+      },
+      "total_qty_display": "20 oz",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Beef tenderloin",
+      "norm": "beef tenderloin",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+          "qty_str": "1 1/2-2 lb",
+          "qty_parsed": [
+            1.75,
+            "lb"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "meat",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+      ],
+      "dishes_with_days": [
+        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥩",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+          ],
+          "qty_display": "1.75 lb"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1.75 lb",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Boneless",
+      "norm": "boneless",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Chicken w/ Root Vegs",
+          "qty_str": "1.5 lbs",
+          "qty_parsed": [
+            1.5,
+            "lbs"
           ]
         }
       ],
@@ -326,10 +2858,10 @@
         "Weekend"
       ],
       "dishes": [
-        "White Rice"
+        "Moroccan Chicken w/ Root Vegs"
       ],
       "dishes_with_days": [
-        "White Rice (Sat)"
+        "Moroccan Chicken w/ Root Vegs (Sat)"
       ],
       "trip": "Wed",
       "icon": "❓",
@@ -346,43 +2878,1689 @@
             "Weekend"
           ],
           "dishes": [
-            "White Rice"
+            "Moroccan Chicken w/ Root Vegs"
           ],
-          "qty_display": "3"
+          "qty_display": "1.5 lbs"
         }
       },
-      "total_qty_display": "3",
+      "total_qty_display": "1.5 lbs",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Dairy-free mozzarella shreds - Daiya",
+      "norm": "dairy-free mozzarella shred - daiya",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Dairy-free pesto",
+      "norm": "dairy-free pesto",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Dark red kidney beans",
+      "norm": "dark red kidney bean",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili",
+          "qty_str": "1 can",
+          "qty_parsed": [
+            1.0,
+            "can"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili"
+      ],
+      "dishes_with_days": [
+        "Chili (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili"
+          ],
+          "qty_display": "1 can"
+        }
+      },
+      "total_qty_display": "1 can",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Dates",
+      "norm": "date",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Quinoa",
+          "qty_str": "60 g",
+          "qty_parsed": [
+            60.0,
+            "g"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Moroccan Quinoa"
+      ],
+      "dishes_with_days": [
+        "Moroccan Quinoa (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Moroccan Quinoa"
+          ],
+          "qty_display": "60 g"
+        }
+      },
+      "total_qty_display": "60 g",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Handful fresh parsley",
+      "norm": "handful parsley",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Quinoa",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Moroccan Quinoa"
+      ],
+      "dishes_with_days": [
+        "Moroccan Quinoa (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Moroccan Quinoa"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Jalapeño",
+      "norm": "jalapeno",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Pico",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Pico"
+      ],
+      "dishes_with_days": [
+        "Pico (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Pico"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Japanese sweet potatoes",
+      "norm": "japanese potato",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Japanese Sweet Potato Fries",
+          "qty_str": "4-5",
+          "qty_parsed": [
+            4.5,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Japanese Sweet Potato Fries"
+      ],
+      "dishes_with_days": [
+        "Japanese Sweet Potato Fries (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Japanese Sweet Potato Fries"
+          ],
+          "qty_display": "4-5"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "4-5",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Juice of 1 large lemon",
+      "norm": "juice of 1 lemon",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Quinoa",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Moroccan Quinoa"
+      ],
+      "dishes_with_days": [
+        "Moroccan Quinoa (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Moroccan Quinoa"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Light red kidney beans",
+      "norm": "light red kidney bean",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili",
+          "qty_str": "1 can",
+          "qty_parsed": [
+            1.0,
+            "can"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili"
+      ],
+      "dishes_with_days": [
+        "Chili (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili"
+          ],
+          "qty_display": "1 can"
+        }
+      },
+      "total_qty_display": "1 can",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Low-sodium chicken broth",
+      "norm": "low-sodium chicken broth",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Moroccan Chicken w/ Root Vegs",
+          "qty_str": "2 cups",
+          "qty_parsed": [
+            2.0,
+            "cups"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Moroccan Chicken w/ Root Vegs"
+      ],
+      "dishes_with_days": [
+        "Moroccan Chicken w/ Root Vegs (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Moroccan Chicken w/ Root Vegs"
+          ],
+          "qty_display": "2 cups"
+        }
+      },
+      "total_qty_display": "2 cups",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Mirin",
+      "norm": "mirin",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Cucumber - Smashed",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Cucumber - Smashed"
+      ],
+      "dishes_with_days": [
+        "Cucumber - Smashed (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Cucumber - Smashed"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Mozzarella",
+      "norm": "mozzarella",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Okra",
+      "norm": "okra",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Fried Rice",
+          "qty_str": "1/2 c",
+          "qty_parsed": [
+            0.5,
+            "c"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Fried Rice"
+      ],
+      "dishes_with_days": [
+        "Fried Rice (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Fried Rice"
+          ],
+          "qty_display": "1/2 c"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1/2 c",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Olives",
+      "norm": "olive",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": "1/2 cup",
+          "qty_parsed": [
+            0.5,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": "0.5 cup"
+        }
+      },
+      "total_qty_display": "0.5 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Parchment squares",
+      "norm": "parchment square",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Pickled red onion",
+      "norm": "pickled red onion",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+      ],
+      "dishes_with_days": [
+        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Potato starch",
+      "norm": "potato starch",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Japanese Sweet Potato Fries",
+          "qty_str": "1-2",
+          "qty_parsed": [
+            1.5,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Japanese Sweet Potato Fries"
+      ],
+      "dishes_with_days": [
+        "Japanese Sweet Potato Fries (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Japanese Sweet Potato Fries"
+          ],
+          "qty_display": "1-2"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1-2",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Pumpkin puree",
+      "norm": "pumpkin puree",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Pumpkin Bread",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Pumpkin Bread"
+      ],
+      "dishes_with_days": [
+        "Pumpkin Bread (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Pumpkin Bread"
+          ],
+          "qty_display": "1 cup"
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Red beans",
+      "norm": "red bean",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili",
+          "qty_str": "2 can",
+          "qty_parsed": [
+            2.0,
+            "can"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili"
+      ],
+      "dishes_with_days": [
+        "Chili (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili"
+          ],
+          "qty_display": "2 can"
+        }
+      },
+      "total_qty_display": "2 can",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "SHORTCUT:",
+      "norm": "shortcut",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
+      "canonical_name": "Turkey pepperoni",
+      "norm": "turkey pepperoni",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Build-Your-Own Pizza Night",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "meat",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Build-Your-Own Pizza Night"
+      ],
+      "dishes_with_days": [
+        "Build-Your-Own Pizza Night (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "🥩",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Build-Your-Own Pizza Night"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "WT Chili mix",
+      "norm": "wt chili mix",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili"
+      ],
+      "dishes_with_days": [
+        "Chili (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili"
+          ],
+          "qty_display": "6"
+        }
+      },
+      "total_qty_display": "6",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Zucchini and/or yellow squash",
+      "norm": "zucchini and or yellow squash",
+      "occurrences": [
+        {
+          "day": "Friday",
+          "dish": "🥒 Grilled Zucchini & Yellow Squash",
+          "qty_str": "3-4",
+          "qty_parsed": [
+            3.5,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Friday"
+      ],
+      "dishes": [
+        "🥒 Grilled Zucchini & Yellow Squash"
+      ],
+      "dishes_with_days": [
+        "🥒 Grilled Zucchini & Yellow Squash (Fri)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Friday"
+          ],
+          "dishes": [
+            "🥒 Grilled Zucchini & Yellow Squash"
+          ],
+          "qty_display": "3-4"
+        }
+      },
+      "total_qty_display": "3-4",
       "math_mode": "single"
     }
   ],
   "skipped_staples": [
     {
-      "day": "Weekend",
-      "dish": "Green Beans (Garlicky)",
-      "name": "Tbs extra virgin olive oil",
-      "quantity": "1",
-      "original": "1 Tbs extra virgin olive oil"
+      "day": "Monday",
+      "dish": "Fried Rice",
+      "name": "cooked rice",
+      "quantity": "4-5 cups",
+      "original": "4–5 cups cooked rice"
     },
     {
-      "day": "Weekend",
-      "dish": "Green Beans (Garlicky)",
-      "name": "fine sea salt",
+      "day": "Monday",
+      "dish": "Fried Rice",
+      "name": "Tbs avocado oil",
+      "quantity": "2-3",
+      "original": "2–3 Tbs avocado oil or olive oil"
+    },
+    {
+      "day": "Monday",
+      "dish": "Fried Rice",
+      "name": "Tbs soy sauce (or to taste)Salt & black pepper",
+      "quantity": "2-3",
+      "original": "2–3 Tbs soy sauce (or to taste)Salt & black pepper, to taste"
+    },
+    {
+      "day": "Monday",
+      "dish": "Fried Rice",
+      "name": "sprinkle of sugar",
+      "quantity": null,
+      "original": "sprinkle of sugar"
+    },
+    {
+      "day": "Monday",
+      "dish": "Cucumber - Smashed",
+      "name": "Soy sauce",
+      "quantity": "1/4 C",
+      "original": "1/4 C Soy sauce"
+    },
+    {
+      "day": "Monday",
+      "dish": "Cucumber - Smashed",
+      "name": ".5 Tbs sugar",
+      "quantity": null,
+      "original": ".5 Tbs sugar"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+      "name": "Olive oil",
+      "quantity": null,
+      "original": "Olive oil or avocado oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
+      "name": "Salt and black pepper",
+      "quantity": null,
+      "original": "Salt and black pepper"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "olive oil",
+      "quantity": "1/4 cup",
+      "original": "¼ cup olive oil"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "Tbs honey",
+      "quantity": "3",
+      "original": "3 Tbs honey"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "Tbs soy sauce",
+      "quantity": "2",
+      "original": "2 Tbs soy sauce"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "smoked paprika",
+      "quantity": "1 tsp",
+      "original": "1 tsp smoked paprika"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍯 Honey Garlic Grilled CHICKEN",
+      "name": "black pepper",
       "quantity": "1/2 tsp",
-      "original": "1/2 tsp fine sea salt"
+      "original": "½ tsp black pepper"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Japanese Sweet Potato Fries",
+      "name": "Salt",
+      "quantity": null,
+      "original": "Salt, to taste"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🥦 Grilled Broccolini",
+      "name": "Tbs olive oil",
+      "quantity": "3",
+      "original": "3 Tbs olive oil"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🥦 Grilled Broccolini",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🥦 Grilled Broccolini",
+      "name": "pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp pepper"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chili",
+      "name": "water",
+      "quantity": "15 oz",
+      "original": "15 oz water (fill tomato sauce can)"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chili",
+      "name": "peanut butter",
+      "quantity": "1/8 c",
+      "original": "1/8 c peanut butter"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chili",
+      "name": "salt",
+      "quantity": "2 tsp",
+      "original": "2 tsp salt"
+    },
+    {
+      "day": "Friday",
+      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+      "name": "olive oil",
+      "quantity": "1/4 cup",
+      "original": "¼ cup olive oil"
+    },
+    {
+      "day": "Friday",
+      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+      "name": "Tbs soy sauce",
+      "quantity": "3",
+      "original": "3 Tbs soy sauce"
+    },
+    {
+      "day": "Friday",
+      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+      "name": "Tbs honey",
+      "quantity": "2",
+      "original": "2 Tbs honey"
+    },
+    {
+      "day": "Friday",
+      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
+      "name": "Tbs fresh ginger",
+      "quantity": "2",
+      "original": "2 Tbs fresh ginger (grated)"
+    },
+    {
+      "day": "Friday",
+      "dish": "🥒 Grilled Zucchini & Yellow Squash",
+      "name": "Tbs olive oil",
+      "quantity": "2",
+      "original": "2 Tbs olive oil"
+    },
+    {
+      "day": "Friday",
+      "dish": "🥒 Grilled Zucchini & Yellow Squash",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
+    {
+      "day": "Friday",
+      "dish": "🥒 Grilled Zucchini & Yellow Squash",
+      "name": "pepper",
+      "quantity": "1/2 tsp",
+      "original": "½ tsp pepper"
+    },
+    {
+      "day": "Friday",
+      "dish": "🥒 Grilled Zucchini & Yellow Squash",
+      "name": "garlic powder",
+      "quantity": "1 tsp",
+      "original": "1 tsp garlic powder"
     },
     {
       "day": "Weekend",
-      "dish": "Green Beans (Garlicky)",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Nutritional yeast",
+      "quantity": null,
+      "original": "Nutritional yeast, for no-cheese pies"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Olive oil",
+      "quantity": null,
+      "original": "Olive oil, for brushing the rim"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "warm water",
+      "quantity": "2 1/4 cups",
+      "original": "2 1/4 cups warm water (about 110F)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Tbs active dry yeast",
+      "quantity": "2",
+      "original": "2 Tbs active dry yeast (about 3 packets)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Tbs organic cane sugar",
+      "quantity": "2",
+      "original": "2 Tbs organic cane sugar"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Tbs olive oil",
+      "quantity": "6",
+      "original": "6 Tbs olive oil"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "Tbs salt",
+      "quantity": "1",
+      "original": "1 Tbs salt"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Build-Your-Own Pizza Night",
+      "name": "all-purpose flour",
+      "quantity": "6 cups",
+      "original": "6 cups all-purpose flour, plus more as needed"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Chicken w/ Root Vegs",
+      "name": "Tbs olive oil",
+      "quantity": "2",
+      "original": "2 Tbs olive oil (seed-oil-free fat)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Chicken w/ Root Vegs",
+      "name": "ground cumin",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground cumin"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Chicken w/ Root Vegs",
+      "name": "ground turmeric",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground turmeric"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Chicken w/ Root Vegs",
+      "name": "ground cinnamon",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp ground cinnamon"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Chicken w/ Root Vegs",
+      "name": "smoked paprika",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp smoked paprika"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Chicken w/ Root Vegs",
+      "name": "Salt and black pepper",
+      "quantity": null,
+      "original": "Salt and black pepper, to taste"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "(2 cups) water",
+      "quantity": "500 ml",
+      "original": "500 ml (2 cups) water"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "sea salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp sea salt"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "(1/4 cup) extra-virgin olive oil",
+      "quantity": "60 ml",
+      "original": "60 ml (1/4 cup) extra-virgin olive oil"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "fresh ginger",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp fresh ginger, finely grated"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "maple syrup",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp maple syrup (or honey if not vegan)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "sea salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp sea salt (adjust to taste)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "ground cinnamon",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp ground cinnamon"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "black pepper",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp black pepper"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Moroccan Quinoa",
+      "name": "cayenne pepper",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp cayenne pepper (adjust for spice preference)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Banana Bread",
+      "name": "unsalted butter",
+      "quantity": "1/2 cup",
+      "original": "1/2 cup unsalted butter, at room temperature"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Banana Bread",
+      "name": "cane sugar",
+      "quantity": "1 cup",
+      "original": "1 cup cane sugar, blended until fine"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Banana Bread",
+      "name": "all purpose flour",
+      "quantity": "2 cups",
+      "original": "2 cups all purpose flour"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Banana Bread",
+      "name": "baking soda",
+      "quantity": "1 tsp",
+      "original": "1 tsp baking soda"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Banana Bread",
+      "name": "salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp salt"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Banana Bread",
+      "name": "vanilla extract",
+      "quantity": "1 tsp",
+      "original": "1 tsp vanilla extract"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
+      "name": "buckwheat flour",
+      "quantity": "1 cup",
+      "original": "1 cup buckwheat flour"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
+      "name": "Tbs ground cinnamon",
+      "quantity": "1",
+      "original": "1 Tbs ground cinnamon"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
+      "name": "ground ginger",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp ground ginger"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
+      "name": "Tbs pure maple syrup",
+      "quantity": "6",
+      "original": "6 Tbs pure maple syrup"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
+      "name": "vanilla",
+      "quantity": "1 tsp",
+      "original": "1 tsp vanilla"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
       "name": "water",
       "quantity": "1/4 cup",
       "original": "1/4 cup water"
     },
     {
       "day": "Weekend",
-      "dish": "White Rice",
-      "name": "Water",
-      "quantity": null,
-      "original": "Water"
+      "dish": "Pumpkin Bread",
+      "name": "baking soda",
+      "quantity": "1 tsp",
+      "original": "1 tsp baking soda"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Pumpkin Bread",
+      "name": "Tbs apple cider vinegar",
+      "quantity": "1",
+      "original": "1 Tbs apple cider vinegar"
     }
   ],
   "unresolved_variants": [],
