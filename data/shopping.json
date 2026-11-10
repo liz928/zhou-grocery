@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:36:12.723169",
+  "generated_at": "2026-11-10T05:00:15.238948",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,7 +9,7 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 162,
+    "raw_ingredient_count": 163,
     "unique_after_dedup": 69,
     "skipped_staples": 65,
     "routing_matched": 43,
@@ -137,9 +137,9 @@
           {
             "day": "Tuesday",
             "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "2",
+            "qty_str": "1",
             "qty_parsed": [
-              2.0,
+              1.0,
               ""
             ]
           }
@@ -173,7 +173,7 @@
             "dishes": [
               "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -182,7 +182,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "single"
       },
       {
@@ -310,15 +310,15 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Chinese sausage",
+        "canonical_name": "Chinese sausages",
         "norm": "chinese sausage",
         "occurrences": [
           {
             "day": "Monday",
             "dish": "Fried Rice",
-            "qty_str": "6-8",
+            "qty_str": "1",
             "qty_parsed": [
-              7.0,
+              1.0,
               ""
             ]
           }
@@ -352,7 +352,7 @@
             "dishes": [
               "Fried Rice"
             ],
-            "qty_display": "6-8"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -361,7 +361,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "6-8",
+        "total_qty_display": "1",
         "math_mode": "single"
       },
       {
@@ -548,9 +548,18 @@
     ],
     "Whole Foods": [
       {
-        "canonical_name": "Avocados",
+        "canonical_name": "Avocado",
         "norm": "avocado",
         "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Fried Rice",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
+          },
           {
             "day": "Tuesday",
             "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
@@ -569,28 +578,33 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Monday",
           "Tuesday"
         ],
         "dishes": [
+          "Fried Rice",
           "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
         ],
         "dishes_with_days": [
+          "Fried Rice (Mon)",
           "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 2,
             "days": [
+              "Monday",
               "Tuesday"
             ],
             "dishes": [
+              "Fried Rice",
               "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
             ],
-            "qty_display": "2"
+            "qty_display": "5"
           },
           "Wed": {
             "uses": 0,
@@ -599,7 +613,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "5",
         "math_mode": "multiplied"
       },
       {
@@ -788,10 +802,10 @@
           {
             "day": "Tuesday",
             "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "2 cups",
+            "qty_str": "1",
             "qty_parsed": [
-              2.0,
-              "cups"
+              1.0,
+              ""
             ]
           }
         ],
@@ -824,7 +838,7 @@
             "dishes": [
               "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
             ],
-            "qty_display": "2 cups"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -833,8 +847,8 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2 cups",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Cilantro",
@@ -1052,9 +1066,9 @@
           {
             "day": "Monday",
             "dish": "Fried Rice",
-            "qty_str": "3-4 cloves",
+            "qty_str": "6 cloves",
             "qty_parsed": [
-              3.5,
+              6.0,
               "cloves"
             ]
           },
@@ -1149,7 +1163,7 @@
               "Fried Rice",
               "🍯 Honey Garlic Grilled CHICKEN"
             ],
-            "qty_display": "11 cloves"
+            "qty_display": "13.5 cloves"
           },
           "Wed": {
             "uses": 3,
@@ -1165,7 +1179,7 @@
             "qty_display": "7 clove"
           }
         },
-        "total_qty_display": "3-4 cloves + 2-3 + 5 + 3 + 3 + 1 clove",
+        "total_qty_display": "6 cloves + 2-3 + 5 + 3 + 3 + 1 clove",
         "math_mode": "mixed"
       },
       {
@@ -1230,9 +1244,9 @@
           {
             "day": "Monday",
             "dish": "Fried Rice",
-            "qty_str": "1/2 cup",
+            "qty_str": "1 cup",
             "qty_parsed": [
-              0.5,
+              1.0,
               "cup"
             ]
           }
@@ -1266,7 +1280,7 @@
             "dishes": [
               "Fried Rice"
             ],
-            "qty_display": "0.5 cup"
+            "qty_display": "1 cup"
           },
           "Wed": {
             "uses": 0,
@@ -1275,7 +1289,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "0.5 cup",
+        "total_qty_display": "1 cup",
         "math_mode": "summed"
       },
       {
@@ -2279,7 +2293,7 @@
     ],
     "888 Market / Pan Asia": [
       {
-        "canonical_name": "Chinese Vinegar",
+        "canonical_name": "Chinese vinegar",
         "norm": "chinese vinegar",
         "occurrences": [
           {
@@ -2346,15 +2360,15 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Limes",
+        "canonical_name": "Lime",
         "norm": "lime",
         "occurrences": [
           {
             "day": "Tuesday",
             "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "2",
+            "qty_str": "1",
             "qty_parsed": [
-              2.0,
+              1.0,
               ""
             ]
           }
@@ -2388,7 +2402,7 @@
             "dishes": [
               "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -2397,7 +2411,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       },
       {
@@ -2407,9 +2421,9 @@
           {
             "day": "Tuesday",
             "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "2 cups",
+            "qty_str": "3 cups",
             "qty_parsed": [
-              2.0,
+              3.0,
               "cups"
             ]
           }
@@ -2443,7 +2457,7 @@
             "dishes": [
               "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
             ],
-            "qty_display": "2 cups"
+            "qty_display": "3 cups"
           },
           "Wed": {
             "uses": 0,
@@ -2452,7 +2466,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2 cups",
+        "total_qty_display": "3 cups",
         "math_mode": "summed"
       }
     ],
@@ -2516,7 +2530,7 @@
   },
   "multi_store": [
     {
-      "canonical_name": "Carrot",
+      "canonical_name": "Carrots",
       "norm": "carrot",
       "occurrences": [
         {
@@ -3529,10 +3543,10 @@
         {
           "day": "Monday",
           "dish": "Fried Rice",
-          "qty_str": "1/2 c",
+          "qty_str": "1/2 cup",
           "qty_parsed": [
             0.5,
-            "c"
+            "cup"
           ]
         }
       ],
@@ -3563,7 +3577,7 @@
           "dishes": [
             "Fried Rice"
           ],
-          "qty_display": "1/2 c"
+          "qty_display": "0.5 cup"
         },
         "Wed": {
           "uses": 0,
@@ -3572,8 +3586,8 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "1/2 c",
-      "math_mode": "single"
+      "total_qty_display": "0.5 cup",
+      "math_mode": "summed"
     },
     {
       "canonical_name": "Olives",
@@ -4111,22 +4125,15 @@
       "day": "Monday",
       "dish": "Fried Rice",
       "name": "cooked rice",
-      "quantity": "4-5 cups",
-      "original": "4–5 cups cooked rice"
+      "quantity": "5 cups",
+      "original": "5 cups cooked rice (cook in the morning so it cools)"
     },
     {
       "day": "Monday",
       "dish": "Fried Rice",
-      "name": "Tbs avocado oil",
+      "name": "Tbs soy sauce",
       "quantity": "2-3",
-      "original": "2–3 Tbs avocado oil or olive oil"
-    },
-    {
-      "day": "Monday",
-      "dish": "Fried Rice",
-      "name": "Tbs soy sauce (or to taste)Salt & black pepper",
-      "quantity": "2-3",
-      "original": "2–3 Tbs soy sauce (or to taste)Salt & black pepper, to taste"
+      "original": "2–3 Tbs soy sauce (or to taste)"
     },
     {
       "day": "Monday",
@@ -4134,6 +4141,13 @@
       "name": "sprinkle of sugar",
       "quantity": null,
       "original": "sprinkle of sugar"
+    },
+    {
+      "day": "Monday",
+      "dish": "Fried Rice",
+      "name": "Salt & black pepper",
+      "quantity": null,
+      "original": "Salt & black pepper, to taste"
     },
     {
       "day": "Monday",

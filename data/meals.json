@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:36:12.723169",
+  "generated_at": "2026-11-10T05:00:15.238948",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -9,17 +9,17 @@
           "name": "Fried Rice",
           "ingredients": [
             {
-              "original": "4–5 cups cooked rice",
-              "quantity": "4-5 cups",
+              "original": "5 cups cooked rice (cook in the morning so it cools)",
+              "quantity": "5 cups",
               "name": "cooked rice",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "6-8 Chinese sausage, thinly sliced",
-              "quantity": "6-8",
-              "name": "Chinese sausage",
+              "original": "1 package Chinese sausages, thinly sliced",
+              "quantity": "1",
+              "name": "package Chinese sausages",
               "notes": "thinly sliced",
               "checked": false,
               "checklist": "Ingredients"
@@ -33,16 +33,16 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "2 medium carrot, thinly sliced into rounds",
+              "original": "2 carrots, peeled and thinly sliced into rounds",
               "quantity": "2",
-              "name": "medium carrot",
-              "notes": "thinly sliced into rounds",
+              "name": "carrots",
+              "notes": "peeled and thinly sliced into rounds",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "½ cup green beans, cut into 1-inch pieces",
-              "quantity": "1/2 cup",
+              "original": "1 cup green beans, cut into 1-inch pieces",
+              "quantity": "1 cup",
               "name": "green beans",
               "notes": "cut into 1-inch pieces",
               "checked": false,
@@ -73,26 +73,26 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "3–4 cloves garlic, minced",
-              "quantity": "3-4 cloves",
+              "original": "6 cloves garlic, minced",
+              "quantity": "6 cloves",
               "name": "garlic",
               "notes": "minced",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "2–3 Tbs avocado oil or olive oil",
+              "original": "2–3 Tbs avocado or olive oil",
               "quantity": "2-3",
-              "name": "Tbs avocado oil",
+              "name": "Tbs avocado",
               "notes": "olive oil",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "2–3 Tbs soy sauce (or to taste)Salt & black pepper, to taste",
+              "original": "2–3 Tbs soy sauce (or to taste)",
               "quantity": "2-3",
-              "name": "Tbs soy sauce (or to taste)Salt & black pepper",
-              "notes": "to taste",
+              "name": "Tbs soy sauce",
+              "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
@@ -105,18 +105,18 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "1 Tbs Chinese Vinager",
+              "original": "1 Tbs Chinese vinegar",
               "quantity": "1",
-              "name": "Tbs Chinese Vinager",
+              "name": "Tbs Chinese vinegar",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "1/2 c okra",
-              "quantity": "1/2 c",
+              "original": "½ cup okra, sliced into rounds (fresh or frozen)",
+              "quantity": "1/2 cup",
               "name": "okra",
-              "notes": "",
+              "notes": "sliced into rounds (fresh or frozen)",
               "checked": false,
               "checklist": "Ingredients"
             },
@@ -125,6 +125,14 @@
               "quantity": "1",
               "name": "Onion",
               "notes": "diced",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Salt & black pepper, to taste",
+              "quantity": null,
+              "name": "Salt & black pepper",
+              "notes": "to taste",
               "checked": false,
               "checklist": "Ingredients"
             }
@@ -220,17 +228,17 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "2 cups dry rice (or 6 cups cooked)",
-              "quantity": "2 cups",
+              "original": "3 cups dry rice",
+              "quantity": "3 cups",
               "name": "dry rice",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "2 (15 oz) cans black beans, drained and rinsed",
-              "quantity": "2",
-              "name": "(15 oz) cans black beans",
+              "original": "1 (15 oz) can black beans, drained and rinsed",
+              "quantity": "1",
+              "name": "(15 oz) can black beans",
               "notes": "drained and rinsed",
               "checked": false,
               "checklist": "Ingredients"
@@ -244,10 +252,10 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "2 cups cherry tomatoes, halved (or 2 tomatoes, diced)",
-              "quantity": "2 cups",
-              "name": "cherry tomatoes",
-              "notes": "halved (or 2 tomatoes, diced)",
+              "original": "1 package cherry tomatoes, halved",
+              "quantity": "1",
+              "name": "package cherry tomatoes",
+              "notes": "halved",
               "checked": false,
               "checklist": "Ingredients"
             },
@@ -276,10 +284,10 @@
               "checklist": "Ingredients"
             },
             {
-              "original": "2 limes",
-              "quantity": "2",
-              "name": "limes",
-              "notes": "",
+              "original": "1 lime, cut into wedges",
+              "quantity": "1",
+              "name": "lime",
+              "notes": "cut into wedges",
               "checked": false,
               "checklist": "Ingredients"
             },
@@ -311,7 +319,7 @@
               "quantity": null,
               "name": "tomato",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -319,7 +327,7 @@
               "quantity": null,
               "name": "onion",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -327,7 +335,7 @@
               "quantity": null,
               "name": "cilantro",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -335,7 +343,7 @@
               "quantity": null,
               "name": "jalapeno",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             },
             {
@@ -343,7 +351,7 @@
               "quantity": null,
               "name": "lime juice",
               "notes": "",
-              "checked": true,
+              "checked": false,
               "checklist": "Ingredients"
             }
           ],
