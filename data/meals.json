@@ -1,7 +1,140 @@
 {
-  "generated_at": "2026-11-12T05:00:32.279351",
+  "generated_at": "2026-11-13T05:00:27.008718",
   "source": "Trello 2 Week Meal Plan",
   "days": {
+    "Thursday": {
+      "dishes": [
+        {
+          "card_id": "6af5d251bc1222fba436581a",
+          "name": "Chili Mac & Cheese (Dutch Oven)",
+          "ingredients": [
+            {
+              "original": "1 Tbsp oil",
+              "quantity": "1 Tbsp",
+              "name": "oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 cloves garlic, minced",
+              "quantity": "2 cloves",
+              "name": "garlic",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 medium onion, chopped",
+              "quantity": "1",
+              "name": "medium onion",
+              "notes": "chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 lb ground beef",
+              "quantity": "1 lb",
+              "name": "ground beef",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 Tbsp chili powder",
+              "quantity": "2 Tbsp",
+              "name": "chili powder",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp smoked paprika",
+              "quantity": "1 tsp",
+              "name": "smoked paprika",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp ground cumin",
+              "quantity": "1 tsp",
+              "name": "ground cumin",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp black pepper",
+              "quantity": "1 tsp",
+              "name": "black pepper",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 can black beans",
+              "quantity": "1 can",
+              "name": "black beans",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp salt",
+              "quantity": "1 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 can kidney beans",
+              "quantity": "1 can",
+              "name": "kidney beans",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 box elbow macaroni",
+              "quantity": "1",
+              "name": "box elbow macaroni",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "4 cups chicken broth (32 oz)",
+              "quantity": "4 cups",
+              "name": "chicken broth",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 Tbsp tomato paste",
+              "quantity": "2 Tbsp",
+              "name": "tomato paste",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 cups shredded cheddar",
+              "quantity": "2 cups",
+              "name": "shredded cheddar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false,
+          "picked_variant": "Ingredients"
+        }
+      ],
+      "dish_count": 1
+    },
     "Monday": {
       "dishes": [
         {
@@ -529,138 +662,6 @@
         }
       ],
       "dish_count": 3
-    },
-    "Thursday": {
-      "dishes": [
-        {
-          "card_id": "665b67d480ca321924afa565",
-          "name": "Chili",
-          "ingredients": [
-            {
-              "original": "1 onion, diced",
-              "quantity": "1",
-              "name": "onion",
-              "notes": "diced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 lb hamburger, browned and crumbled",
-              "quantity": "2 lb",
-              "name": "hamburger",
-              "notes": "browned and crumbled",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "15 oz can tomato sauce",
-              "quantity": "15 oz",
-              "name": "can tomato sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "15 oz water (fill tomato sauce can)",
-              "quantity": "15 oz",
-              "name": "water",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "14.5 oz diced tomatoes, lightly drained",
-              "quantity": "14.5 oz",
-              "name": "diced tomatoes",
-              "notes": "lightly drained",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 can red beans",
-              "quantity": "2 can",
-              "name": "red beans",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 can dark red kidney beans",
-              "quantity": "1 can",
-              "name": "dark red kidney beans",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 can light red kidney beans",
-              "quantity": "1 can",
-              "name": "light red kidney beans",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "20 oz beef stock",
-              "quantity": "20 oz",
-              "name": "beef stock",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "6 Tbs WT Chili mix",
-              "quantity": "6",
-              "name": "Tbs WT Chili mix",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/8 c ketchup",
-              "quantity": "1/8 c",
-              "name": "ketchup",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/8 c peanut butter",
-              "quantity": "1/8 c",
-              "name": "peanut butter",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 Tbs Garlic Galore (WT)",
-              "quantity": "1",
-              "name": "Tbs Garlic Galore",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 tsp salt",
-              "quantity": "2 tsp",
-              "name": "salt",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 sweet potato, grated",
-              "quantity": "1",
-              "name": "sweet potato",
-              "notes": "grated",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        }
-      ],
-      "dish_count": 1
     },
     "Friday": {
       "dishes": [

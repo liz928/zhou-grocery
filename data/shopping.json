@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T05:00:32.279351",
+  "generated_at": "2026-11-13T05:00:27.008718",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -11,9 +11,9 @@
   "stats": {
     "raw_ingredient_count": 163,
     "unique_after_dedup": 69,
-    "skipped_staples": 65,
-    "routing_matched": 43,
-    "routing_unmatched": 26,
+    "skipped_staples": 66,
+    "routing_matched": 44,
+    "routing_unmatched": 25,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -131,9 +131,73 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Beef",
+        "norm": "beef",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "1 lb",
+            "qty_parsed": [
+              1.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Beef",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili Mac & Cheese (Dutch Oven)"
+        ],
+        "dishes_with_days": [
+          "Chili Mac & Cheese (Dutch Oven) (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili Mac & Cheese (Dutch Oven)"
+            ],
+            "qty_display": "1 lb"
+          }
+        },
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Black beans",
         "norm": "black bean",
         "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          },
           {
             "day": "Tuesday",
             "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
@@ -152,28 +216,33 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
-          "Tuesday"
+          "Tuesday",
+          "Thursday"
         ],
         "dishes": [
+          "Chili Mac & Cheese (Dutch Oven)",
           "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
         ],
         "dishes_with_days": [
+          "Chili Mac & Cheese (Dutch Oven) (Thu)",
           "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
         ],
         "trip": "Mon",
         "icon": "🥫",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 2,
             "days": [
-              "Tuesday"
+              "Tuesday",
+              "Thursday"
             ],
             "dishes": [
+              "Chili Mac & Cheese (Dutch Oven)",
               "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
             ],
-            "qty_display": "1"
+            "qty_display": "2 can"
           },
           "Wed": {
             "uses": 0,
@@ -182,8 +251,8 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1",
-        "math_mode": "single"
+        "total_qty_display": "2 can",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Chicken",
@@ -252,6 +321,61 @@
           }
         },
         "total_qty_display": "3 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Chicken broth",
+        "norm": "chicken broth",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "4 cups",
+            "qty_parsed": [
+              4.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili Mac & Cheese (Dutch Oven)"
+        ],
+        "dishes_with_days": [
+          "Chili Mac & Cheese (Dutch Oven) (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili Mac & Cheese (Dutch Oven)"
+            ],
+            "qty_display": "4 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4 cups",
         "math_mode": "summed"
       },
       {
@@ -363,61 +487,6 @@
         },
         "total_qty_display": "1",
         "math_mode": "single"
-      },
-      {
-        "canonical_name": "Hamburger",
-        "norm": "hamburger",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "2 lb",
-            "qty_parsed": [
-              2.0,
-              "lb"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Unknown",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili"
-        ],
-        "dishes_with_days": [
-          "Chili (Thu)"
-        ],
-        "trip": "Wed",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chili"
-            ],
-            "qty_display": "2 lb"
-          }
-        },
-        "total_qty_display": "2 lb",
-        "math_mode": "summed"
       },
       {
         "canonical_name": "Parmesan",
@@ -1064,6 +1133,15 @@
         "norm": "garlic",
         "occurrences": [
           {
+            "day": "Thursday",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "2 cloves",
+            "qty_parsed": [
+              2.0,
+              "cloves"
+            ]
+          },
+          {
             "day": "Monday",
             "dish": "Fried Rice",
             "qty_str": "6 cloves",
@@ -1126,14 +1204,16 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 6,
+        "use_count": 7,
         "days": [
           "Monday",
           "Wednesday",
+          "Thursday",
           "Friday",
           "Weekend"
         ],
         "dishes": [
+          "Chili Mac & Cheese (Dutch Oven)",
           "Cucumber - Smashed",
           "Fried Rice",
           "Moroccan Chicken w/ Root Vegs",
@@ -1142,6 +1222,7 @@
           "🍯 Honey Garlic Grilled CHICKEN"
         ],
         "dishes_with_days": [
+          "Chili Mac & Cheese (Dutch Oven) (Thu)",
           "Cucumber - Smashed (Mon)",
           "Fried Rice (Mon)",
           "Moroccan Chicken w/ Root Vegs (Sat)",
@@ -1166,76 +1247,23 @@
             "qty_display": "13.5 cloves"
           },
           "Wed": {
-            "uses": 3,
+            "uses": 4,
             "days": [
+              "Thursday",
               "Friday",
               "Weekend"
             ],
             "dishes": [
+              "Chili Mac & Cheese (Dutch Oven)",
               "Moroccan Chicken w/ Root Vegs",
               "Moroccan Quinoa",
               "🍊 Teriyaki Orange Ginger Grilled Chicken"
             ],
-            "qty_display": "7 clove"
+            "qty_display": "2 cloves + 3 + 3 + 1 clove"
           }
         },
-        "total_qty_display": "6 cloves + 2-3 + 5 + 3 + 3 + 1 clove",
+        "total_qty_display": "2 cloves + 6 cloves + 2-3 + 5 + 3 + 3 + 1 clove",
         "math_mode": "mixed"
-      },
-      {
-        "canonical_name": "Garlic Galore",
-        "norm": "garlic galore",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili"
-        ],
-        "dishes_with_days": [
-          "Chili (Thu)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chili"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "single"
       },
       {
         "canonical_name": "Green beans",
@@ -1346,61 +1374,6 @@
         },
         "total_qty_display": "4",
         "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Ketchup",
-        "norm": "ketchup",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "1/8 c",
-            "qty_parsed": [
-              0.125,
-              "c"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili"
-        ],
-        "dishes_with_days": [
-          "Chili (Thu)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chili"
-            ],
-            "qty_display": "1/8 c"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/8 c",
-        "math_mode": "single"
       },
       {
         "canonical_name": "Lemon",
@@ -1698,15 +1671,6 @@
         "norm": "potato",
         "occurrences": [
           {
-            "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
             "day": "Weekend",
             "dish": "Moroccan Chicken w/ Root Vegs",
             "qty_str": "1",
@@ -1724,17 +1688,14 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Thursday",
           "Weekend"
         ],
         "dishes": [
-          "Chili",
           "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
-          "Chili (Thu)",
           "Moroccan Chicken w/ Root Vegs (Sat)"
         ],
         "trip": "Wed",
@@ -1747,20 +1708,18 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
               "Weekend"
             ],
             "dishes": [
-              "Chili",
               "Moroccan Chicken w/ Root Vegs"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "2",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Red",
@@ -2051,15 +2010,6 @@
             ]
           },
           {
-            "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "14.5 oz",
-            "qty_parsed": [
-              14.5,
-              "oz"
-            ]
-          },
-          {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
             "qty_str": "2",
@@ -2077,20 +2027,17 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 3,
+        "use_count": 2,
         "days": [
           "Tuesday",
-          "Thursday",
           "Weekend"
         ],
         "dishes": [
           "Build-Your-Own Pizza Night",
-          "Chili",
           "Pico"
         ],
         "dishes_with_days": [
           "Build-Your-Own Pizza Night (Sat)",
-          "Chili (Thu)",
           "Pico (Tue)"
         ],
         "trip": "Mon/Wed",
@@ -2107,34 +2054,78 @@
             "qty_display": "1"
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
               "Weekend"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night",
-              "Chili"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "16.5 oz"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "14.5 oz + 2",
-        "math_mode": "mixed"
+        "total_qty_display": "3",
+        "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Tomato sauce",
-        "norm": "tomato sauce",
+        "canonical_name": "Tomato paste",
+        "norm": "tomato paste",
         "occurrences": [
           {
             "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "15 oz",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "2 Tbsp",
             "qty_parsed": [
-              15.0,
-              "oz"
+              2.0,
+              "tbsp"
             ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili Mac & Cheese (Dutch Oven)"
+        ],
+        "dishes_with_days": [
+          "Chili Mac & Cheese (Dutch Oven) (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili Mac & Cheese (Dutch Oven)"
+            ],
+            "qty_display": "2 tbsp"
+          }
+        },
+        "total_qty_display": "2 tbsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Crushed tomato sauce",
+        "norm": "tomato sauce",
+        "occurrences": [
           {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
@@ -2153,18 +2144,15 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Thursday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
-          "Chili"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
-          "Chili (Thu)"
+          "Build-Your-Own Pizza Night (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -2176,25 +2164,32 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
               "Weekend"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night",
-              "Chili"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "15 oz"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "15 oz",
-        "math_mode": "mixed"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Onion",
         "norm": "yellow onion",
         "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
           {
             "day": "Monday",
             "dish": "Fried Rice",
@@ -2211,15 +2206,6 @@
             "qty_parsed": [
               null,
               null
-            ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Chili",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
             ]
           },
           {
@@ -2249,13 +2235,13 @@
         ],
         "dishes": [
           "Build-Your-Own Pizza Night",
-          "Chili",
+          "Chili Mac & Cheese (Dutch Oven)",
           "Fried Rice",
           "Pico"
         ],
         "dishes_with_days": [
           "Build-Your-Own Pizza Night (Sat)",
-          "Chili (Thu)",
+          "Chili Mac & Cheese (Dutch Oven) (Thu)",
           "Fried Rice (Mon)",
           "Pico (Tue)"
         ],
@@ -2282,13 +2268,70 @@
             ],
             "dishes": [
               "Build-Your-Own Pizza Night",
-              "Chili"
+              "Chili Mac & Cheese (Dutch Oven)"
             ],
             "qty_display": "2"
           }
         },
         "total_qty_display": "4",
         "math_mode": "multiplied"
+      }
+    ],
+    "Amazon": [
+      {
+        "canonical_name": "Chili powder",
+        "norm": "chili powder",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chili Mac & Cheese (Dutch Oven)",
+            "qty_str": "2 Tbsp",
+            "qty_parsed": [
+              2.0,
+              "tbsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Amazon"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chili Mac & Cheese (Dutch Oven)"
+        ],
+        "dishes_with_days": [
+          "Chili Mac & Cheese (Dutch Oven) (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Chili Mac & Cheese (Dutch Oven)"
+            ],
+            "qty_display": "2 tbsp"
+          }
+        },
+        "total_qty_display": "2 tbsp",
+        "math_mode": "summed"
       }
     ],
     "888 Market / Pan Asia": [
@@ -2742,59 +2785,6 @@
   ],
   "no_store_match": [
     {
-      "canonical_name": "Beef stock",
-      "norm": "beef stock",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili",
-          "qty_str": "20 oz",
-          "qty_parsed": [
-            20.0,
-            "oz"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili"
-      ],
-      "dishes_with_days": [
-        "Chili (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili"
-          ],
-          "qty_display": "20 oz"
-        }
-      },
-      "total_qty_display": "20 oz",
-      "math_mode": "summed"
-    },
-    {
       "canonical_name": "Beef tenderloin",
       "norm": "beef tenderloin",
       "occurrences": [
@@ -2898,6 +2888,112 @@
         }
       },
       "total_qty_display": "1.5 lbs",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Box elbow macaroni",
+      "norm": "box elbow macaroni",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili Mac & Cheese (Dutch Oven)",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili Mac & Cheese (Dutch Oven)"
+      ],
+      "dishes_with_days": [
+        "Chili Mac & Cheese (Dutch Oven) (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili Mac & Cheese (Dutch Oven)"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Cheddar",
+      "norm": "cheddar",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili Mac & Cheese (Dutch Oven)",
+          "qty_str": "2 cups",
+          "qty_parsed": [
+            2.0,
+            "cups"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili Mac & Cheese (Dutch Oven)"
+      ],
+      "dishes_with_days": [
+        "Chili Mac & Cheese (Dutch Oven) (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili Mac & Cheese (Dutch Oven)"
+          ],
+          "qty_display": "2 cups"
+        }
+      },
+      "total_qty_display": "2 cups",
       "math_mode": "summed"
     },
     {
@@ -3005,59 +3101,6 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
-    },
-    {
-      "canonical_name": "Dark red kidney beans",
-      "norm": "dark red kidney bean",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili",
-          "qty_str": "1 can",
-          "qty_parsed": [
-            1.0,
-            "can"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili"
-      ],
-      "dishes_with_days": [
-        "Chili (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili"
-          ],
-          "qty_display": "1 can"
-        }
-      },
-      "total_qty_display": "1 can",
-      "math_mode": "summed"
     },
     {
       "canonical_name": "Dates",
@@ -3325,12 +3368,12 @@
       "math_mode": "multiplied"
     },
     {
-      "canonical_name": "Light red kidney beans",
-      "norm": "light red kidney bean",
+      "canonical_name": "Kidney beans",
+      "norm": "kidney bean",
       "occurrences": [
         {
           "day": "Thursday",
-          "dish": "Chili",
+          "dish": "Chili Mac & Cheese (Dutch Oven)",
           "qty_str": "1 can",
           "qty_parsed": [
             1.0,
@@ -3349,10 +3392,10 @@
         "Thursday"
       ],
       "dishes": [
-        "Chili"
+        "Chili Mac & Cheese (Dutch Oven)"
       ],
       "dishes_with_days": [
-        "Chili (Thu)"
+        "Chili Mac & Cheese (Dutch Oven) (Thu)"
       ],
       "trip": "Wed",
       "icon": "❓",
@@ -3369,7 +3412,7 @@
             "Thursday"
           ],
           "dishes": [
-            "Chili"
+            "Chili Mac & Cheese (Dutch Oven)"
           ],
           "qty_display": "1 can"
         }
@@ -3535,6 +3578,59 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
+    },
+    {
+      "canonical_name": "Oil",
+      "norm": "oil",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Chili Mac & Cheese (Dutch Oven)",
+          "qty_str": "1 Tbsp",
+          "qty_parsed": [
+            1.0,
+            "tbsp"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Chili Mac & Cheese (Dutch Oven)"
+      ],
+      "dishes_with_days": [
+        "Chili Mac & Cheese (Dutch Oven) (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Chili Mac & Cheese (Dutch Oven)"
+          ],
+          "qty_display": "1 tbsp"
+        }
+      },
+      "total_qty_display": "1 tbsp",
+      "math_mode": "summed"
     },
     {
       "canonical_name": "Okra",
@@ -3855,59 +3951,6 @@
       "math_mode": "summed"
     },
     {
-      "canonical_name": "Red beans",
-      "norm": "red bean",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili",
-          "qty_str": "2 can",
-          "qty_parsed": [
-            2.0,
-            "can"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili"
-      ],
-      "dishes_with_days": [
-        "Chili (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili"
-          ],
-          "qty_display": "2 can"
-        }
-      },
-      "total_qty_display": "2 can",
-      "math_mode": "summed"
-    },
-    {
       "canonical_name": "SHORTCUT:",
       "norm": "shortcut",
       "occurrences": [
@@ -4014,59 +4057,6 @@
       "math_mode": "multiplied"
     },
     {
-      "canonical_name": "WT Chili mix",
-      "norm": "wt chili mix",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili",
-          "qty_str": "6",
-          "qty_parsed": [
-            6.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili"
-      ],
-      "dishes_with_days": [
-        "Chili (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili"
-          ],
-          "qty_display": "6"
-        }
-      },
-      "total_qty_display": "6",
-      "math_mode": "single"
-    },
-    {
       "canonical_name": "Zucchini and/or yellow squash",
       "norm": "zucchini and or yellow squash",
       "occurrences": [
@@ -4121,6 +4111,34 @@
     }
   ],
   "skipped_staples": [
+    {
+      "day": "Thursday",
+      "dish": "Chili Mac & Cheese (Dutch Oven)",
+      "name": "smoked paprika",
+      "quantity": "1 tsp",
+      "original": "1 tsp smoked paprika"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chili Mac & Cheese (Dutch Oven)",
+      "name": "ground cumin",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground cumin"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chili Mac & Cheese (Dutch Oven)",
+      "name": "black pepper",
+      "quantity": "1 tsp",
+      "original": "1 tsp black pepper"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chili Mac & Cheese (Dutch Oven)",
+      "name": "salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp salt"
+    },
     {
       "day": "Monday",
       "dish": "Fried Rice",
@@ -4239,27 +4257,6 @@
       "name": "pepper",
       "quantity": "1/2 tsp",
       "original": "½ tsp pepper"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chili",
-      "name": "water",
-      "quantity": "15 oz",
-      "original": "15 oz water (fill tomato sauce can)"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chili",
-      "name": "peanut butter",
-      "quantity": "1/8 c",
-      "original": "1/8 c peanut butter"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chili",
-      "name": "salt",
-      "quantity": "2 tsp",
-      "original": "2 tsp salt"
     },
     {
       "day": "Friday",
