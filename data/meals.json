@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:02:43.497868",
+  "generated_at": "2026-11-14T11:56:31.505452",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -1228,6 +1228,328 @@
     "Weekend": {
       "dishes": [
         {
+          "card_id": "6a3eedbd55b77c720f2bf1cc",
+          "name": "Dairy-Free Tzatziki Sauce",
+          "ingredients": [
+            {
+              "original": "3/4 cup plain coconut yogurt (thick)",
+              "quantity": "3/4 cup",
+              "name": "plain coconut yogurt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 English cucumber",
+              "quantity": "1/2",
+              "name": "English cucumber",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1-2 garlic cloves",
+              "quantity": "1-2",
+              "name": "garlic cloves",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbs fresh lemon juice",
+              "quantity": "1",
+              "name": "Tbs fresh lemon juice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbs olive oil",
+              "quantity": "1",
+              "name": "Tbs olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1-2 Tbs fresh dill (or 1 tsp dried)",
+              "quantity": "1-2",
+              "name": "Tbs fresh dill",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp salt",
+              "quantity": "1/2 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Pinch black pepper",
+              "quantity": null,
+              "name": "Pinch black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "682628abb0e43d8076300bfe",
+          "name": "Instant Pot Greek Chicken Bowls",
+          "ingredients": [
+            {
+              "original": "1/2 tsp dried oregano",
+              "quantity": "1/2 tsp",
+              "name": "dried oregano",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp Spanish paprika",
+              "quantity": "1/2 tsp",
+              "name": "Spanish paprika",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Pinch crushed red pepper flakes",
+              "quantity": null,
+              "name": "Pinch crushed red pepper flakes",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 cup plus 2 Tbs olive oil",
+              "quantity": "1/4 cup",
+              "name": "plus 2 Tbs olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3 cloves garlic, grated",
+              "quantity": "3 cloves",
+              "name": "garlic",
+              "notes": "grated",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 1/2 pounds boneless, skinless chicken breasts, sliced 1/2-inch thick",
+              "quantity": "1 1/2 pounds",
+              "name": "boneless",
+              "notes": "skinless chicken breasts, sliced 1/2-inch thick",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Kosher salt and freshly ground black pepper",
+              "quantity": null,
+              "name": "Kosher salt and freshly ground black pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 cup couscous",
+              "quantity": "1 cup",
+              "name": "couscous",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 cup full-fat Greek yogurt",
+              "quantity": "1 cup",
+              "name": "full-fat Greek yogurt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Juice of 1 lemon",
+              "quantity": null,
+              "name": "Juice of 1 lemon",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 English cucumber, chopped",
+              "quantity": "1",
+              "name": "English cucumber",
+              "notes": "chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 cup cherry tomatoes, quartered",
+              "quantity": "1 cup",
+              "name": "cherry tomatoes",
+              "notes": "quartered",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup pitted Kalamata olives, chopped",
+              "quantity": "1/2 cup",
+              "name": "pitted Kalamata olives",
+              "notes": "chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup crumbled feta",
+              "quantity": "1/2 cup",
+              "name": "crumbled feta",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 Tbs chopped fresh dill",
+              "quantity": "2",
+              "name": "Tbs chopped fresh dill",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "6926439caff0f1ff760a9753",
+          "name": "Red Lentil Soup",
+          "ingredients": [
+            {
+              "original": "1 Tbs olive oil",
+              "quantity": "1",
+              "name": "Tbs olive oil",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 yellow onion (about 1 cup chopped)",
+              "quantity": "1",
+              "name": "yellow onion",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 carrots , chopped",
+              "quantity": "2",
+              "name": "carrots",
+              "notes": "chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 celery stalks , chopped",
+              "quantity": "2",
+              "name": "celery stalks",
+              "notes": "chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3 garlic cloves , minced",
+              "quantity": "3",
+              "name": "garlic cloves",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbs ground cumin",
+              "quantity": "1",
+              "name": "Tbs ground cumin",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "pinch cayenne pepper (optional; omit if you don't like spice)",
+              "quantity": null,
+              "name": "pinch cayenne pepper",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 cup tomato paste",
+              "quantity": "1/4 cup",
+              "name": "tomato paste",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "5 cups water",
+              "quantity": "5 cups",
+              "name": "water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 cup dry red lentils",
+              "quantity": "1 cup",
+              "name": "dry red lentils",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 1/2 to 2 tsp fine sea salt (I use Real Salt brand)",
+              "quantity": "1 1/2",
+              "name": "to 2 tsp fine sea salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 cup canned coconut milk",
+              "quantity": "1/2 cup",
+              "name": "canned coconut milk",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/3 cup fresh cilantro , chopped",
+              "quantity": "1/3 cup",
+              "name": "fresh cilantro",
+              "notes": "chopped",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbs freshly squeezed lemon juice",
+              "quantity": "1",
+              "name": "Tbs freshly squeezed lemon juice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        }
+      ],
+      "dish_count": 3
+    },
+    "Next Monday": {
+      "dishes": [
+        {
           "card_id": "6aa06880ee9adcba2db5fd89",
           "name": "Build-Your-Own Pizza Night",
           "ingredients": [
@@ -1558,6 +1880,101 @@
           "is_multi_variant": false
         },
         {
+          "card_id": "696e6d28038a41a7c74277ad",
+          "name": "Pumpkin Bread",
+          "ingredients": [
+            {
+              "original": "1 cup buckwheat flour",
+              "quantity": "1 cup",
+              "name": "buckwheat flour",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 cup pumpkin puree",
+              "quantity": "1 cup",
+              "name": "pumpkin puree",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbs ground cinnamon",
+              "quantity": "1",
+              "name": "Tbs ground cinnamon",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 tsp ground ginger",
+              "quantity": "1/4 tsp",
+              "name": "ground ginger",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 tsp ground cloves",
+              "quantity": "1/4 tsp",
+              "name": "ground cloves",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 cup coconut oil , melted",
+              "quantity": "1/4 cup",
+              "name": "coconut oil",
+              "notes": "melted",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "6 Tbs pure maple syrup",
+              "quantity": "6",
+              "name": "Tbs pure maple syrup",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp vanilla",
+              "quantity": "1 tsp",
+              "name": "vanilla",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/4 cup water",
+              "quantity": "1/4 cup",
+              "name": "water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp baking soda",
+              "quantity": "1 tsp",
+              "name": "baking soda",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 Tbs apple cider vinegar",
+              "quantity": "1",
+              "name": "Tbs apple cider vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
           "card_id": "698aa5a8d761898c45ea2e7e",
           "name": "Moroccan Quinoa",
           "ingredients": [
@@ -1714,172 +2131,6 @@
           ]
         },
         {
-          "card_id": "68058045390f432c31113923",
-          "name": "Banana Bread",
-          "ingredients": [
-            {
-              "original": "1/2 cup unsalted butter, at room temperature",
-              "quantity": "1/2 cup",
-              "name": "unsalted butter",
-              "notes": "at room temperature",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 cup cane sugar, blended until fine",
-              "quantity": "1 cup",
-              "name": "cane sugar",
-              "notes": "blended until fine",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 eggs, large",
-              "quantity": "2",
-              "name": "eggs",
-              "notes": "large",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 cups all purpose flour",
-              "quantity": "2 cups",
-              "name": "all purpose flour",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp baking soda",
-              "quantity": "1 tsp",
-              "name": "baking soda",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 tsp salt",
-              "quantity": "1/2 tsp",
-              "name": "salt",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "3-4 medium bananas (or 2 large bananas)",
-              "quantity": "3-4",
-              "name": "medium bananas",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp vanilla extract",
-              "quantity": "1 tsp",
-              "name": "vanilla extract",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "696e6d28038a41a7c74277ad",
-          "name": "Pumpkin Bread",
-          "ingredients": [
-            {
-              "original": "1 cup buckwheat flour",
-              "quantity": "1 cup",
-              "name": "buckwheat flour",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 cup pumpkin puree",
-              "quantity": "1 cup",
-              "name": "pumpkin puree",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 Tbs ground cinnamon",
-              "quantity": "1",
-              "name": "Tbs ground cinnamon",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/4 tsp ground ginger",
-              "quantity": "1/4 tsp",
-              "name": "ground ginger",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/4 tsp ground cloves",
-              "quantity": "1/4 tsp",
-              "name": "ground cloves",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/4 cup coconut oil , melted",
-              "quantity": "1/4 cup",
-              "name": "coconut oil",
-              "notes": "melted",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "6 Tbs pure maple syrup",
-              "quantity": "6",
-              "name": "Tbs pure maple syrup",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp vanilla",
-              "quantity": "1 tsp",
-              "name": "vanilla",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/4 cup water",
-              "quantity": "1/4 cup",
-              "name": "water",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp baking soda",
-              "quantity": "1 tsp",
-              "name": "baking soda",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 Tbs apple cider vinegar",
-              "quantity": "1",
-              "name": "Tbs apple cider vinegar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "664269bd554a8e014fea288b",
           "name": "Cucumber - Smashed",
           "ingredients": [
@@ -1946,6 +2197,77 @@
               "notes": "Cilantro (garnish)",
               "checked": false,
               "checklist": "Yeye’s version"
+            }
+          ],
+          "is_multi_variant": false
+        },
+        {
+          "card_id": "68058045390f432c31113923",
+          "name": "Banana Bread",
+          "ingredients": [
+            {
+              "original": "1/2 cup unsalted butter, at room temperature",
+              "quantity": "1/2 cup",
+              "name": "unsalted butter",
+              "notes": "at room temperature",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 cup cane sugar, blended until fine",
+              "quantity": "1 cup",
+              "name": "cane sugar",
+              "notes": "blended until fine",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 eggs, large",
+              "quantity": "2",
+              "name": "eggs",
+              "notes": "large",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "2 cups all purpose flour",
+              "quantity": "2 cups",
+              "name": "all purpose flour",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp baking soda",
+              "quantity": "1 tsp",
+              "name": "baking soda",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1/2 tsp salt",
+              "quantity": "1/2 tsp",
+              "name": "salt",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "3-4 medium bananas (or 2 large bananas)",
+              "quantity": "3-4",
+              "name": "medium bananas",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1 tsp vanilla extract",
+              "quantity": "1 tsp",
+              "name": "vanilla extract",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
             }
           ],
           "is_multi_variant": false

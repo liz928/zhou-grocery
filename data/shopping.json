@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:02:43.497868",
+  "generated_at": "2026-11-14T11:56:31.505452",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,127 +9,17 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 212,
-    "unique_after_dedup": 83,
-    "skipped_staples": 93,
-    "routing_matched": 54,
-    "routing_unmatched": 29,
-    "multi_store": 6,
+    "raw_ingredient_count": 165,
+    "unique_after_dedup": 70,
+    "skipped_staples": 66,
+    "routing_matched": 49,
+    "routing_unmatched": 21,
+    "multi_store": 5,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
     "Costco": [
-      {
-        "canonical_name": "Dried apricots",
-        "norm": "apricot",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Moroccan Chicken w/ Root Vegs",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Snack",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Moroccan Chicken w/ Root Vegs"
-        ],
-        "dishes_with_days": [
-          "Moroccan Chicken w/ Root Vegs (Sat)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Moroccan Chicken w/ Root Vegs"
-            ],
-            "qty_display": "0.5 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.5 cup",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Bananas",
-        "norm": "banana",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Banana Bread",
-            "qty_str": "3-4",
-            "qty_parsed": [
-              3.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Banana Bread"
-        ],
-        "dishes_with_days": [
-          "Banana Bread (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Banana Bread"
-            ],
-            "qty_display": "4"
-          }
-        },
-        "total_qty_display": "4",
-        "math_mode": "multiplied"
-      },
       {
         "canonical_name": "Beef",
         "norm": "beef",
@@ -186,61 +76,6 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Chicken",
-        "norm": "chicken",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": "2 cups",
-            "qty_parsed": [
-              2.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Poultry",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Build-Your-Own Pizza Night"
-        ],
-        "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": "2 cups"
-          }
-        },
-        "total_qty_display": "2 cups",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Chuck Roast",
         "norm": "chuck roast",
         "occurrences": [
@@ -293,116 +128,6 @@
           }
         },
         "total_qty_display": "4 lb",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Parmesan",
-        "norm": "parmesan",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Dairy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Build-Your-Own Pizza Night"
-        ],
-        "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Dry quinoa",
-        "norm": "quinoa",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Moroccan Quinoa",
-            "qty_str": "180 g",
-            "qty_parsed": [
-              180.0,
-              "g"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Moroccan Quinoa"
-        ],
-        "dishes_with_days": [
-          "Moroccan Quinoa (Sat)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Moroccan Quinoa"
-            ],
-            "qty_display": "180 g"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "180 g",
         "math_mode": "summed"
       },
       {
@@ -518,116 +243,6 @@
     ],
     "Whole Foods": [
       {
-        "canonical_name": "Baby greens",
-        "norm": "baby green",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Moroccan Quinoa",
-            "qty_str": "50 g",
-            "qty_parsed": [
-              50.0,
-              "g"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Leafy",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Moroccan Quinoa"
-        ],
-        "dishes_with_days": [
-          "Moroccan Quinoa (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Moroccan Quinoa"
-            ],
-            "qty_display": "50 g"
-          }
-        },
-        "total_qty_display": "50 g",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Basil",
-        "norm": "basil",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Herb",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Build-Your-Own Pizza Night"
-        ],
-        "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
         "canonical_name": "Broccolini",
         "norm": "broccolini",
         "occurrences": [
@@ -680,6 +295,61 @@
           }
         },
         "total_qty_display": "80 g",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Canned coconut milk",
+        "norm": "canned coconut milk",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Red Lentil Soup",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Red Lentil Soup"
+        ],
+        "dishes_with_days": [
+          "Red Lentil Soup (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Red Lentil Soup"
+            ],
+            "qty_display": "0.5 cup"
+          }
+        },
+        "total_qty_display": "0.5 cup",
         "math_mode": "summed"
       },
       {
@@ -738,6 +408,61 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Cherry tomatoes",
+        "norm": "cherry tomato",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Instant Pot Greek Chicken Bowls",
+            "qty_str": "1 cup",
+            "qty_parsed": [
+              1.0,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Instant Pot Greek Chicken Bowls"
+        ],
+        "dishes_with_days": [
+          "Instant Pot Greek Chicken Bowls (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Instant Pot Greek Chicken Bowls"
+            ],
+            "qty_display": "1 cup"
+          }
+        },
+        "total_qty_display": "1 cup",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Cilantro",
         "norm": "cilantro",
         "occurrences": [
@@ -752,10 +477,10 @@
           },
           {
             "day": "Weekend",
-            "dish": "Moroccan Chicken w/ Root Vegs",
-            "qty_str": "1/4 cup",
+            "dish": "Red Lentil Soup",
+            "qty_str": "1/3 cup",
             "qty_parsed": [
-              0.25,
+              0.3333333333333333,
               "cup"
             ]
           }
@@ -775,11 +500,11 @@
         ],
         "dishes": [
           "Chicken Tikka Marsala",
-          "Moroccan Chicken w/ Root Vegs"
+          "Red Lentil Soup"
         ],
         "dishes_with_days": [
           "Chicken Tikka Marsala (Tue)",
-          "Moroccan Chicken w/ Root Vegs (Sat)"
+          "Red Lentil Soup (Sat)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
@@ -800,12 +525,12 @@
               "Weekend"
             ],
             "dishes": [
-              "Moroccan Chicken w/ Root Vegs"
+              "Red Lentil Soup"
             ],
-            "qty_display": "0.25 cup"
+            "qty_display": "0.33 cup"
           }
         },
-        "total_qty_display": "0.5 cup",
+        "total_qty_display": "0.58 cup",
         "math_mode": "summed"
       },
       {
@@ -974,12 +699,21 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Eggs",
-        "norm": "egg",
+        "canonical_name": "Dill",
+        "norm": "dill",
         "occurrences": [
           {
             "day": "Weekend",
-            "dish": "Banana Bread",
+            "dish": "Dairy-Free Tzatziki Sauce",
+            "qty_str": "1-2",
+            "qty_parsed": [
+              1.5,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Instant Pot Greek Chicken Bowls",
             "qty_str": "2",
             "qty_parsed": [
               2.0,
@@ -990,20 +724,22 @@
         "stores": [
           "Whole Foods"
         ],
-        "category": "Dairy",
+        "category": "Produce-Herb",
         "type": "fresh",
         "matched_routing": true,
-        "is_countable": true,
+        "is_countable": false,
         "user_routed": false,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
           "Weekend"
         ],
         "dishes": [
-          "Banana Bread"
+          "Dairy-Free Tzatziki Sauce",
+          "Instant Pot Greek Chicken Bowls"
         ],
         "dishes_with_days": [
-          "Banana Bread (Sat)"
+          "Dairy-Free Tzatziki Sauce (Sat)",
+          "Instant Pot Greek Chicken Bowls (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -1015,12 +751,80 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 1,
+            "uses": 2,
             "days": [
               "Weekend"
             ],
             "dishes": [
-              "Banana Bread"
+              "Dairy-Free Tzatziki Sauce",
+              "Instant Pot Greek Chicken Bowls"
+            ],
+            "qty_display": "4"
+          }
+        },
+        "total_qty_display": "4",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "English cucumber",
+        "norm": "english cucumber",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Dairy-Free Tzatziki Sauce",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Instant Pot Greek Chicken Bowls",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Dairy-Free Tzatziki Sauce",
+          "Instant Pot Greek Chicken Bowls"
+        ],
+        "dishes_with_days": [
+          "Dairy-Free Tzatziki Sauce (Sat)",
+          "Instant Pot Greek Chicken Bowls (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Dairy-Free Tzatziki Sauce",
+              "Instant Pot Greek Chicken Bowls"
             ],
             "qty_display": "2"
           }
@@ -1081,6 +885,61 @@
           }
         },
         "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Full-fat Greek yogurt",
+        "norm": "full-fat greek yogurt",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Instant Pot Greek Chicken Bowls",
+            "qty_str": "1 cup",
+            "qty_parsed": [
+              1.0,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Instant Pot Greek Chicken Bowls"
+        ],
+        "dishes_with_days": [
+          "Instant Pot Greek Chicken Bowls (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Instant Pot Greek Chicken Bowls"
+            ],
+            "qty_display": "1 cup"
+          }
+        },
+        "total_qty_display": "1 cup",
         "math_mode": "summed"
       },
       {
@@ -1243,28 +1102,28 @@
           },
           {
             "day": "Weekend",
-            "dish": "Moroccan Chicken w/ Root Vegs",
-            "qty_str": "3",
+            "dish": "Dairy-Free Tzatziki Sauce",
+            "qty_str": "1-2",
             "qty_parsed": [
-              3.0,
+              1.5,
               ""
             ]
           },
           {
             "day": "Weekend",
-            "dish": "Moroccan Quinoa",
-            "qty_str": "1 clove",
+            "dish": "Instant Pot Greek Chicken Bowls",
+            "qty_str": "3 cloves",
             "qty_parsed": [
-              1.0,
-              "clove"
+              3.0,
+              "cloves"
             ]
           },
           {
             "day": "Weekend",
-            "dish": "Cucumber - Smashed",
-            "qty_str": "2-3",
+            "dish": "Red Lentil Soup",
+            "qty_str": "3",
             "qty_parsed": [
-              2.5,
+              3.0,
               ""
             ]
           }
@@ -1293,12 +1152,12 @@
           "Carrot & Mushrooms",
           "Chicken Tikka Marsala",
           "Chinese Broccoli (Gai Lan)",
-          "Cucumber - Smashed",
+          "Dairy-Free Tzatziki Sauce",
           "Garlic Turmeric Rice",
+          "Instant Pot Greek Chicken Bowls",
           "Mapo Tofu",
-          "Moroccan Chicken w/ Root Vegs",
-          "Moroccan Quinoa",
-          "Pot Roast"
+          "Pot Roast",
+          "Red Lentil Soup"
         ],
         "dishes_with_days": [
           "Apple Salad (Mon)",
@@ -1307,12 +1166,12 @@
           "Carrot & Mushrooms (Thu)",
           "Chicken Tikka Marsala (Tue)",
           "Chinese Broccoli (Gai Lan) (Thu)",
-          "Cucumber - Smashed (Sat)",
+          "Dairy-Free Tzatziki Sauce (Sat)",
           "Garlic Turmeric Rice (Tue)",
+          "Instant Pot Greek Chicken Bowls (Sat)",
           "Mapo Tofu (Thu)",
-          "Moroccan Chicken w/ Root Vegs (Sat)",
-          "Moroccan Quinoa (Sat)",
-          "Pot Roast (Mon)"
+          "Pot Roast (Mon)",
+          "Red Lentil Soup (Sat)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
@@ -1344,15 +1203,15 @@
               "Baby Bok Choy - Steamed with Oyster Sauce",
               "Carrot & Mushrooms",
               "Chinese Broccoli (Gai Lan)",
-              "Cucumber - Smashed",
+              "Dairy-Free Tzatziki Sauce",
+              "Instant Pot Greek Chicken Bowls",
               "Mapo Tofu",
-              "Moroccan Chicken w/ Root Vegs",
-              "Moroccan Quinoa"
+              "Red Lentil Soup"
             ],
-            "qty_display": "2-3 cloves + 1 + 1 + 3 + 1 clove + 2-3"
+            "qty_display": "2-3 cloves + 1 + 1 + 1-2 + 3 cloves + 3"
           }
         },
-        "total_qty_display": "2 cloves + 1 + 3 + 3 + 6-7 pieces + 2-3 cloves + 1 + 1 + 3 + 1 clove + 2-3",
+        "total_qty_display": "2 cloves + 1 + 3 + 3 + 6-7 pieces + 2-3 cloves + 1 + 1 + 1-2 + 3 cloves + 3",
         "math_mode": "mixed"
       },
       {
@@ -1448,6 +1307,15 @@
               2.0,
               ""
             ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Dairy-Free Tzatziki Sauce",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
           }
         ],
         "stores": [
@@ -1458,17 +1326,20 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
-          "Tuesday"
+          "Tuesday",
+          "Weekend"
         ],
         "dishes": [
-          "Chicken Tikka Marsala"
+          "Chicken Tikka Marsala",
+          "Dairy-Free Tzatziki Sauce"
         ],
         "dishes_with_days": [
-          "Chicken Tikka Marsala (Tue)"
+          "Chicken Tikka Marsala (Tue)",
+          "Dairy-Free Tzatziki Sauce (Sat)"
         ],
-        "trip": "Mon",
+        "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
@@ -1482,13 +1353,17 @@
             "qty_display": "2"
           },
           "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Dairy-Free Tzatziki Sauce"
+            ],
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "3",
         "math_mode": "multiplied"
       },
       {
@@ -1547,116 +1422,6 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Mushrooms",
-        "norm": "mushroom",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": "8 oz",
-            "qty_parsed": [
-              8.0,
-              "oz"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Build-Your-Own Pizza Night"
-        ],
-        "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": "8 oz"
-          }
-        },
-        "total_qty_display": "8 oz",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Parsnips",
-        "norm": "parsnip",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Moroccan Chicken w/ Root Vegs",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Moroccan Chicken w/ Root Vegs"
-        ],
-        "dishes_with_days": [
-          "Moroccan Chicken w/ Root Vegs (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Moroccan Chicken w/ Root Vegs"
-            ],
-            "qty_display": "2"
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "single"
-      },
-      {
         "canonical_name": "Toasted pecans",
         "norm": "pecan",
         "occurrences": [
@@ -1709,6 +1474,61 @@
           }
         },
         "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Plain coconut yogurt",
+        "norm": "plain coconut yogurt",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Dairy-Free Tzatziki Sauce",
+            "qty_str": "3/4 cup",
+            "qty_parsed": [
+              0.75,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Dairy-Free Tzatziki Sauce"
+        ],
+        "dishes_with_days": [
+          "Dairy-Free Tzatziki Sauce (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Dairy-Free Tzatziki Sauce"
+            ],
+            "qty_display": "0.75 cup"
+          }
+        },
+        "total_qty_display": "0.75 cup",
         "math_mode": "summed"
       },
       {
@@ -1822,16 +1642,16 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Sweet potato",
-        "norm": "potato",
+        "canonical_name": "Red",
+        "norm": "red",
         "occurrences": [
           {
-            "day": "Weekend",
-            "dish": "Moroccan Chicken w/ Root Vegs",
-            "qty_str": "1",
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1/2 cup",
             "qty_parsed": [
-              1.0,
-              ""
+              0.5,
+              "cup"
             ]
           }
         ],
@@ -1845,82 +1665,15 @@
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Weekend"
+          "Tuesday"
         ],
         "dishes": [
-          "Moroccan Chicken w/ Root Vegs"
-        ],
-        "dishes_with_days": [
-          "Moroccan Chicken w/ Root Vegs (Sat)"
-        ],
-        "trip": "Wed",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Moroccan Chicken w/ Root Vegs"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Red",
-        "norm": "red",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Chicken Tikka Marsala",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Weekend"
-        ],
-        "dishes": [
-          "Build-Your-Own Pizza Night",
           "Chicken Tikka Marsala"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
           "Chicken Tikka Marsala (Tue)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Mon",
         "icon": "❓",
         "per_trip": {
           "Mon": {
@@ -1934,17 +1687,13 @@
             "qty_display": "0.5 cup"
           },
           "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
-        "total_qty_display": "1.5 cup",
+        "total_qty_display": "0.5 cup",
         "math_mode": "summed"
       },
       {
@@ -2003,6 +1752,61 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Dry red lentils",
+        "norm": "red lentil",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Red Lentil Soup",
+            "qty_str": "1 cup",
+            "qty_parsed": [
+              1.0,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Red Lentil Soup"
+        ],
+        "dishes_with_days": [
+          "Red Lentil Soup (Sat)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Red Lentil Soup"
+            ],
+            "qty_display": "1 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 cup",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Red onion",
         "norm": "red onion",
         "occurrences": [
@@ -2014,15 +1818,6 @@
               0.3333333333333333,
               "cup"
             ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Moroccan Chicken w/ Root Vegs",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
           }
         ],
         "stores": [
@@ -2033,20 +1828,17 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday",
-          "Weekend"
+          "Monday"
         ],
         "dishes": [
-          "Apple Salad",
-          "Moroccan Chicken w/ Root Vegs"
+          "Apple Salad"
         ],
         "dishes_with_days": [
-          "Apple Salad (Mon)",
-          "Moroccan Chicken w/ Root Vegs (Sat)"
+          "Apple Salad (Mon)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
@@ -2060,18 +1852,69 @@
             "qty_display": "0.33 cup"
           },
           "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.33 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Crushed red pepper flakes",
+        "norm": "red pepper flake",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Instant Pot Greek Chicken Bowls",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Instant Pot Greek Chicken Bowls"
+        ],
+        "dishes_with_days": [
+          "Instant Pot Greek Chicken Bowls (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
             "uses": 1,
             "days": [
               "Weekend"
             ],
             "dishes": [
-              "Moroccan Chicken w/ Root Vegs"
+              "Instant Pot Greek Chicken Bowls"
             ],
             "qty_display": "1"
           }
         },
-        "total_qty_display": "1.33 cup",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Dried shiitake mushrooms",
@@ -2129,61 +1972,6 @@
         "math_mode": "single"
       },
       {
-        "canonical_name": "Sunflower seeds",
-        "norm": "sunflower seed",
-        "occurrences": [
-          {
-            "day": "Weekend",
-            "dish": "Moroccan Quinoa",
-            "qty_str": "40 g",
-            "qty_parsed": [
-              40.0,
-              "g"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Weekend"
-        ],
-        "dishes": [
-          "Moroccan Quinoa"
-        ],
-        "dishes_with_days": [
-          "Moroccan Quinoa (Sat)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Moroccan Quinoa"
-            ],
-            "qty_display": "40 g"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "40 g",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Crushed tomatoes",
         "norm": "tomato",
         "occurrences": [
@@ -2195,15 +1983,6 @@
               1.0,
               "can"
             ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
           }
         ],
         "stores": [
@@ -2214,20 +1993,17 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Tuesday",
-          "Weekend"
+          "Tuesday"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
           "Chicken Tikka Marsala"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
           "Chicken Tikka Marsala (Tue)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
@@ -2241,30 +2017,26 @@
             "qty_display": "1 can"
           },
           "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": "2"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
-        "total_qty_display": "3 can",
+        "total_qty_display": "1 can",
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Crushed tomato sauce",
-        "norm": "tomato sauce",
+        "canonical_name": "Tomato paste",
+        "norm": "tomato paste",
         "occurrences": [
           {
             "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
-            "qty_str": null,
+            "dish": "Red Lentil Soup",
+            "qty_str": "1/4 cup",
             "qty_parsed": [
-              null,
-              null
+              0.25,
+              "cup"
             ]
           }
         ],
@@ -2281,10 +2053,10 @@
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night"
+          "Red Lentil Soup"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
+          "Red Lentil Soup (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -2301,13 +2073,13 @@
               "Weekend"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night"
+              "Red Lentil Soup"
             ],
-            "qty_display": "1"
+            "qty_display": "0.25 cup"
           }
         },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
+        "total_qty_display": "0.25 cup",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "White cauliflower",
@@ -2406,7 +2178,7 @@
           },
           {
             "day": "Weekend",
-            "dish": "Build-Your-Own Pizza Night",
+            "dish": "Red Lentil Soup",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -2431,17 +2203,17 @@
         ],
         "dishes": [
           "Beef and Broccoli Stir-Fry",
-          "Build-Your-Own Pizza Night",
           "Chicken Tikka Marsala",
           "Garlic Turmeric Rice",
-          "Pot Roast"
+          "Pot Roast",
+          "Red Lentil Soup"
         ],
         "dishes_with_days": [
           "Beef and Broccoli Stir-Fry (Wed)",
-          "Build-Your-Own Pizza Night (Sat)",
           "Chicken Tikka Marsala (Tue)",
           "Garlic Turmeric Rice (Tue)",
-          "Pot Roast (Mon)"
+          "Pot Roast (Mon)",
+          "Red Lentil Soup (Sat)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
@@ -2467,7 +2239,7 @@
               "Weekend"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night"
+              "Red Lentil Soup"
             ],
             "qty_display": "1"
           }
@@ -2599,15 +2371,6 @@
               1.0,
               ""
             ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Cucumber - Smashed",
-            "qty_str": "1.5",
-            "qty_parsed": [
-              1.5,
-              ""
-            ]
           }
         ],
         "stores": [
@@ -2618,18 +2381,15 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Thursday",
-          "Weekend"
+          "Thursday"
         ],
         "dishes": [
-          "Carrot & Mushrooms",
-          "Cucumber - Smashed"
+          "Carrot & Mushrooms"
         ],
         "dishes_with_days": [
-          "Carrot & Mushrooms (Thu)",
-          "Cucumber - Smashed (Sat)"
+          "Carrot & Mushrooms (Thu)"
         ],
         "trip": "Wed",
         "icon": "❓",
@@ -2641,20 +2401,18 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Thursday",
-              "Weekend"
+              "Thursday"
             ],
             "dishes": [
-              "Carrot & Mushrooms",
-              "Cucumber - Smashed"
+              "Carrot & Mushrooms"
             ],
-            "qty_display": "3"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "3",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "single"
       },
       {
         "canonical_name": "King Mushrooms",
@@ -3145,20 +2903,11 @@
         },
         {
           "day": "Weekend",
-          "dish": "Moroccan Chicken w/ Root Vegs",
-          "qty_str": "3",
+          "dish": "Red Lentil Soup",
+          "qty_str": "2",
           "qty_parsed": [
-            3.0,
+            2.0,
             ""
-          ]
-        },
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Quinoa",
-          "qty_str": "200 g",
-          "qty_parsed": [
-            200.0,
-            "g"
           ]
         }
       ],
@@ -3171,7 +2920,7 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 6,
+      "use_count": 5,
       "days": [
         "Monday",
         "Tuesday",
@@ -3182,17 +2931,15 @@
         "Apple Salad",
         "Carrot & Mushrooms",
         "Chicken Tikka Marsala",
-        "Moroccan Chicken w/ Root Vegs",
-        "Moroccan Quinoa",
-        "Pot Roast"
+        "Pot Roast",
+        "Red Lentil Soup"
       ],
       "dishes_with_days": [
         "Apple Salad (Mon)",
         "Carrot & Mushrooms (Thu)",
         "Chicken Tikka Marsala (Tue)",
-        "Moroccan Chicken w/ Root Vegs (Sat)",
-        "Moroccan Quinoa (Sat)",
-        "Pot Roast (Mon)"
+        "Pot Roast (Mon)",
+        "Red Lentil Soup (Sat)"
       ],
       "trip": "Mon/Wed",
       "icon": "🥬",
@@ -3211,132 +2958,19 @@
           "qty_display": "2 lb"
         },
         "Wed": {
-          "uses": 3,
+          "uses": 2,
           "days": [
             "Thursday",
             "Weekend"
           ],
           "dishes": [
             "Carrot & Mushrooms",
-            "Moroccan Chicken w/ Root Vegs",
-            "Moroccan Quinoa"
+            "Red Lentil Soup"
           ],
-          "qty_display": "209 g"
+          "qty_display": "8"
         }
       },
-      "total_qty_display": "~39 oz",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Chickpeas",
-      "norm": "chickpea",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Chicken w/ Root Vegs",
-          "qty_str": "1 can",
-          "qty_parsed": [
-            1.0,
-            "can"
-          ]
-        }
-      ],
-      "stores": [
-        "Costco",
-        "Whole Foods"
-      ],
-      "category": "Pantry-Staple",
-      "type": "shelf",
-      "matched_routing": true,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Chicken w/ Root Vegs"
-      ],
-      "dishes_with_days": [
-        "Moroccan Chicken w/ Root Vegs (Sat)"
-      ],
-      "trip": "Mon",
-      "icon": "🥫",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Chicken w/ Root Vegs"
-          ],
-          "qty_display": "1 can"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1 can",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Coconut oil",
-      "norm": "coconut oil",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Pumpkin Bread",
-          "qty_str": "1/4 cup",
-          "qty_parsed": [
-            0.25,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [
-        "Costco",
-        "Whole Foods"
-      ],
-      "category": "Pantry-Staple",
-      "type": "shelf",
-      "matched_routing": true,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Pumpkin Bread"
-      ],
-      "dishes_with_days": [
-        "Pumpkin Bread (Sat)"
-      ],
-      "trip": "Mon",
-      "icon": "🥫",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Pumpkin Bread"
-          ],
-          "qty_display": "0.25 cup"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "0.25 cup",
+      "total_qty_display": "2 lb",
       "math_mode": "summed"
     },
     {
@@ -3393,6 +3027,62 @@
         }
       },
       "total_qty_display": "0.25 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Pitted Kalamata olives",
+      "norm": "pitted kalamata olive",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Instant Pot Greek Chicken Bowls",
+          "qty_str": "1/2 cup",
+          "qty_parsed": [
+            0.5,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Pantry-Staple",
+      "type": "shelf",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Instant Pot Greek Chicken Bowls"
+      ],
+      "dishes_with_days": [
+        "Instant Pot Greek Chicken Bowls (Sat)"
+      ],
+      "trip": "Mon",
+      "icon": "🥫",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Instant Pot Greek Chicken Bowls"
+          ],
+          "qty_display": "0.5 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "0.5 cup",
       "math_mode": "summed"
     }
   ],
@@ -3518,11 +3208,11 @@
         },
         {
           "day": "Weekend",
-          "dish": "Moroccan Chicken w/ Root Vegs",
-          "qty_str": "1.5 lbs",
+          "dish": "Instant Pot Greek Chicken Bowls",
+          "qty_str": "1 1/2 pounds",
           "qty_parsed": [
             1.5,
-            "lbs"
+            "pounds"
           ]
         }
       ],
@@ -3539,11 +3229,11 @@
       ],
       "dishes": [
         "Chicken Tikka Marsala",
-        "Moroccan Chicken w/ Root Vegs"
+        "Instant Pot Greek Chicken Bowls"
       ],
       "dishes_with_days": [
         "Chicken Tikka Marsala (Tue)",
-        "Moroccan Chicken w/ Root Vegs (Sat)"
+        "Instant Pot Greek Chicken Bowls (Sat)"
       ],
       "trip": "Mon/Wed",
       "icon": "❓",
@@ -3564,13 +3254,66 @@
             "Weekend"
           ],
           "dishes": [
-            "Moroccan Chicken w/ Root Vegs"
+            "Instant Pot Greek Chicken Bowls"
           ],
-          "qty_display": "1.5 lbs"
+          "qty_display": "1.5 pounds"
         }
       },
-      "total_qty_display": "3 lbs",
+      "total_qty_display": "3 lb",
       "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Celery stalks",
+      "norm": "celery stalk",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Red Lentil Soup",
+          "qty_str": "2",
+          "qty_parsed": [
+            2.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Red Lentil Soup"
+      ],
+      "dishes_with_days": [
+        "Red Lentil Soup (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Red Lentil Soup"
+          ],
+          "qty_display": "2"
+        }
+      },
+      "total_qty_display": "2",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Chili oil",
@@ -3626,6 +3369,59 @@
       "math_mode": "single"
     },
     {
+      "canonical_name": "Couscous",
+      "norm": "couscous",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Instant Pot Greek Chicken Bowls",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Instant Pot Greek Chicken Bowls"
+      ],
+      "dishes_with_days": [
+        "Instant Pot Greek Chicken Bowls (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Instant Pot Greek Chicken Bowls"
+          ],
+          "qty_display": "1 cup"
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Crisp greens",
       "norm": "crisp green",
       "occurrences": [
@@ -3679,16 +3475,16 @@
       "math_mode": "summed"
     },
     {
-      "canonical_name": "Dairy-free mozzarella shreds - Daiya",
-      "norm": "dairy-free mozzarella shred - daiya",
+      "canonical_name": "Crumbled feta",
+      "norm": "crumbled feta",
       "occurrences": [
         {
           "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
+          "dish": "Instant Pot Greek Chicken Bowls",
+          "qty_str": "1/2 cup",
           "qty_parsed": [
-            null,
-            null
+            0.5,
+            "cup"
           ]
         }
       ],
@@ -3703,10 +3499,10 @@
         "Weekend"
       ],
       "dishes": [
-        "Build-Your-Own Pizza Night"
+        "Instant Pot Greek Chicken Bowls"
       ],
       "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
+        "Instant Pot Greek Chicken Bowls (Sat)"
       ],
       "trip": "Wed",
       "icon": "❓",
@@ -3723,118 +3519,12 @@
             "Weekend"
           ],
           "dishes": [
-            "Build-Your-Own Pizza Night"
+            "Instant Pot Greek Chicken Bowls"
           ],
-          "qty_display": ""
+          "qty_display": "0.5 cup"
         }
       },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Dairy-free pesto",
-      "norm": "dairy-free pesto",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Dates",
-      "norm": "date",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Quinoa",
-          "qty_str": "60 g",
-          "qty_parsed": [
-            60.0,
-            "g"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Quinoa"
-      ],
-      "dishes_with_days": [
-        "Moroccan Quinoa (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Quinoa"
-          ],
-          "qty_display": "60 g"
-        }
-      },
-      "total_qty_display": "60 g",
+      "total_qty_display": "0.5 cup",
       "math_mode": "summed"
     },
     {
@@ -3944,6 +3634,59 @@
       "math_mode": "summed"
     },
     {
+      "canonical_name": "Freshly squeezed lemon juice",
+      "norm": "freshly squeezed lemon juice",
+      "occurrences": [
+        {
+          "day": "Weekend",
+          "dish": "Red Lentil Soup",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Weekend"
+      ],
+      "dishes": [
+        "Red Lentil Soup"
+      ],
+      "dishes_with_days": [
+        "Red Lentil Soup (Sat)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Weekend"
+          ],
+          "dishes": [
+            "Red Lentil Soup"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
       "canonical_name": "Garlic and Herb",
       "norm": "garlic and herb",
       "occurrences": [
@@ -3995,59 +3738,6 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
-    },
-    {
-      "canonical_name": "Handful fresh parsley",
-      "norm": "handful parsley",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Quinoa",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Quinoa"
-      ],
-      "dishes_with_days": [
-        "Moroccan Quinoa (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Quinoa"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
     },
     {
       "canonical_name": "Ingredients:",
@@ -4103,12 +3793,12 @@
       "math_mode": "none"
     },
     {
-      "canonical_name": "Juice of 1 large lemon",
+      "canonical_name": "Juice of 1 lemon",
       "norm": "juice of 1 lemon",
       "occurrences": [
         {
           "day": "Weekend",
-          "dish": "Moroccan Quinoa",
+          "dish": "Instant Pot Greek Chicken Bowls",
           "qty_str": null,
           "qty_parsed": [
             null,
@@ -4127,10 +3817,10 @@
         "Weekend"
       ],
       "dishes": [
-        "Moroccan Quinoa"
+        "Instant Pot Greek Chicken Bowls"
       ],
       "dishes_with_days": [
-        "Moroccan Quinoa (Sat)"
+        "Instant Pot Greek Chicken Bowls (Sat)"
       ],
       "trip": "Wed",
       "icon": "🥬",
@@ -4147,278 +3837,13 @@
             "Weekend"
           ],
           "dishes": [
-            "Moroccan Quinoa"
+            "Instant Pot Greek Chicken Bowls"
           ],
           "qty_display": "1"
         }
       },
       "total_qty_display": "1",
       "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Low-sodium chicken broth",
-      "norm": "low-sodium chicken broth",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Chicken w/ Root Vegs",
-          "qty_str": "2 cups",
-          "qty_parsed": [
-            2.0,
-            "cups"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Chicken w/ Root Vegs"
-      ],
-      "dishes_with_days": [
-        "Moroccan Chicken w/ Root Vegs (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Chicken w/ Root Vegs"
-          ],
-          "qty_display": "2 cups"
-        }
-      },
-      "total_qty_display": "2 cups",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Mirin",
-      "norm": "mirin",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Cucumber - Smashed",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Cucumber - Smashed"
-      ],
-      "dishes_with_days": [
-        "Cucumber - Smashed (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Cucumber - Smashed"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Mozzarella",
-      "norm": "mozzarella",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Olives",
-      "norm": "olive",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": "1/2 cup",
-          "qty_parsed": [
-            0.5,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": "0.5 cup"
-        }
-      },
-      "total_qty_display": "0.5 cup",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Parchment squares",
-      "norm": "parchment square",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
     },
     {
       "canonical_name": "Persian cucumber",
@@ -4524,59 +3949,6 @@
         }
       },
       "total_qty_display": "2 tsp",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Pumpkin puree",
-      "norm": "pumpkin puree",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Pumpkin Bread",
-          "qty_str": "1 cup",
-          "qty_parsed": [
-            1.0,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Pumpkin Bread"
-      ],
-      "dishes_with_days": [
-        "Pumpkin Bread (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Pumpkin Bread"
-          ],
-          "qty_display": "1 cup"
-        }
-      },
-      "total_qty_display": "1 cup",
       "math_mode": "summed"
     },
     {
@@ -4806,59 +4178,6 @@
       "math_mode": "summed"
     },
     {
-      "canonical_name": "SHORTCUT:",
-      "norm": "shortcut",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
       "canonical_name": "Sichuan peppercorns",
       "norm": "sichuan peppercorn",
       "occurrences": [
@@ -4910,59 +4229,6 @@
       },
       "total_qty_display": "2 tsp",
       "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Turkey pepperoni",
-      "norm": "turkey pepperoni",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Build-Your-Own Pizza Night",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Build-Your-Own Pizza Night"
-      ],
-      "dishes_with_days": [
-        "Build-Your-Own Pizza Night (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Build-Your-Own Pizza Night"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
     }
   ],
   "skipped_staples": [
@@ -5346,276 +4612,87 @@
     },
     {
       "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "Nutritional yeast",
-      "quantity": null,
-      "original": "Nutritional yeast, for no-cheese pies"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "Olive oil",
-      "quantity": null,
-      "original": "Olive oil, for brushing the rim"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "warm water",
-      "quantity": "2 1/4 cups",
-      "original": "2 1/4 cups warm water (about 110F)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "Tbs active dry yeast",
-      "quantity": "2",
-      "original": "2 Tbs active dry yeast (about 3 packets)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "Tbs organic cane sugar",
-      "quantity": "2",
-      "original": "2 Tbs organic cane sugar"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
+      "dish": "Dairy-Free Tzatziki Sauce",
       "name": "Tbs olive oil",
-      "quantity": "6",
-      "original": "6 Tbs olive oil"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "Tbs salt",
       "quantity": "1",
-      "original": "1 Tbs salt"
+      "original": "1 Tbs olive oil"
     },
     {
       "day": "Weekend",
-      "dish": "Build-Your-Own Pizza Night",
-      "name": "all-purpose flour",
-      "quantity": "6 cups",
-      "original": "6 cups all-purpose flour, plus more as needed"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Chicken w/ Root Vegs",
-      "name": "Tbs olive oil",
-      "quantity": "2",
-      "original": "2 Tbs olive oil (seed-oil-free fat)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Chicken w/ Root Vegs",
-      "name": "ground cumin",
-      "quantity": "1 tsp",
-      "original": "1 tsp ground cumin"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Chicken w/ Root Vegs",
-      "name": "ground turmeric",
-      "quantity": "1 tsp",
-      "original": "1 tsp ground turmeric"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Chicken w/ Root Vegs",
-      "name": "ground cinnamon",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp ground cinnamon"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Chicken w/ Root Vegs",
-      "name": "smoked paprika",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp smoked paprika"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Chicken w/ Root Vegs",
-      "name": "Salt and black pepper",
-      "quantity": null,
-      "original": "Salt and black pepper, to taste"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "(2 cups) water",
-      "quantity": "500 ml",
-      "original": "500 ml (2 cups) water"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "sea salt",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp sea salt"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "(1/4 cup) extra-virgin olive oil",
-      "quantity": "60 ml",
-      "original": "60 ml (1/4 cup) extra-virgin olive oil"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "fresh ginger",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp fresh ginger, finely grated"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "maple syrup",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp maple syrup (or honey if not vegan)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "sea salt",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp sea salt (adjust to taste)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "ground cinnamon",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp ground cinnamon"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "black pepper",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp black pepper"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Moroccan Quinoa",
-      "name": "cayenne pepper",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp cayenne pepper (adjust for spice preference)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Banana Bread",
-      "name": "unsalted butter",
-      "quantity": "1/2 cup",
-      "original": "1/2 cup unsalted butter, at room temperature"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Banana Bread",
-      "name": "cane sugar",
-      "quantity": "1 cup",
-      "original": "1 cup cane sugar, blended until fine"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Banana Bread",
-      "name": "all purpose flour",
-      "quantity": "2 cups",
-      "original": "2 cups all purpose flour"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Banana Bread",
-      "name": "baking soda",
-      "quantity": "1 tsp",
-      "original": "1 tsp baking soda"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Banana Bread",
+      "dish": "Dairy-Free Tzatziki Sauce",
       "name": "salt",
       "quantity": "1/2 tsp",
       "original": "1/2 tsp salt"
     },
     {
       "day": "Weekend",
-      "dish": "Banana Bread",
-      "name": "vanilla extract",
-      "quantity": "1 tsp",
-      "original": "1 tsp vanilla extract"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "buckwheat flour",
-      "quantity": "1 cup",
-      "original": "1 cup buckwheat flour"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "Tbs ground cinnamon",
-      "quantity": "1",
-      "original": "1 Tbs ground cinnamon"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "ground ginger",
-      "quantity": "1/4 tsp",
-      "original": "1/4 tsp ground ginger"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "Tbs pure maple syrup",
-      "quantity": "6",
-      "original": "6 Tbs pure maple syrup"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "vanilla",
-      "quantity": "1 tsp",
-      "original": "1 tsp vanilla"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "water",
-      "quantity": "1/4 cup",
-      "original": "1/4 cup water"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "baking soda",
-      "quantity": "1 tsp",
-      "original": "1 tsp baking soda"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Pumpkin Bread",
-      "name": "Tbs apple cider vinegar",
-      "quantity": "1",
-      "original": "1 Tbs apple cider vinegar"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Cucumber - Smashed",
-      "name": "Soy sauce",
-      "quantity": "1/4 C",
-      "original": "1/4 C Soy sauce"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Cucumber - Smashed",
-      "name": ".5 Tbs sugar",
+      "dish": "Dairy-Free Tzatziki Sauce",
+      "name": "Pinch black pepper",
       "quantity": null,
-      "original": ".5 Tbs sugar"
+      "original": "Pinch black pepper"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Instant Pot Greek Chicken Bowls",
+      "name": "dried oregano",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp dried oregano"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Instant Pot Greek Chicken Bowls",
+      "name": "Spanish paprika",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp Spanish paprika"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Instant Pot Greek Chicken Bowls",
+      "name": "plus 2 Tbs olive oil",
+      "quantity": "1/4 cup",
+      "original": "1/4 cup plus 2 Tbs olive oil"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Instant Pot Greek Chicken Bowls",
+      "name": "Kosher salt and freshly ground black pepper",
+      "quantity": null,
+      "original": "Kosher salt and freshly ground black pepper"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Red Lentil Soup",
+      "name": "Tbs olive oil",
+      "quantity": "1",
+      "original": "1 Tbs olive oil"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Red Lentil Soup",
+      "name": "Tbs ground cumin",
+      "quantity": "1",
+      "original": "1 Tbs ground cumin"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Red Lentil Soup",
+      "name": "pinch cayenne pepper",
+      "quantity": null,
+      "original": "pinch cayenne pepper (optional; omit if you don't like spice)"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Red Lentil Soup",
+      "name": "water",
+      "quantity": "5 cups",
+      "original": "5 cups water"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Red Lentil Soup",
+      "name": "to 2 tsp fine sea salt",
+      "quantity": "1 1/2",
+      "original": "1 1/2 to 2 tsp fine sea salt (I use Real Salt brand)"
     }
   ],
   "unresolved_variants": [],
