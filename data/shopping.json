@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:00:26.116903",
+  "generated_at": "2026-11-14T09:02:43.497868",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,12 +9,12 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 84,
-    "unique_after_dedup": 37,
-    "skipped_staples": 39,
-    "routing_matched": 23,
-    "routing_unmatched": 14,
-    "multi_store": 3,
+    "raw_ingredient_count": 212,
+    "unique_after_dedup": 83,
+    "skipped_staples": 93,
+    "routing_matched": 54,
+    "routing_unmatched": 29,
+    "multi_store": 6,
     "unresolved_variants": 0,
     "user_extras": 0
   },
@@ -131,6 +131,61 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Beef",
+        "norm": "beef",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Beef and Broccoli Stir-Fry",
+            "qty_str": "1 lb",
+            "qty_parsed": [
+              1.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Beef",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Beef and Broccoli Stir-Fry"
+        ],
+        "dishes_with_days": [
+          "Beef and Broccoli Stir-Fry (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Beef and Broccoli Stir-Fry"
+            ],
+            "qty_display": "1 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Chicken",
         "norm": "chicken",
         "occurrences": [
@@ -183,6 +238,61 @@
           }
         },
         "total_qty_display": "2 cups",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Chuck Roast",
+        "norm": "chuck roast",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Pot Roast",
+            "qty_str": "3-5 lb",
+            "qty_parsed": [
+              4.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Unknown",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Pot Roast"
+        ],
+        "dishes_with_days": [
+          "Pot Roast (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Pot Roast"
+            ],
+            "qty_display": "4 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4 lb",
         "math_mode": "summed"
       },
       {
@@ -294,6 +404,116 @@
         },
         "total_qty_display": "180 g",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Salmon",
+        "norm": "salmon",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Miso Salmon",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Seafood",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Miso Salmon"
+        ],
+        "dishes_with_days": [
+          "Miso Salmon (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Miso Salmon"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Teriyaki sauce",
+        "norm": "teriyaki sauce",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Beef and Broccoli Stir-Fry",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Beef and Broccoli Stir-Fry"
+        ],
+        "dishes_with_days": [
+          "Beef and Broccoli Stir-Fry (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Beef and Broccoli Stir-Fry"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
       }
     ],
     "Whole Foods": [
@@ -408,9 +628,128 @@
         "math_mode": "none"
       },
       {
+        "canonical_name": "Broccolini",
+        "norm": "broccolini",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Garlic Turmeric Rice",
+            "qty_str": "80 g",
+            "qty_parsed": [
+              80.0,
+              "g"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Garlic Turmeric Rice"
+        ],
+        "dishes_with_days": [
+          "Garlic Turmeric Rice (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Garlic Turmeric Rice"
+            ],
+            "qty_display": "80 g"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "80 g",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Cauliflower florets",
+        "norm": "cauliflower floret",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chicken Tikka Marsala"
+        ],
+        "dishes_with_days": [
+          "Chicken Tikka Marsala (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "2 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 cups",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Cilantro",
         "norm": "cilantro",
         "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1/4 cup",
+            "qty_parsed": [
+              0.25,
+              "cup"
+            ]
+          },
           {
             "day": "Weekend",
             "dish": "Moroccan Chicken w/ Root Vegs",
@@ -429,24 +768,31 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Tuesday",
           "Weekend"
         ],
         "dishes": [
+          "Chicken Tikka Marsala",
           "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
+          "Chicken Tikka Marsala (Tue)",
           "Moroccan Chicken w/ Root Vegs (Sat)"
         ],
-        "trip": "Wed",
+        "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "0.25 cup"
           },
           "Wed": {
             "uses": 1,
@@ -459,7 +805,172 @@
             "qty_display": "0.25 cup"
           }
         },
-        "total_qty_display": "0.25 cup",
+        "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Coconut milk",
+        "norm": "coconut milk",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chicken Tikka Marsala"
+        ],
+        "dishes_with_days": [
+          "Chicken Tikka Marsala (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "1 can"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 can",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Coconut yogurt",
+        "norm": "coconut yogurt",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1 cup",
+            "qty_parsed": [
+              1.0,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chicken Tikka Marsala"
+        ],
+        "dishes_with_days": [
+          "Chicken Tikka Marsala (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "1 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Dijon mustard",
+        "norm": "dijon mustard",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Apple Salad",
+            "qty_str": "1 tsp",
+            "qty_parsed": [
+              1.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Apple Salad"
+        ],
+        "dishes_with_days": [
+          "Apple Salad (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Apple Salad"
+            ],
+            "qty_display": "1 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 tsp",
         "math_mode": "summed"
       },
       {
@@ -518,9 +1029,218 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Garlic cloves",
+        "canonical_name": "Firm tofu",
+        "norm": "firm tofu",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mapo Tofu",
+            "qty_str": "1 lb",
+            "qty_parsed": [
+              1.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Snack",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mapo Tofu"
+        ],
+        "dishes_with_days": [
+          "Mapo Tofu (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mapo Tofu"
+            ],
+            "qty_display": "1 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Garam masala",
+        "norm": "garam masala",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1/2 tsp",
+            "qty_parsed": [
+              0.5,
+              "tsp"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1 tsp",
+            "qty_parsed": [
+              1.0,
+              "tsp"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 2,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chicken Tikka Marsala"
+        ],
+        "dishes_with_days": [
+          "Chicken Tikka Marsala (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 2,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "1.5 tsp"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1.5 tsp",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Garlic",
         "norm": "garlic",
         "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Pot Roast",
+            "qty_str": "2 cloves",
+            "qty_parsed": [
+              2.0,
+              "cloves"
+            ]
+          },
+          {
+            "day": "Monday",
+            "dish": "Apple Salad",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Garlic Turmeric Rice",
+            "qty_str": "6-7 pieces",
+            "qty_parsed": [
+              6.5,
+              "pieces"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Beef and Broccoli Stir-Fry",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Mapo Tofu",
+            "qty_str": "2-3 cloves",
+            "qty_parsed": [
+              2.5,
+              "cloves"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Chinese Broccoli (Gai Lan)",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
           {
             "day": "Weekend",
             "dish": "Moroccan Chicken w/ Root Vegs",
@@ -555,21 +1275,140 @@
         "category": "Unknown",
         "type": "fresh",
         "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 13,
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Weekend"
+        ],
+        "dishes": [
+          "Apple Salad",
+          "Baby Bok Choy - Steamed with Oyster Sauce",
+          "Beef and Broccoli Stir-Fry",
+          "Carrot & Mushrooms",
+          "Chicken Tikka Marsala",
+          "Chinese Broccoli (Gai Lan)",
+          "Cucumber - Smashed",
+          "Garlic Turmeric Rice",
+          "Mapo Tofu",
+          "Moroccan Chicken w/ Root Vegs",
+          "Moroccan Quinoa",
+          "Pot Roast"
+        ],
+        "dishes_with_days": [
+          "Apple Salad (Mon)",
+          "Baby Bok Choy - Steamed with Oyster Sauce (Fri)",
+          "Beef and Broccoli Stir-Fry (Wed)",
+          "Carrot & Mushrooms (Thu)",
+          "Chicken Tikka Marsala (Tue)",
+          "Chinese Broccoli (Gai Lan) (Thu)",
+          "Cucumber - Smashed (Sat)",
+          "Garlic Turmeric Rice (Tue)",
+          "Mapo Tofu (Thu)",
+          "Moroccan Chicken w/ Root Vegs (Sat)",
+          "Moroccan Quinoa (Sat)",
+          "Pot Roast (Mon)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 6,
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Apple Salad",
+              "Beef and Broccoli Stir-Fry",
+              "Chicken Tikka Marsala",
+              "Garlic Turmeric Rice",
+              "Pot Roast"
+            ],
+            "qty_display": "2 cloves + 1 + 3 + 3 + 6-7 pieces"
+          },
+          "Wed": {
+            "uses": 7,
+            "days": [
+              "Thursday",
+              "Friday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Baby Bok Choy - Steamed with Oyster Sauce",
+              "Carrot & Mushrooms",
+              "Chinese Broccoli (Gai Lan)",
+              "Cucumber - Smashed",
+              "Mapo Tofu",
+              "Moroccan Chicken w/ Root Vegs",
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "2-3 cloves + 1 + 1 + 3 + 1 clove + 2-3"
+          }
+        },
+        "total_qty_display": "2 cloves + 1 + 3 + 3 + 6-7 pieces + 2-3 cloves + 1 + 1 + 3 + 1 clove + 2-3",
+        "math_mode": "mixed"
+      },
+      {
+        "canonical_name": "Green onions",
+        "norm": "green onion",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mapo Tofu",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
+          },
+          {
+            "day": "Thursday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Friday",
+            "dish": "Miso Salmon",
+            "qty_str": "2-4",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
         "use_count": 3,
         "days": [
-          "Weekend"
+          "Thursday",
+          "Friday"
         ],
         "dishes": [
-          "Cucumber - Smashed",
-          "Moroccan Chicken w/ Root Vegs",
-          "Moroccan Quinoa"
+          "Carrot & Mushrooms",
+          "Mapo Tofu",
+          "Miso Salmon"
         ],
         "dishes_with_days": [
-          "Cucumber - Smashed (Sat)",
-          "Moroccan Chicken w/ Root Vegs (Sat)",
-          "Moroccan Quinoa (Sat)"
+          "Carrot & Mushrooms (Thu)",
+          "Mapo Tofu (Thu)",
+          "Miso Salmon (Fri)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -583,18 +1422,129 @@
           "Wed": {
             "uses": 3,
             "days": [
-              "Weekend"
+              "Thursday",
+              "Friday"
             ],
             "dishes": [
-              "Cucumber - Smashed",
-              "Moroccan Chicken w/ Root Vegs",
-              "Moroccan Quinoa"
+              "Carrot & Mushrooms",
+              "Mapo Tofu",
+              "Miso Salmon"
             ],
-            "qty_display": "6.5 clove"
+            "qty_display": "7"
           }
         },
-        "total_qty_display": "6.5 clove",
-        "math_mode": "summed"
+        "total_qty_display": "7",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Lemon juice",
+        "norm": "lemon juice",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Chicken Tikka Marsala"
+        ],
+        "dishes_with_days": [
+          "Chicken Tikka Marsala (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Miso sauce",
+        "norm": "miso sauce",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Miso Salmon",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Miso Salmon"
+        ],
+        "dishes_with_days": [
+          "Miso Salmon (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Miso Salmon"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Mushrooms",
@@ -707,6 +1657,171 @@
         "math_mode": "single"
       },
       {
+        "canonical_name": "Toasted pecans",
+        "norm": "pecan",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Apple Salad",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Apple Salad"
+        ],
+        "dishes_with_days": [
+          "Apple Salad (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Apple Salad"
+            ],
+            "qty_display": "0.5 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Pomegranate arils",
+        "norm": "pomegranate aril",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Apple Salad",
+            "qty_str": "3/4 cup",
+            "qty_parsed": [
+              0.75,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Apple Salad"
+        ],
+        "dishes_with_days": [
+          "Apple Salad (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Apple Salad"
+            ],
+            "qty_display": "0.75 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "0.75 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Pork",
+        "norm": "pork",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mapo Tofu",
+            "qty_str": "8-10 oz",
+            "qty_parsed": [
+              9.0,
+              "oz"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Meat-Pork",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mapo Tofu"
+        ],
+        "dishes_with_days": [
+          "Mapo Tofu (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mapo Tofu"
+            ],
+            "qty_display": "9 oz"
+          }
+        },
+        "total_qty_display": "9 oz",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Sweet potato",
         "norm": "potato",
         "occurrences": [
@@ -766,6 +1881,15 @@
         "norm": "red",
         "occurrences": [
           {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1/2 cup",
+            "qty_parsed": [
+              0.5,
+              "cup"
+            ]
+          },
+          {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
             "qty_str": "1",
@@ -783,24 +1907,31 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Tuesday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night"
+          "Build-Your-Own Pizza Night",
+          "Chicken Tikka Marsala"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
+          "Build-Your-Own Pizza Night (Sat)",
+          "Chicken Tikka Marsala (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon/Wed",
         "icon": "❓",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "0.5 cup"
           },
           "Wed": {
             "uses": 1,
@@ -813,13 +1944,77 @@
             "qty_display": "1"
           }
         },
+        "total_qty_display": "1.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Red bell pepper",
+        "norm": "red bell pepper",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Garlic Turmeric Rice",
+            "qty_str": "1/4",
+            "qty_parsed": [
+              0.25,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Garlic Turmeric Rice"
+        ],
+        "dishes_with_days": [
+          "Garlic Turmeric Rice (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Garlic Turmeric Rice"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
         "total_qty_display": "1",
-        "math_mode": "single"
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Red onion",
         "norm": "red onion",
         "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Apple Salad",
+            "qty_str": "1/3 cup",
+            "qty_parsed": [
+              0.3333333333333333,
+              "cup"
+            ]
+          },
           {
             "day": "Weekend",
             "dish": "Moroccan Chicken w/ Root Vegs",
@@ -838,15 +2033,77 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Monday",
           "Weekend"
         ],
         "dishes": [
+          "Apple Salad",
           "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
+          "Apple Salad (Mon)",
           "Moroccan Chicken w/ Root Vegs (Sat)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Apple Salad"
+            ],
+            "qty_display": "0.33 cup"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Chicken w/ Root Vegs"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1.33 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Dried shiitake mushrooms",
+        "norm": "shiitake mushroom",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mapo Tofu",
+            "qty_str": "4",
+            "qty_parsed": [
+              4.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mapo Tofu"
+        ],
+        "dishes_with_days": [
+          "Mapo Tofu (Thu)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -860,16 +2117,16 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Weekend"
+              "Thursday"
             ],
             "dishes": [
-              "Moroccan Chicken w/ Root Vegs"
+              "Mapo Tofu"
             ],
-            "qty_display": "1"
+            "qty_display": "4"
           }
         },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
+        "total_qty_display": "4",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Sunflower seeds",
@@ -927,9 +2184,18 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Tomatoes",
+        "canonical_name": "Crushed tomatoes",
         "norm": "tomato",
         "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1 can",
+            "qty_parsed": [
+              1.0,
+              "can"
+            ]
+          },
           {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
@@ -948,24 +2214,31 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Tuesday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night"
+          "Build-Your-Own Pizza Night",
+          "Chicken Tikka Marsala"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
+          "Build-Your-Own Pizza Night (Sat)",
+          "Chicken Tikka Marsala (Tue)"
         ],
-        "trip": "Wed",
+        "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Chicken Tikka Marsala"
+            ],
+            "qty_display": "1 can"
           },
           "Wed": {
             "uses": 1,
@@ -978,8 +2251,8 @@
             "qty_display": "2"
           }
         },
-        "total_qty_display": "2",
-        "math_mode": "multiplied"
+        "total_qty_display": "3 can",
+        "math_mode": "summed"
       },
       {
         "canonical_name": "Crushed tomato sauce",
@@ -1037,9 +2310,100 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "White cauliflower",
+        "norm": "white cauliflower",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Cauliflower",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Cauliflower"
+        ],
+        "dishes_with_days": [
+          "Cauliflower (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Cauliflower"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
         "canonical_name": "Onion",
         "norm": "yellow onion",
         "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Pot Roast",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Chicken Tikka Marsala",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "dish": "Garlic Turmeric Rice",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "dish": "Beef and Broccoli Stir-Fry",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
           {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
@@ -1058,15 +2422,147 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 5,
         "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night"
+          "Beef and Broccoli Stir-Fry",
+          "Build-Your-Own Pizza Night",
+          "Chicken Tikka Marsala",
+          "Garlic Turmeric Rice",
+          "Pot Roast"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)"
+          "Beef and Broccoli Stir-Fry (Wed)",
+          "Build-Your-Own Pizza Night (Sat)",
+          "Chicken Tikka Marsala (Tue)",
+          "Garlic Turmeric Rice (Tue)",
+          "Pot Roast (Mon)"
+        ],
+        "trip": "Mon/Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 4,
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday"
+            ],
+            "dishes": [
+              "Beef and Broccoli Stir-Fry",
+              "Chicken Tikka Marsala",
+              "Garlic Turmeric Rice",
+              "Pot Roast"
+            ],
+            "qty_display": "4"
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Build-Your-Own Pizza Night"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "5",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Yukon Gold Potatoes",
+        "norm": "yukon gold potato",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Pot Roast",
+            "qty_str": "2 lb",
+            "qty_parsed": [
+              2.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Pot Roast"
+        ],
+        "dishes_with_days": [
+          "Pot Roast (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Pot Roast"
+            ],
+            "qty_display": "2 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 lb",
+        "math_mode": "summed"
+      }
+    ],
+    "888 Market / Pan Asia": [
+      {
+        "canonical_name": "Chinese broccoli",
+        "norm": "chinese broccoli",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Chinese Broccoli (Gai Lan)",
+            "qty_str": "10 oz",
+            "qty_parsed": [
+              10.0,
+              "oz"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Chinese Broccoli (Gai Lan)"
+        ],
+        "dishes_with_days": [
+          "Chinese Broccoli (Gai Lan) (Thu)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -1080,23 +2576,30 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Weekend"
+              "Thursday"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night"
+              "Chinese Broccoli (Gai Lan)"
             ],
-            "qty_display": "1"
+            "qty_display": "10 oz"
           }
         },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      }
-    ],
-    "888 Market / Pan Asia": [
+        "total_qty_display": "10 oz",
+        "math_mode": "summed"
+      },
       {
-        "canonical_name": "Chinese Vinegar",
+        "canonical_name": "Chinese vinegar",
         "norm": "chinese vinegar",
         "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          },
           {
             "day": "Weekend",
             "dish": "Cucumber - Smashed",
@@ -1115,15 +2618,240 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
+          "Thursday",
           "Weekend"
         ],
         "dishes": [
+          "Carrot & Mushrooms",
           "Cucumber - Smashed"
         ],
         "dishes_with_days": [
+          "Carrot & Mushrooms (Thu)",
           "Cucumber - Smashed (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 2,
+            "days": [
+              "Thursday",
+              "Weekend"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms",
+              "Cucumber - Smashed"
+            ],
+            "qty_display": "3"
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "King Mushrooms",
+        "norm": "king mushroom",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms"
+            ],
+            "qty_display": "2-3"
+          }
+        },
+        "total_qty_display": "2-3",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Pckg bok choy",
+        "norm": "pckg bok choy",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Leafy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Baby Bok Choy - Steamed with Oyster Sauce"
+        ],
+        "dishes_with_days": [
+          "Baby Bok Choy - Steamed with Oyster Sauce (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Baby Bok Choy - Steamed with Oyster Sauce"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Steamed rice",
+        "norm": "steamed rice",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Mapo Tofu",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Mapo Tofu"
+        ],
+        "dishes_with_days": [
+          "Mapo Tofu (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Mapo Tofu"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Tofu squares",
+        "norm": "tofu square",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Thu)"
         ],
         "trip": "Wed",
         "icon": "❓",
@@ -1137,24 +2865,284 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Weekend"
+              "Thursday"
             ],
             "dishes": [
-              "Cucumber - Smashed"
+              "Carrot & Mushrooms"
             ],
-            "qty_display": "1.5"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "1.5",
+        "total_qty_display": "2",
         "math_mode": "single"
+      },
+      {
+        "canonical_name": "Wood Ear mushroom",
+        "norm": "wood ear mushroom",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Carrot & Mushrooms",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Unknown",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": true,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Carrot & Mushrooms"
+        ],
+        "dishes_with_days": [
+          "Carrot & Mushrooms (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Carrot & Mushrooms"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      }
+    ],
+    "Sam’s Club": [
+      {
+        "canonical_name": "Fuji apples",
+        "norm": "fuji apple",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Apple Salad",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Sam’s Club"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Apple Salad"
+        ],
+        "dishes_with_days": [
+          "Apple Salad (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Apple Salad"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
       }
     ]
   },
   "multi_store": [
     {
+      "canonical_name": "Frozen broccoli",
+      "norm": "broccoli",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "Beef and Broccoli Stir-Fry",
+          "qty_str": "2 bags",
+          "qty_parsed": [
+            2.0,
+            "bags"
+          ]
+        }
+      ],
+      "stores": [
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Produce-Vegetable",
+      "type": "fresh",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Wednesday"
+      ],
+      "dishes": [
+        "Beef and Broccoli Stir-Fry"
+      ],
+      "dishes_with_days": [
+        "Beef and Broccoli Stir-Fry (Wed)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "Beef and Broccoli Stir-Fry"
+          ],
+          "qty_display": "2 bags"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2 bags",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Canned chickpeas",
+      "norm": "canned chickpea",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Mapo Tofu",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [
+        "Costco",
+        "Whole Foods"
+      ],
+      "category": "Pantry-Staple",
+      "type": "shelf",
+      "matched_routing": true,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Mapo Tofu"
+      ],
+      "dishes_with_days": [
+        "Mapo Tofu (Thu)"
+      ],
+      "trip": "Mon",
+      "icon": "🥫",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Mapo Tofu"
+          ],
+          "qty_display": "1 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Carrots",
       "norm": "carrot",
       "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Pot Roast",
+          "qty_str": "1 lb",
+          "qty_parsed": [
+            1.0,
+            "lb"
+          ]
+        },
+        {
+          "day": "Monday",
+          "dish": "Apple Salad",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "dish": "Chicken Tikka Marsala",
+          "qty_str": "1 cup",
+          "qty_parsed": [
+            1.0,
+            "cup"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "dish": "Carrot & Mushrooms",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
+        },
         {
           "day": "Weekend",
           "dish": "Moroccan Chicken w/ Root Vegs",
@@ -1183,40 +3171,60 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 2,
+      "use_count": 6,
       "days": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
         "Weekend"
       ],
       "dishes": [
+        "Apple Salad",
+        "Carrot & Mushrooms",
+        "Chicken Tikka Marsala",
         "Moroccan Chicken w/ Root Vegs",
-        "Moroccan Quinoa"
+        "Moroccan Quinoa",
+        "Pot Roast"
       ],
       "dishes_with_days": [
+        "Apple Salad (Mon)",
+        "Carrot & Mushrooms (Thu)",
+        "Chicken Tikka Marsala (Tue)",
         "Moroccan Chicken w/ Root Vegs (Sat)",
-        "Moroccan Quinoa (Sat)"
+        "Moroccan Quinoa (Sat)",
+        "Pot Roast (Mon)"
       ],
-      "trip": "Wed",
+      "trip": "Mon/Wed",
       "icon": "🥬",
       "per_trip": {
         "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
+          "uses": 3,
+          "days": [
+            "Monday",
+            "Tuesday"
+          ],
+          "dishes": [
+            "Apple Salad",
+            "Chicken Tikka Marsala",
+            "Pot Roast"
+          ],
+          "qty_display": "2 lb"
         },
         "Wed": {
-          "uses": 2,
+          "uses": 3,
           "days": [
+            "Thursday",
             "Weekend"
           ],
           "dishes": [
+            "Carrot & Mushrooms",
             "Moroccan Chicken w/ Root Vegs",
             "Moroccan Quinoa"
           ],
-          "qty_display": "203 g"
+          "qty_display": "209 g"
         }
       },
-      "total_qty_display": "203 g",
+      "total_qty_display": "~39 oz",
       "math_mode": "summed"
     },
     {
@@ -1330,13 +3338,184 @@
       },
       "total_qty_display": "0.25 cup",
       "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Corn",
+      "norm": "corn",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Garlic Turmeric Rice",
+          "qty_str": "1/4 cup",
+          "qty_parsed": [
+            0.25,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [
+        "Sam’s Club",
+        "Whole Foods"
+      ],
+      "category": "Produce-Vegetable",
+      "type": "fresh",
+      "matched_routing": true,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Garlic Turmeric Rice"
+      ],
+      "dishes_with_days": [
+        "Garlic Turmeric Rice (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Garlic Turmeric Rice"
+          ],
+          "qty_display": "0.25 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "0.25 cup",
+      "math_mode": "summed"
     }
   ],
   "no_store_match": [
     {
+      "canonical_name": "Basmati rice",
+      "norm": "basmati rice",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Garlic Turmeric Rice",
+          "qty_str": "1 1/2 cups",
+          "qty_parsed": [
+            1.5,
+            "cups"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Garlic Turmeric Rice"
+      ],
+      "dishes_with_days": [
+        "Garlic Turmeric Rice (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Garlic Turmeric Rice"
+          ],
+          "qty_display": "1.5 cups"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1.5 cups",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Beef Stock/Broth",
+      "norm": "beef stock broth",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Pot Roast",
+          "qty_str": "2 C",
+          "qty_parsed": [
+            2.0,
+            "c"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Pot Roast"
+      ],
+      "dishes_with_days": [
+        "Pot Roast (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Pot Roast"
+          ],
+          "qty_display": "2 C"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2 C",
+      "math_mode": "single"
+    },
+    {
       "canonical_name": "Boneless",
       "norm": "boneless",
       "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Chicken Tikka Marsala",
+          "qty_str": "1.5 lbs",
+          "qty_parsed": [
+            1.5,
+            "lbs"
+          ]
+        },
         {
           "day": "Weekend",
           "dish": "Moroccan Chicken w/ Root Vegs",
@@ -1353,24 +3532,31 @@
       "matched_routing": false,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 1,
+      "use_count": 2,
       "days": [
+        "Tuesday",
         "Weekend"
       ],
       "dishes": [
+        "Chicken Tikka Marsala",
         "Moroccan Chicken w/ Root Vegs"
       ],
       "dishes_with_days": [
+        "Chicken Tikka Marsala (Tue)",
         "Moroccan Chicken w/ Root Vegs (Sat)"
       ],
-      "trip": "Wed",
+      "trip": "Mon/Wed",
       "icon": "❓",
       "per_trip": {
         "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Chicken Tikka Marsala"
+          ],
+          "qty_display": "1.5 lbs"
         },
         "Wed": {
           "uses": 1,
@@ -1383,7 +3569,113 @@
           "qty_display": "1.5 lbs"
         }
       },
-      "total_qty_display": "1.5 lbs",
+      "total_qty_display": "3 lbs",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Chili oil",
+      "norm": "chili oil",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Mapo Tofu",
+          "qty_str": "3",
+          "qty_parsed": [
+            3.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Mapo Tofu"
+      ],
+      "dishes_with_days": [
+        "Mapo Tofu (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Mapo Tofu"
+          ],
+          "qty_display": "3"
+        }
+      },
+      "total_qty_display": "3",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Crisp greens",
+      "norm": "crisp green",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Apple Salad",
+          "qty_str": "5 oz",
+          "qty_parsed": [
+            5.0,
+            "oz"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Apple Salad"
+      ],
+      "dishes_with_days": [
+        "Apple Salad (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Apple Salad"
+          ],
+          "qty_display": "5 oz"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "5 oz",
       "math_mode": "summed"
     },
     {
@@ -1546,6 +3838,165 @@
       "math_mode": "summed"
     },
     {
+      "canonical_name": "Doubanjiang",
+      "norm": "doubanjiang",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Mapo Tofu",
+          "qty_str": "2",
+          "qty_parsed": [
+            2.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Mapo Tofu"
+      ],
+      "dishes_with_days": [
+        "Mapo Tofu (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Mapo Tofu"
+          ],
+          "qty_display": "2"
+        }
+      },
+      "total_qty_display": "2",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Freeze dried apples",
+      "norm": "freeze apple",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Apple Salad",
+          "qty_str": "1/4 cup",
+          "qty_parsed": [
+            0.25,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Apple Salad"
+      ],
+      "dishes_with_days": [
+        "Apple Salad (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Apple Salad"
+          ],
+          "qty_display": "0.25 cup"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "0.25 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Garlic and Herb",
+      "norm": "garlic and herb",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Pot Roast",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Pot Roast"
+      ],
+      "dishes_with_days": [
+        "Pot Roast (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Pot Roast"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
+    },
+    {
       "canonical_name": "Handful fresh parsley",
       "norm": "handful parsley",
       "occurrences": [
@@ -1597,6 +4048,59 @@
       },
       "total_qty_display": "1",
       "math_mode": "single"
+    },
+    {
+      "canonical_name": "Ingredients:",
+      "norm": "ingredient",
+      "occurrences": [
+        {
+          "day": "Tuesday",
+          "dish": "Garlic Turmeric Rice",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Tuesday"
+      ],
+      "dishes": [
+        "Garlic Turmeric Rice"
+      ],
+      "dishes_with_days": [
+        "Garlic Turmeric Rice (Tue)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Tuesday"
+          ],
+          "dishes": [
+            "Garlic Turmeric Rice"
+          ],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "",
+      "math_mode": "none"
     },
     {
       "canonical_name": "Juice of 1 large lemon",
@@ -1917,6 +4421,112 @@
       "math_mode": "none"
     },
     {
+      "canonical_name": "Persian cucumber",
+      "norm": "persian cucumber",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Apple Salad",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Apple Salad"
+      ],
+      "dishes_with_days": [
+        "Apple Salad (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Apple Salad"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Potato starch",
+      "norm": "potato starch",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Mapo Tofu",
+          "qty_str": "2 tsp",
+          "qty_parsed": [
+            2.0,
+            "tsp"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Mapo Tofu"
+      ],
+      "dishes_with_days": [
+        "Mapo Tofu (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Mapo Tofu"
+          ],
+          "qty_display": "2 tsp"
+        }
+      },
+      "total_qty_display": "2 tsp",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Pumpkin puree",
       "norm": "pumpkin puree",
       "occurrences": [
@@ -1967,6 +4577,232 @@
         }
       },
       "total_qty_display": "1 cup",
+      "math_mode": "summed"
+    },
+    {
+      "canonical_name": "Ranchers Steak Rub",
+      "norm": "rancher steak rub",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Pot Roast",
+          "qty_str": "1",
+          "qty_parsed": [
+            1.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Pot Roast"
+      ],
+      "dishes_with_days": [
+        "Pot Roast (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Pot Roast"
+          ],
+          "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Ready to eat avocados",
+      "norm": "ready to eat avocado",
+      "occurrences": [
+        {
+          "day": "Monday",
+          "dish": "Apple Salad",
+          "qty_str": "2",
+          "qty_parsed": [
+            2.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Monday"
+      ],
+      "dishes": [
+        "Apple Salad"
+      ],
+      "dishes_with_days": [
+        "Apple Salad (Mon)"
+      ],
+      "trip": "Mon",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Monday"
+          ],
+          "dishes": [
+            "Apple Salad"
+          ],
+          "qty_display": "2"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        }
+      },
+      "total_qty_display": "2",
+      "math_mode": "multiplied"
+    },
+    {
+      "canonical_name": "Rice cups Scoops of Rice",
+      "norm": "rice cup scoop of rice",
+      "occurrences": [
+        {
+          "day": "Friday",
+          "dish": "White Rice",
+          "qty_str": "3",
+          "qty_parsed": [
+            3.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Friday"
+      ],
+      "dishes": [
+        "White Rice"
+      ],
+      "dishes_with_days": [
+        "White Rice (Fri)"
+      ],
+      "trip": "Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Friday"
+          ],
+          "dishes": [
+            "White Rice"
+          ],
+          "qty_display": "3"
+        }
+      },
+      "total_qty_display": "3",
+      "math_mode": "single"
+    },
+    {
+      "canonical_name": "Scoops of Rice",
+      "norm": "scoop of rice",
+      "occurrences": [
+        {
+          "day": "Wednesday",
+          "dish": "White Rice",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
+        },
+        {
+          "day": "Thursday",
+          "dish": "White Rice",
+          "qty_str": "6",
+          "qty_parsed": [
+            6.0,
+            ""
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "unknown",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 2,
+      "days": [
+        "Wednesday",
+        "Thursday"
+      ],
+      "dishes": [
+        "White Rice"
+      ],
+      "dishes_with_days": [
+        "White Rice (Wed, Thu)"
+      ],
+      "trip": "Mon/Wed",
+      "icon": "❓",
+      "per_trip": {
+        "Mon": {
+          "uses": 1,
+          "days": [
+            "Wednesday"
+          ],
+          "dishes": [
+            "White Rice"
+          ],
+          "qty_display": "6"
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "White Rice"
+          ],
+          "qty_display": "6"
+        }
+      },
+      "total_qty_display": "12",
       "math_mode": "summed"
     },
     {
@@ -2023,6 +4859,59 @@
       "math_mode": "none"
     },
     {
+      "canonical_name": "Sichuan peppercorns",
+      "norm": "sichuan peppercorn",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Mapo Tofu",
+          "qty_str": "2 tsp",
+          "qty_parsed": [
+            2.0,
+            "tsp"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Mapo Tofu"
+      ],
+      "dishes_with_days": [
+        "Mapo Tofu (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Mapo Tofu"
+          ],
+          "qty_display": "2 tsp"
+        }
+      },
+      "total_qty_display": "2 tsp",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Turkey pepperoni",
       "norm": "turkey pepperoni",
       "occurrences": [
@@ -2077,6 +4966,384 @@
     }
   ],
   "skipped_staples": [
+    {
+      "day": "Monday",
+      "dish": "Pot Roast",
+      "name": "Tbs EVOO",
+      "quantity": "2",
+      "original": "2 Tbs EVOO"
+    },
+    {
+      "day": "Monday",
+      "dish": "Pot Roast",
+      "name": "Kosher Salt",
+      "quantity": "2 tsp",
+      "original": "2 tsp Kosher Salt"
+    },
+    {
+      "day": "Monday",
+      "dish": "Pot Roast",
+      "name": "Pepper",
+      "quantity": "1 tsp",
+      "original": "1 tsp Pepper"
+    },
+    {
+      "day": "Monday",
+      "dish": "Pot Roast",
+      "name": "Bay leaf",
+      "quantity": null,
+      "original": "Bay leaf"
+    },
+    {
+      "day": "Monday",
+      "dish": "Apple Salad",
+      "name": "extra-virgin olive oil",
+      "quantity": "1/4 cup",
+      "original": "1/4 cup extra-virgin olive oil"
+    },
+    {
+      "day": "Monday",
+      "dish": "Apple Salad",
+      "name": "Tbs raw apple cider vinegar",
+      "quantity": "3",
+      "original": "3 Tbs raw apple cider vinegar"
+    },
+    {
+      "day": "Monday",
+      "dish": "Apple Salad",
+      "name": "Tbs pure maple syrup",
+      "quantity": "1",
+      "original": "1 Tbs pure maple syrup"
+    },
+    {
+      "day": "Monday",
+      "dish": "Apple Salad",
+      "name": "sea salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp sea salt"
+    },
+    {
+      "day": "Monday",
+      "dish": "Apple Salad",
+      "name": "black pepper",
+      "quantity": "1/4 tsp",
+      "original": "1/4 tsp black pepper"
+    },
+    {
+      "day": "Monday",
+      "dish": "Apple Salad",
+      "name": "Pinch ground cinnamon",
+      "quantity": null,
+      "original": "Pinch ground cinnamon (optional fall warmth)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "-inch ginger",
+      "quantity": "1",
+      "original": "1-inch ginger, grated"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "ground cumin",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground cumin"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "ground coriander",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground coriander"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "smoked paprika",
+      "quantity": "1 tsp",
+      "original": "1 tsp smoked paprika"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "ground turmeric",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp ground turmeric"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "cayenne pepper",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp cayenne pepper (adjust for heat)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "sea salt",
+      "quantity": "1 tsp",
+      "original": "1 tsp sea salt"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "Tbs olive oil (seed-oil-free",
+      "quantity": "2",
+      "original": "2 Tbs olive oil (seed-oil-free, per your preference)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "Tbs olive oil",
+      "quantity": "2",
+      "original": "2 Tbs olive oil or avocado oil (seed-oil-free, per your cake query)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "-inch ginger",
+      "quantity": "1",
+      "original": "1-inch ginger, grated"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "ground cumin",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground cumin"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "ground coriander",
+      "quantity": "1 tsp",
+      "original": "1 tsp ground coriander"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "smoked paprika",
+      "quantity": "1 tsp",
+      "original": "1 tsp smoked paprika"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "cayenne pepper",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp cayenne pepper (adjust for heat)"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Chicken Tikka Marsala",
+      "name": "Salt and black pepper",
+      "quantity": null,
+      "original": "Salt and black pepper, to taste"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Garlic Turmeric Rice",
+      "name": "Tbs avocado oil",
+      "quantity": "3",
+      "original": "3 Tbs avocado oil"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Garlic Turmeric Rice",
+      "name": "pinch crushed pepper flakes",
+      "quantity": null,
+      "original": "pinch crushed pepper flakes"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Garlic Turmeric Rice",
+      "name": "turmeric",
+      "quantity": "1 tsp",
+      "original": "1 tsp turmeric"
+    },
+    {
+      "day": "Tuesday",
+      "dish": "Garlic Turmeric Rice",
+      "name": "pinch of salt",
+      "quantity": null,
+      "original": "pinch of salt"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "Beef and Broccoli Stir-Fry",
+      "name": "ginger",
+      "quantity": null,
+      "original": "ginger"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "White Rice",
+      "name": "Water",
+      "quantity": null,
+      "original": "Water"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "water",
+      "quantity": "2 1/2 cups",
+      "original": "2 1/2 cups water"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "small piece ginger (~1-inch knob",
+      "quantity": "1",
+      "original": "1 small piece ginger (~1-inch knob, ~1 Tbs finely chopped)"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "cayenne pepper",
+      "quantity": "1 tsp",
+      "original": "1 tsp cayenne pepper (adjust for heat)"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "cane sugar",
+      "quantity": "1 tsp",
+      "original": "1 tsp cane sugar"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "rice vinegar",
+      "quantity": "2 tsp",
+      "original": "2 tsp rice vinegar"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "Tbs soy sauce",
+      "quantity": "1",
+      "original": "1 Tbs soy sauce"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Mapo Tofu",
+      "name": "dark soy sauce (optional",
+      "quantity": "1 tsp",
+      "original": "1 tsp dark soy sauce (optional, for color)"
+    },
+    {
+      "day": "Thursday",
+      "dish": "White Rice",
+      "name": "Water",
+      "quantity": null,
+      "original": "Water"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chinese Broccoli (Gai Lan)",
+      "name": "Tbs oyster sauce",
+      "quantity": "2",
+      "original": "2Tbs oyster sauce"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chinese Broccoli (Gai Lan)",
+      "name": "sugar",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp sugar"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chinese Broccoli (Gai Lan)",
+      "name": "Tbs olive oil",
+      "quantity": "1",
+      "original": "1Tbs olive oil"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chinese Broccoli (Gai Lan)",
+      "name": "ginger",
+      "quantity": "1 tsp",
+      "original": "1 tsp ginger , minced"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Chinese Broccoli (Gai Lan)",
+      "name": "Tbs light soy sauce",
+      "quantity": "1",
+      "original": "1 Tbs light soy sauce"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Carrot & Mushrooms",
+      "name": "Tbs olive oil",
+      "quantity": "2",
+      "original": "2 Tbs olive oil"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Carrot & Mushrooms",
+      "name": "sugar",
+      "quantity": "1 tsp",
+      "original": "1 tsp sugar"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Carrot & Mushrooms",
+      "name": "Tbs Soy sauce",
+      "quantity": "2-3",
+      "original": "2-3 Tbs Soy sauce"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Carrot & Mushrooms",
+      "name": "Tbs ginger",
+      "quantity": "1-2",
+      "original": "1-2 Tbs ginger"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Carrot & Mushrooms",
+      "name": "Dash of dark soy sauce",
+      "quantity": null,
+      "original": "Dash of dark soy sauce"
+    },
+    {
+      "day": "Friday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "EVOO",
+      "quantity": null,
+      "original": "EVOO"
+    },
+    {
+      "day": "Friday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "soy sauce",
+      "quantity": "2 tsp",
+      "original": "2 tsp soy sauce"
+    },
+    {
+      "day": "Friday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "oyster sauce",
+      "quantity": "1 tsp",
+      "original": "1 tsp oyster sauce"
+    },
+    {
+      "day": "Friday",
+      "dish": "Baby Bok Choy - Steamed with Oyster Sauce",
+      "name": "water splash",
+      "quantity": null,
+      "original": "water splash"
+    },
+    {
+      "day": "Friday",
+      "dish": "White Rice",
+      "name": "Water",
+      "quantity": null,
+      "original": "Water"
+    },
     {
       "day": "Weekend",
       "dish": "Build-Your-Own Pizza Night",
