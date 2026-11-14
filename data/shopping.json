@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:00:27.008718",
+  "generated_at": "2026-11-14T05:00:26.116903",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 163,
-    "unique_after_dedup": 69,
-    "skipped_staples": 66,
-    "routing_matched": 44,
-    "routing_unmatched": 25,
+    "raw_ingredient_count": 84,
+    "unique_after_dedup": 37,
+    "skipped_staples": 39,
+    "routing_matched": 23,
+    "routing_unmatched": 14,
     "multi_store": 3,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -131,142 +131,9 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Beef",
-        "norm": "beef",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "1 lb",
-            "qty_parsed": [
-              1.0,
-              "lb"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Beef",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili Mac & Cheese (Dutch Oven)"
-        ],
-        "dishes_with_days": [
-          "Chili Mac & Cheese (Dutch Oven) (Thu)"
-        ],
-        "trip": "Wed",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chili Mac & Cheese (Dutch Oven)"
-            ],
-            "qty_display": "1 lb"
-          }
-        },
-        "total_qty_display": "1 lb",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Black beans",
-        "norm": "black bean",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "1 can",
-            "qty_parsed": [
-              1.0,
-              "can"
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Tuesday",
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili Mac & Cheese (Dutch Oven)",
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-        ],
-        "dishes_with_days": [
-          "Chili Mac & Cheese (Dutch Oven) (Thu)",
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday",
-              "Thursday"
-            ],
-            "dishes": [
-              "Chili Mac & Cheese (Dutch Oven)",
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "2 can"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 can",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Chicken",
         "norm": "chicken",
         "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-            "qty_str": "2 lbs",
-            "qty_parsed": [
-              2.0,
-              "lbs"
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
@@ -285,18 +152,15 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Friday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
-          "🍊 Teriyaki Orange Ginger Grilled Chicken"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
-          "🍊 Teriyaki Orange Ginger Grilled Chicken (Fri)"
+          "Build-Your-Own Pizza Night (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥩",
@@ -308,199 +172,23 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Friday",
               "Weekend"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night",
-              "🍊 Teriyaki Orange Ginger Grilled Chicken"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "3 lb"
+            "qty_display": "2 cups"
           }
         },
-        "total_qty_display": "3 lb",
+        "total_qty_display": "2 cups",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Chicken broth",
-        "norm": "chicken broth",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "4 cups",
-            "qty_parsed": [
-              4.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili Mac & Cheese (Dutch Oven)"
-        ],
-        "dishes_with_days": [
-          "Chili Mac & Cheese (Dutch Oven) (Thu)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Chili Mac & Cheese (Dutch Oven)"
-            ],
-            "qty_display": "4 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4 cups",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Chicken thighs",
-        "norm": "chicken thigh",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "🍯 Honey Garlic Grilled CHICKEN",
-            "qty_str": "2 lbs",
-            "qty_parsed": [
-              2.0,
-              "lbs"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Poultry",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "🍯 Honey Garlic Grilled CHICKEN"
-        ],
-        "dishes_with_days": [
-          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "🍯 Honey Garlic Grilled CHICKEN"
-            ],
-            "qty_display": "2 lbs"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 lbs",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Chinese sausages",
-        "norm": "chinese sausage",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Unknown",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Fried Rice"
-        ],
-        "dishes_with_days": [
-          "Fried Rice (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Fried Rice"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "single"
       },
       {
         "canonical_name": "Parmesan",
         "norm": "parmesan",
         "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "🥦 Grilled Broccolini",
-            "qty_str": "1/4 cup",
-            "qty_parsed": [
-              0.25,
-              "cup"
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
@@ -519,31 +207,24 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Wednesday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
-          "🥦 Grilled Broccolini"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
-          "🥦 Grilled Broccolini (Wed)"
+          "Build-Your-Own Pizza Night (Sat)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "🥦 Grilled Broccolini"
-            ],
-            "qty_display": "0.25 cup"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -556,8 +237,8 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "1/4 cup",
-        "math_mode": "mixed"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Dry quinoa",
@@ -616,75 +297,6 @@
       }
     ],
     "Whole Foods": [
-      {
-        "canonical_name": "Avocado",
-        "norm": "avocado",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "2-3",
-            "qty_parsed": [
-              2.5,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 2,
-        "days": [
-          "Monday",
-          "Tuesday"
-        ],
-        "dishes": [
-          "Fried Rice",
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-        ],
-        "dishes_with_days": [
-          "Fried Rice (Mon)",
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Monday",
-              "Tuesday"
-            ],
-            "dishes": [
-              "Fried Rice",
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "5"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "5",
-        "math_mode": "multiplied"
-      },
       {
         "canonical_name": "Baby greens",
         "norm": "baby green",
@@ -745,15 +357,6 @@
         "norm": "basil",
         "occurrences": [
           {
-            "day": "Friday",
-            "dish": "🥒 Grilled Zucchini & Yellow Squash",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
-          {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
             "qty_str": null,
@@ -771,18 +374,15 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Friday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
-          "🥒 Grilled Zucchini & Yellow Squash"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
-          "🥒 Grilled Zucchini & Yellow Squash (Fri)"
+          "Build-Your-Own Pizza Night (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -794,14 +394,12 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Friday",
               "Weekend"
             ],
             "dishes": [
-              "Build-Your-Own Pizza Night",
-              "🥒 Grilled Zucchini & Yellow Squash"
+              "Build-Your-Own Pizza Night"
             ],
             "qty_display": ""
           }
@@ -810,137 +408,9 @@
         "math_mode": "none"
       },
       {
-        "canonical_name": "Broccolini",
-        "norm": "broccolini",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "🥦 Grilled Broccolini",
-            "qty_str": "2 lbs",
-            "qty_parsed": [
-              2.0,
-              "lbs"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "🥦 Grilled Broccolini"
-        ],
-        "dishes_with_days": [
-          "🥦 Grilled Broccolini (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "🥦 Grilled Broccolini"
-            ],
-            "qty_display": "2 lbs"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 lbs",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Cherry tomatoes",
-        "norm": "cherry tomato",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-        ],
-        "dishes_with_days": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
         "canonical_name": "Cilantro",
         "norm": "cilantro",
         "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Pico",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Moroccan Chicken w/ Root Vegs",
@@ -959,34 +429,24 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 3,
+        "use_count": 1,
         "days": [
-          "Tuesday",
           "Weekend"
         ],
         "dishes": [
-          "Moroccan Chicken w/ Root Vegs",
-          "Pico",
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
+          "Moroccan Chicken w/ Root Vegs"
         ],
         "dishes_with_days": [
-          "Moroccan Chicken w/ Root Vegs (Sat)",
-          "Pico (Tue)",
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
+          "Moroccan Chicken w/ Root Vegs (Sat)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Pico",
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "1/2 cup"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -999,77 +459,13 @@
             "qty_display": "0.25 cup"
           }
         },
-        "total_qty_display": "12 tbsp",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Corn kernels",
-        "norm": "corn kernel",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Fried Rice"
-        ],
-        "dishes_with_days": [
-          "Fried Rice (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Fried Rice"
-            ],
-            "qty_display": "0.5 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.5 cup",
+        "total_qty_display": "0.25 cup",
         "math_mode": "summed"
       },
       {
         "canonical_name": "Eggs",
         "norm": "egg",
         "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "5-6",
-            "qty_parsed": [
-              5.5,
-              ""
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Banana Bread",
@@ -1088,31 +484,24 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday",
           "Weekend"
         ],
         "dishes": [
-          "Banana Bread",
-          "Fried Rice"
+          "Banana Bread"
         ],
         "dishes_with_days": [
-          "Banana Bread (Sat)",
-          "Fried Rice (Mon)"
+          "Banana Bread (Sat)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Fried Rice"
-            ],
-            "qty_display": "6"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -1125,58 +514,13 @@
             "qty_display": "2"
           }
         },
-        "total_qty_display": "8",
+        "total_qty_display": "2",
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Garlic",
+        "canonical_name": "Garlic cloves",
         "norm": "garlic",
         "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "2 cloves",
-            "qty_parsed": [
-              2.0,
-              "cloves"
-            ]
-          },
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "6 cloves",
-            "qty_parsed": [
-              6.0,
-              "cloves"
-            ]
-          },
-          {
-            "day": "Monday",
-            "dish": "Cucumber - Smashed",
-            "qty_str": "2-3",
-            "qty_parsed": [
-              2.5,
-              ""
-            ]
-          },
-          {
-            "day": "Wednesday",
-            "dish": "🍯 Honey Garlic Grilled CHICKEN",
-            "qty_str": "5",
-            "qty_parsed": [
-              5.0,
-              ""
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Moroccan Chicken w/ Root Vegs",
@@ -1194,6 +538,15 @@
               1.0,
               "clove"
             ]
+          },
+          {
+            "day": "Weekend",
+            "dish": "Cucumber - Smashed",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
           }
         ],
         "stores": [
@@ -1202,304 +555,46 @@
         "category": "Unknown",
         "type": "fresh",
         "matched_routing": true,
-        "is_countable": false,
+        "is_countable": true,
         "user_routed": true,
-        "use_count": 7,
+        "use_count": 3,
         "days": [
-          "Monday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
           "Weekend"
         ],
         "dishes": [
-          "Chili Mac & Cheese (Dutch Oven)",
           "Cucumber - Smashed",
-          "Fried Rice",
           "Moroccan Chicken w/ Root Vegs",
-          "Moroccan Quinoa",
-          "🍊 Teriyaki Orange Ginger Grilled Chicken",
-          "🍯 Honey Garlic Grilled CHICKEN"
+          "Moroccan Quinoa"
         ],
         "dishes_with_days": [
-          "Chili Mac & Cheese (Dutch Oven) (Thu)",
-          "Cucumber - Smashed (Mon)",
-          "Fried Rice (Mon)",
+          "Cucumber - Smashed (Sat)",
           "Moroccan Chicken w/ Root Vegs (Sat)",
-          "Moroccan Quinoa (Sat)",
-          "🍊 Teriyaki Orange Ginger Grilled Chicken (Fri)",
-          "🍯 Honey Garlic Grilled CHICKEN (Wed)"
+          "Moroccan Quinoa (Sat)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 3,
-            "days": [
-              "Monday",
-              "Wednesday"
-            ],
-            "dishes": [
-              "Cucumber - Smashed",
-              "Fried Rice",
-              "🍯 Honey Garlic Grilled CHICKEN"
-            ],
-            "qty_display": "13.5 cloves"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
-            "uses": 4,
+            "uses": 3,
             "days": [
-              "Thursday",
-              "Friday",
               "Weekend"
             ],
             "dishes": [
-              "Chili Mac & Cheese (Dutch Oven)",
+              "Cucumber - Smashed",
               "Moroccan Chicken w/ Root Vegs",
-              "Moroccan Quinoa",
-              "🍊 Teriyaki Orange Ginger Grilled Chicken"
+              "Moroccan Quinoa"
             ],
-            "qty_display": "2 cloves + 3 + 3 + 1 clove"
+            "qty_display": "6.5 clove"
           }
         },
-        "total_qty_display": "2 cloves + 6 cloves + 2-3 + 5 + 3 + 3 + 1 clove",
-        "math_mode": "mixed"
-      },
-      {
-        "canonical_name": "Green beans",
-        "norm": "green bean",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "1 cup",
-            "qty_parsed": [
-              1.0,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Fried Rice"
-        ],
-        "dishes_with_days": [
-          "Fried Rice (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Fried Rice"
-            ],
-            "qty_display": "1 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 cup",
+        "total_qty_display": "6.5 clove",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Green onions",
-        "norm": "green onion",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "3-4",
-            "qty_parsed": [
-              3.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Fried Rice"
-        ],
-        "dishes_with_days": [
-          "Fried Rice (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Fried Rice"
-            ],
-            "qty_display": "4"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Lemon",
-        "norm": "lemon",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "🥦 Grilled Broccolini",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Friday",
-            "dish": "🥒 Grilled Zucchini & Yellow Squash",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 2,
-        "days": [
-          "Wednesday",
-          "Friday"
-        ],
-        "dishes": [
-          "🥒 Grilled Zucchini & Yellow Squash",
-          "🥦 Grilled Broccolini"
-        ],
-        "dishes_with_days": [
-          "🥒 Grilled Zucchini & Yellow Squash (Fri)",
-          "🥦 Grilled Broccolini (Wed)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "🥦 Grilled Broccolini"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "🥒 Grilled Zucchini & Yellow Squash"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "2",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Lime juice",
-        "norm": "lime juice",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Pico",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Pico"
-        ],
-        "dishes_with_days": [
-          "Pico (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Pico"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Mushrooms",
@@ -1610,61 +705,6 @@
         },
         "total_qty_display": "2",
         "math_mode": "single"
-      },
-      {
-        "canonical_name": "Peas",
-        "norm": "pea",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "1/2 cup",
-            "qty_parsed": [
-              0.5,
-              "cup"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Frozen",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Fried Rice"
-        ],
-        "dishes_with_days": [
-          "Fried Rice (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Fried Rice"
-            ],
-            "qty_display": "0.5 cup"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "0.5 cup",
-        "math_mode": "summed"
       },
       {
         "canonical_name": "Sweet potato",
@@ -1832,116 +872,6 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Lettuce",
-        "norm": "romaine lettuce",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-        ],
-        "dishes_with_days": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "single"
-      },
-      {
-        "canonical_name": "Seasoning",
-        "norm": "seasoning",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Japanese Sweet Potato Fries",
-            "qty_str": "1/2-1 tsp",
-            "qty_parsed": [
-              0.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry",
-        "type": "unknown",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Japanese Sweet Potato Fries"
-        ],
-        "dishes_with_days": [
-          "Japanese Sweet Potato Fries (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "❓",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Japanese Sweet Potato Fries"
-            ],
-            "qty_display": "1/2-1 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1/2-1 tsp",
-        "math_mode": "single"
-      },
-      {
         "canonical_name": "Sunflower seeds",
         "norm": "sunflower seed",
         "occurrences": [
@@ -1997,18 +927,9 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Tomato",
+        "canonical_name": "Tomatoes",
         "norm": "tomato",
         "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Pico",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
           {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
@@ -2027,77 +948,15 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Tuesday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
-          "Pico"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
-          "Pico (Tue)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Pico"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night"
-            ],
-            "qty_display": "2"
-          }
-        },
-        "total_qty_display": "3",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Tomato paste",
-        "norm": "tomato paste",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "2 Tbsp",
-            "qty_parsed": [
-              2.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili Mac & Cheese (Dutch Oven)"
-        ],
-        "dishes_with_days": [
-          "Chili Mac & Cheese (Dutch Oven) (Thu)"
+          "Build-Your-Own Pizza Night (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -2111,16 +970,16 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Weekend"
             ],
             "dishes": [
-              "Chili Mac & Cheese (Dutch Oven)"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "2 tbsp"
+            "qty_display": "2"
           }
         },
-        "total_qty_display": "2 tbsp",
-        "math_mode": "summed"
+        "total_qty_display": "2",
+        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Crushed tomato sauce",
@@ -2182,33 +1041,6 @@
         "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Pico",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          },
-          {
             "day": "Weekend",
             "dish": "Build-Your-Own Pizza Night",
             "qty_str": "1",
@@ -2226,89 +1058,15 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 4,
+        "use_count": 1,
         "days": [
-          "Monday",
-          "Tuesday",
-          "Thursday",
           "Weekend"
         ],
         "dishes": [
-          "Build-Your-Own Pizza Night",
-          "Chili Mac & Cheese (Dutch Oven)",
-          "Fried Rice",
-          "Pico"
+          "Build-Your-Own Pizza Night"
         ],
         "dishes_with_days": [
-          "Build-Your-Own Pizza Night (Sat)",
-          "Chili Mac & Cheese (Dutch Oven) (Thu)",
-          "Fried Rice (Mon)",
-          "Pico (Tue)"
-        ],
-        "trip": "Mon/Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 2,
-            "days": [
-              "Monday",
-              "Tuesday"
-            ],
-            "dishes": [
-              "Fried Rice",
-              "Pico"
-            ],
-            "qty_display": "2"
-          },
-          "Wed": {
-            "uses": 2,
-            "days": [
-              "Thursday",
-              "Weekend"
-            ],
-            "dishes": [
-              "Build-Your-Own Pizza Night",
-              "Chili Mac & Cheese (Dutch Oven)"
-            ],
-            "qty_display": "2"
-          }
-        },
-        "total_qty_display": "4",
-        "math_mode": "multiplied"
-      }
-    ],
-    "Amazon": [
-      {
-        "canonical_name": "Chili powder",
-        "norm": "chili powder",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Chili Mac & Cheese (Dutch Oven)",
-            "qty_str": "2 Tbsp",
-            "qty_parsed": [
-              2.0,
-              "tbsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Amazon"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Chili Mac & Cheese (Dutch Oven)"
-        ],
-        "dishes_with_days": [
-          "Chili Mac & Cheese (Dutch Oven) (Thu)"
+          "Build-Your-Own Pizza Night (Sat)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -2322,34 +1080,25 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Weekend"
             ],
             "dishes": [
-              "Chili Mac & Cheese (Dutch Oven)"
+              "Build-Your-Own Pizza Night"
             ],
-            "qty_display": "2 tbsp"
+            "qty_display": "1"
           }
         },
-        "total_qty_display": "2 tbsp",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       }
     ],
     "888 Market / Pan Asia": [
       {
-        "canonical_name": "Chinese vinegar",
+        "canonical_name": "Chinese Vinegar",
         "norm": "chinese vinegar",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Fried Rice",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
+            "day": "Weekend",
             "dish": "Cucumber - Smashed",
             "qty_str": "1.5",
             "qty_parsed": [
@@ -2366,190 +1115,20 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday"
+          "Weekend"
         ],
         "dishes": [
-          "Cucumber - Smashed",
-          "Fried Rice"
+          "Cucumber - Smashed"
         ],
         "dishes_with_days": [
-          "Cucumber - Smashed (Mon)",
-          "Fried Rice (Mon)"
+          "Cucumber - Smashed (Sat)"
         ],
-        "trip": "Mon",
+        "trip": "Wed",
         "icon": "❓",
         "per_trip": {
           "Mon": {
-            "uses": 2,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Cucumber - Smashed",
-              "Fried Rice"
-            ],
-            "qty_display": "3"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Lime",
-        "norm": "lime",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-        ],
-        "dishes_with_days": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Dry rice",
-        "norm": "rice",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-            "qty_str": "3 cups",
-            "qty_parsed": [
-              3.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-        ],
-        "dishes_with_days": [
-          "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-            ],
-            "qty_display": "3 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "3 cups",
-        "math_mode": "summed"
-      }
-    ],
-    "Sam’s Club": [
-      {
-        "canonical_name": "Orange",
-        "norm": "orange",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Sam’s Club"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "🍊 Teriyaki Orange Ginger Grilled Chicken"
-        ],
-        "dishes_with_days": [
-          "🍊 Teriyaki Orange Ginger Grilled Chicken (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
             "uses": 0,
             "days": [],
             "dishes": [],
@@ -2558,16 +1137,16 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Friday"
+              "Weekend"
             ],
             "dishes": [
-              "🍊 Teriyaki Orange Ginger Grilled Chicken"
+              "Cucumber - Smashed"
             ],
-            "qty_display": "1"
+            "qty_display": "1.5"
           }
         },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
+        "total_qty_display": "1.5",
+        "math_mode": "single"
       }
     ]
   },
@@ -2576,15 +1155,6 @@
       "canonical_name": "Carrots",
       "norm": "carrot",
       "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Fried Rice",
-          "qty_str": "2",
-          "qty_parsed": [
-            2.0,
-            ""
-          ]
-        },
         {
           "day": "Weekend",
           "dish": "Moroccan Chicken w/ Root Vegs",
@@ -2613,33 +1183,26 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 3,
+      "use_count": 2,
       "days": [
-        "Monday",
         "Weekend"
       ],
       "dishes": [
-        "Fried Rice",
         "Moroccan Chicken w/ Root Vegs",
         "Moroccan Quinoa"
       ],
       "dishes_with_days": [
-        "Fried Rice (Mon)",
         "Moroccan Chicken w/ Root Vegs (Sat)",
         "Moroccan Quinoa (Sat)"
       ],
-      "trip": "Mon/Wed",
+      "trip": "Wed",
       "icon": "🥬",
       "per_trip": {
         "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Fried Rice"
-          ],
-          "qty_display": "2"
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
         },
         "Wed": {
           "uses": 2,
@@ -2653,7 +1216,7 @@
           "qty_display": "203 g"
         }
       },
-      "total_qty_display": "205 g",
+      "total_qty_display": "203 g",
       "math_mode": "summed"
     },
     {
@@ -2717,15 +1280,6 @@
       "norm": "coconut oil",
       "occurrences": [
         {
-          "day": "Wednesday",
-          "dish": "Japanese Sweet Potato Fries",
-          "qty_str": "1-2",
-          "qty_parsed": [
-            1.5,
-            ""
-          ]
-        },
-        {
           "day": "Weekend",
           "dish": "Pumpkin Bread",
           "qty_str": "1/4 cup",
@@ -2744,33 +1298,28 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 2,
+      "use_count": 1,
       "days": [
-        "Wednesday",
         "Weekend"
       ],
       "dishes": [
-        "Japanese Sweet Potato Fries",
         "Pumpkin Bread"
       ],
       "dishes_with_days": [
-        "Japanese Sweet Potato Fries (Wed)",
         "Pumpkin Bread (Sat)"
       ],
       "trip": "Mon",
       "icon": "🥫",
       "per_trip": {
         "Mon": {
-          "uses": 2,
+          "uses": 1,
           "days": [
-            "Wednesday",
             "Weekend"
           ],
           "dishes": [
-            "Japanese Sweet Potato Fries",
             "Pumpkin Bread"
           ],
-          "qty_display": "1.75 cup"
+          "qty_display": "0.25 cup"
         },
         "Wed": {
           "uses": 0,
@@ -2779,64 +1328,11 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "1.75 cup",
+      "total_qty_display": "0.25 cup",
       "math_mode": "summed"
     }
   ],
   "no_store_match": [
-    {
-      "canonical_name": "Beef tenderloin",
-      "norm": "beef tenderloin",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-          "qty_str": "1 1/2-2 lb",
-          "qty_parsed": [
-            1.75,
-            "lb"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-      ],
-      "dishes_with_days": [
-        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-          ],
-          "qty_display": "1.75 lb"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1.75 lb",
-      "math_mode": "summed"
-    },
     {
       "canonical_name": "Boneless",
       "norm": "boneless",
@@ -2888,112 +1384,6 @@
         }
       },
       "total_qty_display": "1.5 lbs",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Box elbow macaroni",
-      "norm": "box elbow macaroni",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili Mac & Cheese (Dutch Oven)",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili Mac & Cheese (Dutch Oven)"
-      ],
-      "dishes_with_days": [
-        "Chili Mac & Cheese (Dutch Oven) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili Mac & Cheese (Dutch Oven)"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Cheddar",
-      "norm": "cheddar",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili Mac & Cheese (Dutch Oven)",
-          "qty_str": "2 cups",
-          "qty_parsed": [
-            2.0,
-            "cups"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili Mac & Cheese (Dutch Oven)"
-      ],
-      "dishes_with_days": [
-        "Chili Mac & Cheese (Dutch Oven) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili Mac & Cheese (Dutch Oven)"
-          ],
-          "qty_display": "2 cups"
-        }
-      },
-      "total_qty_display": "2 cups",
       "math_mode": "summed"
     },
     {
@@ -3209,112 +1599,6 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "Jalapeño",
-      "norm": "jalapeno",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Pico",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Pico"
-      ],
-      "dishes_with_days": [
-        "Pico (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Pico"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Japanese sweet potatoes",
-      "norm": "japanese potato",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Japanese Sweet Potato Fries",
-          "qty_str": "4-5",
-          "qty_parsed": [
-            4.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Japanese Sweet Potato Fries"
-      ],
-      "dishes_with_days": [
-        "Japanese Sweet Potato Fries (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Japanese Sweet Potato Fries"
-          ],
-          "qty_display": "4-5"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "4-5",
-      "math_mode": "single"
-    },
-    {
       "canonical_name": "Juice of 1 large lemon",
       "norm": "juice of 1 lemon",
       "occurrences": [
@@ -3366,59 +1650,6 @@
       },
       "total_qty_display": "1",
       "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Kidney beans",
-      "norm": "kidney bean",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili Mac & Cheese (Dutch Oven)",
-          "qty_str": "1 can",
-          "qty_parsed": [
-            1.0,
-            "can"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili Mac & Cheese (Dutch Oven)"
-      ],
-      "dishes_with_days": [
-        "Chili Mac & Cheese (Dutch Oven) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili Mac & Cheese (Dutch Oven)"
-          ],
-          "qty_display": "1 can"
-        }
-      },
-      "total_qty_display": "1 can",
-      "math_mode": "summed"
     },
     {
       "canonical_name": "Low-sodium chicken broth",
@@ -3478,7 +1709,7 @@
       "norm": "mirin",
       "occurrences": [
         {
-          "day": "Monday",
+          "day": "Weekend",
           "dish": "Cucumber - Smashed",
           "qty_str": "1",
           "qty_parsed": [
@@ -3495,32 +1726,32 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Monday"
+        "Weekend"
       ],
       "dishes": [
         "Cucumber - Smashed"
       ],
       "dishes_with_days": [
-        "Cucumber - Smashed (Mon)"
+        "Cucumber - Smashed (Sat)"
       ],
-      "trip": "Mon",
+      "trip": "Wed",
       "icon": "❓",
       "per_trip": {
         "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
           "uses": 1,
           "days": [
-            "Monday"
+            "Weekend"
           ],
           "dishes": [
             "Cucumber - Smashed"
           ],
           "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
         }
       },
       "total_qty_display": "1",
@@ -3578,112 +1809,6 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
-    },
-    {
-      "canonical_name": "Oil",
-      "norm": "oil",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Chili Mac & Cheese (Dutch Oven)",
-          "qty_str": "1 Tbsp",
-          "qty_parsed": [
-            1.0,
-            "tbsp"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Chili Mac & Cheese (Dutch Oven)"
-      ],
-      "dishes_with_days": [
-        "Chili Mac & Cheese (Dutch Oven) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Chili Mac & Cheese (Dutch Oven)"
-          ],
-          "qty_display": "1 tbsp"
-        }
-      },
-      "total_qty_display": "1 tbsp",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Okra",
-      "norm": "okra",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Fried Rice",
-          "qty_str": "1/2 cup",
-          "qty_parsed": [
-            0.5,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Fried Rice"
-      ],
-      "dishes_with_days": [
-        "Fried Rice (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Fried Rice"
-          ],
-          "qty_display": "0.5 cup"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "0.5 cup",
-      "math_mode": "summed"
     },
     {
       "canonical_name": "Olives",
@@ -3790,112 +1915,6 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
-    },
-    {
-      "canonical_name": "Pickled red onion",
-      "norm": "pickled red onion",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-      ],
-      "dishes_with_days": [
-        "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Potato starch",
-      "norm": "potato starch",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Japanese Sweet Potato Fries",
-          "qty_str": "1-2",
-          "qty_parsed": [
-            1.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Japanese Sweet Potato Fries"
-      ],
-      "dishes_with_days": [
-        "Japanese Sweet Potato Fries (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Japanese Sweet Potato Fries"
-          ],
-          "qty_display": "1-2"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1-2",
-      "math_mode": "single"
     },
     {
       "canonical_name": "Pumpkin puree",
@@ -4055,265 +2074,9 @@
       },
       "total_qty_display": "1",
       "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Zucchini and/or yellow squash",
-      "norm": "zucchini and or yellow squash",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "🥒 Grilled Zucchini & Yellow Squash",
-          "qty_str": "3-4",
-          "qty_parsed": [
-            3.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Friday"
-      ],
-      "dishes": [
-        "🥒 Grilled Zucchini & Yellow Squash"
-      ],
-      "dishes_with_days": [
-        "🥒 Grilled Zucchini & Yellow Squash (Fri)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Friday"
-          ],
-          "dishes": [
-            "🥒 Grilled Zucchini & Yellow Squash"
-          ],
-          "qty_display": "3-4"
-        }
-      },
-      "total_qty_display": "3-4",
-      "math_mode": "single"
     }
   ],
   "skipped_staples": [
-    {
-      "day": "Thursday",
-      "dish": "Chili Mac & Cheese (Dutch Oven)",
-      "name": "smoked paprika",
-      "quantity": "1 tsp",
-      "original": "1 tsp smoked paprika"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chili Mac & Cheese (Dutch Oven)",
-      "name": "ground cumin",
-      "quantity": "1 tsp",
-      "original": "1 tsp ground cumin"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chili Mac & Cheese (Dutch Oven)",
-      "name": "black pepper",
-      "quantity": "1 tsp",
-      "original": "1 tsp black pepper"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chili Mac & Cheese (Dutch Oven)",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Monday",
-      "dish": "Fried Rice",
-      "name": "cooked rice",
-      "quantity": "5 cups",
-      "original": "5 cups cooked rice (cook in the morning so it cools)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Fried Rice",
-      "name": "Tbs soy sauce",
-      "quantity": "2-3",
-      "original": "2–3 Tbs soy sauce (or to taste)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Fried Rice",
-      "name": "sprinkle of sugar",
-      "quantity": null,
-      "original": "sprinkle of sugar"
-    },
-    {
-      "day": "Monday",
-      "dish": "Fried Rice",
-      "name": "Salt & black pepper",
-      "quantity": null,
-      "original": "Salt & black pepper, to taste"
-    },
-    {
-      "day": "Monday",
-      "dish": "Cucumber - Smashed",
-      "name": "Soy sauce",
-      "quantity": "1/4 C",
-      "original": "1/4 C Soy sauce"
-    },
-    {
-      "day": "Monday",
-      "dish": "Cucumber - Smashed",
-      "name": ".5 Tbs sugar",
-      "quantity": null,
-      "original": ".5 Tbs sugar"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-      "name": "Olive oil",
-      "quantity": null,
-      "original": "Olive oil or avocado oil"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Steak bowls w/ avocado , tomato , pickled red onion , cilantro,  rice , lettuce , black beans",
-      "name": "Salt and black pepper",
-      "quantity": null,
-      "original": "Salt and black pepper"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "olive oil",
-      "quantity": "1/4 cup",
-      "original": "¼ cup olive oil"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "Tbs honey",
-      "quantity": "3",
-      "original": "3 Tbs honey"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "Tbs soy sauce",
-      "quantity": "2",
-      "original": "2 Tbs soy sauce"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "smoked paprika",
-      "quantity": "1 tsp",
-      "original": "1 tsp smoked paprika"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🍯 Honey Garlic Grilled CHICKEN",
-      "name": "black pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp black pepper"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "Japanese Sweet Potato Fries",
-      "name": "Salt",
-      "quantity": null,
-      "original": "Salt, to taste"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🥦 Grilled Broccolini",
-      "name": "Tbs olive oil",
-      "quantity": "3",
-      "original": "3 Tbs olive oil"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🥦 Grilled Broccolini",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Wednesday",
-      "dish": "🥦 Grilled Broccolini",
-      "name": "pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp pepper"
-    },
-    {
-      "day": "Friday",
-      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-      "name": "olive oil",
-      "quantity": "1/4 cup",
-      "original": "¼ cup olive oil"
-    },
-    {
-      "day": "Friday",
-      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-      "name": "Tbs soy sauce",
-      "quantity": "3",
-      "original": "3 Tbs soy sauce"
-    },
-    {
-      "day": "Friday",
-      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-      "name": "Tbs honey",
-      "quantity": "2",
-      "original": "2 Tbs honey"
-    },
-    {
-      "day": "Friday",
-      "dish": "🍊 Teriyaki Orange Ginger Grilled Chicken",
-      "name": "Tbs fresh ginger",
-      "quantity": "2",
-      "original": "2 Tbs fresh ginger (grated)"
-    },
-    {
-      "day": "Friday",
-      "dish": "🥒 Grilled Zucchini & Yellow Squash",
-      "name": "Tbs olive oil",
-      "quantity": "2",
-      "original": "2 Tbs olive oil"
-    },
-    {
-      "day": "Friday",
-      "dish": "🥒 Grilled Zucchini & Yellow Squash",
-      "name": "salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp salt"
-    },
-    {
-      "day": "Friday",
-      "dish": "🥒 Grilled Zucchini & Yellow Squash",
-      "name": "pepper",
-      "quantity": "1/2 tsp",
-      "original": "½ tsp pepper"
-    },
-    {
-      "day": "Friday",
-      "dish": "🥒 Grilled Zucchini & Yellow Squash",
-      "name": "garlic powder",
-      "quantity": "1 tsp",
-      "original": "1 tsp garlic powder"
-    },
     {
       "day": "Weekend",
       "dish": "Build-Your-Own Pizza Night",
@@ -4572,6 +2335,20 @@
       "name": "Tbs apple cider vinegar",
       "quantity": "1",
       "original": "1 Tbs apple cider vinegar"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Cucumber - Smashed",
+      "name": "Soy sauce",
+      "quantity": "1/4 C",
+      "original": "1/4 C Soy sauce"
+    },
+    {
+      "day": "Weekend",
+      "dish": "Cucumber - Smashed",
+      "name": ".5 Tbs sugar",
+      "quantity": null,
+      "original": ".5 Tbs sugar"
     }
   ],
   "unresolved_variants": [],
