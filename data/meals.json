@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:00:26.953980",
+  "generated_at": "2026-11-18T05:00:26.408214",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -268,7 +268,7 @@
               "quantity": "1.5 lbs",
               "name": "boneless",
               "notes": "skinless chicken thighs, cut into 1.5-inch chunks (juicy, tender protein)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -276,7 +276,7 @@
               "quantity": "1 cup",
               "name": "coconut yogurt (dairy-free",
               "notes": "unsweetened, e.g., Foreger)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -284,7 +284,7 @@
               "quantity": "2",
               "name": "Tbs lemon juice (freshly squeezed",
               "notes": "for tang)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -292,7 +292,7 @@
               "quantity": "3",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -300,7 +300,7 @@
               "quantity": "1",
               "name": "-inch ginger",
               "notes": "grated",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -308,7 +308,7 @@
               "quantity": "1 tsp",
               "name": "ground cumin",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -316,7 +316,7 @@
               "quantity": "1 tsp",
               "name": "ground coriander",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -324,7 +324,7 @@
               "quantity": "1 tsp",
               "name": "smoked paprika",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -332,7 +332,7 @@
               "quantity": "1/2 tsp",
               "name": "ground turmeric",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -340,7 +340,7 @@
               "quantity": "1/2 tsp",
               "name": "garam masala",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -348,7 +348,7 @@
               "quantity": "1/2 tsp",
               "name": "cayenne pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Chicken Marinade"
             },
             {
@@ -380,7 +380,7 @@
               "quantity": "1",
               "name": "medium onion",
               "notes": "finely diced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tikka Masala Sauce"
             },
             {
@@ -388,7 +388,7 @@
               "quantity": "3",
               "name": "garlic cloves",
               "notes": "minced",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tikka Masala Sauce"
             },
             {
@@ -396,7 +396,7 @@
               "quantity": "1",
               "name": "-inch ginger",
               "notes": "grated",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tikka Masala Sauce"
             },
             {
@@ -404,7 +404,7 @@
               "quantity": "1/2 cup",
               "name": "red",
               "notes": "yellow bell pepper, diced small (per your preference, limited quantity)",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tikka Masala Sauce"
             },
             {
@@ -420,7 +420,7 @@
               "quantity": "1 cup",
               "name": "diced carrots",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tikka Masala Sauce"
             },
             {
@@ -428,7 +428,7 @@
               "quantity": "1 can",
               "name": "(15 oz) crushed tomatoes",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients - Tikka Masala Sauce"
             },
             {
@@ -519,7 +519,7 @@
               "quantity": "6-7 pieces",
               "name": "garlic",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -527,7 +527,7 @@
               "quantity": "1/2",
               "name": "onion",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -535,7 +535,7 @@
               "quantity": "80 g",
               "name": "broccolini",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -543,7 +543,7 @@
               "quantity": "1/4",
               "name": "red bell pepper",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -551,7 +551,7 @@
               "quantity": "3",
               "name": "Tbs avocado oil",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -559,7 +559,7 @@
               "quantity": null,
               "name": "pinch crushed pepper flakes",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -567,7 +567,7 @@
               "quantity": "1/4 cup",
               "name": "corn",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -575,7 +575,7 @@
               "quantity": "1 1/2 cups",
               "name": "basmati rice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -583,7 +583,7 @@
               "quantity": "1 tsp",
               "name": "turmeric",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -591,7 +591,7 @@
               "quantity": null,
               "name": "pinch of salt",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             }
           ],
