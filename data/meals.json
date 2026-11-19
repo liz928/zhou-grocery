@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T05:00:26.408214",
+  "generated_at": "2026-11-19T05:00:26.128516",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -681,7 +681,7 @@
               "quantity": "6",
               "name": "Scoops of Rice",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             },
             {
@@ -689,7 +689,7 @@
               "quantity": null,
               "name": "Water",
               "notes": "",
-              "checked": false,
+              "checked": true,
               "checklist": "Ingredients"
             }
           ],
