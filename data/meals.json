@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:00:26.128516",
+  "generated_at": "2026-11-20T05:00:26.331090",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -875,69 +875,6 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "662d5ad5adaff77be811f131",
-          "name": "Chinese Broccoli (Gai Lan)",
-          "ingredients": [
-            {
-              "original": "2Tbs oyster sauce",
-              "quantity": "2",
-              "name": "Tbs oyster sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 tsp sugar",
-              "quantity": "1/2 tsp",
-              "name": "sugar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1Tbs olive oil",
-              "quantity": "1",
-              "name": "Tbs olive oil",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "10 oz (300 grams) Chinese broccoli , tough ends and stem surfaces removed, cut into 3 inch pieces",
-              "quantity": "10 oz",
-              "name": "(300 grams) Chinese broccoli",
-              "notes": "tough ends and stem surfaces removed, cut into 3 inch pieces",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1Tbs garlic , minced",
-              "quantity": "1",
-              "name": "Tbs garlic",
-              "notes": "minced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp ginger , minced",
-              "quantity": "1 tsp",
-              "name": "ginger",
-              "notes": "minced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 Tbs light soy sauce",
-              "quantity": "1",
-              "name": "Tbs light soy sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "674a922887ea92d540d43981",
           "name": "Carrot & Mushrooms",
           "ingredients": [
@@ -1039,6 +976,97 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "6633d5a940b75d3ad873fecc",
+          "name": "Asparagus - Grilled with Charred Lemon Sauce",
+          "ingredients": [
+            {
+              "original": "1 lb asparagus, trimmed",
+              "quantity": "1 lb",
+              "name": "asparagus",
+              "notes": "trimmed",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "1-1 1/2 Tbs extra-virgin olive oil (for roasting)",
+              "quantity": "1-1 1/2",
+              "name": "Tbs extra-virgin olive oil",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Sea salt & black pepper, to taste",
+              "quantity": null,
+              "name": "Sea salt & black pepper",
+              "notes": "to taste",
+              "checked": true,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "Optional: 1 tsp extra-virgin olive oil (to help bind if mixture feels dry)",
+              "quantity": null,
+              "name": "Optional: 1 tsp extra-virgin olive oil",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            },
+            {
+              "original": "1 cup panko or fresh bread crumbs",
+              "quantity": "1 cup",
+              "name": "panko",
+              "notes": "fresh bread crumbs",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            },
+            {
+              "original": "1/2 small shallot, finely chopped (or 1 Tbs diced)",
+              "quantity": "1/2",
+              "name": "small shallot",
+              "notes": "finely chopped (or 1 Tbs diced)",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            },
+            {
+              "original": "1 small garlic clove, crushed/minced",
+              "quantity": "1",
+              "name": "small garlic clove",
+              "notes": "crushed/minced",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            },
+            {
+              "original": "1/4 cup fresh basil leaves, chopped",
+              "quantity": "1/4 cup",
+              "name": "fresh basil leaves",
+              "notes": "chopped",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            },
+            {
+              "original": "1/4 cup fresh flat-leaf parsley leaves, chopped",
+              "quantity": "1/4 cup",
+              "name": "fresh flat-leaf parsley leaves",
+              "notes": "chopped",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            },
+            {
+              "original": "Juice of 1/2-1 lemon (about 2 Tbs; start with 1/2 and add more for brightness)",
+              "quantity": null,
+              "name": "Juice of 1/2-1 lemon",
+              "notes": "",
+              "checked": true,
+              "checklist": "Ingredients - Gremolata Crumbs"
+            }
+          ],
+          "is_multi_variant": false,
+          "combined_components": [
+            "Ingredients",
+            "Ingredients - Gremolata Crumbs"
+          ]
         }
       ],
       "dish_count": 4

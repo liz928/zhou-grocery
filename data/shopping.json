@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:00:26.128516",
+  "generated_at": "2026-11-20T05:00:26.331090",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,24 +9,24 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 165,
-    "unique_after_dedup": 70,
-    "skipped_staples": 66,
-    "routing_matched": 49,
-    "routing_unmatched": 21,
+    "raw_ingredient_count": 168,
+    "unique_after_dedup": 74,
+    "skipped_staples": 65,
+    "routing_matched": 50,
+    "routing_unmatched": 24,
     "multi_store": 5,
     "unresolved_variants": 0,
     "user_extras": 0
   },
   "by_store": {
-    "Costco": [
+    "Whole Foods": [
       {
-        "canonical_name": "Beef",
-        "norm": "beef",
+        "canonical_name": "Asparagus",
+        "norm": "asparagus",
         "occurrences": [
           {
-            "day": "Wednesday",
-            "dish": "Beef and Broccoli Stir-Fry",
+            "day": "Thursday",
+            "dish": "Asparagus - Grilled with Charred Lemon Sauce",
             "qty_str": "1 lb",
             "qty_parsed": [
               1.0,
@@ -35,213 +35,46 @@
           }
         ],
         "stores": [
-          "Costco"
+          "Whole Foods"
         ],
-        "category": "Meat-Beef",
-        "type": "meat",
+        "category": "Produce-Vegetable",
+        "type": "fresh",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
         "use_count": 1,
         "days": [
-          "Wednesday"
+          "Thursday"
         ],
         "dishes": [
-          "Beef and Broccoli Stir-Fry"
+          "Asparagus - Grilled with Charred Lemon Sauce"
         ],
         "dishes_with_days": [
-          "Beef and Broccoli Stir-Fry (Wed)"
+          "Asparagus - Grilled with Charred Lemon Sauce (Thu)"
         ],
-        "trip": "Mon",
-        "icon": "🥩",
+        "trip": "Wed",
+        "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Beef and Broccoli Stir-Fry"
-            ],
-            "qty_display": "1 lb"
-          },
-          "Wed": {
             "uses": 0,
             "days": [],
             "dishes": [],
             "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Asparagus - Grilled with Charred Lemon Sauce"
+            ],
+            "qty_display": "1 lb"
           }
         },
         "total_qty_display": "1 lb",
         "math_mode": "summed"
       },
-      {
-        "canonical_name": "Chuck Roast",
-        "norm": "chuck roast",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Pot Roast",
-            "qty_str": "3-5 lb",
-            "qty_parsed": [
-              4.0,
-              "lb"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Unknown",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Pot Roast"
-        ],
-        "dishes_with_days": [
-          "Pot Roast (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Pot Roast"
-            ],
-            "qty_display": "4 lb"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4 lb",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Salmon",
-        "norm": "salmon",
-        "occurrences": [
-          {
-            "day": "Friday",
-            "dish": "Miso Salmon",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Meat-Seafood",
-        "type": "meat",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Friday"
-        ],
-        "dishes": [
-          "Miso Salmon"
-        ],
-        "dishes_with_days": [
-          "Miso Salmon (Fri)"
-        ],
-        "trip": "Wed",
-        "icon": "🥩",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Friday"
-            ],
-            "dishes": [
-              "Miso Salmon"
-            ],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      },
-      {
-        "canonical_name": "Teriyaki sauce",
-        "norm": "teriyaki sauce",
-        "occurrences": [
-          {
-            "day": "Wednesday",
-            "dish": "Beef and Broccoli Stir-Fry",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Wednesday"
-        ],
-        "dishes": [
-          "Beef and Broccoli Stir-Fry"
-        ],
-        "dishes_with_days": [
-          "Beef and Broccoli Stir-Fry (Wed)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Wednesday"
-            ],
-            "dishes": [
-              "Beef and Broccoli Stir-Fry"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
-      }
-    ],
-    "Whole Foods": [
       {
         "canonical_name": "Broccolini",
         "norm": "broccolini",
@@ -1075,7 +908,7 @@
           },
           {
             "day": "Thursday",
-            "dish": "Chinese Broccoli (Gai Lan)",
+            "dish": "Carrot & Mushrooms",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -1084,7 +917,7 @@
           },
           {
             "day": "Thursday",
-            "dish": "Carrot & Mushrooms",
+            "dish": "Asparagus - Grilled with Charred Lemon Sauce",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -1147,11 +980,11 @@
         ],
         "dishes": [
           "Apple Salad",
+          "Asparagus - Grilled with Charred Lemon Sauce",
           "Baby Bok Choy - Steamed with Oyster Sauce",
           "Beef and Broccoli Stir-Fry",
           "Carrot & Mushrooms",
           "Chicken Tikka Marsala",
-          "Chinese Broccoli (Gai Lan)",
           "Dairy-Free Tzatziki Sauce",
           "Garlic Turmeric Rice",
           "Instant Pot Greek Chicken Bowls",
@@ -1161,11 +994,11 @@
         ],
         "dishes_with_days": [
           "Apple Salad (Mon)",
+          "Asparagus - Grilled with Charred Lemon Sauce (Thu)",
           "Baby Bok Choy - Steamed with Oyster Sauce (Fri)",
           "Beef and Broccoli Stir-Fry (Wed)",
           "Carrot & Mushrooms (Thu)",
           "Chicken Tikka Marsala (Tue)",
-          "Chinese Broccoli (Gai Lan) (Thu)",
           "Dairy-Free Tzatziki Sauce (Sat)",
           "Garlic Turmeric Rice (Tue)",
           "Instant Pot Greek Chicken Bowls (Sat)",
@@ -1200,9 +1033,9 @@
               "Weekend"
             ],
             "dishes": [
+              "Asparagus - Grilled with Charred Lemon Sauce",
               "Baby Bok Choy - Steamed with Oyster Sauce",
               "Carrot & Mushrooms",
-              "Chinese Broccoli (Gai Lan)",
               "Dairy-Free Tzatziki Sauce",
               "Instant Pot Greek Chicken Bowls",
               "Mapo Tofu",
@@ -1917,6 +1750,61 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Shallot",
+        "norm": "shallot",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+            "qty_str": "1/2",
+            "qty_parsed": [
+              0.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Asparagus - Grilled with Charred Lemon Sauce"
+        ],
+        "dishes_with_days": [
+          "Asparagus - Grilled with Charred Lemon Sauce (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Asparagus - Grilled with Charred Lemon Sauce"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
         "canonical_name": "Dried shiitake mushrooms",
         "norm": "shiitake mushroom",
         "occurrences": [
@@ -2303,41 +2191,151 @@
         "math_mode": "summed"
       }
     ],
-    "888 Market / Pan Asia": [
+    "Costco": [
       {
-        "canonical_name": "Chinese broccoli",
-        "norm": "chinese broccoli",
+        "canonical_name": "Beef",
+        "norm": "beef",
         "occurrences": [
           {
-            "day": "Thursday",
-            "dish": "Chinese Broccoli (Gai Lan)",
-            "qty_str": "10 oz",
+            "day": "Wednesday",
+            "dish": "Beef and Broccoli Stir-Fry",
+            "qty_str": "1 lb",
             "qty_parsed": [
-              10.0,
-              "oz"
+              1.0,
+              "lb"
             ]
           }
         ],
         "stores": [
-          "888 Market / Pan Asia"
+          "Costco"
+        ],
+        "category": "Meat-Beef",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Beef and Broccoli Stir-Fry"
+        ],
+        "dishes_with_days": [
+          "Beef and Broccoli Stir-Fry (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Beef and Broccoli Stir-Fry"
+            ],
+            "qty_display": "1 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Chuck Roast",
+        "norm": "chuck roast",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Pot Roast",
+            "qty_str": "3-5 lb",
+            "qty_parsed": [
+              4.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
         ],
         "category": "Unknown",
-        "type": "fresh",
+        "type": "meat",
         "matched_routing": true,
         "is_countable": false,
         "user_routed": true,
         "use_count": 1,
         "days": [
-          "Thursday"
+          "Monday"
         ],
         "dishes": [
-          "Chinese Broccoli (Gai Lan)"
+          "Pot Roast"
         ],
         "dishes_with_days": [
-          "Chinese Broccoli (Gai Lan) (Thu)"
+          "Pot Roast (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Pot Roast"
+            ],
+            "qty_display": "4 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "4 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Salmon",
+        "norm": "salmon",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Miso Salmon",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat-Seafood",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Miso Salmon"
+        ],
+        "dishes_with_days": [
+          "Miso Salmon (Fri)"
         ],
         "trip": "Wed",
-        "icon": "🥬",
+        "icon": "🥩",
         "per_trip": {
           "Mon": {
             "uses": 0,
@@ -2348,17 +2346,74 @@
           "Wed": {
             "uses": 1,
             "days": [
-              "Thursday"
+              "Friday"
             ],
             "dishes": [
-              "Chinese Broccoli (Gai Lan)"
+              "Miso Salmon"
             ],
-            "qty_display": "10 oz"
+            "qty_display": ""
           }
         },
-        "total_qty_display": "10 oz",
-        "math_mode": "summed"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
+      {
+        "canonical_name": "Teriyaki sauce",
+        "norm": "teriyaki sauce",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Beef and Broccoli Stir-Fry",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Beef and Broccoli Stir-Fry"
+        ],
+        "dishes_with_days": [
+          "Beef and Broccoli Stir-Fry (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Beef and Broccoli Stir-Fry"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      }
+    ],
+    "888 Market / Pan Asia": [
       {
         "canonical_name": "Chinese vinegar",
         "norm": "chinese vinegar",
@@ -3088,6 +3143,59 @@
   ],
   "no_store_match": [
     {
+      "canonical_name": "Basil leaves",
+      "norm": "basil leaf",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+          "qty_str": "1/4 cup",
+          "qty_parsed": [
+            0.25,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Asparagus - Grilled with Charred Lemon Sauce"
+      ],
+      "dishes_with_days": [
+        "Asparagus - Grilled with Charred Lemon Sauce (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Asparagus - Grilled with Charred Lemon Sauce"
+          ],
+          "qty_display": "0.25 cup"
+        }
+      },
+      "total_qty_display": "0.25 cup",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Basmati rice",
       "norm": "basmati rice",
       "occurrences": [
@@ -3581,6 +3689,59 @@
       "math_mode": "single"
     },
     {
+      "canonical_name": "Flat-leaf parsley leaves",
+      "norm": "flat-leaf parsley leaf",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+          "qty_str": "1/4 cup",
+          "qty_parsed": [
+            0.25,
+            "cup"
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": false,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Asparagus - Grilled with Charred Lemon Sauce"
+      ],
+      "dishes_with_days": [
+        "Asparagus - Grilled with Charred Lemon Sauce (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Asparagus - Grilled with Charred Lemon Sauce"
+          ],
+          "qty_display": "0.25 cup"
+        }
+      },
+      "total_qty_display": "0.25 cup",
+      "math_mode": "summed"
+    },
+    {
       "canonical_name": "Freeze dried apples",
       "norm": "freeze apple",
       "occurrences": [
@@ -3791,6 +3952,59 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
+    },
+    {
+      "canonical_name": "Juice of 1/2-1 lemon",
+      "norm": "juice of 1 2-1 lemon",
+      "occurrences": [
+        {
+          "day": "Thursday",
+          "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+          "qty_str": null,
+          "qty_parsed": [
+            null,
+            null
+          ]
+        }
+      ],
+      "stores": [],
+      "category": "Unknown",
+      "type": "fresh",
+      "matched_routing": false,
+      "is_countable": true,
+      "user_routed": false,
+      "use_count": 1,
+      "days": [
+        "Thursday"
+      ],
+      "dishes": [
+        "Asparagus - Grilled with Charred Lemon Sauce"
+      ],
+      "dishes_with_days": [
+        "Asparagus - Grilled with Charred Lemon Sauce (Thu)"
+      ],
+      "trip": "Wed",
+      "icon": "🥬",
+      "per_trip": {
+        "Mon": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
+        },
+        "Wed": {
+          "uses": 1,
+          "days": [
+            "Thursday"
+          ],
+          "dishes": [
+            "Asparagus - Grilled with Charred Lemon Sauce"
+          ],
+          "qty_display": "1"
+        }
+      },
+      "total_qty_display": "1",
+      "math_mode": "multiplied"
     },
     {
       "canonical_name": "Juice of 1 lemon",
@@ -4507,41 +4721,6 @@
     },
     {
       "day": "Thursday",
-      "dish": "Chinese Broccoli (Gai Lan)",
-      "name": "Tbs oyster sauce",
-      "quantity": "2",
-      "original": "2Tbs oyster sauce"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chinese Broccoli (Gai Lan)",
-      "name": "sugar",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp sugar"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chinese Broccoli (Gai Lan)",
-      "name": "Tbs olive oil",
-      "quantity": "1",
-      "original": "1Tbs olive oil"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chinese Broccoli (Gai Lan)",
-      "name": "ginger",
-      "quantity": "1 tsp",
-      "original": "1 tsp ginger , minced"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Chinese Broccoli (Gai Lan)",
-      "name": "Tbs light soy sauce",
-      "quantity": "1",
-      "original": "1 Tbs light soy sauce"
-    },
-    {
-      "day": "Thursday",
       "dish": "Carrot & Mushrooms",
       "name": "Tbs olive oil",
       "quantity": "2",
@@ -4574,6 +4753,34 @@
       "name": "Dash of dark soy sauce",
       "quantity": null,
       "original": "Dash of dark soy sauce"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+      "name": "Tbs extra-virgin olive oil",
+      "quantity": "1-1 1/2",
+      "original": "1-1 1/2 Tbs extra-virgin olive oil (for roasting)"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+      "name": "Sea salt & black pepper",
+      "quantity": null,
+      "original": "Sea salt & black pepper, to taste"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+      "name": "Optional: 1 tsp extra-virgin olive oil",
+      "quantity": null,
+      "original": "Optional: 1 tsp extra-virgin olive oil (to help bind if mixture feels dry)"
+    },
+    {
+      "day": "Thursday",
+      "dish": "Asparagus - Grilled with Charred Lemon Sauce",
+      "name": "panko",
+      "quantity": "1 cup",
+      "original": "1 cup panko or fresh bread crumbs"
     },
     {
       "day": "Friday",
