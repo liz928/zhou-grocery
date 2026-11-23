@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:59:35.741934",
+  "generated_at": "2026-11-23T16:01:54.511390",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,12 +9,12 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 178,
-    "unique_after_dedup": 66,
-    "skipped_staples": 83,
-    "routing_matched": 35,
-    "routing_unmatched": 31,
-    "multi_store": 5,
+    "raw_ingredient_count": 162,
+    "unique_after_dedup": 60,
+    "skipped_staples": 78,
+    "routing_matched": 32,
+    "routing_unmatched": 28,
+    "multi_store": 4,
     "unresolved_variants": 0,
     "user_extras": 0
   },
@@ -320,61 +320,6 @@
         },
         "total_qty_display": "180 g",
         "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Spinach",
-        "norm": "spinach",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "2 cups",
-            "qty_parsed": [
-              2.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Beef Bulgogi w Veggies"
-        ],
-        "dishes_with_days": [
-          "Beef Bulgogi w Veggies (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Bulgogi w Veggies"
-            ],
-            "qty_display": "2 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 cups",
-        "math_mode": "summed"
       }
     ],
     "Whole Foods": [
@@ -675,15 +620,6 @@
         "occurrences": [
           {
             "day": "Monday",
-            "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "3",
-            "qty_parsed": [
-              3.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
             "dish": "Potatoes - Gochujang",
             "qty_str": "2",
             "qty_parsed": [
@@ -781,7 +717,7 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 11,
+        "use_count": 10,
         "days": [
           "Monday",
           "Tuesday",
@@ -790,7 +726,6 @@
           "Weekend"
         ],
         "dishes": [
-          "Beef Bulgogi w Veggies",
           "Carrots Glazed in Brown Sugar",
           "Cucumber - Smashed",
           "Eggplant",
@@ -803,7 +738,6 @@
           "Wood Ear Mushroom’s & Spiced Tofu"
         ],
         "dishes_with_days": [
-          "Beef Bulgogi w Veggies (Mon)",
           "Carrots Glazed in Brown Sugar (Tue)",
           "Cucumber - Smashed (Mon)",
           "Eggplant (Wed)",
@@ -819,14 +753,13 @@
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 7,
+            "uses": 6,
             "days": [
               "Monday",
               "Tuesday",
               "Wednesday"
             ],
             "dishes": [
-              "Beef Bulgogi w Veggies",
               "Carrots Glazed in Brown Sugar",
               "Cucumber - Smashed",
               "Eggplant",
@@ -834,7 +767,7 @@
               "Rainbow chard",
               "Wood Ear Mushroom’s & Spiced Tofu"
             ],
-            "qty_display": "19"
+            "qty_display": "16"
           },
           "Wed": {
             "uses": 4,
@@ -851,7 +784,7 @@
             "qty_display": "13 clove"
           }
         },
-        "total_qty_display": "31.5 clove",
+        "total_qty_display": "28.5 clove",
         "math_mode": "summed"
       },
       {
@@ -970,15 +903,6 @@
         "occurrences": [
           {
             "day": "Monday",
-            "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
             "dish": "Potatoes - Gochujang",
             "qty_str": "2",
             "qty_parsed": [
@@ -1022,7 +946,7 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 5,
+        "use_count": 4,
         "days": [
           "Monday",
           "Wednesday",
@@ -1030,14 +954,12 @@
         ],
         "dishes": [
           "Baked Potato Bar",
-          "Beef Bulgogi w Veggies",
           "Egg with Tomato",
           "Eggplant",
           "Potatoes - Gochujang"
         ],
         "dishes_with_days": [
           "Baked Potato Bar (Thu)",
-          "Beef Bulgogi w Veggies (Mon)",
           "Egg with Tomato (Wed)",
           "Eggplant (Wed)",
           "Potatoes - Gochujang (Mon)"
@@ -1046,18 +968,17 @@
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 4,
+            "uses": 3,
             "days": [
               "Monday",
               "Wednesday"
             ],
             "dishes": [
-              "Beef Bulgogi w Veggies",
               "Egg with Tomato",
               "Eggplant",
               "Potatoes - Gochujang"
             ],
-            "qty_display": "6"
+            "qty_display": "4"
           },
           "Wed": {
             "uses": 1,
@@ -1070,7 +991,7 @@
             "qty_display": "1"
           }
         },
-        "total_qty_display": "7",
+        "total_qty_display": "5",
         "math_mode": "multiplied"
       },
       {
@@ -1294,61 +1215,6 @@
         "math_mode": "single"
       },
       {
-        "canonical_name": "Red bell pepper",
-        "norm": "red bell pepper",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Beef Bulgogi w Veggies"
-        ],
-        "dishes_with_days": [
-          "Beef Bulgogi w Veggies (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Bulgogi w Veggies"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
         "canonical_name": "Red onion",
         "norm": "red onion",
         "occurrences": [
@@ -1404,18 +1270,9 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Toasted sesame seeds",
+        "canonical_name": "Sesame seeds",
         "norm": "sesame seed",
         "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
           {
             "day": "Monday",
             "dish": "Potatoes - Gochujang",
@@ -1434,31 +1291,28 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
           "Monday"
         ],
         "dishes": [
-          "Beef Bulgogi w Veggies",
           "Potatoes - Gochujang"
         ],
         "dishes_with_days": [
-          "Beef Bulgogi w Veggies (Mon)",
           "Potatoes - Gochujang (Mon)"
         ],
         "trip": "Mon",
         "icon": "🥫",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
               "Monday"
             ],
             "dishes": [
-              "Beef Bulgogi w Veggies",
               "Potatoes - Gochujang"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 0,
@@ -1467,8 +1321,8 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "2",
-        "math_mode": "summed"
+        "total_qty_display": "1",
+        "math_mode": "single"
       },
       {
         "canonical_name": "Sunflower seeds",
@@ -1585,15 +1439,6 @@
         "norm": "yellow onion",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
             "day": "Thursday",
             "dish": "Green Beans, crockpot (holiday)",
             "qty_str": "1",
@@ -1611,31 +1456,24 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday",
           "Thursday"
         ],
         "dishes": [
-          "Beef Bulgogi w Veggies",
           "Green Beans, crockpot (holiday)"
         ],
         "dishes_with_days": [
-          "Beef Bulgogi w Veggies (Mon)",
           "Green Beans, crockpot (holiday) (Thu)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Beef Bulgogi w Veggies"
-            ],
-            "qty_display": "1"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           },
           "Wed": {
             "uses": 1,
@@ -1648,7 +1486,7 @@
             "qty_display": "1"
           }
         },
-        "total_qty_display": "2",
+        "total_qty_display": "1",
         "math_mode": "multiplied"
       }
     ],
@@ -1961,18 +1799,9 @@
   },
   "multi_store": [
     {
-      "canonical_name": "Carrot",
+      "canonical_name": "Carrots",
       "norm": "carrot",
       "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Beef Bulgogi w Veggies",
-          "qty_str": "2",
-          "qty_parsed": [
-            2.0,
-            ""
-          ]
-        },
         {
           "day": "Wednesday",
           "dish": "Wood Ear Mushroom’s & Spiced Tofu",
@@ -2010,20 +1839,17 @@
       "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 4,
+      "use_count": 3,
       "days": [
-        "Monday",
         "Wednesday",
         "Weekend"
       ],
       "dishes": [
-        "Beef Bulgogi w Veggies",
         "Moroccan Chicken w/ Root Vegs",
         "Moroccan Quinoa",
         "Wood Ear Mushroom’s & Spiced Tofu"
       ],
       "dishes_with_days": [
-        "Beef Bulgogi w Veggies (Mon)",
         "Moroccan Chicken w/ Root Vegs (Sat)",
         "Moroccan Quinoa (Sat)",
         "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
@@ -2032,16 +1858,14 @@
       "icon": "🥬",
       "per_trip": {
         "Mon": {
-          "uses": 2,
+          "uses": 1,
           "days": [
-            "Monday",
             "Wednesday"
           ],
           "dishes": [
-            "Beef Bulgogi w Veggies",
             "Wood Ear Mushroom’s & Spiced Tofu"
           ],
-          "qty_display": "6"
+          "qty_display": "4"
         },
         "Wed": {
           "uses": 2,
@@ -2055,7 +1879,7 @@
           "qty_display": "203 g"
         }
       },
-      "total_qty_display": "209 g",
+      "total_qty_display": "207 g",
       "math_mode": "summed"
     },
     {
@@ -2225,118 +2049,9 @@
       },
       "total_qty_display": "1 kg",
       "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Zucchini",
-      "norm": "zucchini",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Beef Bulgogi w Veggies",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [
-        "Costco",
-        "Whole Foods"
-      ],
-      "category": "Produce-Vegetable",
-      "type": "fresh",
-      "matched_routing": true,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Beef Bulgogi w Veggies"
-      ],
-      "dishes_with_days": [
-        "Beef Bulgogi w Veggies (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Beef Bulgogi w Veggies"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
     }
   ],
   "no_store_match": [
-    {
-      "canonical_name": "Arrowroot powder",
-      "norm": "arrowroot powder",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Beef Bulgogi w Veggies",
-          "qty_str": "1 tsp",
-          "qty_parsed": [
-            1.0,
-            "tsp"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Beef Bulgogi w Veggies"
-      ],
-      "dishes_with_days": [
-        "Beef Bulgogi w Veggies (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Beef Bulgogi w Veggies"
-          ],
-          "qty_display": "1 tsp"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1 tsp",
-      "math_mode": "summed"
-    },
     {
       "canonical_name": "Au jus: 2 cups GF beef broth",
       "norm": "au jus 2 cup gf beef broth",
@@ -2760,59 +2475,6 @@
       },
       "total_qty_display": "3",
       "math_mode": "single"
-    },
-    {
-      "canonical_name": "Coconut aminos",
-      "norm": "coconut amino",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Beef Bulgogi w Veggies",
-          "qty_str": "1/3 cup",
-          "qty_parsed": [
-            0.3333333333333333,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Beef Bulgogi w Veggies"
-      ],
-      "dishes_with_days": [
-        "Beef Bulgogi w Veggies (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Beef Bulgogi w Veggies"
-          ],
-          "qty_display": "0.33 cup"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "0.33 cup",
-      "math_mode": "summed"
     },
     {
       "canonical_name": "Dates",
@@ -3451,59 +3113,6 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "NY strip steak",
-      "norm": "ny strip steak",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Beef Bulgogi w Veggies",
-          "qty_str": "2 lbs",
-          "qty_parsed": [
-            2.0,
-            "lbs"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Beef Bulgogi w Veggies"
-      ],
-      "dishes_with_days": [
-        "Beef Bulgogi w Veggies (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Beef Bulgogi w Veggies"
-          ],
-          "qty_display": "2 lbs"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "2 lbs",
-      "math_mode": "summed"
-    },
-    {
       "canonical_name": "Pumpkin puree",
       "norm": "pumpkin puree",
       "occurrences": [
@@ -3929,41 +3538,6 @@
     }
   ],
   "skipped_staples": [
-    {
-      "day": "Monday",
-      "dish": "Beef Bulgogi w Veggies",
-      "name": "-inch ginger",
-      "quantity": "1",
-      "original": "1-inch ginger, grated"
-    },
-    {
-      "day": "Monday",
-      "dish": "Beef Bulgogi w Veggies",
-      "name": "Tbs honey (for sweetness",
-      "quantity": "2",
-      "original": "2 Tbs honey (for sweetness, balances umami)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Beef Bulgogi w Veggies",
-      "name": "Tbs rice vinegar",
-      "quantity": "1",
-      "original": "1 Tbs rice vinegar (for tang)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Beef Bulgogi w Veggies",
-      "name": "Tbs olive oil",
-      "quantity": "2",
-      "original": "2 Tbs olive oil or avocado oil (per your cake oil preference, seed-oil-free)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Beef Bulgogi w Veggies",
-      "name": "Salt and black pepper",
-      "quantity": null,
-      "original": "Salt and black pepper, to taste"
-    },
     {
       "day": "Monday",
       "dish": "Potatoes - Gochujang",
