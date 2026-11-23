@@ -1,88 +1,9 @@
 {
-  "generated_at": "2026-11-23T05:00:30.590086",
+  "generated_at": "2026-11-23T15:59:35.741934",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
       "dishes": [
-        {
-          "card_id": "68058045390f432c31113923",
-          "name": "Banana Bread",
-          "ingredients": [
-            {
-              "original": "1/2 cup unsalted butter, at room temperature",
-              "quantity": "1/2 cup",
-              "name": "unsalted butter",
-              "notes": "at room temperature",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 cup cane sugar, blended until fine",
-              "quantity": "1 cup",
-              "name": "cane sugar",
-              "notes": "blended until fine",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 eggs, large",
-              "quantity": "2",
-              "name": "eggs",
-              "notes": "large",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 cups all purpose flour",
-              "quantity": "2 cups",
-              "name": "all purpose flour",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp baking soda",
-              "quantity": "1 tsp",
-              "name": "baking soda",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 tsp salt",
-              "quantity": "1/2 tsp",
-              "name": "salt",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "3-4 medium bananas (or 2 large bananas)",
-              "quantity": "3-4",
-              "name": "medium bananas",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp vanilla extract",
-              "quantity": "1 tsp",
-              "name": "vanilla extract",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Use 1:1 GF flour blend (whole family GF this week)",
-              "quantity": null,
-              "name": "Use 1:1 GF flour blend",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
         {
           "card_id": "68e3eda74ec0f36a93614e6a",
           "name": "Beef Bulgogi w Veggies",
@@ -219,100 +140,6 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "6a14edced66bb4f01661b2c7",
-          "name": "🍚 Rice (Simple)",
-          "ingredients": [
-            {
-              "original": "4 cups rice (white/jasmine/basmati)",
-              "quantity": "4 cups",
-              "name": "rice",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "4 cups water",
-              "quantity": "4 cups",
-              "name": "water",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
-          "card_id": "6b031b87d56f3cdc0ea604c6",
-          "name": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-          "ingredients": [
-            {
-              "original": "12 oz soybean sprouts (or mung bean sprouts)",
-              "quantity": "12 oz",
-              "name": "soybean sprouts",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 1/2 tsp salt (1 tsp for water, 1/2 tsp to season)",
-              "quantity": "1 1/2 tsp",
-              "name": "salt (1 tsp for water",
-              "notes": "1/2 tsp to season)",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 garlic clove, minced",
-              "quantity": "1",
-              "name": "garlic clove",
-              "notes": "minced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 green onions, thinly sliced",
-              "quantity": "2",
-              "name": "green onions",
-              "notes": "thinly sliced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 Tbs avocado oil (or 1 tsp toasted sesame oil)",
-              "quantity": "1",
-              "name": "Tbs avocado oil",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp tamari or coconut aminos",
-              "quantity": "1 tsp",
-              "name": "tamari",
-              "notes": "coconut aminos",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 Tbs toasted sesame seeds",
-              "quantity": "1",
-              "name": "Tbs toasted sesame seeds",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "Optional: pinch gochugaru (adults)",
-              "quantity": null,
-              "name": "Optional: pinch gochugaru",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "672d67c65974bc6604b8409d",
           "name": "Potatoes - Gochujang",
           "ingredients": [
@@ -437,70 +264,78 @@
           ]
         },
         {
-          "card_id": "68f5b9780ed9e654eacd43fb",
-          "name": "Cucumber & Daikon salad",
+          "card_id": "664269bd554a8e014fea288b",
+          "name": "Cucumber - Smashed",
           "ingredients": [
             {
-              "original": "1 large cucumber, thinly sliced",
+              "original": "6-8 mini or 2 english cucumber, triangle cut",
+              "quantity": "6-8",
+              "name": "mini",
+              "notes": "2 english cucumber, triangle cut",
+              "checked": false,
+              "checklist": "Yeye’s version"
+            },
+            {
+              "original": "2-3 garlic, minced",
+              "quantity": "2-3",
+              "name": "garlic",
+              "notes": "minced",
+              "checked": false,
+              "checklist": "Yeye’s version"
+            },
+            {
+              "original": "1/4 C Soy sauce",
+              "quantity": "1/4 C",
+              "name": "Soy sauce",
+              "notes": "",
+              "checked": false,
+              "checklist": "Yeye’s version"
+            },
+            {
+              "original": "1.5 Tbs Chinese Vinegar",
+              "quantity": "1.5",
+              "name": "Tbs Chinese Vinegar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Yeye’s version"
+            },
+            {
+              "original": ".5 Tbs sugar",
+              "quantity": null,
+              "name": ".5 Tbs sugar",
+              "notes": "",
+              "checked": false,
+              "checklist": "Yeye’s version"
+            },
+            {
+              "original": "1 Tbs Mirin",
               "quantity": "1",
-              "name": "large cucumber",
-              "notes": "thinly sliced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 cup daikon radish, julienned",
-              "quantity": "1 cup",
-              "name": "daikon radish",
-              "notes": "julienned",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 cup rice vinegar",
-              "quantity": "1/2 cup",
-              "name": "rice vinegar",
+              "name": "Tbs Mirin",
               "notes": "",
               "checked": false,
-              "checklist": "Ingredients"
+              "checklist": "Yeye’s version"
             },
             {
-              "original": "2 Tbs honey",
-              "quantity": "2",
-              "name": "Tbs honey",
-              "notes": "",
+              "original": "Optional, Goguchang Paste (1 tsp)",
+              "quantity": null,
+              "name": "Optional",
+              "notes": "Goguchang Paste (1 tsp)",
               "checked": false,
-              "checklist": "Ingredients"
+              "checklist": "Yeye’s version"
             },
             {
-              "original": "1 tsp sea salt",
-              "quantity": "1 tsp",
-              "name": "sea salt",
-              "notes": "",
+              "original": "optional, Cilantro (garnish)",
+              "quantity": null,
+              "name": "optional",
+              "notes": "Cilantro (garnish)",
               "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp grated ginger",
-              "quantity": "1 tsp",
-              "name": "grated ginger",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 small red chili, thinly sliced (optional, for mild heat)",
-              "quantity": "1",
-              "name": "small red chili",
-              "notes": "thinly sliced (optional, for mild heat)",
-              "checked": false,
-              "checklist": "Ingredients"
+              "checklist": "Yeye’s version"
             }
           ],
           "is_multi_variant": false
         }
       ],
-      "dish_count": 6
+      "dish_count": 3
     },
     "Tuesday": {
       "dishes": [
@@ -616,94 +451,22 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "679023069a34b58da0c10bff",
-          "name": "Mexican style rice with achiote",
+          "card_id": "6a14edced66bb4f01661b2c7",
+          "name": "🍚 Rice (Simple)",
           "ingredients": [
             {
-              "original": "1 onion small, diced",
-              "quantity": "1",
-              "name": "onion small",
-              "notes": "diced",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/4 cup water plus more as needed",
-              "quantity": "1/4 cup",
-              "name": "water plus more as needed",
+              "original": "4 cups rice (white/jasmine/basmati)",
+              "quantity": "4 cups",
+              "name": "rice",
               "notes": "",
               "checked": false,
               "checklist": "Ingredients"
             },
             {
-              "original": "2 garlic cloves minced",
-              "quantity": "2",
-              "name": "garlic cloves minced",
+              "original": "4 cups water",
+              "quantity": "4 cups",
+              "name": "water",
               "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 cup long-grain rice (recommend Uncle Ben's Long Grain Brown Rice - not the quick or instant kind)",
-              "quantity": "1 cup",
-              "name": "long-grain rice (recommend Uncle Ben's Long Grain Brown Rice - not the quick",
-              "notes": "instant kind)",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1 tsp cumin",
-              "quantity": "1 tsp",
-              "name": "cumin",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 tsp black pepper",
-              "quantity": "1/2 tsp",
-              "name": "black pepper",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 tsp kosher or sea salt",
-              "quantity": "1/2 tsp",
-              "name": "kosher",
-              "notes": "sea salt",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "1/2 cup cilantro freshly chopped",
-              "quantity": "1/2 cup",
-              "name": "cilantro freshly chopped",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "14 1/2 ounces petit diced tomatoes can",
-              "quantity": "14 1/2 ounces",
-              "name": "petit diced tomatoes can",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "4 ounces diced green chiles can, optional",
-              "quantity": "4 ounces",
-              "name": "diced green chiles can",
-              "notes": "optional",
-              "checked": false,
-              "checklist": "Ingredients"
-            },
-            {
-              "original": "2 cups vegetable broth or chicken broth, low-sodium",
-              "quantity": "2 cups",
-              "name": "vegetable broth",
-              "notes": "chicken broth, low-sodium",
               "checked": false,
               "checklist": "Ingredients"
             }
@@ -1085,9 +848,32 @@
             }
           ],
           "is_multi_variant": false
+        },
+        {
+          "card_id": "6b04b741af624a7e6c1fa30e",
+          "name": "🍚 Rice (Simple)",
+          "ingredients": [
+            {
+              "original": "4 cups rice (white/jasmine/basmati)",
+              "quantity": "4 cups",
+              "name": "rice",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            },
+            {
+              "original": "4 cups water",
+              "quantity": "4 cups",
+              "name": "water",
+              "notes": "",
+              "checked": false,
+              "checklist": "Ingredients"
+            }
+          ],
+          "is_multi_variant": false
         }
       ],
-      "dish_count": 4
+      "dish_count": 5
     },
     "Thursday": {
       "dishes": [
@@ -1526,77 +1312,6 @@
     "Weekend": {
       "dishes": [
         {
-          "card_id": "664269bd554a8e014fea288b",
-          "name": "Cucumber - Smashed",
-          "ingredients": [
-            {
-              "original": "6-8 mini or 2 english cucumber, triangle cut",
-              "quantity": "6-8",
-              "name": "mini",
-              "notes": "2 english cucumber, triangle cut",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": "2-3 garlic, minced",
-              "quantity": "2-3",
-              "name": "garlic",
-              "notes": "minced",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": "1/4 C Soy sauce",
-              "quantity": "1/4 C",
-              "name": "Soy sauce",
-              "notes": "",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": "1.5 Tbs Chinese Vinegar",
-              "quantity": "1.5",
-              "name": "Tbs Chinese Vinegar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": ".5 Tbs sugar",
-              "quantity": null,
-              "name": ".5 Tbs sugar",
-              "notes": "",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": "1 Tbs Mirin",
-              "quantity": "1",
-              "name": "Tbs Mirin",
-              "notes": "",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": "Optional, Goguchang Paste (1 tsp)",
-              "quantity": null,
-              "name": "Optional",
-              "notes": "Goguchang Paste (1 tsp)",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            },
-            {
-              "original": "optional, Cilantro (garnish)",
-              "quantity": null,
-              "name": "optional",
-              "notes": "Cilantro (garnish)",
-              "checked": false,
-              "checklist": "Yeye’s version"
-            }
-          ],
-          "is_multi_variant": false
-        },
-        {
           "card_id": "698aa5a8d761898c45ea2e7e",
           "name": "Moroccan Quinoa",
           "ingredients": [
@@ -1888,7 +1603,7 @@
           "is_multi_variant": false
         }
       ],
-      "dish_count": 3
+      "dish_count": 2
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:00:30.590086",
+  "generated_at": "2026-11-23T15:59:35.741934",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 211,
-    "unique_after_dedup": 77,
-    "skipped_staples": 98,
-    "routing_matched": 41,
-    "routing_unmatched": 36,
+    "raw_ingredient_count": 178,
+    "unique_after_dedup": 66,
+    "skipped_staples": 83,
+    "routing_matched": 35,
+    "routing_unmatched": 31,
     "multi_store": 5,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -196,61 +196,6 @@
         },
         "total_qty_display": "6 slice",
         "math_mode": "single"
-      },
-      {
-        "canonical_name": "Bananas",
-        "norm": "banana",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Banana Bread",
-            "qty_str": "3-4",
-            "qty_parsed": [
-              3.5,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Costco"
-        ],
-        "category": "Produce-Fruit",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Banana Bread"
-        ],
-        "dishes_with_days": [
-          "Banana Bread (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Banana Bread"
-            ],
-            "qty_display": "4"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "4",
-        "math_mode": "multiplied"
       },
       {
         "canonical_name": "Chicken",
@@ -560,61 +505,6 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Cucumber",
-        "norm": "cucumber",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Cucumber & Daikon salad",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Cucumber & Daikon salad"
-        ],
-        "dishes_with_days": [
-          "Cucumber & Daikon salad (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Cucumber & Daikon salad"
-            ],
-            "qty_display": "1"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1",
-        "math_mode": "multiplied"
-      },
-      {
         "canonical_name": "Dijon mustard",
         "norm": "dijon mustard",
         "occurrences": [
@@ -674,15 +564,6 @@
         "norm": "egg",
         "occurrences": [
           {
-            "day": "Monday",
-            "dish": "Banana Bread",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          },
-          {
             "day": "Wednesday",
             "dish": "Egg with Tomato",
             "qty_str": "5",
@@ -700,33 +581,28 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
-          "Monday",
           "Wednesday"
         ],
         "dishes": [
-          "Banana Bread",
           "Egg with Tomato"
         ],
         "dishes_with_days": [
-          "Banana Bread (Mon)",
           "Egg with Tomato (Wed)"
         ],
         "trip": "Mon",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Monday",
               "Wednesday"
             ],
             "dishes": [
-              "Banana Bread",
               "Egg with Tomato"
             ],
-            "qty_display": "7"
+            "qty_display": "5"
           },
           "Wed": {
             "uses": 0,
@@ -735,7 +611,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "7",
+        "total_qty_display": "5",
         "math_mode": "multiplied"
       },
       {
@@ -808,15 +684,6 @@
           },
           {
             "day": "Monday",
-            "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
             "dish": "Potatoes - Gochujang",
             "qty_str": "2",
             "qty_parsed": [
@@ -825,11 +692,11 @@
             ]
           },
           {
-            "day": "Tuesday",
-            "dish": "Mexican style rice with achiote",
-            "qty_str": "2",
+            "day": "Monday",
+            "dish": "Cucumber - Smashed",
+            "qty_str": "2-3",
             "qty_parsed": [
-              2.0,
+              2.5,
               ""
             ]
           },
@@ -889,15 +756,6 @@
           },
           {
             "day": "Weekend",
-            "dish": "Cucumber - Smashed",
-            "qty_str": "2-3",
-            "qty_parsed": [
-              2.5,
-              ""
-            ]
-          },
-          {
-            "day": "Weekend",
             "dish": "Moroccan Quinoa",
             "qty_str": "1 clove",
             "qty_parsed": [
@@ -923,7 +781,7 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 13,
+        "use_count": 11,
         "days": [
           "Monday",
           "Tuesday",
@@ -937,8 +795,6 @@
           "Cucumber - Smashed",
           "Eggplant",
           "Green Beans, crockpot (holiday)",
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-          "Mexican style rice with achiote",
           "Moroccan Chicken w/ Root Vegs",
           "Moroccan Quinoa",
           "Potatoes - Gochujang",
@@ -949,11 +805,9 @@
         "dishes_with_days": [
           "Beef Bulgogi w Veggies (Mon)",
           "Carrots Glazed in Brown Sugar (Tue)",
-          "Cucumber - Smashed (Sat)",
+          "Cucumber - Smashed (Mon)",
           "Eggplant (Wed)",
           "Green Beans, crockpot (holiday) (Thu)",
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts) (Mon)",
-          "Mexican style rice with achiote (Tue)",
           "Moroccan Chicken w/ Root Vegs (Sat)",
           "Moroccan Quinoa (Sat)",
           "Potatoes - Gochujang (Mon)",
@@ -965,7 +819,7 @@
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 8,
+            "uses": 7,
             "days": [
               "Monday",
               "Tuesday",
@@ -974,9 +828,8 @@
             "dishes": [
               "Beef Bulgogi w Veggies",
               "Carrots Glazed in Brown Sugar",
+              "Cucumber - Smashed",
               "Eggplant",
-              "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-              "Mexican style rice with achiote",
               "Potatoes - Gochujang",
               "Rainbow chard",
               "Wood Ear Mushroom’s & Spiced Tofu"
@@ -984,22 +837,21 @@
             "qty_display": "19"
           },
           "Wed": {
-            "uses": 5,
+            "uses": 4,
             "days": [
               "Thursday",
               "Weekend"
             ],
             "dishes": [
-              "Cucumber - Smashed",
               "Green Beans, crockpot (holiday)",
               "Moroccan Chicken w/ Root Vegs",
               "Moroccan Quinoa",
               "Prime Rib (Reverse Sear, Dairy-Free)"
             ],
-            "qty_display": "15.5 clove"
+            "qty_display": "13 clove"
           }
         },
-        "total_qty_display": "34.5 clove",
+        "total_qty_display": "31.5 clove",
         "math_mode": "summed"
       },
       {
@@ -1127,15 +979,6 @@
           },
           {
             "day": "Monday",
-            "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-            "qty_str": "2",
-            "qty_parsed": [
-              2.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
             "dish": "Potatoes - Gochujang",
             "qty_str": "2",
             "qty_parsed": [
@@ -1179,7 +1022,7 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 6,
+        "use_count": 5,
         "days": [
           "Monday",
           "Wednesday",
@@ -1190,7 +1033,6 @@
           "Beef Bulgogi w Veggies",
           "Egg with Tomato",
           "Eggplant",
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
           "Potatoes - Gochujang"
         ],
         "dishes_with_days": [
@@ -1198,14 +1040,13 @@
           "Beef Bulgogi w Veggies (Mon)",
           "Egg with Tomato (Wed)",
           "Eggplant (Wed)",
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts) (Mon)",
           "Potatoes - Gochujang (Mon)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 5,
+            "uses": 4,
             "days": [
               "Monday",
               "Wednesday"
@@ -1214,10 +1055,9 @@
               "Beef Bulgogi w Veggies",
               "Egg with Tomato",
               "Eggplant",
-              "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
               "Potatoes - Gochujang"
             ],
-            "qty_display": "8"
+            "qty_display": "6"
           },
           "Wed": {
             "uses": 1,
@@ -1230,7 +1070,7 @@
             "qty_display": "1"
           }
         },
-        "total_qty_display": "9",
+        "total_qty_display": "7",
         "math_mode": "multiplied"
       },
       {
@@ -1578,15 +1418,6 @@
           },
           {
             "day": "Monday",
-            "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Monday",
             "dish": "Potatoes - Gochujang",
             "qty_str": "1",
             "qty_parsed": [
@@ -1603,34 +1434,31 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 3,
+        "use_count": 2,
         "days": [
           "Monday"
         ],
         "dishes": [
           "Beef Bulgogi w Veggies",
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
           "Potatoes - Gochujang"
         ],
         "dishes_with_days": [
           "Beef Bulgogi w Veggies (Mon)",
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts) (Mon)",
           "Potatoes - Gochujang (Mon)"
         ],
         "trip": "Mon",
         "icon": "🥫",
         "per_trip": {
           "Mon": {
-            "uses": 3,
+            "uses": 2,
             "days": [
               "Monday"
             ],
             "dishes": [
               "Beef Bulgogi w Veggies",
-              "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
               "Potatoes - Gochujang"
             ],
-            "qty_display": "3"
+            "qty_display": "2"
           },
           "Wed": {
             "uses": 0,
@@ -1639,7 +1467,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "3",
+        "total_qty_display": "2",
         "math_mode": "summed"
       },
       {
@@ -1698,61 +1526,6 @@
         "math_mode": "summed"
       },
       {
-        "canonical_name": "Tamari",
-        "norm": "tamari",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-            "qty_str": "1 tsp",
-            "qty_parsed": [
-              1.0,
-              "tsp"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts)"
-        ],
-        "dishes_with_days": [
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts) (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Kongnamul Muchim (Korean Seasoned Bean Sprouts)"
-            ],
-            "qty_display": "1 tsp"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "1 tsp",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Tomatoes",
         "norm": "tomato",
         "occurrences": [
@@ -1808,76 +1581,12 @@
         "math_mode": "multiplied"
       },
       {
-        "canonical_name": "Vegetable broth",
-        "norm": "vegetable broth",
-        "occurrences": [
-          {
-            "day": "Tuesday",
-            "dish": "Mexican style rice with achiote",
-            "qty_str": "2 cups",
-            "qty_parsed": [
-              2.0,
-              "cups"
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Pantry-Staple",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Tuesday"
-        ],
-        "dishes": [
-          "Mexican style rice with achiote"
-        ],
-        "dishes_with_days": [
-          "Mexican style rice with achiote (Tue)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Tuesday"
-            ],
-            "dishes": [
-              "Mexican style rice with achiote"
-            ],
-            "qty_display": "2 cups"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "2 cups",
-        "math_mode": "summed"
-      },
-      {
         "canonical_name": "Onion",
         "norm": "yellow onion",
         "occurrences": [
           {
             "day": "Monday",
             "dish": "Beef Bulgogi w Veggies",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          },
-          {
-            "day": "Tuesday",
-            "dish": "Mexican style rice with achiote",
             "qty_str": "1",
             "qty_parsed": [
               1.0,
@@ -1902,36 +1611,31 @@
         "matched_routing": true,
         "is_countable": true,
         "user_routed": true,
-        "use_count": 3,
+        "use_count": 2,
         "days": [
           "Monday",
-          "Tuesday",
           "Thursday"
         ],
         "dishes": [
           "Beef Bulgogi w Veggies",
-          "Green Beans, crockpot (holiday)",
-          "Mexican style rice with achiote"
+          "Green Beans, crockpot (holiday)"
         ],
         "dishes_with_days": [
           "Beef Bulgogi w Veggies (Mon)",
-          "Green Beans, crockpot (holiday) (Thu)",
-          "Mexican style rice with achiote (Tue)"
+          "Green Beans, crockpot (holiday) (Thu)"
         ],
         "trip": "Mon/Wed",
         "icon": "🥬",
         "per_trip": {
           "Mon": {
-            "uses": 2,
+            "uses": 1,
             "days": [
-              "Monday",
-              "Tuesday"
+              "Monday"
             ],
             "dishes": [
-              "Beef Bulgogi w Veggies",
-              "Mexican style rice with achiote"
+              "Beef Bulgogi w Veggies"
             ],
-            "qty_display": "2"
+            "qty_display": "1"
           },
           "Wed": {
             "uses": 1,
@@ -1944,7 +1648,7 @@
             "qty_display": "1"
           }
         },
-        "total_qty_display": "3",
+        "total_qty_display": "2",
         "math_mode": "multiplied"
       }
     ],
@@ -2007,9 +1711,18 @@
     ],
     "888 Market / Pan Asia": [
       {
-        "canonical_name": "Chinese vinegar",
+        "canonical_name": "Chinese Vinegar",
         "norm": "chinese vinegar",
         "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Cucumber - Smashed",
+            "qty_str": "1.5",
+            "qty_parsed": [
+              1.5,
+              ""
+            ]
+          },
           {
             "day": "Wednesday",
             "dish": "Eggplant",
@@ -2017,15 +1730,6 @@
             "qty_parsed": [
               null,
               null
-            ]
-          },
-          {
-            "day": "Weekend",
-            "dish": "Cucumber - Smashed",
-            "qty_str": "1.5",
-            "qty_parsed": [
-              1.5,
-              ""
             ]
           }
         ],
@@ -2039,39 +1743,37 @@
         "user_routed": true,
         "use_count": 2,
         "days": [
-          "Wednesday",
-          "Weekend"
+          "Monday",
+          "Wednesday"
         ],
         "dishes": [
           "Cucumber - Smashed",
           "Eggplant"
         ],
         "dishes_with_days": [
-          "Cucumber - Smashed (Sat)",
+          "Cucumber - Smashed (Mon)",
           "Eggplant (Wed)"
         ],
-        "trip": "Mon/Wed",
+        "trip": "Mon",
         "icon": "❓",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 2,
             "days": [
+              "Monday",
               "Wednesday"
             ],
             "dishes": [
+              "Cucumber - Smashed",
               "Eggplant"
             ],
-            "qty_display": ""
+            "qty_display": "1.5"
           },
           "Wed": {
-            "uses": 1,
-            "days": [
-              "Weekend"
-            ],
-            "dishes": [
-              "Cucumber - Smashed"
-            ],
-            "qty_display": "1.5"
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
           }
         },
         "total_qty_display": "1.5",
@@ -2082,7 +1784,16 @@
         "norm": "rice",
         "occurrences": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
+            "dish": "🍚 Rice (Simple)",
+            "qty_str": "4 cups",
+            "qty_parsed": [
+              4.0,
+              "cups"
+            ]
+          },
+          {
+            "day": "Wednesday",
             "dish": "🍚 Rice (Simple)",
             "qty_str": "4 cups",
             "qty_parsed": [
@@ -2099,28 +1810,30 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 1,
+        "use_count": 2,
         "days": [
-          "Monday"
+          "Tuesday",
+          "Wednesday"
         ],
         "dishes": [
           "🍚 Rice (Simple)"
         ],
         "dishes_with_days": [
-          "🍚 Rice (Simple) (Mon)"
+          "🍚 Rice (Simple) (Tue, Wed)"
         ],
         "trip": "Mon",
         "icon": "🥫",
         "per_trip": {
           "Mon": {
-            "uses": 1,
+            "uses": 2,
             "days": [
-              "Monday"
+              "Tuesday",
+              "Wednesday"
             ],
             "dishes": [
               "🍚 Rice (Simple)"
             ],
-            "qty_display": "4 cups"
+            "qty_display": "8 cups"
           },
           "Wed": {
             "uses": 0,
@@ -2129,62 +1842,7 @@
             "qty_display": ""
           }
         },
-        "total_qty_display": "4 cups",
-        "math_mode": "summed"
-      },
-      {
-        "canonical_name": "Soybean sprouts",
-        "norm": "soybean sprout",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-            "qty_str": "12 oz",
-            "qty_parsed": [
-              12.0,
-              "oz"
-            ]
-          }
-        ],
-        "stores": [
-          "888 Market / Pan Asia"
-        ],
-        "category": "Produce-Vegetable",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts)"
-        ],
-        "dishes_with_days": [
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts) (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Kongnamul Muchim (Korean Seasoned Bean Sprouts)"
-            ],
-            "qty_display": "12 oz"
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "12 oz",
+        "total_qty_display": "8 cups",
         "math_mode": "summed"
       },
       {
@@ -2298,63 +1956,6 @@
         },
         "total_qty_display": "2 tsp",
         "math_mode": "summed"
-      }
-    ],
-    "Hy-vee": [
-      {
-        "canonical_name": "Gochugaru",
-        "norm": "gochugaru",
-        "occurrences": [
-          {
-            "day": "Monday",
-            "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-            "qty_str": null,
-            "qty_parsed": [
-              null,
-              null
-            ]
-          }
-        ],
-        "stores": [
-          "Hy-vee"
-        ],
-        "category": "Condiment-Sauce",
-        "type": "shelf",
-        "matched_routing": true,
-        "is_countable": false,
-        "user_routed": false,
-        "use_count": 1,
-        "days": [
-          "Monday"
-        ],
-        "dishes": [
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts)"
-        ],
-        "dishes_with_days": [
-          "Kongnamul Muchim (Korean Seasoned Bean Sprouts) (Mon)"
-        ],
-        "trip": "Mon",
-        "icon": "🥫",
-        "per_trip": {
-          "Mon": {
-            "uses": 1,
-            "days": [
-              "Monday"
-            ],
-            "dishes": [
-              "Kongnamul Muchim (Korean Seasoned Bean Sprouts)"
-            ],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          }
-        },
-        "total_qty_display": "",
-        "math_mode": "none"
       }
     ]
   },
@@ -3161,59 +2762,6 @@
       "math_mode": "single"
     },
     {
-      "canonical_name": "Cilantro freshly chopped",
-      "norm": "cilantro freshly",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Mexican style rice with achiote",
-          "qty_str": "1/2 cup",
-          "qty_parsed": [
-            0.5,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Mexican style rice with achiote"
-      ],
-      "dishes_with_days": [
-        "Mexican style rice with achiote (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Mexican style rice with achiote"
-          ],
-          "qty_display": "0.5 cup"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "0.5 cup",
-      "math_mode": "summed"
-    },
-    {
       "canonical_name": "Coconut aminos",
       "norm": "coconut amino",
       "occurrences": [
@@ -3264,59 +2812,6 @@
         }
       },
       "total_qty_display": "0.33 cup",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Daikon radish",
-      "norm": "daikon radish",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Cucumber & Daikon salad",
-          "qty_str": "1 cup",
-          "qty_parsed": [
-            1.0,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Cucumber & Daikon salad"
-      ],
-      "dishes_with_days": [
-        "Cucumber & Daikon salad (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Cucumber & Daikon salad"
-          ],
-          "qty_display": "1 cup"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1 cup",
       "math_mode": "summed"
     },
     {
@@ -3530,59 +3025,6 @@
       },
       "total_qty_display": "2",
       "math_mode": "single"
-    },
-    {
-      "canonical_name": "Green chiles can",
-      "norm": "green chile",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Mexican style rice with achiote",
-          "qty_str": "4 ounces",
-          "qty_parsed": [
-            4.0,
-            "ounces"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Mexican style rice with achiote"
-      ],
-      "dishes_with_days": [
-        "Mexican style rice with achiote (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Mexican style rice with achiote"
-          ],
-          "qty_display": "4 ounces"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "4 ounces",
-      "math_mode": "summed"
     },
     {
       "canonical_name": "Handful other mushrooms",
@@ -3903,59 +3345,6 @@
       "math_mode": "multiplied"
     },
     {
-      "canonical_name": "Long-grain rice",
-      "norm": "long-grain rice",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Mexican style rice with achiote",
-          "qty_str": "1 cup",
-          "qty_parsed": [
-            1.0,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Mexican style rice with achiote"
-      ],
-      "dishes_with_days": [
-        "Mexican style rice with achiote (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Mexican style rice with achiote"
-          ],
-          "qty_display": "1 cup"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1 cup",
-      "math_mode": "summed"
-    },
-    {
       "canonical_name": "Low-sodium chicken broth",
       "norm": "low-sodium chicken broth",
       "occurrences": [
@@ -4013,7 +3402,7 @@
       "norm": "mirin",
       "occurrences": [
         {
-          "day": "Weekend",
+          "day": "Monday",
           "dish": "Cucumber - Smashed",
           "qty_str": "1",
           "qty_parsed": [
@@ -4030,32 +3419,32 @@
       "user_routed": false,
       "use_count": 1,
       "days": [
-        "Weekend"
+        "Monday"
       ],
       "dishes": [
         "Cucumber - Smashed"
       ],
       "dishes_with_days": [
-        "Cucumber - Smashed (Sat)"
+        "Cucumber - Smashed (Mon)"
       ],
-      "trip": "Wed",
+      "trip": "Mon",
       "icon": "❓",
       "per_trip": {
         "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
           "uses": 1,
           "days": [
-            "Weekend"
+            "Monday"
           ],
           "dishes": [
             "Cucumber - Smashed"
           ],
           "qty_display": "1"
+        },
+        "Wed": {
+          "uses": 0,
+          "days": [],
+          "dishes": [],
+          "qty_display": ""
         }
       },
       "total_qty_display": "1",
@@ -4112,59 +3501,6 @@
         }
       },
       "total_qty_display": "2 lbs",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Petit diced tomatoes can",
-      "norm": "petit tomato",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Mexican style rice with achiote",
-          "qty_str": "14 1/2 ounces",
-          "qty_parsed": [
-            14.5,
-            "ounces"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Mexican style rice with achiote"
-      ],
-      "dishes_with_days": [
-        "Mexican style rice with achiote (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Mexican style rice with achiote"
-          ],
-          "qty_display": "14.5 ounces"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "14.5 ounces",
       "math_mode": "summed"
     },
     {
@@ -4225,15 +3561,6 @@
       "norm": "red chili",
       "occurrences": [
         {
-          "day": "Monday",
-          "dish": "Cucumber & Daikon salad",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        },
-        {
           "day": "Wednesday",
           "dish": "Wood Ear Mushroom’s & Spiced Tofu",
           "qty_str": "1",
@@ -4249,33 +3576,28 @@
       "matched_routing": false,
       "is_countable": false,
       "user_routed": false,
-      "use_count": 2,
+      "use_count": 1,
       "days": [
-        "Monday",
         "Wednesday"
       ],
       "dishes": [
-        "Cucumber & Daikon salad",
         "Wood Ear Mushroom’s & Spiced Tofu"
       ],
       "dishes_with_days": [
-        "Cucumber & Daikon salad (Mon)",
         "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
       ],
       "trip": "Mon",
       "icon": "🥬",
       "per_trip": {
         "Mon": {
-          "uses": 2,
+          "uses": 1,
           "days": [
-            "Monday",
             "Wednesday"
           ],
           "dishes": [
-            "Cucumber & Daikon salad",
             "Wood Ear Mushroom’s & Spiced Tofu"
           ],
-          "qty_display": "2"
+          "qty_display": "1"
         },
         "Wed": {
           "uses": 0,
@@ -4284,8 +3606,8 @@
           "qty_display": ""
         }
       },
-      "total_qty_display": "2",
-      "math_mode": "summed"
+      "total_qty_display": "1",
+      "math_mode": "single"
     },
     {
       "canonical_name": "Sheets of nori",
@@ -4609,55 +3931,6 @@
   "skipped_staples": [
     {
       "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "unsalted butter",
-      "quantity": "1/2 cup",
-      "original": "1/2 cup unsalted butter, at room temperature"
-    },
-    {
-      "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "cane sugar",
-      "quantity": "1 cup",
-      "original": "1 cup cane sugar, blended until fine"
-    },
-    {
-      "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "all purpose flour",
-      "quantity": "2 cups",
-      "original": "2 cups all purpose flour"
-    },
-    {
-      "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "baking soda",
-      "quantity": "1 tsp",
-      "original": "1 tsp baking soda"
-    },
-    {
-      "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "salt",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp salt"
-    },
-    {
-      "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "vanilla extract",
-      "quantity": "1 tsp",
-      "original": "1 tsp vanilla extract"
-    },
-    {
-      "day": "Monday",
-      "dish": "Banana Bread",
-      "name": "Use 1:1 GF flour blend",
-      "quantity": null,
-      "original": "Use 1:1 GF flour blend (whole family GF this week)"
-    },
-    {
-      "day": "Monday",
       "dish": "Beef Bulgogi w Veggies",
       "name": "-inch ginger",
       "quantity": "1",
@@ -4690,27 +3963,6 @@
       "name": "Salt and black pepper",
       "quantity": null,
       "original": "Salt and black pepper, to taste"
-    },
-    {
-      "day": "Monday",
-      "dish": "🍚 Rice (Simple)",
-      "name": "water",
-      "quantity": "4 cups",
-      "original": "4 cups water"
-    },
-    {
-      "day": "Monday",
-      "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-      "name": "salt (1 tsp for water",
-      "quantity": "1 1/2 tsp",
-      "original": "1 1/2 tsp salt (1 tsp for water, 1/2 tsp to season)"
-    },
-    {
-      "day": "Monday",
-      "dish": "Kongnamul Muchim (Korean Seasoned Bean Sprouts)",
-      "name": "Tbs avocado oil",
-      "quantity": "1",
-      "original": "1 Tbs avocado oil (or 1 tsp toasted sesame oil)"
     },
     {
       "day": "Monday",
@@ -4770,31 +4022,17 @@
     },
     {
       "day": "Monday",
-      "dish": "Cucumber & Daikon salad",
-      "name": "rice vinegar",
-      "quantity": "1/2 cup",
-      "original": "1/2 cup rice vinegar"
+      "dish": "Cucumber - Smashed",
+      "name": "Soy sauce",
+      "quantity": "1/4 C",
+      "original": "1/4 C Soy sauce"
     },
     {
       "day": "Monday",
-      "dish": "Cucumber & Daikon salad",
-      "name": "Tbs honey",
-      "quantity": "2",
-      "original": "2 Tbs honey"
-    },
-    {
-      "day": "Monday",
-      "dish": "Cucumber & Daikon salad",
-      "name": "sea salt",
-      "quantity": "1 tsp",
-      "original": "1 tsp sea salt"
-    },
-    {
-      "day": "Monday",
-      "dish": "Cucumber & Daikon salad",
-      "name": "grated ginger",
-      "quantity": "1 tsp",
-      "original": "1 tsp grated ginger"
+      "dish": "Cucumber - Smashed",
+      "name": ".5 Tbs sugar",
+      "quantity": null,
+      "original": ".5 Tbs sugar"
     },
     {
       "day": "Tuesday",
@@ -4847,24 +4085,10 @@
     },
     {
       "day": "Tuesday",
-      "dish": "Mexican style rice with achiote",
-      "name": "water plus more as needed",
-      "quantity": "1/4 cup",
-      "original": "1/4 cup water plus more as needed"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mexican style rice with achiote",
-      "name": "cumin",
-      "quantity": "1 tsp",
-      "original": "1 tsp cumin"
-    },
-    {
-      "day": "Tuesday",
-      "dish": "Mexican style rice with achiote",
-      "name": "black pepper",
-      "quantity": "1/2 tsp",
-      "original": "1/2 tsp black pepper"
+      "dish": "🍚 Rice (Simple)",
+      "name": "water",
+      "quantity": "4 cups",
+      "original": "4 cups water"
     },
     {
       "day": "Tuesday",
@@ -5012,6 +4236,13 @@
       "name": "Olive oil",
       "quantity": null,
       "original": "Olive oil or avocado oil"
+    },
+    {
+      "day": "Wednesday",
+      "dish": "🍚 Rice (Simple)",
+      "name": "water",
+      "quantity": "4 cups",
+      "original": "4 cups water"
     },
     {
       "day": "Thursday",
@@ -5173,20 +4404,6 @@
       "name": "Flaky sea salt",
       "quantity": null,
       "original": "Flaky sea salt (like Maldon), to taste (~1 tsp total)"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Cucumber - Smashed",
-      "name": "Soy sauce",
-      "quantity": "1/4 C",
-      "original": "1/4 C Soy sauce"
-    },
-    {
-      "day": "Weekend",
-      "dish": "Cucumber - Smashed",
-      "name": ".5 Tbs sugar",
-      "quantity": null,
-      "original": ".5 Tbs sugar"
     },
     {
       "day": "Weekend",
