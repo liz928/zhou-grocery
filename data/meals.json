@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:01:54.511390",
+  "generated_at": "2026-11-24T05:00:13.879156",
   "source": "Trello 2 Week Meal Plan",
   "days": {
     "Monday": {
@@ -1004,80 +1004,48 @@
           "is_multi_variant": false
         },
         {
-          "card_id": "69479bdb4dc7b4ddf740fbd9",
-          "name": "Green Beans, crockpot (holiday)",
+          "card_id": "673174706d79e0bacf0490d5",
+          "name": "Green Beans (Garlicky)",
           "ingredients": [
             {
-              "original": "4 lb fresh green beans, washed & trimmed",
-              "quantity": "4 lb",
-              "name": "fresh green beans",
-              "notes": "washed & trimmed",
-              "checked": false,
-              "checklist": "Ingredients "
-            },
-            {
-              "original": "32 oz chicken stock",
-              "quantity": "32 oz",
-              "name": "chicken stock",
-              "notes": "",
-              "checked": false,
-              "checklist": "Ingredients "
-            },
-            {
-              "original": "6 slice bacon, cut into pieces",
-              "quantity": "6 slice",
-              "name": "bacon",
-              "notes": "cut into pieces",
-              "checked": false,
-              "checklist": "Ingredients "
-            },
-            {
-              "original": "1 onion, thinly sliced and 1/2ed",
+              "original": "1 Tbs extra virgin olive oil",
               "quantity": "1",
-              "name": "onion",
-              "notes": "thinly sliced and 1/2 ed",
-              "checked": false,
-              "checklist": "Ingredients "
-            },
-            {
-              "original": "4 tsp salt",
-              "quantity": "4 tsp",
-              "name": "salt",
+              "name": "Tbs extra virgin olive oil",
               "notes": "",
               "checked": false,
-              "checklist": "Ingredients "
+              "checklist": "Ingredients"
             },
             {
-              "original": "1 tsp pepper",
-              "quantity": "1 tsp",
-              "name": "pepper",
-              "notes": "",
+              "original": "2 cloves garlic, minced (or more to taste)",
+              "quantity": "2 cloves",
+              "name": "garlic",
+              "notes": "minced (or more to taste)",
               "checked": false,
-              "checklist": "Ingredients "
+              "checklist": "Ingredients"
             },
             {
-              "original": "4 Tbs butter",
-              "quantity": "4",
-              "name": "Tbs butter",
-              "notes": "",
+              "original": "12 ounces fresh green beans, cut into 1 inch pieces",
+              "quantity": "12 ounces",
+              "name": "fresh green beans",
+              "notes": "cut into 1 inch pieces",
               "checked": false,
-              "checklist": "Ingredients "
+              "checklist": "Ingredients"
             },
             {
-              "original": "1/4 C brown sugar",
-              "quantity": "1/4 C",
-              "name": "brown sugar",
+              "original": "1/2 tsp fine sea salt",
+              "quantity": "1/2 tsp",
+              "name": "fine sea salt",
               "notes": "",
               "checked": false,
-              "checklist": "Ingredients "
+              "checklist": "Ingredients"
             },
             {
-              "original": "3 Tbs garlic",
-              "quantity": "3",
-              "name": "Tbs garlic",
+              "original": "1/4 cup water",
+              "quantity": "1/4 cup",
+              "name": "water",
               "notes": "",
               "checked": false,
-              "checklist": "Ingredients "
+              "checklist": "Ingredients"
             }
           ],
           "is_multi_variant": false

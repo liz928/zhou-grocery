@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:01:54.511390",
+  "generated_at": "2026-11-24T05:00:13.879156",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -9,11 +9,11 @@
     "Weekend"
   ],
   "stats": {
-    "raw_ingredient_count": 162,
-    "unique_after_dedup": 60,
-    "skipped_staples": 78,
-    "routing_matched": 32,
-    "routing_unmatched": 28,
+    "raw_ingredient_count": 158,
+    "unique_after_dedup": 58,
+    "skipped_staples": 77,
+    "routing_matched": 31,
+    "routing_unmatched": 27,
     "multi_store": 4,
     "unresolved_variants": 0,
     "user_extras": 0
@@ -142,15 +142,6 @@
               null,
               null
             ]
-          },
-          {
-            "day": "Thursday",
-            "dish": "Green Beans, crockpot (holiday)",
-            "qty_str": "6 slice",
-            "qty_parsed": [
-              6.0,
-              "slice"
-            ]
           }
         ],
         "stores": [
@@ -161,17 +152,15 @@
         "matched_routing": true,
         "is_countable": false,
         "user_routed": false,
-        "use_count": 2,
+        "use_count": 1,
         "days": [
           "Thursday"
         ],
         "dishes": [
-          "Baked Potato Bar",
-          "Green Beans, crockpot (holiday)"
+          "Baked Potato Bar"
         ],
         "dishes_with_days": [
-          "Baked Potato Bar (Thu)",
-          "Green Beans, crockpot (holiday) (Thu)"
+          "Baked Potato Bar (Thu)"
         ],
         "trip": "Wed",
         "icon": "🥩",
@@ -183,19 +172,18 @@
             "qty_display": ""
           },
           "Wed": {
-            "uses": 2,
+            "uses": 1,
             "days": [
               "Thursday"
             ],
             "dishes": [
-              "Baked Potato Bar",
-              "Green Beans, crockpot (holiday)"
+              "Baked Potato Bar"
             ],
-            "qty_display": "6 slice"
+            "qty_display": ""
           }
         },
-        "total_qty_display": "6 slice",
-        "math_mode": "single"
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Chicken",
@@ -683,11 +671,11 @@
           },
           {
             "day": "Thursday",
-            "dish": "Green Beans, crockpot (holiday)",
-            "qty_str": "3",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "2 cloves",
             "qty_parsed": [
-              3.0,
-              ""
+              2.0,
+              "cloves"
             ]
           },
           {
@@ -729,7 +717,7 @@
           "Carrots Glazed in Brown Sugar",
           "Cucumber - Smashed",
           "Eggplant",
-          "Green Beans, crockpot (holiday)",
+          "Green Beans (Garlicky)",
           "Moroccan Chicken w/ Root Vegs",
           "Moroccan Quinoa",
           "Potatoes - Gochujang",
@@ -741,7 +729,7 @@
           "Carrots Glazed in Brown Sugar (Tue)",
           "Cucumber - Smashed (Mon)",
           "Eggplant (Wed)",
-          "Green Beans, crockpot (holiday) (Thu)",
+          "Green Beans (Garlicky) (Thu)",
           "Moroccan Chicken w/ Root Vegs (Sat)",
           "Moroccan Quinoa (Sat)",
           "Potatoes - Gochujang (Mon)",
@@ -776,16 +764,16 @@
               "Weekend"
             ],
             "dishes": [
-              "Green Beans, crockpot (holiday)",
+              "Green Beans (Garlicky)",
               "Moroccan Chicken w/ Root Vegs",
               "Moroccan Quinoa",
               "Prime Rib (Reverse Sear, Dairy-Free)"
             ],
-            "qty_display": "13 clove"
+            "qty_display": "6 + 2 cloves + 1 clove + 3"
           }
         },
-        "total_qty_display": "28.5 clove",
-        "math_mode": "summed"
+        "total_qty_display": "2 + 2-3 + 2 + 2-4 + 3 + 3 + 6 + 2 cloves + 1 clove + 3",
+        "math_mode": "mixed"
       },
       {
         "canonical_name": "Gochujang",
@@ -848,11 +836,11 @@
         "occurrences": [
           {
             "day": "Thursday",
-            "dish": "Green Beans, crockpot (holiday)",
-            "qty_str": "4 lb",
+            "dish": "Green Beans (Garlicky)",
+            "qty_str": "12 ounces",
             "qty_parsed": [
-              4.0,
-              "lb"
+              12.0,
+              "ounces"
             ]
           }
         ],
@@ -869,10 +857,10 @@
           "Thursday"
         ],
         "dishes": [
-          "Green Beans, crockpot (holiday)"
+          "Green Beans (Garlicky)"
         ],
         "dishes_with_days": [
-          "Green Beans, crockpot (holiday) (Thu)"
+          "Green Beans (Garlicky) (Thu)"
         ],
         "trip": "Wed",
         "icon": "🥬",
@@ -889,12 +877,12 @@
               "Thursday"
             ],
             "dishes": [
-              "Green Beans, crockpot (holiday)"
+              "Green Beans (Garlicky)"
             ],
-            "qty_display": "4 lb"
+            "qty_display": "12 ounces"
           }
         },
-        "total_qty_display": "4 lb",
+        "total_qty_display": "12 ounces",
         "math_mode": "summed"
       },
       {
@@ -1432,61 +1420,6 @@
           }
         },
         "total_qty_display": "3",
-        "math_mode": "multiplied"
-      },
-      {
-        "canonical_name": "Onion",
-        "norm": "yellow onion",
-        "occurrences": [
-          {
-            "day": "Thursday",
-            "dish": "Green Beans, crockpot (holiday)",
-            "qty_str": "1",
-            "qty_parsed": [
-              1.0,
-              ""
-            ]
-          }
-        ],
-        "stores": [
-          "Whole Foods"
-        ],
-        "category": "Unknown",
-        "type": "fresh",
-        "matched_routing": true,
-        "is_countable": true,
-        "user_routed": true,
-        "use_count": 1,
-        "days": [
-          "Thursday"
-        ],
-        "dishes": [
-          "Green Beans, crockpot (holiday)"
-        ],
-        "dishes_with_days": [
-          "Green Beans, crockpot (holiday) (Thu)"
-        ],
-        "trip": "Wed",
-        "icon": "🥬",
-        "per_trip": {
-          "Mon": {
-            "uses": 0,
-            "days": [],
-            "dishes": [],
-            "qty_display": ""
-          },
-          "Wed": {
-            "uses": 1,
-            "days": [
-              "Thursday"
-            ],
-            "dishes": [
-              "Green Beans, crockpot (holiday)"
-            ],
-            "qty_display": "1"
-          }
-        },
-        "total_qty_display": "1",
         "math_mode": "multiplied"
       }
     ],
@@ -2369,59 +2302,6 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
-    },
-    {
-      "canonical_name": "Chicken stock",
-      "norm": "chicken stock",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Green Beans, crockpot (holiday)",
-          "qty_str": "32 oz",
-          "qty_parsed": [
-            32.0,
-            "oz"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Green Beans, crockpot (holiday)"
-      ],
-      "dishes_with_days": [
-        "Green Beans, crockpot (holiday) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Green Beans, crockpot (holiday)"
-          ],
-          "qty_display": "32 oz"
-        }
-      },
-      "total_qty_display": "32 oz",
-      "math_mode": "summed"
     },
     {
       "canonical_name": "Chinese black vinegar",
@@ -3925,31 +3805,24 @@
     },
     {
       "day": "Thursday",
-      "dish": "Green Beans, crockpot (holiday)",
-      "name": "salt",
-      "quantity": "4 tsp",
-      "original": "4 tsp salt"
+      "dish": "Green Beans (Garlicky)",
+      "name": "Tbs extra virgin olive oil",
+      "quantity": "1",
+      "original": "1 Tbs extra virgin olive oil"
     },
     {
       "day": "Thursday",
-      "dish": "Green Beans, crockpot (holiday)",
-      "name": "pepper",
-      "quantity": "1 tsp",
-      "original": "1 tsp pepper"
+      "dish": "Green Beans (Garlicky)",
+      "name": "fine sea salt",
+      "quantity": "1/2 tsp",
+      "original": "1/2 tsp fine sea salt"
     },
     {
       "day": "Thursday",
-      "dish": "Green Beans, crockpot (holiday)",
-      "name": "Tbs butter",
-      "quantity": "4",
-      "original": "4 Tbs butter"
-    },
-    {
-      "day": "Thursday",
-      "dish": "Green Beans, crockpot (holiday)",
-      "name": "brown sugar",
-      "quantity": "1/4 C",
-      "original": "1/4 C brown sugar"
+      "dish": "Green Beans (Garlicky)",
+      "name": "water",
+      "quantity": "1/4 cup",
+      "original": "1/4 cup water"
     },
     {
       "day": "Friday",
