@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:00:14.600478",
+  "generated_at": "2026-11-27T04:59:09.365110",
   "week_days_included": [
     "Friday",
     "Monday",
@@ -12,9 +12,9 @@
     "raw_ingredient_count": 158,
     "unique_after_dedup": 58,
     "skipped_staples": 77,
-    "routing_matched": 31,
-    "routing_unmatched": 27,
-    "multi_store": 4,
+    "routing_matched": 55,
+    "routing_unmatched": 3,
+    "multi_store": 5,
     "unresolved_variants": 0,
     "user_extras": 0
   },
@@ -74,6 +74,61 @@
         },
         "total_qty_display": "0.5 cup",
         "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Au jus: 2 cups GF beef broth",
+        "norm": "au jus 2 cup gf beef broth",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Prime Rib (Reverse Sear, Dairy-Free)",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Prime Rib (Reverse Sear, Dairy-Free)"
+        ],
+        "dishes_with_days": [
+          "Prime Rib (Reverse Sear, Dairy-Free) (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Prime Rib (Reverse Sear, Dairy-Free)"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
       },
       {
         "canonical_name": "Baby potatoes",
@@ -186,6 +241,116 @@
         "math_mode": "none"
       },
       {
+        "canonical_name": "Bone-in standing rib roast",
+        "norm": "bone-in standing rib roast",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Prime Rib (Reverse Sear, Dairy-Free)",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Meat",
+        "type": "meat",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Prime Rib (Reverse Sear, Dairy-Free)"
+        ],
+        "dishes_with_days": [
+          "Prime Rib (Reverse Sear, Dairy-Free) (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥩",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Prime Rib (Reverse Sear, Dairy-Free)"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Cheddar",
+        "norm": "cheddar",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Baked Potato Bar",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Dairy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Baked Potato Bar"
+        ],
+        "dishes_with_days": [
+          "Baked Potato Bar (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Baked Potato Bar"
+            ],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
         "canonical_name": "Chicken",
         "norm": "chicken",
         "occurrences": [
@@ -252,6 +417,171 @@
           }
         },
         "total_qty_display": "2.25 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Frozen edamame in pods",
+        "norm": "edamame in pod",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Edamame",
+            "qty_str": "1 lb",
+            "qty_parsed": [
+              1.0,
+              "lb"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Frozen",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Edamame"
+        ],
+        "dishes_with_days": [
+          "Edamame (Fri)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Edamame"
+            ],
+            "qty_display": "1 lb"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 lb",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Horseradish sauce: 1/2 cup avocado-oil mayo",
+        "norm": "horseradish sauce 1 2 cup avocado-oil mayo",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Prime Rib (Reverse Sear, Dairy-Free)",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Prime Rib (Reverse Sear, Dairy-Free)"
+        ],
+        "dishes_with_days": [
+          "Prime Rib (Reverse Sear, Dairy-Free) (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Prime Rib (Reverse Sear, Dairy-Free)"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Low-sodium chicken broth",
+        "norm": "low-sodium chicken broth",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Chicken w/ Root Vegs",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "Costco"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Chicken w/ Root Vegs"
+        ],
+        "dishes_with_days": [
+          "Moroccan Chicken w/ Root Vegs (Sat)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Chicken w/ Root Vegs"
+            ],
+            "qty_display": "2 cups"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2 cups",
         "math_mode": "summed"
       },
       {
@@ -367,6 +697,61 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Baked potatoes",
+        "norm": "baked potato",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Baked Potato Bar",
+            "qty_str": "20",
+            "qty_parsed": [
+              20.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Baked Potato Bar"
+        ],
+        "dishes_with_days": [
+          "Baked Potato Bar (Thu)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Baked Potato Bar"
+            ],
+            "qty_display": "20"
+          }
+        },
+        "total_qty_display": "20",
+        "math_mode": "single"
+      },
+      {
         "canonical_name": "Cilantro",
         "norm": "cilantro",
         "occurrences": [
@@ -435,6 +820,61 @@
           }
         },
         "total_qty_display": "0.5 cup",
+        "math_mode": "summed"
+      },
+      {
+        "canonical_name": "Dates",
+        "norm": "date",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Quinoa",
+            "qty_str": "60 g",
+            "qty_parsed": [
+              60.0,
+              "g"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Quinoa"
+        ],
+        "dishes_with_days": [
+          "Moroccan Quinoa (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "60 g"
+          }
+        },
+        "total_qty_display": "60 g",
         "math_mode": "summed"
       },
       {
@@ -983,6 +1423,171 @@
         "math_mode": "multiplied"
       },
       {
+        "canonical_name": "Handful other mushrooms",
+        "norm": "handful other mushroom",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Wood Ear Mushroom’s & Spiced Tofu",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Wood Ear Mushroom’s & Spiced Tofu"
+        ],
+        "dishes_with_days": [
+          "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Wood Ear Mushroom’s & Spiced Tofu"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Handful dried wood ears",
+        "norm": "handful wood ear",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Wood Ear Mushroom’s & Spiced Tofu",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Wood Ear Mushroom’s & Spiced Tofu"
+        ],
+        "dishes_with_days": [
+          "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Wood Ear Mushroom’s & Spiced Tofu"
+            ],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "",
+        "math_mode": "none"
+      },
+      {
+        "canonical_name": "Juice of 1 large lemon",
+        "norm": "juice of 1 lemon",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Quinoa",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Quinoa"
+        ],
+        "dishes_with_days": [
+          "Moroccan Quinoa (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
         "canonical_name": "Lime wedges",
         "norm": "lime wedge",
         "occurrences": [
@@ -1203,6 +1808,61 @@
         "math_mode": "single"
       },
       {
+        "canonical_name": "Pumpkin puree",
+        "norm": "pumpkin puree",
+        "occurrences": [
+          {
+            "day": "Thursday",
+            "dish": "Pumpkin Bread",
+            "qty_str": "1 cup",
+            "qty_parsed": [
+              1.0,
+              "cup"
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Pantry-Staple",
+        "type": "shelf",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Thursday"
+        ],
+        "dishes": [
+          "Pumpkin Bread"
+        ],
+        "dishes_with_days": [
+          "Pumpkin Bread (Thu)"
+        ],
+        "trip": "Mon",
+        "icon": "🥫",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Thursday"
+            ],
+            "dishes": [
+              "Pumpkin Bread"
+            ],
+            "qty_display": "1 cup"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1 cup",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Red onion",
         "norm": "red onion",
         "occurrences": [
@@ -1368,6 +2028,116 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Swiss chard",
+        "norm": "swiss chard",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Rainbow chard",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Leafy",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Rainbow chard"
+        ],
+        "dishes_with_days": [
+          "Rainbow chard (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Rainbow chard"
+            ],
+            "qty_display": "2"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Tbs finely chopped scallions and/or Cilantro",
+        "norm": "tbs scallion and or cilantro",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Wood Ear Mushroom’s & Spiced Tofu",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Whole Foods"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Wood Ear Mushroom’s & Spiced Tofu"
+        ],
+        "dishes_with_days": [
+          "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Wood Ear Mushroom’s & Spiced Tofu"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
+      },
+      {
         "canonical_name": "Tomatoes",
         "norm": "tomato",
         "occurrences": [
@@ -1482,6 +2252,61 @@
     ],
     "888 Market / Pan Asia": [
       {
+        "canonical_name": "Chinese black vinegar",
+        "norm": "chinese black vinegar",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Wood Ear Mushroom’s & Spiced Tofu",
+            "qty_str": "3",
+            "qty_parsed": [
+              3.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Wood Ear Mushroom’s & Spiced Tofu"
+        ],
+        "dishes_with_days": [
+          "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Wood Ear Mushroom’s & Spiced Tofu"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "single"
+      },
+      {
         "canonical_name": "Chinese Vinegar",
         "norm": "chinese vinegar",
         "occurrences": [
@@ -1551,6 +2376,226 @@
         "math_mode": "single"
       },
       {
+        "canonical_name": "Furikake",
+        "norm": "furikake",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Furikake Onigiri with Nori",
+            "qty_str": "2",
+            "qty_parsed": [
+              2.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Furikake Onigiri with Nori"
+        ],
+        "dishes_with_days": [
+          "Furikake Onigiri with Nori (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Furikake Onigiri with Nori"
+            ],
+            "qty_display": "2"
+          }
+        },
+        "total_qty_display": "2",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Long Japanese eggplants",
+        "norm": "long japanese eggplant",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Eggplant",
+            "qty_str": "2-3",
+            "qty_parsed": [
+              2.5,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Eggplant"
+        ],
+        "dishes_with_days": [
+          "Eggplant (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Eggplant"
+            ],
+            "qty_display": "3"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "3",
+        "math_mode": "multiplied"
+      },
+      {
+        "canonical_name": "Mirin",
+        "norm": "mirin",
+        "occurrences": [
+          {
+            "day": "Monday",
+            "dish": "Cucumber - Smashed",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Monday"
+        ],
+        "dishes": [
+          "Cucumber - Smashed"
+        ],
+        "dishes_with_days": [
+          "Cucumber - Smashed (Mon)"
+        ],
+        "trip": "Mon",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Monday"
+            ],
+            "dishes": [
+              "Cucumber - Smashed"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Red chili",
+        "norm": "red chili",
+        "occurrences": [
+          {
+            "day": "Wednesday",
+            "dish": "Wood Ear Mushroom’s & Spiced Tofu",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Vegetable",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Wednesday"
+        ],
+        "dishes": [
+          "Wood Ear Mushroom’s & Spiced Tofu"
+        ],
+        "dishes_with_days": [
+          "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Wednesday"
+            ],
+            "dishes": [
+              "Wood Ear Mushroom’s & Spiced Tofu"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
+      },
+      {
         "canonical_name": "Rice",
         "norm": "rice",
         "occurrences": [
@@ -1617,6 +2662,116 @@
         "math_mode": "summed"
       },
       {
+        "canonical_name": "Sheets of nori",
+        "norm": "sheet of nori",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Furikake Onigiri with Nori",
+            "qty_str": "4-6",
+            "qty_parsed": [
+              5.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Furikake Onigiri with Nori"
+        ],
+        "dishes_with_days": [
+          "Furikake Onigiri with Nori (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Furikake Onigiri with Nori"
+            ],
+            "qty_display": "4-6"
+          }
+        },
+        "total_qty_display": "4-6",
+        "math_mode": "single"
+      },
+      {
+        "canonical_name": "Short-grain Japanese rice",
+        "norm": "short-grain japanese rice",
+        "occurrences": [
+          {
+            "day": "Friday",
+            "dish": "Furikake Onigiri with Nori",
+            "qty_str": "2 cups",
+            "qty_parsed": [
+              2.0,
+              "cups"
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Pantry",
+        "type": "unknown",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Friday"
+        ],
+        "dishes": [
+          "Furikake Onigiri with Nori"
+        ],
+        "dishes_with_days": [
+          "Furikake Onigiri with Nori (Fri)"
+        ],
+        "trip": "Wed",
+        "icon": "❓",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Friday"
+            ],
+            "dishes": [
+              "Furikake Onigiri with Nori"
+            ],
+            "qty_display": "2 cups"
+          }
+        },
+        "total_qty_display": "2 cups",
+        "math_mode": "summed"
+      },
+      {
         "canonical_name": "Spiced tofu",
         "norm": "spiced tofu",
         "occurrences": [
@@ -1670,6 +2825,61 @@
         },
         "total_qty_display": "2-4 pieces",
         "math_mode": "single"
+      },
+      {
+        "canonical_name": "Zest of 1 lime",
+        "norm": "zest of 1 lime",
+        "occurrences": [
+          {
+            "day": "Tuesday",
+            "dish": "Pounded cilantro and lime chicken",
+            "qty_str": null,
+            "qty_parsed": [
+              null,
+              null
+            ]
+          }
+        ],
+        "stores": [
+          "888 Market / Pan Asia"
+        ],
+        "category": "Produce-Fruit",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": true,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Tuesday"
+        ],
+        "dishes": [
+          "Pounded cilantro and lime chicken"
+        ],
+        "dishes_with_days": [
+          "Pounded cilantro and lime chicken (Tue)"
+        ],
+        "trip": "Mon",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 1,
+            "days": [
+              "Tuesday"
+            ],
+            "dishes": [
+              "Pounded cilantro and lime chicken"
+            ],
+            "qty_display": "1"
+          },
+          "Wed": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "multiplied"
       }
     ],
     "Walmart": [
@@ -1727,6 +2937,63 @@
         },
         "total_qty_display": "2 tsp",
         "math_mode": "summed"
+      }
+    ],
+    "Fairway": [
+      {
+        "canonical_name": "Handful fresh parsley",
+        "norm": "handful parsley",
+        "occurrences": [
+          {
+            "day": "Weekend",
+            "dish": "Moroccan Quinoa",
+            "qty_str": "1",
+            "qty_parsed": [
+              1.0,
+              ""
+            ]
+          }
+        ],
+        "stores": [
+          "Fairway"
+        ],
+        "category": "Produce-Herb",
+        "type": "fresh",
+        "matched_routing": true,
+        "is_countable": false,
+        "user_routed": false,
+        "use_count": 1,
+        "days": [
+          "Weekend"
+        ],
+        "dishes": [
+          "Moroccan Quinoa"
+        ],
+        "dishes_with_days": [
+          "Moroccan Quinoa (Sat)"
+        ],
+        "trip": "Wed",
+        "icon": "🥬",
+        "per_trip": {
+          "Mon": {
+            "uses": 0,
+            "days": [],
+            "dishes": [],
+            "qty_display": ""
+          },
+          "Wed": {
+            "uses": 1,
+            "days": [
+              "Weekend"
+            ],
+            "dishes": [
+              "Moroccan Quinoa"
+            ],
+            "qty_display": "1"
+          }
+        },
+        "total_qty_display": "1",
+        "math_mode": "single"
       }
     ]
   },
@@ -1982,16 +3249,14 @@
       },
       "total_qty_display": "1 kg",
       "math_mode": "summed"
-    }
-  ],
-  "no_store_match": [
+    },
     {
-      "canonical_name": "Au jus: 2 cups GF beef broth",
-      "norm": "au jus 2 cup gf beef broth",
+      "canonical_name": "Sour cream in a squeeze bottle",
+      "norm": "sour cream in a squeeze bottle",
       "occurrences": [
         {
           "day": "Thursday",
-          "dish": "Prime Rib (Reverse Sear, Dairy-Free)",
+          "dish": "Baked Potato Bar",
           "qty_str": null,
           "qty_parsed": [
             null,
@@ -1999,63 +3264,14 @@
           ]
         }
       ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
+      "stores": [
+        "Sam’s Club",
+        "Costco",
+        "Whole Foods"
       ],
-      "dishes": [
-        "Prime Rib (Reverse Sear, Dairy-Free)"
-      ],
-      "dishes_with_days": [
-        "Prime Rib (Reverse Sear, Dairy-Free) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Prime Rib (Reverse Sear, Dairy-Free)"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Baked potatoes",
-      "norm": "baked potato",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Baked Potato Bar",
-          "qty_str": "20",
-          "qty_parsed": [
-            20.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
+      "category": "Dairy",
+      "type": "fresh",
+      "matched_routing": true,
       "is_countable": false,
       "user_routed": false,
       "use_count": 1,
@@ -2069,7 +3285,7 @@
         "Baked Potato Bar (Thu)"
       ],
       "trip": "Wed",
-      "icon": "❓",
+      "icon": "🥬",
       "per_trip": {
         "Mon": {
           "uses": 0,
@@ -2085,65 +3301,14 @@
           "dishes": [
             "Baked Potato Bar"
           ],
-          "qty_display": "20"
-        }
-      },
-      "total_qty_display": "20",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Bone-in standing rib roast",
-      "norm": "bone-in standing rib roast",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Prime Rib (Reverse Sear, Dairy-Free)",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "meat",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Prime Rib (Reverse Sear, Dairy-Free)"
-      ],
-      "dishes_with_days": [
-        "Prime Rib (Reverse Sear, Dairy-Free) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥩",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
           "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Prime Rib (Reverse Sear, Dairy-Free)"
-          ],
-          "qty_display": "1"
         }
       },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
+      "total_qty_display": "",
+      "math_mode": "none"
+    }
+  ],
+  "no_store_match": [
     {
       "canonical_name": "Boneless",
       "norm": "boneless",
@@ -2251,218 +3416,6 @@
       "math_mode": "none"
     },
     {
-      "canonical_name": "Cheddar",
-      "norm": "cheddar",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Baked Potato Bar",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Baked Potato Bar"
-      ],
-      "dishes_with_days": [
-        "Baked Potato Bar (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Baked Potato Bar"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Chinese black vinegar",
-      "norm": "chinese black vinegar",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Wood Ear Mushroom’s & Spiced Tofu",
-          "qty_str": "3",
-          "qty_parsed": [
-            3.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Wood Ear Mushroom’s & Spiced Tofu"
-      ],
-      "dishes_with_days": [
-        "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Wood Ear Mushroom’s & Spiced Tofu"
-          ],
-          "qty_display": "3"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "3",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Dates",
-      "norm": "date",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Quinoa",
-          "qty_str": "60 g",
-          "qty_parsed": [
-            60.0,
-            "g"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Quinoa"
-      ],
-      "dishes_with_days": [
-        "Moroccan Quinoa (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Quinoa"
-          ],
-          "qty_display": "60 g"
-        }
-      },
-      "total_qty_display": "60 g",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Frozen edamame in pods",
-      "norm": "edamame in pod",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "Edamame",
-          "qty_str": "1 lb",
-          "qty_parsed": [
-            1.0,
-            "lb"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Friday"
-      ],
-      "dishes": [
-        "Edamame"
-      ],
-      "dishes_with_days": [
-        "Edamame (Fri)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Friday"
-          ],
-          "dishes": [
-            "Edamame"
-          ],
-          "qty_display": "1 lb"
-        }
-      },
-      "total_qty_display": "1 lb",
-      "math_mode": "summed"
-    },
-    {
       "canonical_name": "Foil",
       "norm": "foil",
       "occurrences": [
@@ -2514,907 +3467,6 @@
       },
       "total_qty_display": "",
       "math_mode": "none"
-    },
-    {
-      "canonical_name": "Furikake",
-      "norm": "furikake",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "Furikake Onigiri with Nori",
-          "qty_str": "2",
-          "qty_parsed": [
-            2.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Friday"
-      ],
-      "dishes": [
-        "Furikake Onigiri with Nori"
-      ],
-      "dishes_with_days": [
-        "Furikake Onigiri with Nori (Fri)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Friday"
-          ],
-          "dishes": [
-            "Furikake Onigiri with Nori"
-          ],
-          "qty_display": "2"
-        }
-      },
-      "total_qty_display": "2",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Handful other mushrooms",
-      "norm": "handful other mushroom",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Wood Ear Mushroom’s & Spiced Tofu",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Wood Ear Mushroom’s & Spiced Tofu"
-      ],
-      "dishes_with_days": [
-        "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Wood Ear Mushroom’s & Spiced Tofu"
-          ],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Handful fresh parsley",
-      "norm": "handful parsley",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Quinoa",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Quinoa"
-      ],
-      "dishes_with_days": [
-        "Moroccan Quinoa (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Quinoa"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Handful dried wood ears",
-      "norm": "handful wood ear",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Wood Ear Mushroom’s & Spiced Tofu",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Wood Ear Mushroom’s & Spiced Tofu"
-      ],
-      "dishes_with_days": [
-        "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Wood Ear Mushroom’s & Spiced Tofu"
-          ],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Horseradish sauce: 1/2 cup avocado-oil mayo",
-      "norm": "horseradish sauce 1 2 cup avocado-oil mayo",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Prime Rib (Reverse Sear, Dairy-Free)",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Prime Rib (Reverse Sear, Dairy-Free)"
-      ],
-      "dishes_with_days": [
-        "Prime Rib (Reverse Sear, Dairy-Free) (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Prime Rib (Reverse Sear, Dairy-Free)"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Juice of 1 large lemon",
-      "norm": "juice of 1 lemon",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Quinoa",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Quinoa"
-      ],
-      "dishes_with_days": [
-        "Moroccan Quinoa (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Quinoa"
-          ],
-          "qty_display": "1"
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Long Japanese eggplants",
-      "norm": "long japanese eggplant",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Eggplant",
-          "qty_str": "2-3",
-          "qty_parsed": [
-            2.5,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Eggplant"
-      ],
-      "dishes_with_days": [
-        "Eggplant (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Eggplant"
-          ],
-          "qty_display": "3"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "3",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Low-sodium chicken broth",
-      "norm": "low-sodium chicken broth",
-      "occurrences": [
-        {
-          "day": "Weekend",
-          "dish": "Moroccan Chicken w/ Root Vegs",
-          "qty_str": "2 cups",
-          "qty_parsed": [
-            2.0,
-            "cups"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Weekend"
-      ],
-      "dishes": [
-        "Moroccan Chicken w/ Root Vegs"
-      ],
-      "dishes_with_days": [
-        "Moroccan Chicken w/ Root Vegs (Sat)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Weekend"
-          ],
-          "dishes": [
-            "Moroccan Chicken w/ Root Vegs"
-          ],
-          "qty_display": "2 cups"
-        }
-      },
-      "total_qty_display": "2 cups",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Mirin",
-      "norm": "mirin",
-      "occurrences": [
-        {
-          "day": "Monday",
-          "dish": "Cucumber - Smashed",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Monday"
-      ],
-      "dishes": [
-        "Cucumber - Smashed"
-      ],
-      "dishes_with_days": [
-        "Cucumber - Smashed (Mon)"
-      ],
-      "trip": "Mon",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Monday"
-          ],
-          "dishes": [
-            "Cucumber - Smashed"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Pumpkin puree",
-      "norm": "pumpkin puree",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Pumpkin Bread",
-          "qty_str": "1 cup",
-          "qty_parsed": [
-            1.0,
-            "cup"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Pumpkin Bread"
-      ],
-      "dishes_with_days": [
-        "Pumpkin Bread (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Pumpkin Bread"
-          ],
-          "qty_display": "1 cup"
-        }
-      },
-      "total_qty_display": "1 cup",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Red chili",
-      "norm": "red chili",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Wood Ear Mushroom’s & Spiced Tofu",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Wood Ear Mushroom’s & Spiced Tofu"
-      ],
-      "dishes_with_days": [
-        "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Wood Ear Mushroom’s & Spiced Tofu"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Sheets of nori",
-      "norm": "sheet of nori",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "Furikake Onigiri with Nori",
-          "qty_str": "4-6",
-          "qty_parsed": [
-            5.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Friday"
-      ],
-      "dishes": [
-        "Furikake Onigiri with Nori"
-      ],
-      "dishes_with_days": [
-        "Furikake Onigiri with Nori (Fri)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Friday"
-          ],
-          "dishes": [
-            "Furikake Onigiri with Nori"
-          ],
-          "qty_display": "4-6"
-        }
-      },
-      "total_qty_display": "4-6",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Short-grain Japanese rice",
-      "norm": "short-grain japanese rice",
-      "occurrences": [
-        {
-          "day": "Friday",
-          "dish": "Furikake Onigiri with Nori",
-          "qty_str": "2 cups",
-          "qty_parsed": [
-            2.0,
-            "cups"
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "unknown",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Friday"
-      ],
-      "dishes": [
-        "Furikake Onigiri with Nori"
-      ],
-      "dishes_with_days": [
-        "Furikake Onigiri with Nori (Fri)"
-      ],
-      "trip": "Wed",
-      "icon": "❓",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Friday"
-          ],
-          "dishes": [
-            "Furikake Onigiri with Nori"
-          ],
-          "qty_display": "2 cups"
-        }
-      },
-      "total_qty_display": "2 cups",
-      "math_mode": "summed"
-    },
-    {
-      "canonical_name": "Sour cream in a squeeze bottle",
-      "norm": "sour cream in a squeeze bottle",
-      "occurrences": [
-        {
-          "day": "Thursday",
-          "dish": "Baked Potato Bar",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Thursday"
-      ],
-      "dishes": [
-        "Baked Potato Bar"
-      ],
-      "dishes_with_days": [
-        "Baked Potato Bar (Thu)"
-      ],
-      "trip": "Wed",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        },
-        "Wed": {
-          "uses": 1,
-          "days": [
-            "Thursday"
-          ],
-          "dishes": [
-            "Baked Potato Bar"
-          ],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "",
-      "math_mode": "none"
-    },
-    {
-      "canonical_name": "Swiss chard",
-      "norm": "swiss chard",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Rainbow chard",
-          "qty_str": "2",
-          "qty_parsed": [
-            2.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": false,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Rainbow chard"
-      ],
-      "dishes_with_days": [
-        "Rainbow chard (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Rainbow chard"
-          ],
-          "qty_display": "2"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "2",
-      "math_mode": "single"
-    },
-    {
-      "canonical_name": "Tbs finely chopped scallions and/or Cilantro",
-      "norm": "tbs scallion and or cilantro",
-      "occurrences": [
-        {
-          "day": "Wednesday",
-          "dish": "Wood Ear Mushroom’s & Spiced Tofu",
-          "qty_str": "1",
-          "qty_parsed": [
-            1.0,
-            ""
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Wednesday"
-      ],
-      "dishes": [
-        "Wood Ear Mushroom’s & Spiced Tofu"
-      ],
-      "dishes_with_days": [
-        "Wood Ear Mushroom’s & Spiced Tofu (Wed)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Wednesday"
-          ],
-          "dishes": [
-            "Wood Ear Mushroom’s & Spiced Tofu"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
-    },
-    {
-      "canonical_name": "Zest of 1 lime",
-      "norm": "zest of 1 lime",
-      "occurrences": [
-        {
-          "day": "Tuesday",
-          "dish": "Pounded cilantro and lime chicken",
-          "qty_str": null,
-          "qty_parsed": [
-            null,
-            null
-          ]
-        }
-      ],
-      "stores": [],
-      "category": "Unknown",
-      "type": "fresh",
-      "matched_routing": false,
-      "is_countable": true,
-      "user_routed": false,
-      "use_count": 1,
-      "days": [
-        "Tuesday"
-      ],
-      "dishes": [
-        "Pounded cilantro and lime chicken"
-      ],
-      "dishes_with_days": [
-        "Pounded cilantro and lime chicken (Tue)"
-      ],
-      "trip": "Mon",
-      "icon": "🥬",
-      "per_trip": {
-        "Mon": {
-          "uses": 1,
-          "days": [
-            "Tuesday"
-          ],
-          "dishes": [
-            "Pounded cilantro and lime chicken"
-          ],
-          "qty_display": "1"
-        },
-        "Wed": {
-          "uses": 0,
-          "days": [],
-          "dishes": [],
-          "qty_display": ""
-        }
-      },
-      "total_qty_display": "1",
-      "math_mode": "multiplied"
     }
   ],
   "skipped_staples": [
